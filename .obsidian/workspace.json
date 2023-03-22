@@ -11,28 +11,11 @@
             "id": "b8cf8840f44b52a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59e919745fd20f23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "test2.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e919745fd20f23",
+  "active": "4f5f4f68438a858a",
   "lastOpenFiles": [
     "test.md",
     "test2.md",
