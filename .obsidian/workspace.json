@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "digital_image/planar_surface_differential_geometry.md",
+                "file": "record/autopilot_SikangLiu_221020.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_image/planar_surface_differential_geometry.md",
+                "file": "record/autopilot_SikangLiu_221020.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_image/planar_surface_differential_geometry.md",
+                "file": "record/autopilot_SikangLiu_221020.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_image/planar_surface_differential_geometry.md"
+                "file": "record/autopilot_SikangLiu_221020.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "b8cf8840f44b52a3",
   "lastOpenFiles": [
+    "digital_image/planar_surface_differential_geometry.md",
+    "record/autopilot_SikangLiu_221020.md",
     "record",
     "digital_image/level_set.md",
-    "digital_image/planar_surface_differential_geometry.md",
     "resources/2022-10-31-11-25-48.png",
     "resources/2022-10-31-11-00-18.png",
     "resources/2022-10-29-17-26-57.png",
