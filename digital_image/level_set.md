@@ -1,7 +1,6 @@
 # Level Set
 
 #digital_image #level_set
-
 ## Curve Evolution
 ### Concept
 We have a curve, every point has a velocity that defines how that curve is moving, 
