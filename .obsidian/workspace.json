@@ -11,8 +11,12 @@
             "id": "b8cf8840f44b52a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "digital_image/planar_surface_differential_geometry.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "digital_image/planar_surface_differential_geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "digital_image/planar_surface_differential_geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "digital_image/planar_surface_differential_geometry.md"
+              }
             }
           }
         ]
@@ -140,6 +148,22 @@
   },
   "active": "b8cf8840f44b52a3",
   "lastOpenFiles": [
+    "digital_image/level_set.md",
+    "digital_image/planar_surface_differential_geometry.md",
+    "resources/2022-10-31-11-25-48.png",
+    "resources/2022-10-31-11-00-18.png",
+    "resources/2022-10-29-17-26-57.png",
+    "resources/2022-10-29-16-32-06.png",
+    "resources/2022-10-29-15-26-10.png",
+    "resources/2022-10-29-17-32-30.png",
+    "resources/2022-10-28-20-38-52.png",
+    "resources/2022-10-28-19-11-17.png",
+    "resources",
+    "2022-10-28-19-11-17 2.png",
+    "2022-10-28-19-11-17 1.png",
+    "img/2022-10-28-19-11-17.png.md",
+    "img",
+    "digital_image/resources",
     "test.md",
     "test.md",
     "test2.md",
