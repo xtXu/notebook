@@ -7,7 +7,8 @@
 An unconstrained optimization is formed as 
 
 $$
-\min{f(x)}\\\begin{aligned}&x=\left(x_1,\dots,x_n \right)\in\mathbb{R}^n\\&f:\mathbb{R}^n\mapsto\mathbb{R}\end{aligned}
+
+\begin{aligned}&\min{f(x)}  \\  &x=\left(x_1,\dots,x_n \right)\in\mathbb{R}^n\\&f:\mathbb{R}^n\mapsto\mathbb{R}\end{aligned}
 $$
 
 ## Line-Search Steepest Gradient Descent
