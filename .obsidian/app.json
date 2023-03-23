@@ -6,5 +6,6 @@
     "zh-CN",
     "en-US"
   ],
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true
 }

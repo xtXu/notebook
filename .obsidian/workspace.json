@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "digital_image/level_set.md",
+                "file": "review_linear_algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "481c8149e0d32aa0",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_image/level_set.md",
+                "file": "review_linear_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_image/level_set.md",
+                "file": "review_linear_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_image/level_set.md"
+                "file": "review_linear_algebra.md"
               }
             }
           }
@@ -147,24 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f5f4f68438a858a",
+  "active": "c2ed34a996e078d6",
   "lastOpenFiles": [
-    "2023-03-23.md",
-    "record/autopilot_SikangLiu_221020.md",
     "digital_image/level_set.md",
     "digital_image/planar_surface_differential_geometry.md",
+    "review_linear_algebra.md",
+    "resources/review_linear_algebra_img_6.png",
+    "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0/Untitled 4.png.md",
+    "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0",
+    "resources/review_linear_algebra_img_5.png",
+    "resources/review_linear_algebra_img_4.png",
+    "resources/review_linear_algebra_img_3.png",
+    "resources/Untitled 1 1.png",
+    "resources/review_linear_algebra_img_2.png",
+    "resources/review_linear_algebra_img_1.png",
+    "resources/planar_surface_differential_geometry_img_2.png",
+    "resources/Untitled 6.png",
+    "resources/Untitled 5.png",
+    "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0/Untitled.png.md",
+    "2023-03-23.md",
+    "record/autopilot_SikangLiu_221020.md",
     "record",
-    "resources/2022-10-31-11-25-48.png",
-    "resources/2022-10-31-11-00-18.png",
-    "resources/2022-10-29-17-26-57.png",
-    "resources/2022-10-29-16-32-06.png",
-    "resources/2022-10-29-15-26-10.png",
-    "resources/2022-10-29-17-32-30.png",
-    "resources/2022-10-28-20-38-52.png",
-    "resources/2022-10-28-19-11-17.png",
     "resources",
-    "2022-10-28-19-11-17 2.png",
-    "2022-10-28-19-11-17 1.png",
     "img/2022-10-28-19-11-17.png.md",
     "img",
     "digital_image/resources",
