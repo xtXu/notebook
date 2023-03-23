@@ -7,7 +7,6 @@
 An unconstrained optimization is formed as 
 
 $$
-
 \begin{aligned}&\min{f(x)}  \\  &x=\left(x_1,\dots,x_n \right)\in\mathbb{R}^n\\&f:\mathbb{R}^n\mapsto\mathbb{R}\end{aligned}
 $$
 
