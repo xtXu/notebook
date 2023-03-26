@@ -149,6 +149,7 @@
   },
   "active": "c2ed34a996e078d6",
   "lastOpenFiles": [
+    "numerical_optimization/quasi_newton_method.md",
     "resources/damped_newton_method_img_6.png",
     "resources/damped_newton_method_img_5.png",
     "resources/damped_newton_method_img_4.png",
@@ -161,7 +162,6 @@
     "resources/gradient_descent_img_8.png",
     "resources/gradient_descent_img_7.png",
     "resources/gradient_descent_img_6.png",
-    "resources/gradient_descent_img_5.png",
     "digital_image/level_set.md",
     "digital_image/planar_surface_differential_geometry.md",
     "transformation.md",
