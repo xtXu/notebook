@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerical_optimization/damped_newton_method.md",
+                "file": "numerical_optimization/quasi_newton_method.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerical_optimization/damped_newton_method.md",
+                "file": "numerical_optimization/quasi_newton_method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerical_optimization/damped_newton_method.md",
+                "file": "numerical_optimization/quasi_newton_method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerical_optimization/damped_newton_method.md"
+                "file": "numerical_optimization/quasi_newton_method.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "c2ed34a996e078d6",
   "lastOpenFiles": [
+    "numerical_optimization/damped_newton_method.md",
     "numerical_optimization/quasi_newton_method.md",
     "resources/damped_newton_method_img_6.png",
     "resources/damped_newton_method_img_5.png",
@@ -157,7 +158,6 @@
     "resources/damped_newton_method_img_2.png",
     "resources/damped_newton_method_img_1.png",
     "numerical_optimization/gradient_descent.md",
-    "numerical_optimization/damped_newton_method.md",
     "resources/gradient_descent_img_9.png",
     "resources/gradient_descent_img_8.png",
     "resources/gradient_descent_img_7.png",
