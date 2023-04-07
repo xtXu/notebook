@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "二叉树.md",
+                "file": "digital_image/planar_surface_differential_geometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c568b15405f8a320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "D435_overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "二叉树.md",
+                "file": "D435_overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "二叉树.md",
+                "file": "D435_overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "二叉树.md"
+                "file": "D435_overview.md"
               }
             }
           }
@@ -146,31 +159,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2ed34a996e078d6",
+  "active": "c568b15405f8a320",
   "lastOpenFiles": [
+    "resources/D435_overview_img_4.png",
+    "resources/D435_overview_img_3.png",
+    "resources/D435_overview_img_2.png",
+    "resources/D435_overview_img_1.png",
+    "review_linear_algebra.md",
+    "D435_overview.md",
+    "digital_image/planar_surface_differential_geometry.md",
+    "digital_image/level_set.md",
+    "numerical_optimization/bfgs_method.md",
+    "二叉树.md",
     "resources/二叉树_img_6.png",
     "resources/二叉树_img_5.png",
     "numerical_optimization/quasi_newton_method.md",
-    "numerical_optimization/bfgs_method.md",
-    "二叉树.md",
     "resources/二叉树_img_4.png",
     "resources/二叉树_img_3.png",
     "resources/二叉树_img_2.png",
     "resources/二叉树_img_1.png",
     "numerical_optimization/damped_newton_method.md",
     "resources/bfgs_method_img_1.png",
-    "resources/damped_newton_method_img_6.png",
-    "resources/damped_newton_method_img_5.png",
-    "resources/damped_newton_method_img_4.png",
-    "resources/damped_newton_method_img_3.png",
     "numerical_optimization/gradient_descent.md",
-    "digital_image/level_set.md",
-    "digital_image/planar_surface_differential_geometry.md",
     "transformation.md",
     "numerical_optimization",
     "Transformation ff41ee90930644488a7da9478a54d0d1/Untitled.png.md",
     "Transformation ff41ee90930644488a7da9478a54d0d1",
-    "review_linear_algebra.md",
     "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0/Untitled 4.png.md",
     "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0",
     "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0/Untitled.png.md",

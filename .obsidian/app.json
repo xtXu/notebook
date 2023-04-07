@@ -8,5 +8,7 @@
   ],
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "readableLineLength": true,
+  "spellcheck": true
 }
