@@ -4,65 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f387c703d9dae885",
+        "id": "4e7afd759d15ed3f",
         "type": "tabs",
         "children": [
           {
-            "id": "c2ed34a996e078d6",
+            "id": "9d313600136fb38f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "digital_image/planar_surface_differential_geometry.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
-          },
-          {
-            "id": "c568b15405f8a320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "D435_overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a7f0677d777a13b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/回溯法.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "7e48624db12fe1ee"
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "58d22210f82d733e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "274e5851ba8519ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/回溯法.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "7e48624db12fe1ee"
           }
         ]
       }
@@ -130,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/回溯法.md",
+                "file": "D435_overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/回溯法.md",
+                "file": "D435_overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/回溯法.md"
+                "file": "D435_overview.md"
               }
             }
           }
@@ -191,10 +142,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a7f0677d777a13b",
+  "active": "b6bfe3c844154d0d",
   "lastOpenFiles": [
-    "D435_overview.md",
     "leetcode/回溯法.md",
+    "D435_overview.md",
     "leetcode",
     "resources/D435_overview_img_4.png",
     "resources/D435_overview_img_3.png",
