@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a7f0677d777a13b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/回溯法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D435_overview.md",
+                "file": "leetcode/回溯法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "D435_overview.md",
+                "file": "leetcode/回溯法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "D435_overview.md"
+                "file": "leetcode/回溯法.md"
               }
             }
           }
@@ -159,15 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f5f4f68438a858a",
+  "active": "2a7f0677d777a13b",
   "lastOpenFiles": [
-    "Untitled",
+    "D435_overview.md",
+    "leetcode/回溯法.md",
+    "leetcode",
     "resources/D435_overview_img_4.png",
     "resources/D435_overview_img_3.png",
     "resources/D435_overview_img_2.png",
     "resources/D435_overview_img_1.png",
     "review_linear_algebra.md",
-    "D435_overview.md",
     "digital_image/planar_surface_differential_geometry.md",
     "digital_image/level_set.md",
     "numerical_optimization/bfgs_method.md",
