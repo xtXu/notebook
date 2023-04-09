@@ -159,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c568b15405f8a320",
+  "active": "4f5f4f68438a858a",
   "lastOpenFiles": [
+    "Untitled",
     "resources/D435_overview_img_4.png",
     "resources/D435_overview_img_3.png",
     "resources/D435_overview_img_2.png",
@@ -179,7 +180,6 @@
     "resources/二叉树_img_2.png",
     "resources/二叉树_img_1.png",
     "numerical_optimization/damped_newton_method.md",
-    "resources/bfgs_method_img_1.png",
     "numerical_optimization/gradient_descent.md",
     "transformation.md",
     "numerical_optimization",
