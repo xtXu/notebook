@@ -10,5 +10,6 @@
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
   "readableLineLength": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "autoConvertHtml": true
 }
