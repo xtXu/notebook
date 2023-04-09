@@ -11,8 +11,12 @@
             "id": "9d313600136fb38f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Day Planners/Day Planner-20230409.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D435_overview.md",
+                "file": "Day Planners/Day Planner-20230409.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "D435_overview.md",
+                "file": "Day Planners/Day Planner-20230409.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "D435_overview.md"
+                "file": "Day Planners/Day Planner-20230409.md"
               }
             }
           }
@@ -129,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,6 +147,10 @@
   },
   "active": "b6bfe3c844154d0d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Day Planners/Day Planner-20230409.md",
+    "Day Planners",
+    "daily",
     "leetcode/回溯法.md",
     "D435_overview.md",
     "leetcode",
@@ -181,8 +188,6 @@
     "digital_image/resources",
     "test.md",
     "test.md",
-    "test2.md",
-    "opt",
-    "s"
+    "test2.md"
   ]
 }
