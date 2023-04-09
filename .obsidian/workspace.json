@@ -130,6 +130,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "498b147e06aa8e81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3458a0389d349616",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6bfe3c844154d0d",
+  "active": "3458a0389d349616",
   "lastOpenFiles": [
     "Untitled.md",
     "Day Planners/Day Planner-20230409.md",
