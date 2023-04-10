@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4e7afd759d15ed3f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f52571316c98787",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/回溯法.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "e7d319ab64d5d575"
-          }
-        ]
-      },
-      {
         "id": "a8c8389ff28dfd50",
         "type": "tabs",
         "children": [
@@ -32,12 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/回溯法.md",
-                "mode": "preview",
+                "file": "daily/2023-04-10.md",
+                "mode": "source",
                 "source": false
               }
-            },
-            "group": "e7d319ab64d5d575"
+            }
           }
         ]
       }
@@ -106,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/回溯法.md",
+                "file": "daily/2023-04-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/回溯法.md",
+                "file": "daily/2023-04-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/回溯法.md"
+                "file": "daily/2023-04-10.md"
               }
             }
           }
@@ -181,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f52571316c98787",
+  "active": "36dd02c6bdeb3c71",
   "lastOpenFiles": [
     "leetcode/回溯法.md",
     "daily/2023-04-10.md",
