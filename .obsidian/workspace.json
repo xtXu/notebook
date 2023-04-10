@@ -13,11 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-04-09.md",
+                "file": "leetcode/回溯法.md",
                 "mode": "source",
+                "source": true
+              }
+            },
+            "group": "e7d319ab64d5d575"
+          }
+        ]
+      },
+      {
+        "id": "a8c8389ff28dfd50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36dd02c6bdeb3c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/回溯法.md",
+                "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "e7d319ab64d5d575"
           }
         ]
       }
@@ -86,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-04-09.md",
+                "file": "leetcode/回溯法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-04-09.md",
+                "file": "leetcode/回溯法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-04-09.md"
+                "file": "leetcode/回溯法.md"
               }
             }
           }
@@ -163,6 +183,7 @@
   },
   "active": "2f52571316c98787",
   "lastOpenFiles": [
+    "leetcode/回溯法.md",
     "daily/2023-04-10.md",
     "daily/2023-04-09.md",
     "Untitled.md",
@@ -172,7 +193,6 @@
     "2023-04-09.md",
     "Day Planners",
     "daily",
-    "leetcode/回溯法.md",
     "D435_overview.md",
     "leetcode",
     "resources/D435_overview_img_4.png",
