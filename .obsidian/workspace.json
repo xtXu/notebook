@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-04-11.md",
+                "file": "leetcode/回溯法.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "481c8149e0d32aa0",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-04-11.md",
+                "file": "leetcode/回溯法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-04-11.md",
+                "file": "leetcode/回溯法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-04-11.md"
+                "file": "leetcode/回溯法.md"
               }
             }
           }
@@ -149,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +165,8 @@
   },
   "active": "36dd02c6bdeb3c71",
   "lastOpenFiles": [
-    "leetcode/回溯法.md",
     "daily/2023-04-11.md",
+    "leetcode/回溯法.md",
     "daily/2023-04-09.md",
     "daily/2023-04-10.md",
     "Untitled.md",
