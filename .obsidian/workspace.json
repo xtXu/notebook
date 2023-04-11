@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-04-10.md",
+                "file": "daily/2023-04-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-04-10.md",
+                "file": "daily/2023-04-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-04-10.md",
+                "file": "daily/2023-04-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-04-10.md"
+                "file": "daily/2023-04-11.md"
               }
             }
           }
@@ -163,9 +163,10 @@
   },
   "active": "36dd02c6bdeb3c71",
   "lastOpenFiles": [
+    "leetcode/回溯法.md",
+    "daily/2023-04-11.md",
     "daily/2023-04-09.md",
     "daily/2023-04-10.md",
-    "leetcode/回溯法.md",
     "Untitled.md",
     "daily/daily_template.md",
     "Untitled",
@@ -207,7 +208,6 @@
     "img/2022-10-28-19-11-17.png.md",
     "img",
     "test.md",
-    "test.md",
-    "test2.md"
+    "test.md"
   ]
 }
