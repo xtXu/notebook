@@ -46,3 +46,9 @@ link:
 + **journal**: IEEE Robotics and Automation Letters
 + **link**: [zhouFUEL2021]([zotero://select/library/items/YXBJVZC6])
 ---
+---
++ **title**: FUEL: Fast UAV Exploration Using Incremental Frontier Structure and Hierarchical Planning
++ **authors**: 
++ **journal**: IEEE Robotics and Automation Letters
++ **link**: [zhouFUEL2021]([zotero://select/library/items/YXBJVZC6])
+---
