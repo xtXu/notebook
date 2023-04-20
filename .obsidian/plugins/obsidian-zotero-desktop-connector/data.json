@@ -8,7 +8,7 @@
     {
       "name": "Format #1",
       "format": "template",
-      "template": "[{{title}}]({{zoteroSelectURL}})",
+      "template": "[{{title}}]({{desktopURL}})",
       "cslStyle": "ieee"
     }
   ],
