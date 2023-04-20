@@ -8,7 +8,7 @@
     {
       "name": "Citation",
       "format": "template",
-      "template": "{{pdfZoteroLink}}",
+      "template": "[{{pdfZoteroLink}}]",
       "cslStyle": "ieee"
     }
   ],
