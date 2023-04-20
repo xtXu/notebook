@@ -6,9 +6,14 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
+      "name": "MetaData",
+      "format": "template",
+      "template": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\n---"
+    },
+    {
       "name": "Citation",
       "format": "template",
-      "template": "[{{pdfZoteroLink}}]",
+      "template": "{{pdfZoteroLink}}",
       "cslStyle": "ieee"
     }
   ],
