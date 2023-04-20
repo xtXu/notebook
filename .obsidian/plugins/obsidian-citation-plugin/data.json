@@ -3,7 +3,7 @@
   "literatureNoteTitleTemplate": "@{{citekey}}",
   "literatureNoteFolder": "Reading notes",
   "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\n---\n\n",
-  "markdownCitationTemplate": "[@{{citekey}}](zoteroSelec)",
+  "markdownCitationTemplate": "[@{{title}}]({{zoteroSelectURI}})",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": ".obsidian/zotero_library.bib"
 }
