@@ -90,7 +90,7 @@
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
+      "keepUpdated": false,
       "worker": true,
       "Normalize": false
     }
@@ -9453,13 +9453,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Schmid 等。 - 2020 - An Efficient Sampling-Based Method for Online Info.pdf",
+          "title": "Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:38Z",
-          "dateModified": "2022-04-12T19:00:43Z",
+          "dateModified": "2023-04-20T11:57:23Z",
           "uri": "http://zotero.org/users/8871808/items/V7IY9538",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\V7IY9538\\Schmid 等。 - 2020 - An Efficient Sampling-Based Method for Online Info.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\V7IY9538\\Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf",
           "select": "zotero://select/library/items/V7IY9538"
         }
       ],
