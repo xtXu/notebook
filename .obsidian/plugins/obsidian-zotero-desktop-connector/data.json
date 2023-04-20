@@ -8,7 +8,8 @@
     {
       "name": "MetaData",
       "format": "template",
-      "template": "---\n+ **title**: {{title}}\n+ **authors**: {{authors}}\n+ **journal**: {{publicationTitle}}\n+ **link**: {{desktopURI}}\n---\n"
+      "template": "---\n+ **title**: {{title}}\n+ **authors**: {{authors}}\n+ **journal**: {{publicationTitle}}\n+ **link**: [{{citekey}}]([{{desktopURI}}])\n---\n",
+      "cslStyle": "ieee"
     },
     {
       "name": "Citation",
