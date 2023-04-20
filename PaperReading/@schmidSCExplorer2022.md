@@ -29,3 +29,11 @@ Comment: 18 pages, 14 figures. Code will be released at https://github.com/ethz-
 ----
 
 ## Extracted Annotations
+
+Annotations(4/20/2023, 8:47:39 PM)
+
+- *“we propose to leverage deep 3D Scene Completion (SC) [26,27] to predict the unknown areas of the partial observations based on structural and semantic priors, and investigate its potential impact on both mapping and planning”* [(Schmid et al., 2022, p. 2)](zotero://open-pdf/library/items/ZCM3WRJW?page=2&annotation=GK5L2LHS) 
+
+- *“propose a novel fusion mechanism tailored to SC”* [(Schmid et al., 2022, p. 2)](zotero://open-pdf/library/items/ZCM3WRJW?page=2&annotation=52F53XYI) 
+
+- *“propose and investigate several information gain formulations to leverage this novel information in the map”* [(Schmid et al., 2022, p. 2)](zotero://open-pdf/library/items/ZCM3WRJW?page=2&annotation=2GKHS2L2) 

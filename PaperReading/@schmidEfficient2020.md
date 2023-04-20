@@ -3,6 +3,8 @@
 #paper #zotero
 
 ## Metadata
+
+- **CiteKey**: schmidEfficient2020
 - **CiteKey**: {{citekey}}
 - **Type**: Journal Article
 - **Title**: An Efficient Sampling-Based Method for Online Informative Path Planning in Unknown Environments, 
