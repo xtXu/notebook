@@ -6,9 +6,9 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Format #1",
+      "name": "Citation",
       "format": "template",
-      "template": "[{{title}}]({{desktopURL}})",
+      "template": "{{pdfZoteroLink}}",
       "cslStyle": "ieee"
     }
   ],
