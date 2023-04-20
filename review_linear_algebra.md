@@ -3,7 +3,7 @@
 #math #linear #algebra
 
 ## Vectors
-![](resources/review_linear_algebra_img_1.png)
+![](Resources/review_linear_algebra_img_1.png)
 
 - Usually written as $\vec{a}$ or in bold $\mathbf{a}$
 - Or using start and end points $\overrightarrow{AB}=B-A$
@@ -12,13 +12,13 @@
 
 ### Cartesian Coordinates
 
-![](resources/review_linear_algebra_img_2.png)
+![](Resources/review_linear_algebra_img_2.png)
 - X and Y can be any (usually **orthogonal unit**) vectors
     - $\mathbf{A}=\begin{pmatrix}x \\ y\end{pmatrix}$, $\mathbf{A}^\top=(x,y)$, $\left\Vert \mathbf{A} \right\Vert = \sqrt{x^2+y^2}$
 
 ### Dot Product
 
-![](resources/review_linear_algebra_img_3.png)
+![](Resources/review_linear_algebra_img_3.png)
 $\vec{a} \cdot \vec{b}=\left\Vert \vec{a} \right\Vert \Vert \vec{b} \Vert \cos\theta$ ,     $\cos\theta=\frac{\vec{a}\cdot\vec{b}}{\Vert a \Vert \Vert b \Vert}$
 
 #### Dot Production in Cartesian Coordinates
@@ -44,14 +44,14 @@ $$
 - Finding projection of one vector on another
     - $\vec{b}_\perp$: projection of $\vec{b}$ onto $\vec{a}$
     - $\vec{b}_\perp = k\hat{a}$, $k=\Vert \vec{b}_\perp \Vert=\Vert\vec{b}\Vert\cos\theta$
-![](resources/review_linear_algebra_img_4.png)
+![](Resources/review_linear_algebra_img_4.png)
 - Measure how close two directions are
 - Decompose a vector
 - Determine forward / backward (dot product >0 or <0)
 
 ### Cross Product
 
-![](resources/review_linear_algebra_img_5.png)
+![](Resources/review_linear_algebra_img_5.png)
 - Cross product is orthogonal to two initial vectors
 - Direction determined by right-hand rule
 - Useful in contructing coordinate systems
@@ -76,7 +76,7 @@ $$
 
 - Determine left / right ($(\vec{a}\times\vec{b})_z$ >0 or <0)
 - Determine inside / outside
-![](resources/review_linear_algebra_img_6.png)
+![](Resources/review_linear_algebra_img_6.png)
 
 
 ## Orthonormal Coordinate Frames

@@ -5,7 +5,7 @@
 ## 2D Transformations
 
 ### Scale
-![](resources/transformation_img_1.png)
+![](Resources/transformation_img_1.png)
 
 $$
 \begin{aligned} x'&=sx \\ y'&=sy\\\left[\begin{array}{l}
@@ -19,7 +19,7 @@ x \\
 y
 \end{array}\right] \end{aligned}
 $$
-![](resources/transformation_img_2.png)
+![](Resources/transformation_img_2.png)
 
 
 $$
@@ -38,7 +38,7 @@ $$
 ### Reflection
 
 - Horizontal reflection
-![](resources/transformation_img_3.png)
+![](Resources/transformation_img_3.png)
 $$
 \begin{aligned} x'&=-x \\ y'&=y\\\left[\begin{array}{l}
 x^{\prime} \\
@@ -53,7 +53,7 @@ y
 $$
 
 ### Shear Matrix
-![](resources/transformation_img_4.png)
+![](Resources/transformation_img_4.png)
 $$
 \left[\begin{array}{l}
 x^{\prime} \\
@@ -68,7 +68,7 @@ y
 $$
 
 ### Rotate (origin(0, 0), CCW by default)
-![](resources/transformation_img_5.png)
+![](Resources/transformation_img_5.png)
 $$
 \begin{aligned}&\mathbf{R}_\theta=\left[\begin{array}{cc}\cos \theta & -\sin \theta \\\sin \theta & \cos \theta\end{array}\right] \\ &\mathbf{R}_{-\theta}=\mathbf{R}_\theta^\top=\mathbf{R}_\theta^{-1}\end{aligned}
 $$
@@ -80,7 +80,7 @@ $$
 $$
 
 ### Translation
-![](resources/transformation_img_6.png)
+![](Resources/transformation_img_6.png)
 $$
 \begin{aligned}x'&=x+t_x\\y'&=y+t_y  \end{aligned}
 $$
@@ -171,7 +171,7 @@ $$
 ### Inverse Transform
 
 - $\mathbf{M}^{-1}$ is the inverse of transform $\mathbf{M}$ in both a matrix and geometric sense.
-![](resources/transformation_img_7.png)
+![](Resources/transformation_img_7.png)
 ### Composing Transform
 
 - **Transform Ordering Matters!**
@@ -237,7 +237,7 @@ $$
 ### Rotation
 
 #### Rotation around x-, y-, or z- axis
-![](resources/transformation_img_8.png)
+![](Resources/transformation_img_8.png)
 $$
 \begin{aligned}& \mathbf{R}_x(\alpha)=\left(\begin{array}{cccc}1 & 0 & 0 & 0 \\0 & \cos \alpha & -\sin \alpha & 0 \\0 & \sin \alpha & \cos \alpha & 0 \\0 & 0 & 0 & 1\end{array}\right) \\& \mathbf{R}_y(\alpha)=\left(\begin{array}{cccc}\cos \alpha & 0 & \sin \alpha & 0 \\0 & 1 & 0 & 0 \\-\sin \alpha & 0 & \cos \alpha & 0 \\0 & 0 & 0 & 1\end{array}\right) \\& \mathbf{R}_z(\alpha)=\left(\begin{array}{cccc}\cos \alpha & -\sin \alpha & 0 & 0 \\\sin \alpha & \cos \alpha & 0 & 0 \\0 & 0 & 1 & 0 \\0 & 0 & 0 & 1\end{array}\right)\end{aligned}
 $$
@@ -269,7 +269,7 @@ $$
     - Look-at / gaze direction $\hat{g}$
     - Up direction $\hat{t}$
     
-    ![](resources/transformation_img_9.png)
+    ![](Resources/transformation_img_9.png)
     
 - Key observation
     - camera and objects move together → the “photo”will be the same
@@ -277,7 +277,7 @@ $$
     - The origin, up at Y, look at -Z
     - And transform the objects along with the camera
     
-    ![](resources/transformation_img_10.png)
+    ![](Resources/transformation_img_10.png)
     
     - Transform by $M_{view}=R_{view}T_{view}$, (first translate to origin, then rotate)
         
@@ -309,11 +309,11 @@ $$
     - 3D to 2D
     - Orthographic projection
     - Perspective projection
-    ![](resources/transformation_img_11.png)
+    ![](Resources/transformation_img_11.png)
     
     - Perpective projection vs. orthographic projection
         
-        ![](resources/transformation_img_12.png)
+        ![](Resources/transformation_img_12.png)
 
 #### Orthographic  Projection
 
@@ -324,7 +324,7 @@ $$
 - In general
     - map a cuboid $[l,r]\times[b,t]\times[f,n]$ to the canonical cube $[-1,1]^3$
     
-    ![](resources/transformation_img_13.png)
+    ![](Resources/transformation_img_13.png)
     
     - Transformation: translate fisrt, then scale
     
@@ -343,14 +343,14 @@ $$
     - First “squish” the frustum into a cuboid (n→n, f→f), ($\mathbf{M}_{persp→ortho}$)
     - Second do orthographic projection($\mathbf{M}_{ortho}$)
 
-    ![](resources/transformation_img_14.png)
+    ![](Resources/transformation_img_14.png)
     
 - The “squish” operation require:
     - n is constant
     - the Z of f is constant
     - the center of f is constant
 - In order to find a transformation, find the relationship between transformed points $(x^\prime, y^\prime, z^\prime)$ and the original points $(x,y,z)$
-    ![](resources/transformation_img_15.png)
+    ![](Resources/transformation_img_15.png)
     $$
     x^\prime=\frac{n}{z}x, y^\prime=\frac{n}{z}y
     $$
@@ -412,11 +412,11 @@ $$
 - $\mathbf{M}_{persp}=\mathbf{M}_{ortho}\mathbf{M}_{persp->ortho}$
 - Camera model:
     
-  ![](resources/transformation_img_16.png)
+  ![](Resources/transformation_img_16.png)
     
     Convert from fovY and aspect to l, r, b, t ?
     
-    ![](resources/transformation_img_17.png)
+    ![](Resources/transformation_img_17.png)
     
     $$
     \begin{aligned}\tan\frac{fovY}{2}&=\frac{t}{\vert n \vert} \\aspect&=\frac{r}{t}\end{aligned}
