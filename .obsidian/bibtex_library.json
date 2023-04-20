@@ -9388,7 +9388,7 @@
     },
     {
       "key": "ELJKPWHR",
-      "version": 5339,
+      "version": 5698,
       "itemType": "journalArticle",
       "title": "An Efficient Sampling-Based Method for Online Informative Path Planning in Unknown Environments",
       "abstractNote": "The ability to plan informative paths online is essential to robot autonomy. In particular, sampling-based approaches are often used as they are capable of using arbitrary information gain formulations. However, they are prone to local minima, resulting in sub-optimal trajectories, and sometimes do not reach global coverage. In this letter, we present a new RRT*-inspired online informative path planning algorithm. Our method continuously expands a single tree of candidate trajectories and rewires nodes to maintain the tree and reﬁne intermediate paths. This allows the algorithm to achieve global coverage and maximize the utility of a path in a global context, using a single objective function. We demonstrate the algorithm’s capabilities in the applications of autonomous indoor exploration as well as accurate Truncated Signed Distance Field (TSDF)-based 3D reconstruction on-board a Micro Aerial Vehicle (MAV). We study the impact of commonly used information gain and cost formulations in these scenarios and propose a novel TSDF-based 3D reconstruction gain and cost-utility formulation. Detailed evaluation in realistic simulation environments show that our approach outperforms sampling-based state of the art methods in these tasks. Experiments on a real MAV demonstrate the ability of our method to robustly plan in real-time, exploring an indoor environment with on-board sensing and computation. We make our framework available for future research.",
@@ -9442,12 +9442,15 @@
           "tag": "Important"
         },
         {
+          "tag": "ObsCite"
+        },
+        {
           "tag": "Sampling"
         }
       ],
       "relations": [],
       "dateAdded": "2021-12-12T12:39:48Z",
-      "dateModified": "2023-04-04T08:18:04Z",
+      "dateModified": "2023-04-20T12:04:57Z",
       "uri": "http://zotero.org/users/8871808/items/ELJKPWHR",
       "itemID": 13,
       "attachments": [
@@ -13910,7 +13913,7 @@
     },
     {
       "key": "WW4ZH9UI",
-      "version": 5665,
+      "version": 5699,
       "itemType": "journalArticle",
       "title": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
       "abstractNote": "Although the use of multiple unmanned aerial vehicles (UAVs) has great potential for fast autonomous exploration, it has received far too little attention. In this article, we present a RApid Collaborative ExploRation (RACER) approach using a fleet of decentralized UAVs. To effectively dispatch the UAVs, a pairwise interaction based on an online hgrid space decomposition is used. It ensures that all UAVs simultaneously explore distinct regions, using only asynchronous and limited communication. Furthermore, we optimize the coverage paths of unknown space and balance the workloads partitioned to each UAV with a capacitated vehicle routing problem formulation. Given the task allocation, each UAV constantly updates the coverage path and incrementally extracts crucial information to support the exploration planning. A hierarchical planner finds exploration paths, refines local viewpoints, and generates minimum-time trajectories in sequence to explore the unknown space agilely and safely. The proposed approach is evaluated extensively, showing high exploration efficiency, scalability, and robustness to limited communication. Furthermore, for the first time, we achieve fully decentralized collaborative exploration with multiple UAVs in the real world. We will release our implementation as an open-source package.",
@@ -13941,10 +13944,6 @@
         }
       ],
       "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        },
         {
           "tag": "Aerial system",
           "type": 1
@@ -13996,7 +13995,7 @@
       ],
       "relations": [],
       "dateAdded": "2023-04-20T07:00:36Z",
-      "dateModified": "2023-04-20T07:00:37Z",
+      "dateModified": "2023-04-20T12:05:32Z",
       "uri": "http://zotero.org/users/8871808/items/WW4ZH9UI",
       "itemID": 697,
       "attachments": [

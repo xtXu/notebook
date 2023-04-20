@@ -1,6 +1,6 @@
 {
   "bibPath": ".obsidian/bibtex_library.json",
-  "templateContent": "# {{title}}\n\n#paper #zotero\n\n## Metadata\n- **CiteKey**: {{citekey}}\n - **Type**: {{itemType}}\n - **Title**: {{title}}, \n - **Author**: {{author}};  \n- **Journal**: {{publicationTitle}}, \n- **Year**: {{year}} \n------\n\n## Abstract\n{{abstractNote}}\n\n## Files and Links\n- **Url**: {{url}}\n- **Uri**: {{uri}}\n- **File**: {{file}}\n- **Local Library**: [Zotero]({{localLibraryLink}})\n\n## Tags and Collections\n- **Keywords**: {{keywordsAll}}\n- **Collections**: {{collectionsParent}}\n\n\n----\n\n## Comments\n{{UserNotes}}\n\n\n----\n\n## Extracted Annotations\n{{PDFNotes}}\n\n------\n",
+  "templateContent": "# {{title}}\n\n#paper #zotero\n\n## Metadata\n- **CiteKey**: {{citeKey}}\n- **Type**: {{itemType}}\n- **Title**: {{title}}\n- **Author**: {{author}}\n- **Journal**: {{publicationTitle}}\n- **Year**: {{year}} \n------\n\n## Abstract\n{{abstractNote}}\n\n## Files and Links\n- **Url**: {{url}}\n- **Uri**: {{uri}}\n- **File**: {{file}}\n- **Local Library**: [Zotero]({{localLibraryLink}})\n\n## Tags and Collections\n- **Keywords**: {{keywordsAll}}\n- **Collections**: {{collectionsParent}}\n\n\n----\n\n## Comments\n{{UserNotes}}\n\n\n----\n\n## Extracted Annotations\n{{PDFNotes}}\n\n------\n",
   "templatePath": "",
   "templateType": "Custom",
   "lastUpdateDate": "1995-12-16T19:24:00.000Z",

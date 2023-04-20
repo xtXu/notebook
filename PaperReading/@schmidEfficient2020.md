@@ -4,9 +4,9 @@
 
 ## Metadata
 - **CiteKey**: {{citekey}}
- - **Type**: Journal Article
- - **Title**: An Efficient Sampling-Based Method for Online Informative Path Planning in Unknown Environments, 
- - **Author**: Schmid, Lukas; Pantic, Michael; Khanna, Raghav; Ott, Lionel; Siegwart, Roland; Nieto, Juan;  
+- **Type**: Journal Article
+- **Title**: An Efficient Sampling-Based Method for Online Informative Path Planning in Unknown Environments, 
+- **Author**: Schmid, Lukas; Pantic, Michael; Khanna, Raghav; Ott, Lionel; Siegwart, Roland; Nieto, Juan;  
 - **Journal**: IEEE Robotics and Automation Letters, 
 - **Year**: 2020 
 ------
@@ -17,7 +17,7 @@ The ability to plan informative paths online is essential to robot autonomy. In 
 ## Files and Links
 - **Url**: https://ieeexplore.ieee.org/document/8968434/
 - **Uri**: http://zotero.org/users/8871808/items/ELJKPWHR
-- **File**: [Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf](file:///C:%5CUsers%5Cxxt%5CZotero%5Cstorage%5CV7IY9538%5CSchmid%20et%20al_2020_An%20Efficient%20Sampling-Based%20Method%20for%20Online%20Informative%20Path%20Planning%20in.pdf)
+- **File**: [Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf](zotero://open-pdf/library/items/V7IY9538)
 - **Local Library**: [Zotero](zotero://select/library/items/ELJKPWHR)
 
 ## Tags and Collections
