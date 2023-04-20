@@ -1874,6 +1874,23 @@ function replaceMissingFields(note, missingfield, missingfieldreplacement) {
   copy = copy.replace("## Tags and Collections\n\n", "\n");
   return copy;
 }
+// function createLocalFileLink(reference2) {
+//   if (reference2.attachments.length == 0)
+//     return "{{localFile}}";
+//   const filesList = [];
+//   for (let attachmentindex = 0; attachmentindex < reference2.attachments.length; attachmentindex++) {
+//     if (reference2.attachments[attachmentindex].itemType !== "attachment")
+//       continue;
+//     if (reference2.attachments[attachmentindex].path == void 0) {
+//       reference2.attachments[attachmentindex].path = "";
+//     }
+//     const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file:///" + encodeURI(reference2.attachments[attachmentindex].path.replaceAll(" ", " ")) + ")";
+//     filesList.push(selectedfile);
+//   }
+//   const filesListString = filesList.join("; ");
+//   return filesListString;
+// }
+
 function createLocalFileLink(reference2) {
   if (reference2.attachments.length == 0)
     return "{{localFile}}";
@@ -1881,15 +1898,26 @@ function createLocalFileLink(reference2) {
   for (let attachmentindex = 0; attachmentindex < reference2.attachments.length; attachmentindex++) {
     if (reference2.attachments[attachmentindex].itemType !== "attachment")
       continue;
-    if (reference2.attachments[attachmentindex].path == void 0) {
-      reference2.attachments[attachmentindex].path = "";
+    // if (reference2.attachments[attachmentindex].path == void 0) {
+    //   reference2.attachments[attachmentindex].path = "";
+    // }
+    // const attachmentPathCorrected = reference2.attachments[attachmentindex].path.replaceAll(" ", "%20");
+    // const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file://" + attachmentPathCorrected + ")";
+    if (reference2.attachments[attachmentindex].uri == void 0) {
+      reference2.attachments[attachmentindex].uri = "";
     }
-    const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file:///" + encodeURI(reference2.attachments[attachmentindex].path.replaceAll(" ", " ")) + ")";
+    const selectedfileUri = reference2.attachments[attachmentindex].uri
+    const attachmentKey = selectedfileUri.split('/')[selectedfileUri.split('/').length - 1]
+    selectedfile = "[" + reference2.attachments[attachmentindex].title + "](zotero://select/library/items/" + attachmentKey + ")";
+    if (reference2.attachments[attachmentindex].title.endsWith('pdf')) {
+      selectedfile = selectedfile.replaceAll("zotero://select/","zotero://open-pdf/");
+    }
     filesList.push(selectedfile);
   }
   const filesListString = filesList.join("; ");
   return filesListString;
 }
+
 function createLocalFilePathLink(reference2) {
   if (reference2.attachments.length == 0)
     return "{{localFilePathLink}}";
