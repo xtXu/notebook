@@ -8,7 +8,7 @@
     {
       "name": "MetaData",
       "format": "template",
-      "template": "---\n+ **title**: {{title}}\n+ **authors**: {{authors}}\n+ **journal**: {{publicationTitle}}\n**year**: {{year}}\n**link**: {{pdfZoteroLink}}\n---"
+      "template": "---\n+ **title**: {{title}}\n+ **authors**: {{authors}}\n+ **journal**: {{publicationTitle}}\n+ **link**: {{pdfZoteroLink}}\n---\n"
     },
     {
       "name": "Citation",
