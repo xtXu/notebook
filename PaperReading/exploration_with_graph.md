@@ -11,4 +11,9 @@
 1. Sample a collision-free configuration $\xi_{\text{{rand}}}$.
 2. Find closest vertex $\xi_{\text{nearest}}$ in the graph.
 3. Check the straight connection between $\xi_{\text{rand}}$ and $\xi_{\text{nearest}}$, add the sample and path to the graph.
-4. Connect denser collision-free edges from the new vertex to the neighbor vertices within a radius.
+4. Connect denser collision-free edges from the new vertex to the neighbor vertices within a radius.  
+
+**path planning**:
+1. Find shortest paths from the root to all other vertices using Dijkstra.
+2. Compute the ExplorationGain considering the gain, the distance and the direction.
+3. Select the path maximizing the ExplorationGain.
