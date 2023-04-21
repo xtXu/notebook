@@ -4,7 +4,7 @@
 
 > **author**: TungDang, MarcoTranzatto, ShehryarKhattak, FrankMascarich, KostasAlexis, MarcoHutter  
 > **journal**: Journal of Field Robotics  
-> **link**: [dangGraph2020]([zotero://select/library/items/D3K32WEX])  
+> **link**: [dangGraph2020](zotero://select/library/items/D3K32WEX)  
 
 ### Local Planner - Rapidly Exploring Random Graph
 **graph building:**
