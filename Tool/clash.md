@@ -1,4 +1,5 @@
 # Clash Setting & Problem
+#tool #clash
 ## IEEE Xplore
 **Problem:** 校园网ip能直接登录IEEE Xplore，若通过代理则无法认证。  
 **Fix:** 可通过`Parsers`功能在机场提供的配置基础上增加分流规则：
@@ -15,25 +16,21 @@ parsers: # array
 
 **Problem:** TUN模式下`git clone`等失败，因为需要通过`ssh`访问22端口，但大多机场会屏蔽22端口的连接。可以通过设置规则使22端口的流量走直连，但直连github速度很慢。  
 **Fix:** 根据github官方做法，[使用https端口进行ssh连接](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)。具体地，在`/etc/ssh/ssh_config`中添加设置：
-```host
+```
 Host github.com
 	Hostname ssh.github.com
 	Port 443
 	User git
 ```
 
+**Problem:** windows会向所有网卡发送DNS查询请求，因此就算设置了TUN模式，也会将DNS请求发送给物理网卡，导致DNS泄露。  
+**Fix:** 组策略-计算机配置-管理模板-网络-DNS客户端-禁用智能多宿主名称解析-启用。
+![](../Resources/clash_img_1.png)
 
-1. 浏览器，如Google Chrome，应关闭**安全DNS**。
-2. TUN模式下`git clone`等失败，因为需要通过`ssh`访问22端口，但大多机场会屏蔽22端口的连接。可以通过设置规则使22端口的流量走直连，但直连github速度很慢。因此，根据github官方做法，[使用https端口进行ssh连接](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)。具体地，
-3. DNS设置
+**Problem:** DNS设置：nameserver, fallback, fake-ip, fake-ip-filter。在分流规则匹配时，若域名要和ip规则进行匹配，则需要查询DNS时，Clash会先向nameserver中的所有服务器发送请求，并接受第一个返回的ip，若该ip是国外ip，则再次通过fallback查询，以保证获得未被污染的dns。  
+**Fix:**
 ```yml
 dns:
-  enable: true
-  listen: 127.0.0.1:8853
-  default-nameserver:
-    - 223.5.5.5
-    - 8.8.4.4
-  ipv6: false
   enhanced-mode: fake-ip
   nameserver:
     - 114.114.114.114
@@ -142,4 +139,5 @@ dns:
     - +.media.dssott.com
     - +.pvp.net
 ```
+
    
