@@ -8,7 +8,7 @@
     {
       "name": "MetaData",
       "format": "template",
-      "template": "## {{title}}\n---\n+ **author**: {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}\n+ **journal**: {{publicationTitle}}\n+ **link**: [{{citekey}}]([{{desktopURI}}])\n---\n",
+      "template": "## {{title}}\n\n> **author**: {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}  \n> **journal**: {{publicationTitle}}  \n> **link**: [{{citekey}}]([{{desktopURI}}])  \n\n",
       "cslStyle": "ieee"
     },
     {
