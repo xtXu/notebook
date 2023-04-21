@@ -1,10 +1,32 @@
 # Clash Setting & Problem
 ## IEEE Xplore
-校园网ip能直接登录IEEE，若通过代理则无法认证。可通过`Parsers`功能在机场提供的配置
-## TUN Mode
-1. 浏览器，如Google Chrome中应关闭**安全DNS**。
-2. DNS设置
+**Problem:** 校园网ip能直接登录IEEE Xplore，若通过代理则无法认证。  
+**Fix:** 可通过`Parsers`功能在机场提供的配置基础上增加分流规则：
+```yml
+parsers: # array
+  - url: #{{订阅链接}}
+    yaml:
+      prepend-rules:
+        - DOMAIN,ieeexplore.ieee.org,DIRECT # rules最前面增加一个规则
 ```
+## TUN Mode
+**Problem:** 部分浏览器，如Google Chrome，无法连接。  
+**Fix:** 关闭**安全DNS**。
+
+**Problem:** TUN模式下`git clone`等失败，因为需要通过`ssh`访问22端口，但大多机场会屏蔽22端口的连接。可以通过设置规则使22端口的流量走直连，但直连github速度很慢。  
+**Fix:** 根据github官方做法，[使用https端口进行ssh连接](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)。具体地，在`/etc/ssh/ssh_config`中添加设置：
+```host
+Host github.com
+	Hostname ssh.github.com
+	Port 443
+	User git
+```
+
+
+1. 浏览器，如Google Chrome，应关闭**安全DNS**。
+2. TUN模式下`git clone`等失败，因为需要通过`ssh`访问22端口，但大多机场会屏蔽22端口的连接。可以通过设置规则使22端口的流量走直连，但直连github速度很慢。因此，根据github官方做法，[使用https端口进行ssh连接](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)。具体地，
+3. DNS设置
+```yml
 dns:
   enable: true
   listen: 127.0.0.1:8853
