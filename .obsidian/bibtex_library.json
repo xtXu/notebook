@@ -138,7 +138,6 @@
         75,
         82,
         83,
-        84,
         85,
         88,
         89,
@@ -180,7 +179,6 @@
         75,
         82,
         83,
-        84,
         85,
         88,
         89,
@@ -493,6 +491,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Akbari_2020_Intelligent_Exploration_and_Autonomous_Navigation_in_Confined_Spaces.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T03:29:53Z",
+          "dateModified": "2023-04-20T13:58:15Z",
+          "uri": "http://zotero.org/users/8871808/items/N4P7WJQ3",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\N4P7WJQ3\\Akbari_2020_Intelligent_Exploration_and_Autonomous_Navigation_in_Confined_Spaces.pdf",
+          "select": "zotero://select/library/items/N4P7WJQ3"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -501,17 +510,6 @@
           "uri": "http://zotero.org/users/8871808/items/74IJJI77",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\74IJJI77\\9341525.html",
           "select": "zotero://select/library/items/74IJJI77"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T03:29:53Z",
-          "dateModified": "2022-11-04T03:29:53Z",
-          "uri": "http://zotero.org/users/8871808/items/N4P7WJQ3",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\N4P7WJQ3\\Akbari 等 - 2020 - Intelligent Exploration and Autonomous Navigation .pdf",
-          "select": "zotero://select/library/items/N4P7WJQ3"
         }
       ],
       "notes": [],
@@ -556,13 +554,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Amanatides_Woo_1987_A Fast Voxel Traversal Algorithm for Ray Tracing.pdf",
+          "title": "Amanatides_Woo_1987_A_Fast_Voxel_Traversal_Algorithm_for_Ray_Tracing.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-11T10:04:54Z",
-          "dateModified": "2022-05-11T10:04:54Z",
+          "dateModified": "2023-04-20T13:58:15Z",
           "uri": "http://zotero.org/users/8871808/items/5USYQI2Q",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\5USYQI2Q\\Amanatides_Woo_1987_A Fast Voxel Traversal Algorithm for Ray Tracing.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\5USYQI2Q\\Amanatides_Woo_1987_A_Fast_Voxel_Traversal_Algorithm_for_Ray_Tracing.pdf",
           "select": "zotero://select/library/items/5USYQI2Q"
         },
         {
@@ -678,13 +676,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Banfi et al_2022_Is it Worth to Reason about Uncertainty in Occupancy Grid Maps during Path.pdf",
+          "title": "Banfi_2022_Is_it_Worth_to_Reason_about_Uncertainty_in_Occupancy_Grid_Maps_during_Path.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T10:16:24Z",
-          "dateModified": "2023-04-04T10:16:25Z",
+          "dateModified": "2023-04-20T13:58:16Z",
           "uri": "http://zotero.org/users/8871808/items/UUFX4NRC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\UUFX4NRC\\Banfi et al_2022_Is it Worth to Reason about Uncertainty in Occupancy Grid Maps during Path.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\UUFX4NRC\\Banfi_2022_Is_it_Worth_to_Reason_about_Uncertainty_in_Occupancy_Grid_Maps_during_Path.pdf",
           "select": "zotero://select/library/items/UUFX4NRC"
         },
         {
@@ -802,6 +800,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Batinovic_2021_A_Multi-Resolution_Frontier-Based_Planner_for_Autonomous_3D_Exploration.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-09-16T07:49:34Z",
+          "dateModified": "2023-04-20T13:58:16Z",
+          "uri": "http://zotero.org/users/8871808/items/CRBBPDCJ",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\CRBBPDCJ\\Batinovic_2021_A_Multi-Resolution_Frontier-Based_Planner_for_Autonomous_3D_Exploration.pdf",
+          "select": "zotero://select/library/items/CRBBPDCJ"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -810,17 +819,6 @@
           "uri": "http://zotero.org/users/8871808/items/K9MDQUP3",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\K9MDQUP3\\9387089.html",
           "select": "zotero://select/library/items/K9MDQUP3"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-09-16T07:49:34Z",
-          "dateModified": "2022-09-16T07:49:34Z",
-          "uri": "http://zotero.org/users/8871808/items/CRBBPDCJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\CRBBPDCJ\\Batinovic 等。 - 2021 - A Multi-Resolution Frontier-Based Planner for Auto.pdf",
-          "select": "zotero://select/library/items/CRBBPDCJ"
         }
       ],
       "notes": [],
@@ -915,13 +913,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Bernreiter et al_2022_Collaborative Robot Mapping using Spectral Graph Analysis.pdf",
+          "title": "Bernreiter_2022_Collaborative_Robot_Mapping_using_Spectral_Graph_Analysis.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T10:19:10Z",
-          "dateModified": "2023-04-04T10:19:10Z",
+          "dateModified": "2023-04-20T13:58:16Z",
           "uri": "http://zotero.org/users/8871808/items/8LBRW4RQ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\8LBRW4RQ\\Bernreiter et al_2022_Collaborative Robot Mapping using Spectral Graph Analysis.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\8LBRW4RQ\\Bernreiter_2022_Collaborative_Robot_Mapping_using_Spectral_Graph_Analysis.pdf",
           "select": "zotero://select/library/items/8LBRW4RQ"
         },
         {
@@ -1003,13 +1001,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Bircher 等。 - 2016 - Receding Horizon Next-Best-View Planner for 3D E.pdf",
+          "title": "Bircher_2016_Receding_Horizon_Next-Best-View_Planner_for_3D_Exploration.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:39Z",
-          "dateModified": "2021-12-12T12:40:00Z",
+          "dateModified": "2023-04-20T13:58:16Z",
           "uri": "http://zotero.org/users/8871808/items/B9JSYWYC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\B9JSYWYC\\Bircher 等。 - 2016 - Receding Horizon Next-Best-View Planner for 3D E.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\B9JSYWYC\\Bircher_2016_Receding_Horizon_Next-Best-View_Planner_for_3D_Exploration.pdf",
           "select": "zotero://select/library/items/B9JSYWYC"
         }
       ],
@@ -1091,13 +1089,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Bircher et al_2018_Receding horizon path planning for 3D exploration and surface inspection.pdf",
+          "title": "Bircher_2018_Receding_horizon_path_planning_for_3D_exploration_and_surface_inspection.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-12T09:48:39Z",
-          "dateModified": "2022-05-12T09:48:40Z",
+          "dateModified": "2023-04-20T13:58:17Z",
           "uri": "http://zotero.org/users/8871808/items/72CWR3KJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\72CWR3KJ\\Bircher et al_2018_Receding horizon path planning for 3D exploration and surface inspection.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\72CWR3KJ\\Bircher_2018_Receding_horizon_path_planning_for_3D_exploration_and_surface_inspection.pdf",
           "select": "zotero://select/library/items/72CWR3KJ"
         }
       ],
@@ -1184,13 +1182,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Breyer et al_2022_Closed-Loop Next-Best-View Planning for Target-Driven Grasping.pdf",
+          "title": "Breyer_2022_Closed-Loop_Next-Best-View_Planning_for_Target-Driven_Grasping.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T08:30:23Z",
-          "dateModified": "2023-04-04T08:30:23Z",
+          "dateModified": "2023-04-20T13:58:17Z",
           "uri": "http://zotero.org/users/8871808/items/D4P3HY9T",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\D4P3HY9T\\Breyer et al_2022_Closed-Loop Next-Best-View Planning for Target-Driven Grasping.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\D4P3HY9T\\Breyer_2022_Closed-Loop_Next-Best-View_Planning_for_Target-Driven_Grasping.pdf",
           "select": "zotero://select/library/items/D4P3HY9T"
         },
         {
@@ -1249,6 +1247,22 @@
       ],
       "tags": [
         {
+          "tag": "Robot sensing systems",
+          "type": 1
+        },
+        {
+          "tag": "Three-dimensional displays",
+          "type": 1
+        },
+        {
+          "tag": "Navigation",
+          "type": 1
+        },
+        {
+          "tag": "Real-time systems",
+          "type": 1
+        },
+        {
           "tag": "Aerial Systems",
           "type": 1
         },
@@ -1261,19 +1275,7 @@
           "type": 1
         },
         {
-          "tag": "Navigation",
-          "type": 1
-        },
-        {
           "tag": "Perception and Autonomy",
-          "type": 1
-        },
-        {
-          "tag": "Real-time systems",
-          "type": 1
-        },
-        {
-          "tag": "Robot sensing systems",
           "type": 1
         },
         {
@@ -1282,10 +1284,6 @@
         },
         {
           "tag": "Semantics",
-          "type": 1
-        },
-        {
-          "tag": "Three-dimensional displays",
           "type": 1
         },
         {
@@ -1301,6 +1299,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Brunel_2021_SplatPlanner.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-09-16T07:46:42Z",
+          "dateModified": "2023-04-20T13:54:57Z",
+          "uri": "http://zotero.org/users/8871808/items/L33FC5WQ",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\L33FC5WQ\\Brunel_2021_SplatPlanner.pdf",
+          "select": "zotero://select/library/items/L33FC5WQ"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -1309,17 +1318,6 @@
           "uri": "http://zotero.org/users/8871808/items/VERPE3VQ",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\VERPE3VQ\\9560896.html",
           "select": "zotero://select/library/items/VERPE3VQ"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-09-16T07:46:42Z",
-          "dateModified": "2022-09-16T07:46:42Z",
-          "uri": "http://zotero.org/users/8871808/items/L33FC5WQ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\L33FC5WQ\\Brunel 等。 - 2021 - SplatPlanner Efficient Autonomous Exploration via.pdf",
-          "select": "zotero://select/library/items/L33FC5WQ"
         }
       ],
       "notes": [],
@@ -1401,13 +1399,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Cao et al_2021_Exploring Large and Complex Environments Fast and Efficiently.pdf",
+          "title": "Cao_2021_Exploring_Large_and_Complex_Environments_Fast_and_Efficiently.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T09:43:15Z",
-          "dateModified": "2022-04-07T09:43:16Z",
+          "dateModified": "2023-04-20T13:58:17Z",
           "uri": "http://zotero.org/users/8871808/items/QPRRRCZ4",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QPRRRCZ4\\Cao et al_2021_Exploring Large and Complex Environments Fast and Efficiently.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QPRRRCZ4\\Cao_2021_Exploring_Large_and_Complex_Environments_Fast_and_Efficiently.pdf",
           "select": "zotero://select/library/items/QPRRRCZ4"
         },
         {
@@ -1510,13 +1508,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Cao et al_2020_Hierarchical Coverage Path Planning in Complex 3D Environments.pdf",
+          "title": "Cao_2020_Hierarchical_Coverage_Path_Planning_in_Complex_3D_Environments.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T10:08:44Z",
-          "dateModified": "2022-04-07T10:08:44Z",
+          "dateModified": "2023-04-20T13:58:17Z",
           "uri": "http://zotero.org/users/8871808/items/369PRYTJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\369PRYTJ\\Cao et al_2020_Hierarchical Coverage Path Planning in Complex 3D Environments.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\369PRYTJ\\Cao_2020_Hierarchical_Coverage_Path_Planning_in_Complex_3D_Environments.pdf",
           "select": "zotero://select/library/items/369PRYTJ"
         },
         {
@@ -1598,13 +1596,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Cao 等。 - 2021 - TARE A Hierarchical Framework for Efficiently Exp.pdf",
+          "title": "Cao_2021_TARE.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:39Z",
-          "dateModified": "2021-12-12T12:40:04Z",
+          "dateModified": "2023-04-20T13:54:58Z",
           "uri": "http://zotero.org/users/8871808/items/U6LVSTC9",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\U6LVSTC9\\Cao 等。 - 2021 - TARE A Hierarchical Framework for Efficiently Exp.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\U6LVSTC9\\Cao_2021_TARE.pdf",
           "select": "zotero://select/library/items/U6LVSTC9"
         }
       ],
@@ -1709,6 +1707,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Cavinato_2021_Dynamic-Aware_Autonomous_Exploration_in_Populated_Environments.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T02:22:17Z",
+          "dateModified": "2023-04-20T13:58:18Z",
+          "uri": "http://zotero.org/users/8871808/items/75J86QQF",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\75J86QQF\\Cavinato_2021_Dynamic-Aware_Autonomous_Exploration_in_Populated_Environments.pdf",
+          "select": "zotero://select/library/items/75J86QQF"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -1717,17 +1726,6 @@
           "uri": "http://zotero.org/users/8871808/items/44MIR2TK",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\44MIR2TK\\9560933.html",
           "select": "zotero://select/library/items/44MIR2TK"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T02:22:17Z",
-          "dateModified": "2022-11-04T02:22:17Z",
-          "uri": "http://zotero.org/users/8871808/items/75J86QQF",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\75J86QQF\\Cavinato 等 - 2021 - Dynamic-Aware Autonomous Exploration in Populated .pdf",
-          "select": "zotero://select/library/items/75J86QQF"
         }
       ],
       "notes": [],
@@ -1810,13 +1808,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Charrow et al. - 2015 - Information-Theoretic Planning with Trajectory Opt.pdf",
+          "title": "Charrow_2015_Information-Theoretic_Planning_with_Trajectory_Optimization_for_Dense_3D_Mapping.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:15:29Z",
-          "dateModified": "2021-12-12T13:15:33Z",
+          "dateModified": "2023-04-20T13:58:18Z",
           "uri": "http://zotero.org/users/8871808/items/MVBLTZ86",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\MVBLTZ86\\Charrow et al. - 2015 - Information-Theoretic Planning with Trajectory Opt.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\MVBLTZ86\\Charrow_2015_Information-Theoretic_Planning_with_Trajectory_Optimization_for_Dense_3D_Mapping.pdf",
           "select": "zotero://select/library/items/MVBLTZ86"
         }
       ],
@@ -1941,6 +1939,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Chen_2018_DeepLab.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-02-06T05:29:44Z",
+          "dateModified": "2023-04-20T13:54:59Z",
+          "uri": "http://zotero.org/users/8871808/items/JLX75WD7",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\JLX75WD7\\Chen_2018_DeepLab.pdf",
+          "select": "zotero://select/library/items/JLX75WD7"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -1949,17 +1958,6 @@
           "uri": "http://zotero.org/users/8871808/items/FGCDWVEU",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\FGCDWVEU\\stamp.html",
           "select": "zotero://select/library/items/FGCDWVEU"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-02-06T05:29:44Z",
-          "dateModified": "2023-02-06T05:29:44Z",
-          "uri": "http://zotero.org/users/8871808/items/JLX75WD7",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\JLX75WD7\\Chen 等 - 2018 - DeepLab Semantic Image Segmentation with Deep Con.pdf",
-          "select": "zotero://select/library/items/JLX75WD7"
         }
       ],
       "notes": [],
@@ -2047,13 +2045,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Chen 等 - 2018 - Encoder-Decoder with Atrous Separable Convolution .pdf",
+          "title": "Chen_2018_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semantic_Image.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-06T05:31:34Z",
-          "dateModified": "2023-02-06T05:31:39Z",
+          "dateModified": "2023-04-20T13:58:19Z",
           "uri": "http://zotero.org/users/8871808/items/WB4RTKDB",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\WB4RTKDB\\Chen 等 - 2018 - Encoder-Decoder with Atrous Separable Convolution .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\WB4RTKDB\\Chen_2018_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semantic_Image.pdf",
           "select": "zotero://select/library/items/WB4RTKDB"
         }
       ],
@@ -2116,17 +2114,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-02-06T05:31:07Z",
-          "dateModified": "2023-02-06T05:31:07Z",
-          "uri": "http://zotero.org/users/8871808/items/MDMNNEIZ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\MDMNNEIZ\\Chen 等 - 2017 - Rethinking Atrous Convolution for Semantic Image S.pdf",
-          "select": "zotero://select/library/items/MDMNNEIZ"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -2135,6 +2122,17 @@
           "uri": "http://zotero.org/users/8871808/items/9R54ND2Q",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\9R54ND2Q\\1706.html",
           "select": "zotero://select/library/items/9R54ND2Q"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Chen_2017_Rethinking_Atrous_Convolution_for_Semantic_Image_Segmentation.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-02-06T05:31:07Z",
+          "dateModified": "2023-04-20T13:58:18Z",
+          "uri": "http://zotero.org/users/8871808/items/MDMNNEIZ",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\MDMNNEIZ\\Chen_2017_Rethinking_Atrous_Convolution_for_Semantic_Image_Segmentation.pdf",
+          "select": "zotero://select/library/items/MDMNNEIZ"
         }
       ],
       "notes": [
@@ -2223,17 +2221,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-02-06T05:28:00Z",
-          "dateModified": "2023-02-06T05:28:00Z",
-          "uri": "http://zotero.org/users/8871808/items/H7XKD3VP",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\H7XKD3VP\\Chen 等 - 2016 - Semantic Image Segmentation with Deep Convolutiona.pdf",
-          "select": "zotero://select/library/items/H7XKD3VP"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -2242,6 +2229,17 @@
           "uri": "http://zotero.org/users/8871808/items/YRW89AD2",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\YRW89AD2\\1412.html",
           "select": "zotero://select/library/items/YRW89AD2"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Chen_2016_Semantic_Image_Segmentation_with_Deep_Convolutional_Nets_and_Fully_Connected.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-02-06T05:28:00Z",
+          "dateModified": "2023-04-20T13:58:18Z",
+          "uri": "http://zotero.org/users/8871808/items/H7XKD3VP",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\H7XKD3VP\\Chen_2016_Semantic_Image_Segmentation_with_Deep_Convolutional_Nets_and_Fully_Connected.pdf",
+          "select": "zotero://select/library/items/H7XKD3VP"
         }
       ],
       "notes": [
@@ -2308,13 +2306,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Cieslewski et al. - 2017 - Rapid exploration with multi-rotors A frontier se.pdf",
+          "title": "Cieslewski_2017_Rapid_exploration_with_multi-rotors.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:09:47Z",
-          "dateModified": "2021-12-12T13:09:56Z",
+          "dateModified": "2023-04-20T13:58:19Z",
           "uri": "http://zotero.org/users/8871808/items/LJ67EFXK",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LJ67EFXK\\Cieslewski et al. - 2017 - Rapid exploration with multi-rotors A frontier se.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LJ67EFXK\\Cieslewski_2017_Rapid_exploration_with_multi-rotors.pdf",
           "select": "zotero://select/library/items/LJ67EFXK"
         }
       ],
@@ -2383,13 +2381,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Connolly_1985_The determination of next best views.pdf",
+          "title": "Connolly_1985_The_determination_of_next_best_views.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T09:16:37Z",
-          "dateModified": "2022-04-02T09:16:37Z",
+          "dateModified": "2023-04-20T13:58:19Z",
           "uri": "http://zotero.org/users/8871808/items/7ZDECR7X",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7ZDECR7X\\Connolly_1985_The determination of next best views.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7ZDECR7X\\Connolly_1985_The_determination_of_next_best_views.pdf",
           "select": "zotero://select/library/items/7ZDECR7X"
         },
         {
@@ -2509,6 +2507,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Dai_2020_Fast_Frontier-based_Information-driven_Autonomous_Exploration_with_an_MAV.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-09-16T08:04:20Z",
+          "dateModified": "2023-04-20T13:58:19Z",
+          "uri": "http://zotero.org/users/8871808/items/S2CHDMKM",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\S2CHDMKM\\Dai_2020_Fast_Frontier-based_Information-driven_Autonomous_Exploration_with_an_MAV.pdf",
+          "select": "zotero://select/library/items/S2CHDMKM"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -2517,17 +2526,6 @@
           "uri": "http://zotero.org/users/8871808/items/FZQBBAEE",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\FZQBBAEE\\9196707.html",
           "select": "zotero://select/library/items/FZQBBAEE"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-09-16T08:04:20Z",
-          "dateModified": "2022-09-16T08:04:20Z",
-          "uri": "http://zotero.org/users/8871808/items/S2CHDMKM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\S2CHDMKM\\Dai 等。 - 2020 - Fast Frontier-based Information-driven Autonomous .pdf",
-          "select": "zotero://select/library/items/S2CHDMKM"
         }
       ],
       "notes": [],
@@ -2599,6 +2597,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Dang_2018_Autonomous_exploration_and_simultaneous_object_search_using_aerial_robots.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T03:01:36Z",
+          "dateModified": "2023-04-20T13:58:20Z",
+          "uri": "http://zotero.org/users/8871808/items/Z89CSQSM",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\Z89CSQSM\\Dang_2018_Autonomous_exploration_and_simultaneous_object_search_using_aerial_robots.pdf",
+          "select": "zotero://select/library/items/Z89CSQSM"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -2607,17 +2616,6 @@
           "uri": "http://zotero.org/users/8871808/items/3SAWZK6T",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\3SAWZK6T\\8396632.html",
           "select": "zotero://select/library/items/3SAWZK6T"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T03:01:36Z",
-          "dateModified": "2022-11-04T03:01:36Z",
-          "uri": "http://zotero.org/users/8871808/items/Z89CSQSM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\Z89CSQSM\\Dang 等 - 2018 - Autonomous exploration and simultaneous object sea.pdf",
-          "select": "zotero://select/library/items/Z89CSQSM"
         }
       ],
       "notes": [],
@@ -2689,13 +2687,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Dang et al. - 2020 - Graph‐based subterranean exploration path planning.pdf",
+          "title": "Dang_2020_Graph‐based_subterranean_exploration_path_planning_using_aerial_and_legged.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:12:03Z",
-          "dateModified": "2021-12-12T13:12:08Z",
+          "dateModified": "2023-04-20T13:58:20Z",
           "uri": "http://zotero.org/users/8871808/items/RSQKIQJU",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\RSQKIQJU\\Dang et al. - 2020 - Graph‐based subterranean exploration path planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\RSQKIQJU\\Dang_2020_Graph‐based_subterranean_exploration_path_planning_using_aerial_and_legged.pdf",
           "select": "zotero://select/library/items/RSQKIQJU"
         }
       ],
@@ -2766,13 +2764,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Dang 等。 - 2018 - Visual Saliency-Aware Receding Horizon Autonomous .pdf",
+          "title": "Dang_2018_Visual_Saliency-Aware_Receding_Horizon_Autonomous_Exploration_with_Application.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:39Z",
-          "dateModified": "2021-12-12T12:40:08Z",
+          "dateModified": "2023-04-20T13:58:20Z",
           "uri": "http://zotero.org/users/8871808/items/HT9DK8U4",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HT9DK8U4\\Dang 等。 - 2018 - Visual Saliency-Aware Receding Horizon Autonomous .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HT9DK8U4\\Dang_2018_Visual_Saliency-Aware_Receding_Horizon_Autonomous_Exploration_with_Application.pdf",
           "select": "zotero://select/library/items/HT9DK8U4"
         }
       ],
@@ -2862,6 +2860,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Datta_Akella_2021_Prioritized_Indoor_Exploration_with_a_Dynamic_Deadline.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T03:08:48Z",
+          "dateModified": "2023-04-20T13:58:20Z",
+          "uri": "http://zotero.org/users/8871808/items/AZ69T5QW",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\AZ69T5QW\\Datta_Akella_2021_Prioritized_Indoor_Exploration_with_a_Dynamic_Deadline.pdf",
+          "select": "zotero://select/library/items/AZ69T5QW"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -2870,17 +2879,6 @@
           "uri": "http://zotero.org/users/8871808/items/VFRDQ48Q",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\VFRDQ48Q\\9636199.html",
           "select": "zotero://select/library/items/VFRDQ48Q"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T03:08:48Z",
-          "dateModified": "2022-11-04T03:08:48Z",
-          "uri": "http://zotero.org/users/8871808/items/AZ69T5QW",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\AZ69T5QW\\Datta 和 Akella - 2021 - Prioritized Indoor Exploration with a Dynamic Dead.pdf",
-          "select": "zotero://select/library/items/AZ69T5QW"
         }
       ],
       "notes": [],
@@ -2962,13 +2960,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Daudelin_Campbell_2017_An Adaptable, Probabilistic, Next-Best View Algorithm for Reconstruction of.pdf",
+          "title": "Daudelin_Campbell_2017_An_Adaptable,_Probabilistic,_Next-Best_View_Algorithm_for_Reconstruction_of.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T09:04:25Z",
-          "dateModified": "2022-04-02T09:04:25Z",
+          "dateModified": "2023-04-20T13:58:21Z",
           "uri": "http://zotero.org/users/8871808/items/L4TFF2EQ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\L4TFF2EQ\\Daudelin_Campbell_2017_An Adaptable, Probabilistic, Next-Best View Algorithm for Reconstruction of.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\L4TFF2EQ\\Daudelin_Campbell_2017_An_Adaptable,_Probabilistic,_Next-Best_View_Algorithm_for_Reconstruction_of.pdf",
           "select": "zotero://select/library/items/L4TFF2EQ"
         },
         {
@@ -3045,22 +3043,6 @@
       ],
       "tags": [
         {
-          "tag": "Inspection",
-          "type": 1
-        },
-        {
-          "tag": "Robot vision systems",
-          "type": 1
-        },
-        {
-          "tag": "Schedules",
-          "type": 1
-        },
-        {
-          "tag": "Semantics",
-          "type": 1
-        },
-        {
           "tag": "Solid modeling",
           "type": 1
         },
@@ -3069,7 +3051,23 @@
           "type": 1
         },
         {
+          "tag": "Robot vision systems",
+          "type": 1
+        },
+        {
+          "tag": "Inspection",
+          "type": 1
+        },
+        {
+          "tag": "Semantics",
+          "type": 1
+        },
+        {
           "tag": "Visualization",
+          "type": 1
+        },
+        {
+          "tag": "Schedules",
           "type": 1
         }
       ],
@@ -3081,6 +3079,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "de_Figueiredo_2021_Real-Time_Volumetric-Semantic_Exploration_and_Mapping.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-10-31T07:07:38Z",
+          "dateModified": "2023-04-20T13:58:21Z",
+          "uri": "http://zotero.org/users/8871808/items/LG55NVWC",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LG55NVWC\\de_Figueiredo_2021_Real-Time_Volumetric-Semantic_Exploration_and_Mapping.pdf",
+          "select": "zotero://select/library/items/LG55NVWC"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -3089,17 +3098,6 @@
           "uri": "http://zotero.org/users/8871808/items/EGYSIQ9G",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\EGYSIQ9G\\9635986.html",
           "select": "zotero://select/library/items/EGYSIQ9G"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-10-31T07:07:38Z",
-          "dateModified": "2022-10-31T07:07:38Z",
-          "uri": "http://zotero.org/users/8871808/items/LG55NVWC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LG55NVWC\\de Figueiredo 等。 - 2021 - Real-Time Volumetric-Semantic Exploration and Mapp.pdf",
-          "select": "zotero://select/library/items/LG55NVWC"
         }
       ],
       "notes": [],
@@ -3166,13 +3164,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Deng et al. - 2020 - Robotic Exploration of Unknown 2D Environment Usin.pdf",
+          "title": "Deng_2020_Robotic_Exploration_of_Unknown_2D_Environment_Using_a_Frontier-based.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:09:47Z",
-          "dateModified": "2021-12-12T13:09:52Z",
+          "dateModified": "2023-04-20T13:58:21Z",
           "uri": "http://zotero.org/users/8871808/items/LP9BSF5X",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LP9BSF5X\\Deng et al. - 2020 - Robotic Exploration of Unknown 2D Environment Usin.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LP9BSF5X\\Deng_2020_Robotic_Exploration_of_Unknown_2D_Environment_Using_a_Frontier-based.pdf",
           "select": "zotero://select/library/items/LP9BSF5X"
         }
       ],
@@ -3240,13 +3238,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Devrim_Kaba_2017_A_Reinforcement_Learning_Approach_to_the_View_Planning_Problem.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-26T07:30:53Z",
-          "dateModified": "2023-03-26T07:30:53Z",
+          "dateModified": "2023-04-20T13:58:21Z",
           "uri": "http://zotero.org/users/8871808/items/UX89PDNF",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\UX89PDNF\\Devrim Kaba 等 - 2017 - A Reinforcement Learning Approach to the View Plan.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\UX89PDNF\\Devrim_Kaba_2017_A_Reinforcement_Learning_Approach_to_the_View_Planning_Problem.pdf",
           "select": "zotero://select/library/items/UX89PDNF"
         }
       ],
@@ -3340,13 +3338,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Dharmadhikari et al_2020_Motion Primitives-based Path Planning for Fast and Agile Exploration using.pdf",
+          "title": "Dharmadhikari_2020_Motion_Primitives-based_Path_Planning_for_Fast_and_Agile_Exploration_using.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T10:32:06Z",
-          "dateModified": "2022-04-07T10:32:07Z",
+          "dateModified": "2023-04-20T13:58:22Z",
           "uri": "http://zotero.org/users/8871808/items/863SPVX8",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\863SPVX8\\Dharmadhikari et al_2020_Motion Primitives-based Path Planning for Fast and Agile Exploration using.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\863SPVX8\\Dharmadhikari_2020_Motion_Primitives-based_Path_Planning_for_Fast_and_Agile_Exploration_using.pdf",
           "select": "zotero://select/library/items/863SPVX8"
         },
         {
@@ -3379,106 +3377,6 @@
       "itemKey": "MAP8EQ3B",
       "libraryID": 1,
       "select": "zotero://select/library/items/MAP8EQ3B"
-    },
-    {
-      "key": "AZ5T3AAA",
-      "version": 300,
-      "itemType": "conferencePaper",
-      "title": "Motion Primitives-based Path Planning for Fast and Agile Exploration using Aerial Robots",
-      "abstractNote": "This paper presents a novel path planning strategy for fast and agile exploration using aerial robots. Tailored to the combined need for large-scale exploration of challenging and confined environments, despite the limited endurance of micro aerial vehicles, the proposed planner employs motion primitives to identify admissible paths that search the configuration space, while exploiting the dynamic flight properties of small aerial robots. Utilizing a computationally efficient volumetric representation of the environment, the planner provides fast collision-free and future-safe paths that maximize the expected exploration gain and ensure continuous fast navigation through the unknown environment. The new method is field-verified in a set of deployments relating to subterranean exploration and specifically, in both modern and abandoned underground mines in Northern Nevada utilizing a 0.55m-wide collision-tolerant flying robot exploring with a speed of up to 2m/s and navigating sections with width as small as 0.8m.",
-      "date": "2020",
-      "libraryCatalog": "IEEE Xplore",
-      "extra": "ISSN: 2577-087X",
-      "pages": "179-185",
-      "proceedingsTitle": "2020 IEEE International Conference on Robotics and Automation (ICRA)",
-      "conferenceName": "2020 IEEE International Conference on Robotics and Automation (ICRA)",
-      "DOI": "10.1109/ICRA40945.2020.9196964",
-      "creators": [
-        {
-          "firstName": "Mihir",
-          "lastName": "Dharmadhikari",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Tung",
-          "lastName": "Dang",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Lukas",
-          "lastName": "Solanka",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Johannes",
-          "lastName": "Loje",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Huan",
-          "lastName": "Nguyen",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Nikhil",
-          "lastName": "Khedekar",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Kostas",
-          "lastName": "Alexis",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "Unmanned aerial vehicles",
-          "type": 1
-        },
-        {
-          "tag": "Path planning",
-          "type": 1
-        },
-        {
-          "tag": "Collision avoidance",
-          "type": 1
-        },
-        {
-          "tag": "Dynamics",
-          "type": 1
-        },
-        {
-          "tag": "Educational robots",
-          "type": 1
-        },
-        {
-          "tag": "Vehicle dynamics",
-          "type": 1
-        }
-      ],
-      "relations": [],
-      "dateAdded": "2022-04-07T10:30:21Z",
-      "dateModified": "2022-04-07T10:30:21Z",
-      "uri": "http://zotero.org/users/8871808/items/AZ5T3AAA",
-      "itemID": 224,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Abstract Record",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-04-07T10:30:48Z",
-          "dateModified": "2022-04-07T10:30:48Z",
-          "uri": "http://zotero.org/users/8871808/items/AT8PERXL",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\AT8PERXL\\9196964.html",
-          "select": "zotero://select/library/items/AT8PERXL"
-        }
-      ],
-      "notes": [],
-      "citationKey": "dharmadhikariMotionPrimitivesbasedPath2020",
-      "itemKey": "AZ5T3AAA",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/AZ5T3AAA"
     },
     {
       "key": "VSL5IDGR",
@@ -3554,13 +3452,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "ELzaiady_Elnagar_2017_Next-best-view planning for environment exploration and 3D model construction.pdf",
+          "title": "ELzaiady_Elnagar_2017_Next-best-view_planning_for_environment_exploration_and_3D_model_construction.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T08:50:45Z",
-          "dateModified": "2022-04-02T08:50:46Z",
+          "dateModified": "2023-04-20T13:58:22Z",
           "uri": "http://zotero.org/users/8871808/items/3359KWSJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\3359KWSJ\\ELzaiady_Elnagar_2017_Next-best-view planning for environment exploration and 3D model construction.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\3359KWSJ\\ELzaiady_Elnagar_2017_Next-best-view_planning_for_environment_exploration_and_3D_model_construction.pdf",
           "select": "zotero://select/library/items/3359KWSJ"
         },
         {
@@ -3653,17 +3551,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-03-26T07:49:46Z",
-          "dateModified": "2023-03-26T07:49:46Z",
-          "uri": "http://zotero.org/users/8871808/items/XGUIG76L",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\XGUIG76L\\Feng 等 - 2023 - PredRecon A Prediction-boosted Planning Framework.pdf",
-          "select": "zotero://select/library/items/XGUIG76L"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -3672,6 +3559,17 @@
           "uri": "http://zotero.org/users/8871808/items/3ZEZIDQ5",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\3ZEZIDQ5\\2302.html",
           "select": "zotero://select/library/items/3ZEZIDQ5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Feng_2023_PredRecon.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-26T07:49:46Z",
+          "dateModified": "2023-04-20T13:55:03Z",
+          "uri": "http://zotero.org/users/8871808/items/XGUIG76L",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\XGUIG76L\\Feng_2023_PredRecon.pdf",
+          "select": "zotero://select/library/items/XGUIG76L"
         }
       ],
       "notes": [
@@ -3725,13 +3623,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Foehn 和 Scaramuzza - CPC Complementary Progress Constraints for Time-O.pdf",
+          "title": "Foehn_Scaramuzza_CPC.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:20Z",
-          "dateModified": "2021-12-12T12:41:50Z",
+          "dateModified": "2023-04-20T13:55:03Z",
           "uri": "http://zotero.org/users/8871808/items/6NYFRVM6",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\6NYFRVM6\\Foehn 和 Scaramuzza - CPC Complementary Progress Constraints for Time-O.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\6NYFRVM6\\Foehn_Scaramuzza_CPC.pdf",
           "select": "zotero://select/library/items/6NYFRVM6"
         }
       ],
@@ -3786,13 +3684,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Foehn 等。 - 2021 - Time-optimal planning for quadrotor waypoint fligh.pdf",
+          "title": "Foehn_2021_Time-optimal_planning_for_quadrotor_waypoint_flight.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:48:49Z",
-          "dateModified": "2021-12-12T12:49:08Z",
+          "dateModified": "2023-04-20T13:58:22Z",
           "uri": "http://zotero.org/users/8871808/items/CPIVA7SS",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\CPIVA7SS\\Foehn 等。 - 2021 - Time-optimal planning for quadrotor waypoint fligh.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\CPIVA7SS\\Foehn_2021_Time-optimal_planning_for_quadrotor_waypoint_flight.pdf",
           "select": "zotero://select/library/items/CPIVA7SS"
         }
       ],
@@ -3899,6 +3797,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Frey_2022_Continual_Adaptation_of_Semantic_Segmentation_Using_Complementary_2D-3D_Data.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T02:33:10Z",
+          "dateModified": "2023-04-20T13:58:22Z",
+          "uri": "http://zotero.org/users/8871808/items/BL5SZFRC",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\BL5SZFRC\\Frey_2022_Continual_Adaptation_of_Semantic_Segmentation_Using_Complementary_2D-3D_Data.pdf",
+          "select": "zotero://select/library/items/BL5SZFRC"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -3907,17 +3816,6 @@
           "uri": "http://zotero.org/users/8871808/items/TJ8LRQHD",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\TJ8LRQHD\\9874976.html",
           "select": "zotero://select/library/items/TJ8LRQHD"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T02:33:10Z",
-          "dateModified": "2022-11-04T02:33:10Z",
-          "uri": "http://zotero.org/users/8871808/items/BL5SZFRC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\BL5SZFRC\\Frey 等 - 2022 - Continual Adaptation of Semantic Segmentation Usin.pdf",
-          "select": "zotero://select/library/items/BL5SZFRC"
         }
       ],
       "notes": [],
@@ -3980,13 +3878,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Furrer et al. - 2016 - RotorS—A Modular Gazebo MAV Simulator Framework.pdf",
+          "title": "Furrer_2016_RotorS—A_Modular_Gazebo_MAV_Simulator_Framework.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-11T10:13:56Z",
-          "dateModified": "2022-05-11T10:14:03Z",
+          "dateModified": "2023-04-20T13:58:23Z",
           "uri": "http://zotero.org/users/8871808/items/HNNXRXZI",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HNNXRXZI\\Furrer et al. - 2016 - RotorS—A Modular Gazebo MAV Simulator Framework.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HNNXRXZI\\Furrer_2016_RotorS—A_Modular_Gazebo_MAV_Simulator_Framework.pdf",
           "select": "zotero://select/library/items/HNNXRXZI"
         }
       ],
@@ -4056,13 +3954,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Gao 等。 - 2020 - Teach-Repeat-Replan A Complete and Robust System .pdf",
+          "title": "Gao_2020_Teach-Repeat-Replan.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:19Z",
-          "dateModified": "2021-12-12T12:41:45Z",
+          "dateModified": "2023-04-20T13:55:04Z",
           "uri": "http://zotero.org/users/8871808/items/IDC6TLD7",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\IDC6TLD7\\Gao 等。 - 2020 - Teach-Repeat-Replan A Complete and Robust System .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\IDC6TLD7\\Gao_2020_Teach-Repeat-Replan.pdf",
           "select": "zotero://select/library/items/IDC6TLD7"
         }
       ],
@@ -4109,11 +4007,15 @@
       ],
       "tags": [
         {
-          "tag": "Intelligent robots",
+          "tag": "Robot sensing systems",
           "type": 1
         },
         {
           "tag": "Mobile robots",
+          "type": 1
+        },
+        {
+          "tag": "Shape",
           "type": 1
         },
         {
@@ -4125,27 +4027,23 @@
           "type": 1
         },
         {
-          "tag": "Planing",
-          "type": 1
-        },
-        {
-          "tag": "Robot sensing systems",
-          "type": 1
-        },
-        {
-          "tag": "Sensor phenomena and characterization",
-          "type": 1
-        },
-        {
-          "tag": "Shape",
-          "type": 1
-        },
-        {
           "tag": "Skeleton",
           "type": 1
         },
         {
           "tag": "Trajectory",
+          "type": 1
+        },
+        {
+          "tag": "Intelligent robots",
+          "type": 1
+        },
+        {
+          "tag": "Planing",
+          "type": 1
+        },
+        {
+          "tag": "Sensor phenomena and characterization",
           "type": 1
         }
       ],
@@ -4157,6 +4055,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Garrido_2006_Path_Planning_for_Mobile_Robot_Navigation_using_Voronoi_Diagram_and_Fast.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-10-28T02:30:57Z",
+          "dateModified": "2023-04-20T13:58:23Z",
+          "uri": "http://zotero.org/users/8871808/items/Y7N5Y5EA",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\Y7N5Y5EA\\Garrido_2006_Path_Planning_for_Mobile_Robot_Navigation_using_Voronoi_Diagram_and_Fast.pdf",
+          "select": "zotero://select/library/items/Y7N5Y5EA"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -4165,17 +4074,6 @@
           "uri": "http://zotero.org/users/8871808/items/RWWLEULT",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\RWWLEULT\\4058742.html",
           "select": "zotero://select/library/items/RWWLEULT"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-10-28T02:30:57Z",
-          "dateModified": "2022-10-28T02:30:57Z",
-          "uri": "http://zotero.org/users/8871808/items/Y7N5Y5EA",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\Y7N5Y5EA\\Garrido 等。 - 2006 - Path Planning for Mobile Robot Navigation using Vo.pdf",
-          "select": "zotero://select/library/items/Y7N5Y5EA"
         }
       ],
       "notes": [],
@@ -4267,13 +4165,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Gasser et al_2021_Voxplan.pdf",
+          "title": "Gasser_2021_Voxplan.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T10:32:19Z",
-          "dateModified": "2023-04-04T10:32:20Z",
+          "dateModified": "2023-04-20T13:55:05Z",
           "uri": "http://zotero.org/users/8871808/items/PE2JW3PX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\PE2JW3PX\\Gasser et al_2021_Voxplan.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\PE2JW3PX\\Gasser_2021_Voxplan.pdf",
           "select": "zotero://select/library/items/PE2JW3PX"
         },
         {
@@ -4386,6 +4284,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Gomez_2020_Hybrid_Topological_and_3D_Dense_Mapping_through_Autonomous_Exploration_for.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T02:27:49Z",
+          "dateModified": "2023-04-20T13:58:23Z",
+          "uri": "http://zotero.org/users/8871808/items/ZUHIWKAR",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZUHIWKAR\\Gomez_2020_Hybrid_Topological_and_3D_Dense_Mapping_through_Autonomous_Exploration_for.pdf",
+          "select": "zotero://select/library/items/ZUHIWKAR"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -4394,17 +4303,6 @@
           "uri": "http://zotero.org/users/8871808/items/IQHK3CZA",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\IQHK3CZA\\9197226.html",
           "select": "zotero://select/library/items/IQHK3CZA"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T02:27:49Z",
-          "dateModified": "2022-11-04T02:27:49Z",
-          "uri": "http://zotero.org/users/8871808/items/ZUHIWKAR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZUHIWKAR\\Gomez 等 - 2020 - Hybrid Topological and 3D Dense Mapping through Au.pdf",
-          "select": "zotero://select/library/items/ZUHIWKAR"
         }
       ],
       "notes": [],
@@ -4477,17 +4375,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-02-06T05:33:01Z",
-          "dateModified": "2023-02-06T05:33:01Z",
-          "uri": "http://zotero.org/users/8871808/items/9NMGMMHJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\9NMGMMHJ\\Guo 等 - 2022 - SegNeXt Rethinking Convolutional Attention Design.pdf",
-          "select": "zotero://select/library/items/9NMGMMHJ"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -4496,6 +4383,17 @@
           "uri": "http://zotero.org/users/8871808/items/KUT524XG",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\KUT524XG\\2209.html",
           "select": "zotero://select/library/items/KUT524XG"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Guo_2022_SegNeXt.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-02-06T05:33:01Z",
+          "dateModified": "2023-04-20T13:55:05Z",
+          "uri": "http://zotero.org/users/8871808/items/9NMGMMHJ",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\9NMGMMHJ\\Guo_2022_SegNeXt.pdf",
+          "select": "zotero://select/library/items/9NMGMMHJ"
         }
       ],
       "notes": [
@@ -4556,13 +4454,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Han et al. - FIESTA Fast Incremental Euclidean Distance Fields.pdf",
+          "title": "Han_FIESTA.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:19:43Z",
-          "dateModified": "2021-12-12T13:19:46Z",
+          "dateModified": "2023-04-20T13:55:06Z",
           "uri": "http://zotero.org/users/8871808/items/LH8GE4YD",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LH8GE4YD\\Han et al. - FIESTA Fast Incremental Euclidean Distance Fields.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LH8GE4YD\\Han_FIESTA.pdf",
           "select": "zotero://select/library/items/LH8GE4YD"
         }
       ],
@@ -4602,13 +4500,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Harabor 和 Grastien - Online Graph Pruning for Pathfinding on Grid Maps.pdf",
+          "title": "Harabor_Grastien_Online_Graph_Pruning_for_Pathfinding_on_Grid_Maps.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:22Z",
-          "dateModified": "2021-12-12T12:42:06Z",
+          "dateModified": "2023-04-20T13:58:24Z",
           "uri": "http://zotero.org/users/8871808/items/TTJCDABN",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\TTJCDABN\\Harabor 和 Grastien - Online Graph Pruning for Pathfinding on Grid Maps.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\TTJCDABN\\Harabor_Grastien_Online_Graph_Pruning_for_Pathfinding_on_Grid_Maps.pdf",
           "select": "zotero://select/library/items/TTJCDABN"
         }
       ],
@@ -4700,6 +4598,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Hardouin_2020_Next-Best-View_planning_for_surface_reconstruction_of_large-scale_3D.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-02-06T06:32:03Z",
+          "dateModified": "2023-04-20T13:58:24Z",
+          "uri": "http://zotero.org/users/8871808/items/28GPEW5Q",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\28GPEW5Q\\Hardouin_2020_Next-Best-View_planning_for_surface_reconstruction_of_large-scale_3D.pdf",
+          "select": "zotero://select/library/items/28GPEW5Q"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -4708,17 +4617,6 @@
           "uri": "http://zotero.org/users/8871808/items/YX7JAULM",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\YX7JAULM\\stamp.html",
           "select": "zotero://select/library/items/YX7JAULM"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-02-06T06:32:03Z",
-          "dateModified": "2023-02-06T06:32:03Z",
-          "uri": "http://zotero.org/users/8871808/items/28GPEW5Q",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\28GPEW5Q\\Hardouin 等 - 2020 - Next-Best-View planning for surface reconstruction.pdf",
-          "select": "zotero://select/library/items/28GPEW5Q"
         }
       ],
       "notes": [],
@@ -4775,13 +4673,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Hauser - 2021 - Motion and Path Planning.pdf",
+          "title": "Hauser_2021_Motion_and_Path_Planning.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:20Z",
-          "dateModified": "2021-12-12T12:41:53Z",
+          "dateModified": "2023-04-20T13:58:24Z",
           "uri": "http://zotero.org/users/8871808/items/K77EIWI9",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\K77EIWI9\\Hauser - 2021 - Motion and Path Planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\K77EIWI9\\Hauser_2021_Motion_and_Path_Planning.pdf",
           "select": "zotero://select/library/items/K77EIWI9"
         }
       ],
@@ -4849,13 +4747,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Hepp_2018_Learn-to-Score.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-26T07:32:00Z",
-          "dateModified": "2023-03-26T07:32:00Z",
+          "dateModified": "2023-04-20T13:55:07Z",
           "uri": "http://zotero.org/users/8871808/items/35833ISA",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\35833ISA\\Hepp 等 - 2018 - Learn-to-Score Efficient 3D Scene Exploration by .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\35833ISA\\Hepp_2018_Learn-to-Score.pdf",
           "select": "zotero://select/library/items/35833ISA"
         }
       ],
@@ -4942,6 +4840,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Herb_2021_Lightweight_Semantic_Mesh_Mapping_for_Autonomous_Vehicles.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-04T03:56:21Z",
+          "dateModified": "2023-04-20T13:58:24Z",
+          "uri": "http://zotero.org/users/8871808/items/3ITQ8EWC",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\3ITQ8EWC\\Herb_2021_Lightweight_Semantic_Mesh_Mapping_for_Autonomous_Vehicles.pdf",
+          "select": "zotero://select/library/items/3ITQ8EWC"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -4950,17 +4859,6 @@
           "uri": "http://zotero.org/users/8871808/items/WQ8WQA5D",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\WQ8WQA5D\\9560996.html",
           "select": "zotero://select/library/items/WQ8WQA5D"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-04T03:56:21Z",
-          "dateModified": "2022-11-04T03:56:21Z",
-          "uri": "http://zotero.org/users/8871808/items/3ITQ8EWC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\3ITQ8EWC\\Herb 等 - 2021 - Lightweight Semantic Mesh Mapping for Autonomous V.pdf",
-          "select": "zotero://select/library/items/3ITQ8EWC"
         }
       ],
       "notes": [],
@@ -5046,13 +4944,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Hornung_2013_OctoMap.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-07T06:01:24Z",
-          "dateModified": "2022-11-07T06:01:24Z",
+          "dateModified": "2023-04-20T13:55:07Z",
           "uri": "http://zotero.org/users/8871808/items/VEFEJVUZ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\VEFEJVUZ\\Hornung 等 - 2013 - OctoMap an efficient probabilistic 3D mapping fra.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\VEFEJVUZ\\Hornung_2013_OctoMap.pdf",
           "select": "zotero://select/library/items/VEFEJVUZ"
         }
       ],
@@ -5157,13 +5055,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Hou et al_2019_Volumetric Next Best View by 3D Occupancy Mapping Using Markov Chain Gibbs.pdf",
+          "title": "Hou_2019_Volumetric_Next_Best_View_by_3D_Occupancy_Mapping_Using_Markov_Chain_Gibbs.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T09:57:24Z",
-          "dateModified": "2022-04-02T09:57:24Z",
+          "dateModified": "2023-04-20T13:58:25Z",
           "uri": "http://zotero.org/users/8871808/items/KWN2ZVQK",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\KWN2ZVQK\\Hou et al_2019_Volumetric Next Best View by 3D Occupancy Mapping Using Markov Chain Gibbs.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\KWN2ZVQK\\Hou_2019_Volumetric_Next_Best_View_by_3D_Occupancy_Mapping_Using_Markov_Chain_Gibbs.pdf",
           "select": "zotero://select/library/items/KWN2ZVQK"
         },
         {
@@ -5305,6 +5203,17 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "title": "Huang_2023_FAEL.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-26T07:48:17Z",
+          "dateModified": "2023-04-20T13:55:08Z",
+          "uri": "http://zotero.org/users/8871808/items/IYUAUB3T",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\IYUAUB3T\\Huang_2023_FAEL.pdf",
+          "select": "zotero://select/library/items/IYUAUB3T"
+        },
+        {
+          "itemType": "attachment",
           "title": "IEEE Xplore Abstract Record",
           "tags": [],
           "relations": [],
@@ -5313,17 +5222,6 @@
           "uri": "http://zotero.org/users/8871808/items/Z2SXXQSV",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\Z2SXXQSV\\stamp.html",
           "select": "zotero://select/library/items/Z2SXXQSV"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-03-26T07:48:17Z",
-          "dateModified": "2023-03-26T07:48:17Z",
-          "uri": "http://zotero.org/users/8871808/items/IYUAUB3T",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\IYUAUB3T\\Huang 等 - 2023 - FAEL Fast Autonomous Exploration for Large-scale .pdf",
-          "select": "zotero://select/library/items/IYUAUB3T"
         }
       ],
       "notes": [],
@@ -5381,13 +5279,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Invernizzi et al. - 2021 - Comparison of Control Methods for Trajectory Track.pdf",
+          "title": "Invernizzi_2021_Comparison_of_Control_Methods_for_Trajectory_Tracking_in_Fully_Actuated.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:20:12Z",
-          "dateModified": "2021-12-12T13:20:19Z",
+          "dateModified": "2023-04-20T13:58:25Z",
           "uri": "http://zotero.org/users/8871808/items/L6TQ8D9N",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\L6TQ8D9N\\Invernizzi et al. - 2021 - Comparison of Control Methods for Trajectory Track.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\L6TQ8D9N\\Invernizzi_2021_Comparison_of_Control_Methods_for_Trajectory_Tracking_in_Fully_Actuated.pdf",
           "select": "zotero://select/library/items/L6TQ8D9N"
         }
       ],
@@ -5476,13 +5374,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Isler et al_2016_An information gain formulation for active volumetric 3D reconstruction.pdf",
+          "title": "Isler_2016_An_information_gain_formulation_for_active_volumetric_3D_reconstruction.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T07:34:56Z",
-          "dateModified": "2022-04-06T07:34:56Z",
+          "dateModified": "2023-04-20T13:58:25Z",
           "uri": "http://zotero.org/users/8871808/items/BFHRCVDX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\BFHRCVDX\\Isler et al_2016_An information gain formulation for active volumetric 3D reconstruction.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\BFHRCVDX\\Isler_2016_An_information_gain_formulation_for_active_volumetric_3D_reconstruction.pdf",
           "select": "zotero://select/library/items/BFHRCVDX"
         }
       ],
@@ -5561,13 +5459,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Janson 等。 - 2015 - Fast Marching Tree a Fast Marching Sampling-Based.pdf",
+          "title": "Janson_2015_Fast_Marching_Tree.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-09-16T07:33:17Z",
-          "dateModified": "2022-09-16T07:34:04Z",
+          "dateModified": "2023-04-20T13:58:26Z",
           "uri": "http://zotero.org/users/8871808/items/5XFKFF4W",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\5XFKFF4W\\Janson 等。 - 2015 - Fast Marching Tree a Fast Marching Sampling-Based.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\5XFKFF4W\\Janson_2015_Fast_Marching_Tree.pdf",
           "select": "zotero://select/library/items/5XFKFF4W"
         },
         {
@@ -5649,13 +5547,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Janson_Pavone_2016_Fast_Marching_Trees.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-09-17T09:21:22Z",
-          "dateModified": "2022-09-17T09:21:22Z",
+          "dateModified": "2023-04-20T13:58:26Z",
           "uri": "http://zotero.org/users/8871808/items/GNYKKE4T",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\GNYKKE4T\\Janson 和 Pavone - 2016 - Fast Marching Trees A Fast Marching Sampling-Base.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\GNYKKE4T\\Janson_Pavone_2016_Fast_Marching_Trees.pdf",
           "select": "zotero://select/library/items/GNYKKE4T"
         }
       ],
@@ -5704,13 +5602,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Song and Jo - 2017 - Online inspection path planning for autonomous 3D .pdf",
+          "title": "Jo_Song_2017_Online_inspection_path_planning_for_autonomous_3D_modeling_using_a_micro-aerial.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:15:29Z",
-          "dateModified": "2021-12-12T13:15:36Z",
+          "dateModified": "2023-04-20T13:58:26Z",
           "uri": "http://zotero.org/users/8871808/items/5FX786ZX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\5FX786ZX\\Song and Jo - 2017 - Online inspection path planning for autonomous 3D .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\5FX786ZX\\Jo_Song_2017_Online_inspection_path_planning_for_autonomous_3D_modeling_using_a_micro-aerial.pdf",
           "select": "zotero://select/library/items/5FX786ZX"
         }
       ],
@@ -5777,13 +5675,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Juliá 等。 - 2012 - A comparison of path planning strategies for auton.pdf",
+          "title": "Juliá_2012_A_comparison_of_path_planning_strategies_for_autonomous_exploration_and_mapping.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:40Z",
-          "dateModified": "2021-12-12T12:40:14Z",
+          "dateModified": "2023-04-20T13:58:27Z",
           "uri": "http://zotero.org/users/8871808/items/5PXGFDVL",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\5PXGFDVL\\Juliá 等。 - 2012 - A comparison of path planning strategies for auton.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\5PXGFDVL\\Juliá_2012_A_comparison_of_path_planning_strategies_for_autonomous_exploration_and_mapping.pdf",
           "select": "zotero://select/library/items/5PXGFDVL"
         }
       ],
@@ -5864,13 +5762,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Karaman_Frazzoli_2011_Sampling-based algorithms for optimal motion planning.pdf",
+          "title": "Karaman_Frazzoli_2011_Sampling-based_algorithms_for_optimal_motion_planning.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-11T08:17:56Z",
-          "dateModified": "2022-05-11T08:17:57Z",
+          "dateModified": "2023-04-20T13:58:27Z",
           "uri": "http://zotero.org/users/8871808/items/D8GDPEZV",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\D8GDPEZV\\Karaman_Frazzoli_2011_Sampling-based algorithms for optimal motion planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\D8GDPEZV\\Karaman_Frazzoli_2011_Sampling-based_algorithms_for_optimal_motion_planning.pdf",
           "select": "zotero://select/library/items/D8GDPEZV"
         }
       ],
@@ -5912,11 +5810,11 @@
       ],
       "tags": [
         {
-          "tag": "Geometry",
+          "tag": "Three-dimensional displays",
           "type": 1
         },
         {
-          "tag": "Lighting",
+          "tag": "Search problems",
           "type": 1
         },
         {
@@ -5928,15 +5826,15 @@
           "type": 1
         },
         {
-          "tag": "Search problems",
-          "type": 1
-        },
-        {
           "tag": "Semantics",
           "type": 1
         },
         {
-          "tag": "Three-dimensional displays",
+          "tag": "Geometry",
+          "type": 1
+        },
+        {
+          "tag": "Lighting",
           "type": 1
         }
       ],
@@ -5959,13 +5857,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Kay_2021_Semantically_Informed_Next_Best_View_Planning_for_Autonomous_Aerial_3D.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T03:12:08Z",
-          "dateModified": "2022-11-04T03:12:08Z",
+          "dateModified": "2023-04-20T13:58:27Z",
           "uri": "http://zotero.org/users/8871808/items/XIURE7U2",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\XIURE7U2\\Kay 等 - 2021 - Semantically Informed Next Best View Planning for .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\XIURE7U2\\Kay_2021_Semantically_Informed_Next_Best_View_Planning_for_Autonomous_Aerial_3D.pdf",
           "select": "zotero://select/library/items/XIURE7U2"
         }
       ],
@@ -6020,27 +5918,7 @@
       ],
       "tags": [
         {
-          "tag": "Aerial systems: perception and autonomy",
-          "type": 1
-        },
-        {
-          "tag": "motion and path planning",
-          "type": 1
-        },
-        {
-          "tag": "Planning",
-          "type": 1
-        },
-        {
           "tag": "Robot sensing systems",
-          "type": 1
-        },
-        {
-          "tag": "Robots",
-          "type": 1
-        },
-        {
-          "tag": "Surface reconstruction",
           "type": 1
         },
         {
@@ -6052,7 +5930,27 @@
           "type": 1
         },
         {
+          "tag": "Planning",
+          "type": 1
+        },
+        {
+          "tag": "motion and path planning",
+          "type": 1
+        },
+        {
+          "tag": "Surface reconstruction",
+          "type": 1
+        },
+        {
+          "tag": "Robots",
+          "type": 1
+        },
+        {
           "tag": "Trajectory",
+          "type": 1
+        },
+        {
+          "tag": "Aerial systems: perception and autonomy",
           "type": 1
         }
       ],
@@ -6075,13 +5973,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Kompis et al_2021_Informed Sampling Exploration Path Planner for 3D Reconstruction of Large Scenes.pdf",
+          "title": "Kompis_2021_Informed_Sampling_Exploration_Path_Planner_for_3D_Reconstruction_of_Large_Scenes.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T06:51:54Z",
-          "dateModified": "2022-05-16T06:51:54Z",
+          "dateModified": "2023-04-20T13:58:28Z",
           "uri": "http://zotero.org/users/8871808/items/8KDCRK99",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\8KDCRK99\\Kompis et al_2021_Informed Sampling Exploration Path Planner for 3D Reconstruction of Large Scenes.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\8KDCRK99\\Kompis_2021_Informed_Sampling_Exploration_Path_Planner_for_3D_Reconstruction_of_Large_Scenes.pdf",
           "select": "zotero://select/library/items/8KDCRK99"
         }
       ],
@@ -6184,13 +6082,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Kriegel et al_2011_A surface-based Next-Best-View approach for automated 3D model completion of.pdf",
+          "title": "Kriegel_2011_A_surface-based_Next-Best-View_approach_for_automated_3D_model_completion_of.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T09:17:28Z",
-          "dateModified": "2022-04-02T09:17:28Z",
+          "dateModified": "2023-04-20T13:58:28Z",
           "uri": "http://zotero.org/users/8871808/items/P6XCFF4C",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\P6XCFF4C\\Kriegel et al_2011_A surface-based Next-Best-View approach for automated 3D model completion of.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\P6XCFF4C\\Kriegel_2011_A_surface-based_Next-Best-View_approach_for_automated_3D_model_completion_of.pdf",
           "select": "zotero://select/library/items/P6XCFF4C"
         }
       ],
@@ -6322,13 +6220,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Kulkarni et al_2021_Autonomous Teamed Exploration of Subterranean Environments using Legged and.pdf",
+          "title": "Kulkarni_2021_Autonomous_Teamed_Exploration_of_Subterranean_Environments_using_Legged_and.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T09:04:57Z",
-          "dateModified": "2022-05-16T09:04:57Z",
+          "dateModified": "2023-04-20T13:58:28Z",
           "uri": "http://zotero.org/users/8871808/items/7A7QTJR7",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7A7QTJR7\\Kulkarni et al_2021_Autonomous Teamed Exploration of Subterranean Environments using Legged and.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7A7QTJR7\\Kulkarni_2021_Autonomous_Teamed_Exploration_of_Subterranean_Environments_using_Legged_and.pdf",
           "select": "zotero://select/library/items/7A7QTJR7"
         }
       ],
@@ -6400,13 +6298,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Landry 等。 - 2016 - Aggressive quadrotor flight through cluttered envi.pdf",
+          "title": "Landry_2016_Aggressive_quadrotor_flight_through_cluttered_environments_using_mixed_integer.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:20Z",
-          "dateModified": "2021-12-12T12:41:48Z",
+          "dateModified": "2023-04-20T13:58:28Z",
           "uri": "http://zotero.org/users/8871808/items/7VWF97XR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7VWF97XR\\Landry 等。 - 2016 - Aggressive quadrotor flight through cluttered envi.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7VWF97XR\\Landry_2016_Aggressive_quadrotor_flight_through_cluttered_environments_using_mixed_integer.pdf",
           "select": "zotero://select/library/items/7VWF97XR"
         }
       ],
@@ -6452,13 +6350,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Lavalle_1998_Rapidly-Exploring Random Trees.pdf",
+          "title": "Lavalle_1998_Rapidly-Exploring_Random_Trees.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-10T11:44:29Z",
-          "dateModified": "2022-05-10T11:44:29Z",
+          "dateModified": "2023-04-20T13:58:29Z",
           "uri": "http://zotero.org/users/8871808/items/4DIH7B79",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\4DIH7B79\\Lavalle_1998_Rapidly-Exploring Random Trees.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\4DIH7B79\\Lavalle_1998_Rapidly-Exploring_Random_Trees.pdf",
           "select": "zotero://select/library/items/4DIH7B79"
         }
       ],
@@ -6584,13 +6482,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Lee_Choi_2021_Complex_Semantic-Spatial_Relation_Aided_Indoor_Target-Directed_Exploration.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T02:58:21Z",
-          "dateModified": "2022-11-04T02:58:21Z",
+          "dateModified": "2023-04-20T13:58:29Z",
           "uri": "http://zotero.org/users/8871808/items/SDLXH9WY",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\SDLXH9WY\\Lee 和 Choi - 2021 - Complex Semantic-Spatial Relation Aided Indoor Tar.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\SDLXH9WY\\Lee_Choi_2021_Complex_Semantic-Spatial_Relation_Aided_Indoor_Target-Directed_Exploration.pdf",
           "select": "zotero://select/library/items/SDLXH9WY"
         }
       ],
@@ -6689,13 +6587,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Lee et al_2021_REAL.pdf",
+          "title": "Lee_2021_REAL.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-06-02T09:17:06Z",
-          "dateModified": "2022-06-02T09:17:06Z",
+          "dateModified": "2023-04-20T13:55:12Z",
           "uri": "http://zotero.org/users/8871808/items/8V8R94LW",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\8V8R94LW\\Lee et al_2021_REAL.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\8V8R94LW\\Lee_2021_REAL.pdf",
           "select": "zotero://select/library/items/8V8R94LW"
         }
       ],
@@ -6793,13 +6691,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Li et al_2018_Learning to Interrupt.pdf",
+          "title": "Li_2018_Learning_to_Interrupt.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T08:32:53Z",
-          "dateModified": "2022-05-16T08:32:54Z",
+          "dateModified": "2023-04-20T13:58:30Z",
           "uri": "http://zotero.org/users/8871808/items/3BP7CF2M",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\3BP7CF2M\\Li et al_2018_Learning to Interrupt.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\3BP7CF2M\\Li_2018_Learning_to_Interrupt.pdf",
           "select": "zotero://select/library/items/3BP7CF2M"
         }
       ],
@@ -6915,13 +6813,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Lionar et al_2021_NeuralBlox.pdf",
+          "title": "Lionar_2021_NeuralBlox.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T10:30:05Z",
-          "dateModified": "2023-04-04T10:30:06Z",
+          "dateModified": "2023-04-20T13:55:13Z",
           "uri": "http://zotero.org/users/8871808/items/FJCNZGHQ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\FJCNZGHQ\\Lionar et al_2021_NeuralBlox.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\FJCNZGHQ\\Lionar_2021_NeuralBlox.pdf",
           "select": "zotero://select/library/items/FJCNZGHQ"
         }
       ],
@@ -6969,13 +6867,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Lipp 和 Boyd - 2014 - Minimum-time speed optimisation over a fixed path.pdf",
+          "title": "Lipp_Boyd_2014_Minimum-time_speed_optimisation_over_a_fixed_path.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:18Z",
-          "dateModified": "2021-12-12T12:41:27Z",
+          "dateModified": "2023-04-20T13:58:30Z",
           "uri": "http://zotero.org/users/8871808/items/RV84LDCT",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\RV84LDCT\\Lipp 和 Boyd - 2014 - Minimum-time speed optimisation over a fixed path.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\RV84LDCT\\Lipp_Boyd_2014_Minimum-time_speed_optimisation_over_a_fixed_path.pdf",
           "select": "zotero://select/library/items/RV84LDCT"
         }
       ],
@@ -7074,13 +6972,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Li et al_2021_Sliding-Window Informed RRT.pdf",
+          "title": "Li_2021_Sliding-Window_Informed_RRT.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T09:36:44Z",
-          "dateModified": "2022-04-06T09:36:44Z",
+          "dateModified": "2023-04-20T13:58:30Z",
           "uri": "http://zotero.org/users/8871808/items/PNW6ZE3F",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\PNW6ZE3F\\Li et al_2021_Sliding-Window Informed RRT.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\PNW6ZE3F\\Li_2021_Sliding-Window_Informed_RRT.pdf",
           "select": "zotero://select/library/items/PNW6ZE3F"
         }
       ],
@@ -7154,13 +7052,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Liu 等。 - 2017 - Planning Dynamically Feasible Trajectories for Qua.pdf",
+          "title": "Liu_2017_Planning_Dynamically_Feasible_Trajectories_for_Quadrotors_Using_Safe_Flight.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:22Z",
-          "dateModified": "2021-12-12T12:42:10Z",
+          "dateModified": "2023-04-20T13:58:31Z",
           "uri": "http://zotero.org/users/8871808/items/GZQU55Q2",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\GZQU55Q2\\Liu 等。 - 2017 - Planning Dynamically Feasible Trajectories for Qua.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\GZQU55Q2\\Liu_2017_Planning_Dynamically_Feasible_Trajectories_for_Quadrotors_Using_Safe_Flight.pdf",
           "select": "zotero://select/library/items/GZQU55Q2"
         }
       ],
@@ -7279,13 +7177,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Liu et al_2021_A Prior Information Heuristic based Robot Exploration Method in Indoor.pdf",
+          "title": "Liu_2021_A_Prior_Information_Heuristic_based_Robot_Exploration_Method_in_Indoor.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T07:11:58Z",
-          "dateModified": "2022-04-07T07:11:58Z",
+          "dateModified": "2023-04-20T13:58:30Z",
           "uri": "http://zotero.org/users/8871808/items/EJKT2QDR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\EJKT2QDR\\Liu et al_2021_A Prior Information Heuristic based Robot Exploration Method in Indoor.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\EJKT2QDR\\Liu_2021_A_Prior_Information_Heuristic_based_Robot_Exploration_Method_in_Indoor.pdf",
           "select": "zotero://select/library/items/EJKT2QDR"
         }
       ],
@@ -7359,13 +7257,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Lluvia et al. - 2021 - Active Mapping and Robot Exploration A Survey.pdf",
+          "title": "Lluvia_2021_Active_Mapping_and_Robot_Exploration.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T09:15:25Z",
-          "dateModified": "2022-05-16T09:15:30Z",
+          "dateModified": "2023-04-20T13:58:31Z",
           "uri": "http://zotero.org/users/8871808/items/QX3ESKE9",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QX3ESKE9\\Lluvia et al. - 2021 - Active Mapping and Robot Exploration A Survey.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QX3ESKE9\\Lluvia_2021_Active_Mapping_and_Robot_Exploration.pdf",
           "select": "zotero://select/library/items/QX3ESKE9"
         }
       ],
@@ -7433,13 +7331,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Loquercio 等。 - 2021 - Learning high-speed flight in the wild.pdf",
+          "title": "Loquercio_2021_Learning_high-speed_flight_in_the_wild.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:48:48Z",
-          "dateModified": "2021-12-12T12:48:58Z",
+          "dateModified": "2023-04-20T13:58:31Z",
           "uri": "http://zotero.org/users/8871808/items/PU2RD99H",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\PU2RD99H\\Loquercio 等。 - 2021 - Learning high-speed flight in the wild.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\PU2RD99H\\Loquercio_2021_Learning_high-speed_flight_in_the_wild.pdf",
           "select": "zotero://select/library/items/PU2RD99H"
         }
       ],
@@ -7551,13 +7449,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Mascaro_2022_Volumetric_Instance-Level_Semantic_Mapping_Via_Multi-View_2D-to-3D_Label.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T03:11:18Z",
-          "dateModified": "2022-11-04T03:11:18Z",
+          "dateModified": "2023-04-20T13:58:31Z",
           "uri": "http://zotero.org/users/8871808/items/QXQ3K9FG",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QXQ3K9FG\\Mascaro 等 - 2022 - Volumetric Instance-Level Semantic Mapping Via Mul.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QXQ3K9FG\\Mascaro_2022_Volumetric_Instance-Level_Semantic_Mapping_Via_Multi-View_2D-to-3D_Label.pdf",
           "select": "zotero://select/library/items/QXQ3K9FG"
         }
       ],
@@ -7655,13 +7553,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "McCormac_2017_SemanticFusion.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-08T08:19:37Z",
-          "dateModified": "2022-11-08T08:19:37Z",
+          "dateModified": "2023-04-20T13:55:15Z",
           "uri": "http://zotero.org/users/8871808/items/YGLCTCSW",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\YGLCTCSW\\McCormac 等 - 2017 - SemanticFusion Dense 3D semantic mapping with con.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\YGLCTCSW\\McCormac_2017_SemanticFusion.pdf",
           "select": "zotero://select/library/items/YGLCTCSW"
         }
       ],
@@ -7756,13 +7654,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Meißner et al_2016_Scene recognition for mobile robots by relational object search using.pdf",
+          "title": "Meißner_2016_Scene_recognition_for_mobile_robots_by_relational_object_search_using.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T10:22:03Z",
-          "dateModified": "2022-04-02T10:25:02Z",
+          "dateModified": "2023-04-20T13:58:32Z",
           "uri": "http://zotero.org/users/8871808/items/9LXBV6CD",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\9LXBV6CD\\Meißner et al_2016_Scene recognition for mobile robots by relational object search using.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\9LXBV6CD\\Meißner_2016_Scene_recognition_for_mobile_robots_by_relational_object_search_using.pdf",
           "select": "zotero://select/library/items/9LXBV6CD"
         }
       ],
@@ -7828,13 +7726,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Mellinger 和 Kumar - 2011 - Minimum snap trajectory generation and control for.pdf",
+          "title": "Mellinger_Kumar_2011_Minimum_snap_trajectory_generation_and_control_for_quadrotors.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:23Z",
-          "dateModified": "2021-12-12T12:42:21Z",
+          "dateModified": "2023-04-20T13:58:32Z",
           "uri": "http://zotero.org/users/8871808/items/UUYXK8EK",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\UUYXK8EK\\Mellinger 和 Kumar - 2011 - Minimum snap trajectory generation and control for.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\UUYXK8EK\\Mellinger_Kumar_2011_Minimum_snap_trajectory_generation_and_control_for_quadrotors.pdf",
           "select": "zotero://select/library/items/UUYXK8EK"
         }
       ],
@@ -7915,13 +7813,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Meng 等。 - 2017 - A Two-Stage Optimized Next-View Planning Framework.pdf",
+          "title": "Meng_2017_A_Two-Stage_Optimized_Next-View_Planning_Framework_for_3-D_Unknown_Environment.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:37Z",
-          "dateModified": "2021-12-12T12:39:45Z",
+          "dateModified": "2023-04-20T13:58:32Z",
           "uri": "http://zotero.org/users/8871808/items/QLW5GJ2Y",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QLW5GJ2Y\\Meng 等。 - 2017 - A Two-Stage Optimized Next-View Planning Framework.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QLW5GJ2Y\\Meng_2017_A_Two-Stage_Optimized_Next-View_Planning_Framework_for_3-D_Unknown_Environment.pdf",
           "select": "zotero://select/library/items/QLW5GJ2Y"
         }
       ],
@@ -8037,13 +7935,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Monica_Aleotti_2018_Surfel-Based_Next_Best_View_Planning.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-12-04T08:08:20Z",
-          "dateModified": "2022-12-04T08:08:20Z",
+          "dateModified": "2023-04-20T13:58:32Z",
           "uri": "http://zotero.org/users/8871808/items/CW2H6KGY",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\CW2H6KGY\\Monica 和 Aleotti - 2018 - Surfel-Based Next Best View Planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\CW2H6KGY\\Monica_Aleotti_2018_Surfel-Based_Next_Best_View_Planning.pdf",
           "select": "zotero://select/library/items/CW2H6KGY"
         }
       ],
@@ -8143,13 +8041,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Moravec_Elfes_1985_High_resolution_maps_from_wide_angle_sonar.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-07T05:57:55Z",
-          "dateModified": "2022-11-07T05:57:55Z",
+          "dateModified": "2023-04-20T13:58:33Z",
           "uri": "http://zotero.org/users/8871808/items/7QSDQVQD",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7QSDQVQD\\Moravec 和 Elfes - 1985 - High resolution maps from wide angle sonar.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7QSDQVQD\\Moravec_Elfes_1985_High_resolution_maps_from_wide_angle_sonar.pdf",
           "select": "zotero://select/library/items/7QSDQVQD"
         }
       ],
@@ -8262,13 +8160,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Niroui_2019_Deep_Reinforcement_Learning_Robot_for_Search_and_Rescue_Applications.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-06T06:19:54Z",
-          "dateModified": "2023-03-06T06:19:54Z",
+          "dateModified": "2023-04-20T13:58:33Z",
           "uri": "http://zotero.org/users/8871808/items/B4D5C84X",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\B4D5C84X\\Niroui 等 - 2019 - Deep Reinforcement Learning Robot for Search and R.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\B4D5C84X\\Niroui_2019_Deep_Reinforcement_Learning_Robot_for_Search_and_Rescue_Applications.pdf",
           "select": "zotero://select/library/items/B4D5C84X"
         }
       ],
@@ -8358,13 +8256,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Oleynikova et al_2018_Sparse 3D Topological Graphs for Micro-Aerial Vehicle Planning.pdf",
+          "title": "Oleynikova_2018_Sparse_3D_Topological_Graphs_for_Micro-Aerial_Vehicle_Planning.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T10:17:44Z",
-          "dateModified": "2022-04-06T10:17:44Z",
+          "dateModified": "2023-04-20T13:58:33Z",
           "uri": "http://zotero.org/users/8871808/items/88T37DZT",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\88T37DZT\\Oleynikova et al_2018_Sparse 3D Topological Graphs for Micro-Aerial Vehicle Planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\88T37DZT\\Oleynikova_2018_Sparse_3D_Topological_Graphs_for_Micro-Aerial_Vehicle_Planning.pdf",
           "select": "zotero://select/library/items/88T37DZT"
         }
       ],
@@ -8429,13 +8327,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Oleynikova et al. - 2017 - Voxblox Incremental 3D Euclidean Signed Distance .pdf",
+          "title": "Oleynikova_2017_Voxblox.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:19:44Z",
-          "dateModified": "2021-12-12T13:19:50Z",
+          "dateModified": "2023-04-20T13:55:17Z",
           "uri": "http://zotero.org/users/8871808/items/JR9JH99W",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\JR9JH99W\\Oleynikova et al. - 2017 - Voxblox Incremental 3D Euclidean Signed Distance .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\JR9JH99W\\Oleynikova_2017_Voxblox.pdf",
           "select": "zotero://select/library/items/JR9JH99W"
         }
       ],
@@ -8538,13 +8436,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Pan_Wei_2022_A_Global_Max-Flow-Based_Multi-Resolution_Next-Best-View_Method_for.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-12-04T08:20:16Z",
-          "dateModified": "2022-12-04T08:20:16Z",
+          "dateModified": "2023-04-20T13:58:33Z",
           "uri": "http://zotero.org/users/8871808/items/M68LW2WH",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\M68LW2WH\\Pan 和 Wei - 2022 - A Global Max-Flow-Based Multi-Resolution Next-Best.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\M68LW2WH\\Pan_Wei_2022_A_Global_Max-Flow-Based_Multi-Resolution_Next-Best-View_Method_for.pdf",
           "select": "zotero://select/library/items/M68LW2WH"
         }
       ],
@@ -8602,13 +8500,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Papachristos et al. - 2017 - Uncertainty-aware receding horizon exploration and.pdf",
+          "title": "Papachristos_2017_Uncertainty-aware_receding_horizon_exploration_and_mapping_using_aerial_robots.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:12:04Z",
-          "dateModified": "2021-12-12T13:12:20Z",
+          "dateModified": "2023-04-20T13:58:34Z",
           "uri": "http://zotero.org/users/8871808/items/QTTNGXSV",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QTTNGXSV\\Papachristos et al. - 2017 - Uncertainty-aware receding horizon exploration and.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QTTNGXSV\\Papachristos_2017_Uncertainty-aware_receding_horizon_exploration_and_mapping_using_aerial_robots.pdf",
           "select": "zotero://select/library/items/QTTNGXSV"
         }
       ],
@@ -8726,13 +8624,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Polvara et al_2020_Next-Best-Sense.pdf",
+          "title": "Polvara_2020_Next-Best-Sense.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T09:00:40Z",
-          "dateModified": "2022-04-02T09:00:40Z",
+          "dateModified": "2023-04-20T13:55:18Z",
           "uri": "http://zotero.org/users/8871808/items/4U6W6NQM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\4U6W6NQM\\Polvara et al_2020_Next-Best-Sense.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\4U6W6NQM\\Polvara_2020_Next-Best-Sense.pdf",
           "select": "zotero://select/library/items/4U6W6NQM"
         }
       ],
@@ -8844,13 +8742,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Popović_2020_Informative_Path_Planning_for_Active_Field_Mapping_under_Localization.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T02:25:46Z",
-          "dateModified": "2022-11-04T02:25:46Z",
+          "dateModified": "2023-04-20T13:58:34Z",
           "uri": "http://zotero.org/users/8871808/items/UPIR8EGP",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\UPIR8EGP\\Popović 等 - 2020 - Informative Path Planning for Active Field Mapping.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\UPIR8EGP\\Popović_2020_Informative_Path_Planning_for_Active_Field_Mapping_under_Localization.pdf",
           "select": "zotero://select/library/items/UPIR8EGP"
         }
       ],
@@ -8907,13 +8805,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Preiss 等。 - 2017 - Trajectory Optimization for Self-Calibration and N.pdf",
+          "title": "Preiss_2017_Trajectory_Optimization_for_Self-Calibration_and_Navigation.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:22Z",
-          "dateModified": "2021-12-12T12:42:18Z",
+          "dateModified": "2023-04-20T13:58:34Z",
           "uri": "http://zotero.org/users/8871808/items/SF27I45Z",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\SF27I45Z\\Preiss 等。 - 2017 - Trajectory Optimization for Self-Calibration and N.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\SF27I45Z\\Preiss_2017_Trajectory_Optimization_for_Self-Calibration_and_Navigation.pdf",
           "select": "zotero://select/library/items/SF27I45Z"
         }
       ],
@@ -8984,6 +8882,34 @@
       ],
       "tags": [
         {
+          "tag": "Uncertainty",
+          "type": 1
+        },
+        {
+          "tag": "Three-dimensional displays",
+          "type": 1
+        },
+        {
+          "tag": "Planning",
+          "type": 1
+        },
+        {
+          "tag": "motion and path planning",
+          "type": 1
+        },
+        {
+          "tag": "Image reconstruction",
+          "type": 1
+        },
+        {
+          "tag": "Surface reconstruction",
+          "type": 1
+        },
+        {
+          "tag": "Robots",
+          "type": 1
+        },
+        {
           "tag": "Computer vision for automation",
           "type": 1
         },
@@ -8992,35 +8918,7 @@
           "type": 1
         },
         {
-          "tag": "Image reconstruction",
-          "type": 1
-        },
-        {
-          "tag": "motion and path planning",
-          "type": 1
-        },
-        {
-          "tag": "Planning",
-          "type": 1
-        },
-        {
           "tag": "planning under uncertainty",
-          "type": 1
-        },
-        {
-          "tag": "Robots",
-          "type": 1
-        },
-        {
-          "tag": "Surface reconstruction",
-          "type": 1
-        },
-        {
-          "tag": "Three-dimensional displays",
-          "type": 1
-        },
-        {
-          "tag": "Uncertainty",
           "type": 1
         }
       ],
@@ -9043,13 +8941,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Ran_2023_NeurAR.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-23T08:26:50Z",
-          "dateModified": "2023-03-23T08:26:50Z",
+          "dateModified": "2023-04-20T13:55:19Z",
           "uri": "http://zotero.org/users/8871808/items/HMQNC4TH",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HMQNC4TH\\Ran 等 - 2023 - NeurAR Neural Uncertainty for Autonomous 3D Recon.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HMQNC4TH\\Ran_2023_NeurAR.pdf",
           "select": "zotero://select/library/items/HMQNC4TH"
         }
       ],
@@ -9143,13 +9041,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Respall et al_2021_Fast Sampling-based Next-Best-View Exploration Algorithm for a MAV.pdf",
+          "title": "Respall_2021_Fast_Sampling-based_Next-Best-View_Exploration_Algorithm_for_a_MAV.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T06:48:51Z",
-          "dateModified": "2022-05-16T06:48:52Z",
+          "dateModified": "2023-04-20T13:58:35Z",
           "uri": "http://zotero.org/users/8871808/items/NLDA3VAH",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\NLDA3VAH\\Respall et al_2021_Fast Sampling-based Next-Best-View Exploration Algorithm for a MAV.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\NLDA3VAH\\Respall_2021_Fast_Sampling-based_Next-Best-View_Exploration_Algorithm_for_a_MAV.pdf",
           "select": "zotero://select/library/items/NLDA3VAH"
         }
       ],
@@ -9213,13 +9111,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Richter et al. - 2016 - Polynomial Trajectory Planning for Aggressive Quad.pdf",
+          "title": "Richter_2016_Polynomial_Trajectory_Planning_for_Aggressive_Quadrotor_Flight_in_Dense_Indoor.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T07:53:31Z",
-          "dateModified": "2022-04-06T07:53:38Z",
+          "dateModified": "2023-04-20T13:58:35Z",
           "uri": "http://zotero.org/users/8871808/items/6Q3IKD98",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\6Q3IKD98\\Richter et al. - 2016 - Polynomial Trajectory Planning for Aggressive Quad.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\6Q3IKD98\\Richter_2016_Polynomial_Trajectory_Planning_for_Aggressive_Quadrotor_Flight_in_Dense_Indoor.pdf",
           "select": "zotero://select/library/items/6Q3IKD98"
         }
       ],
@@ -9269,13 +9167,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Romero 等。 - Model Predictive Contouring Control for Near-Time-.pdf",
+          "title": "Romero_Model_Predictive_Contouring_Control_for_Near-Time-Optimal_Quadrotor_Flight.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:48:47Z",
-          "dateModified": "2021-12-12T12:48:51Z",
+          "dateModified": "2023-04-20T13:58:35Z",
           "uri": "http://zotero.org/users/8871808/items/L436IIWN",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\L436IIWN\\Romero 等。 - Model Predictive Contouring Control for Near-Time-.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\L436IIWN\\Romero_Model_Predictive_Contouring_Control_for_Near-Time-Optimal_Quadrotor_Flight.pdf",
           "select": "zotero://select/library/items/L436IIWN"
         }
       ],
@@ -9323,7 +9221,11 @@
       ],
       "tags": [
         {
-          "tag": "Libraries",
+          "tag": "Three-dimensional displays",
+          "type": 1
+        },
+        {
+          "tag": "Simultaneous localization and mapping",
           "type": 1
         },
         {
@@ -9339,11 +9241,7 @@
           "type": 1
         },
         {
-          "tag": "Simultaneous localization and mapping",
-          "type": 1
-        },
-        {
-          "tag": "Three-dimensional displays",
+          "tag": "Libraries",
           "type": 1
         },
         {
@@ -9370,13 +9268,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Rosinol_2020_Kimera.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-07T02:16:20Z",
-          "dateModified": "2022-11-07T02:16:20Z",
+          "dateModified": "2023-04-20T13:55:20Z",
           "uri": "http://zotero.org/users/8871808/items/CCG9S9L5",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\CCG9S9L5\\Rosinol 等 - 2020 - Kimera an Open-Source Library for Real-Time Metri.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\CCG9S9L5\\Rosinol_2020_Kimera.pdf",
           "select": "zotero://select/library/items/CCG9S9L5"
         }
       ],
@@ -9456,13 +9354,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf",
+          "title": "Schmid_2020_An_Efficient_Sampling-Based_Method_for_Online_Informative_Path_Planning_in.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:38Z",
-          "dateModified": "2023-04-20T11:57:23Z",
+          "dateModified": "2023-04-20T13:58:36Z",
           "uri": "http://zotero.org/users/8871808/items/V7IY9538",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\V7IY9538\\Schmid et al_2020_An Efficient Sampling-Based Method for Online Informative Path Planning in.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\V7IY9538\\Schmid_2020_An_Efficient_Sampling-Based_Method_for_Online_Informative_Path_Planning_in.pdf",
           "select": "zotero://select/library/items/V7IY9538"
         }
       ],
@@ -9583,13 +9481,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Schmid_2022_Fast_and_Compute-Efficient_Sampling-Based_Local_Exploration_Planning_via.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-11T13:29:07Z",
-          "dateModified": "2023-03-11T13:29:07Z",
+          "dateModified": "2023-04-20T13:58:36Z",
           "uri": "http://zotero.org/users/8871808/items/E68KY2KM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\E68KY2KM\\Schmid 等 - 2022 - Fast and Compute-Efficient Sampling-Based Local Ex.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\E68KY2KM\\Schmid_2022_Fast_and_Compute-Efficient_Sampling-Based_Local_Exploration_Planning_via.pdf",
           "select": "zotero://select/library/items/E68KY2KM"
         }
       ],
@@ -9601,7 +9499,7 @@
     },
     {
       "key": "BLJWBSQH",
-      "version": 5634,
+      "version": 5706,
       "itemType": "preprint",
       "title": "SC-Explorer: Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning",
       "abstractNote": "Exploration of unknown environments is a fundamental problem in robotics and an essential component in numerous applications of autonomous systems. A major challenge in exploring unknown environments is that the robot has to plan with the limited information available at each time step. While most current approaches rely on heuristics and assumption to plan paths based on these partial observations, we instead propose a novel way to integrate deep learning into exploration by leveraging 3D scene completion for informed, safe, and interpretable exploration mapping and planning. Our approach, SC-Explorer, combines scene completion using a novel incremental fusion mechanism and a newly proposed hierarchical multi-layer mapping approach, to guarantee safety and efficiency of the robot. We further present an informative path planning method, leveraging the capabilities of our mapping approach and a novel scene-completion-aware information gain. While our method is generally applicable, we evaluate it in the use case of a Micro Aerial Vehicle (MAV). We thoroughly study each component in high-fidelity simulation experiments using only mobile hardware, and show that our method can speed up coverage of an environment by 73% compared to the baselines with only minimal reduction in map accuracy. Even if scene completions are not included in the final map, we show that they can be used to guide the robot to choose more informative paths, speeding up the measurement of the scene with the robot's sensors by 35%. We validate our system on a fully autonomous MAV, showing rapid and reliable scene coverage even in a complex cluttered environment. We make our methods available as open-source.",
@@ -9647,7 +9545,7 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Robotics",
+          "tag": "/unread",
           "type": 1
         },
         {
@@ -9655,14 +9553,14 @@
           "type": 1
         },
         {
-          "tag": "/unread",
+          "tag": "Computer Science - Robotics",
           "type": 1
         },
         {
-          "tag": "Semantics"
+          "tag": "ObsCite"
         },
         {
-          "tag": "ObsCite"
+          "tag": "Semantics"
         }
       ],
       "relations": [],
@@ -9673,17 +9571,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-01T08:58:05Z",
-          "dateModified": "2022-11-01T08:58:05Z",
-          "uri": "http://zotero.org/users/8871808/items/ZCM3WRJW",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZCM3WRJW\\Schmid 等。 - 2022 - SC-Explorer Incremental 3D Scene Completion for S.pdf",
-          "select": "zotero://select/library/items/ZCM3WRJW"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -9692,6 +9579,17 @@
           "uri": "http://zotero.org/users/8871808/items/E5UIXMM3",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\E5UIXMM3\\2208.html",
           "select": "zotero://select/library/items/E5UIXMM3"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Schmid_2022_SC-Explorer.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-01T08:58:05Z",
+          "dateModified": "2023-04-20T13:55:20Z",
+          "uri": "http://zotero.org/users/8871808/items/ZCM3WRJW",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZCM3WRJW\\Schmid_2022_SC-Explorer.pdf",
+          "select": "zotero://select/library/items/ZCM3WRJW"
         }
       ],
       "notes": [
@@ -9842,13 +9740,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Schmid et al_2021_A Unified Approach for Autonomous Volumetric Exploration of Large Scale.pdf",
+          "title": "Schmid_2021_A_Unified_Approach_for_Autonomous_Volumetric_Exploration_of_Large_Scale.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T07:18:31Z",
-          "dateModified": "2022-05-16T07:18:31Z",
+          "dateModified": "2023-04-20T13:58:36Z",
           "uri": "http://zotero.org/users/8871808/items/7TV5XDYX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7TV5XDYX\\Schmid et al_2021_A Unified Approach for Autonomous Volumetric Exploration of Large Scale.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7TV5XDYX\\Schmid_2021_A_Unified_Approach_for_Autonomous_Volumetric_Exploration_of_Large_Scale.pdf",
           "select": "zotero://select/library/items/7TV5XDYX"
         }
       ],
@@ -9916,13 +9814,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Selin 等。 - 2019 - Efficient Autonomous Exploration Planning of Large.pdf",
+          "title": "Selin_2019_Efficient_Autonomous_Exploration_Planning_of_Large-Scale_3-D_Environments.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:38Z",
-          "dateModified": "2021-12-12T12:39:53Z",
+          "dateModified": "2023-04-20T13:58:37Z",
           "uri": "http://zotero.org/users/8871808/items/2GHCACXI",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\2GHCACXI\\Selin 等。 - 2019 - Efficient Autonomous Exploration Planning of Large.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\2GHCACXI\\Selin_2019_Efficient_Autonomous_Exploration_Planning_of_Large-Scale_3-D_Environments.pdf",
           "select": "zotero://select/library/items/2GHCACXI"
         }
       ],
@@ -10015,13 +9913,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Singh et al_2015_A new next best view method for 3D modeling of unknown objects.pdf",
+          "title": "Singh_2015_A_new_next_best_view_method_for_3D_modeling_of_unknown_objects.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-02T08:34:47Z",
-          "dateModified": "2022-04-02T08:34:47Z",
+          "dateModified": "2023-04-20T13:58:37Z",
           "uri": "http://zotero.org/users/8871808/items/M4FQTGJX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\M4FQTGJX\\Singh et al_2015_A new next best view method for 3D modeling of unknown objects.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\M4FQTGJX\\Singh_2015_A_new_next_best_view_method_for_3D_modeling_of_unknown_objects.pdf",
           "select": "zotero://select/library/items/M4FQTGJX"
         }
       ],
@@ -10088,13 +9986,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Song et al_2020_Online coverage and inspection planning for 3D modeling.pdf",
+          "title": "Song_2020_Online_coverage_and_inspection_planning_for_3D_modeling.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T12:56:18Z",
-          "dateModified": "2022-04-07T12:56:58Z",
+          "dateModified": "2023-04-20T13:58:38Z",
           "uri": "http://zotero.org/users/8871808/items/W9DMGW6N",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\W9DMGW6N\\Song et al_2020_Online coverage and inspection planning for 3D modeling.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\W9DMGW6N\\Song_2020_Online_coverage_and_inspection_planning_for_3D_modeling.pdf",
           "select": "zotero://select/library/items/W9DMGW6N"
         }
       ],
@@ -10251,13 +10149,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Song_Jo_2018_Surface-Based Exploration for Autonomous 3D Modeling.pdf",
+          "title": "Song_Jo_2018_Surface-Based_Exploration_for_Autonomous_3D_Modeling.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T08:11:01Z",
-          "dateModified": "2022-04-06T08:11:02Z",
+          "dateModified": "2023-04-20T13:58:37Z",
           "uri": "http://zotero.org/users/8871808/items/RQVI7HGX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\RQVI7HGX\\Song_Jo_2018_Surface-Based Exploration for Autonomous 3D Modeling.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\RQVI7HGX\\Song_Jo_2018_Surface-Based_Exploration_for_Autonomous_3D_Modeling.pdf",
           "select": "zotero://select/library/items/RQVI7HGX"
         }
       ],
@@ -10307,18 +10205,6 @@
       ],
       "tags": [
         {
-          "tag": "Computational modeling",
-          "type": 1
-        },
-        {
-          "tag": "Inspection",
-          "type": 1
-        },
-        {
-          "tag": "Mobile robots",
-          "type": 1
-        },
-        {
           "tag": "Robot sensing systems",
           "type": 1
         },
@@ -10327,11 +10213,23 @@
           "type": 1
         },
         {
-          "tag": "Surface reconstruction",
+          "tag": "Three-dimensional displays",
           "type": 1
         },
         {
-          "tag": "Three-dimensional displays",
+          "tag": "Mobile robots",
+          "type": 1
+        },
+        {
+          "tag": "Computational modeling",
+          "type": 1
+        },
+        {
+          "tag": "Inspection",
+          "type": 1
+        },
+        {
+          "tag": "Surface reconstruction",
           "type": 1
         }
       ],
@@ -10354,13 +10252,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Song_Jo_2018_Surface-Based_Exploration_for_Autonomous_3D_Modeling.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-06T06:39:21Z",
-          "dateModified": "2023-02-06T06:39:21Z",
+          "dateModified": "2023-04-20T13:58:37Z",
           "uri": "http://zotero.org/users/8871808/items/JEAH48E4",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\JEAH48E4\\Song 和 Jo - 2018 - Surface-Based Exploration for Autonomous 3D Modeli.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\JEAH48E4\\Song_Jo_2018_Surface-Based_Exploration_for_Autonomous_3D_Modeling.pdf",
           "select": "zotero://select/library/items/JEAH48E4"
         }
       ],
@@ -10476,13 +10374,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Song_2022_View_Path_Planning_via_Online_Multiview_Stereo_for_3-D_Modeling_of_Large-Scale.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-03-24T11:38:02Z",
-          "dateModified": "2023-03-24T11:38:02Z",
+          "dateModified": "2023-04-20T13:58:38Z",
           "uri": "http://zotero.org/users/8871808/items/MD5TPE2Q",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\MD5TPE2Q\\Song 等 - 2022 - View Path Planning via Online Multiview Stereo for.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\MD5TPE2Q\\Song_2022_View_Path_Planning_via_Online_Multiview_Stereo_for_3-D_Modeling_of_Large-Scale.pdf",
           "select": "zotero://select/library/items/MD5TPE2Q"
         }
       ],
@@ -10531,13 +10429,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Spedicato 和 Notarstefano - 2018 - Minimum-Time Trajectory Generation for Quadrotors .pdf",
+          "title": "Spedicato_Notarstefano_2018_Minimum-Time_Trajectory_Generation_for_Quadrotors_in_Constrained_Environments.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:19Z",
-          "dateModified": "2021-12-12T12:41:37Z",
+          "dateModified": "2023-04-20T13:58:38Z",
           "uri": "http://zotero.org/users/8871808/items/C8RLMLVF",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\C8RLMLVF\\Spedicato 和 Notarstefano - 2018 - Minimum-Time Trajectory Generation for Quadrotors .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\C8RLMLVF\\Spedicato_Notarstefano_2018_Minimum-Time_Trajectory_Generation_for_Quadrotors_in_Constrained_Environments.pdf",
           "select": "zotero://select/library/items/C8RLMLVF"
         }
       ],
@@ -10591,13 +10489,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Sun 等。 - 2021 - Fast UAV Trajectory Optimization using Bilevel Opt.pdf",
+          "title": "Sun_2021_Fast_UAV_Trajectory_Optimization_using_Bilevel_Optimization_with_Analytical.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:18Z",
-          "dateModified": "2021-12-12T12:41:34Z",
+          "dateModified": "2023-04-20T13:58:39Z",
           "uri": "http://zotero.org/users/8871808/items/MPCCJB2T",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\MPCCJB2T\\Sun 等。 - 2021 - Fast UAV Trajectory Optimization using Bilevel Opt.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\MPCCJB2T\\Sun_2021_Fast_UAV_Trajectory_Optimization_using_Bilevel_Optimization_with_Analytical.pdf",
           "select": "zotero://select/library/items/MPCCJB2T"
         }
       ],
@@ -10688,13 +10586,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Tang et al_2023_Bubble Explorer.pdf",
+          "title": "Tang_2023_Bubble_Explorer.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-18T06:26:09Z",
-          "dateModified": "2023-04-18T06:26:10Z",
+          "dateModified": "2023-04-20T13:58:39Z",
           "uri": "http://zotero.org/users/8871808/items/IHEWAUZJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\IHEWAUZJ\\Tang et al_2023_Bubble Explorer.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\IHEWAUZJ\\Tang_2023_Bubble_Explorer.pdf",
           "select": "zotero://select/library/items/IHEWAUZJ"
         }
       ],
@@ -10749,13 +10647,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Tang 等。 - 2019 - Time-Optimal Trajectory Generation for Dynamic Veh.pdf",
+          "title": "Tang_2019_Time-Optimal_Trajectory_Generation_for_Dynamic_Vehicles.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:21Z",
-          "dateModified": "2021-12-12T12:41:57Z",
+          "dateModified": "2023-04-20T13:58:39Z",
           "uri": "http://zotero.org/users/8871808/items/GHJXDD8C",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\GHJXDD8C\\Tang 等。 - 2019 - Time-Optimal Trajectory Generation for Dynamic Veh.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\GHJXDD8C\\Tang_2019_Time-Optimal_Trajectory_Generation_for_Dynamic_Vehicles.pdf",
           "select": "zotero://select/library/items/GHJXDD8C"
         }
       ],
@@ -10812,13 +10710,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Tordesillas 等。 - 2019 - FASTER Fast and Safe Trajectory Planner for Fligh.pdf",
+          "title": "Tordesillas_2019_FASTER.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:21Z",
-          "dateModified": "2021-12-12T12:42:00Z",
+          "dateModified": "2023-04-20T13:55:25Z",
           "uri": "http://zotero.org/users/8871808/items/IAGBEVFU",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\IAGBEVFU\\Tordesillas 等。 - 2019 - FASTER Fast and Safe Trajectory Planner for Fligh.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\IAGBEVFU\\Tordesillas_2019_FASTER.pdf",
           "select": "zotero://select/library/items/IAGBEVFU"
         }
       ],
@@ -10887,13 +10785,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Tordesillas 等。 - 2021 - FASTER Fast and Safe Trajectory Planner for Navig.pdf",
+          "title": "Tordesillas_2021_FASTER.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:21Z",
-          "dateModified": "2021-12-12T12:42:04Z",
+          "dateModified": "2023-04-20T13:55:24Z",
           "uri": "http://zotero.org/users/8871808/items/HSF34ZKR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HSF34ZKR\\Tordesillas 等。 - 2021 - FASTER Fast and Safe Trajectory Planner for Navig.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HSF34ZKR\\Tordesillas_2021_FASTER.pdf",
           "select": "zotero://select/library/items/HSF34ZKR"
         }
       ],
@@ -10969,13 +10867,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Vasquez-Gomez 等。 - 2014 - Volumetric Next-best-view Planning for 3D Object R.pdf",
+          "title": "Vasquez-Gomez_2014_Volumetric_Next-best-view_Planning_for_3D_Object_Reconstruction_with.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:39Z",
-          "dateModified": "2021-12-12T12:40:11Z",
+          "dateModified": "2023-04-20T13:58:01Z",
           "uri": "http://zotero.org/users/8871808/items/FNDY3HIJ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\FNDY3HIJ\\Vasquez-Gomez 等。 - 2014 - Volumetric Next-best-view Planning for 3D Object R.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\FNDY3HIJ\\Vasquez-Gomez_2014_Volumetric_Next-best-view_Planning_for_3D_Object_Reconstruction_with.pdf",
           "select": "zotero://select/library/items/FNDY3HIJ"
         }
       ],
@@ -11067,13 +10965,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Vaswani_2017_Attention_is_All_you_Need.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-06T06:37:04Z",
-          "dateModified": "2023-02-06T06:37:04Z",
+          "dateModified": "2023-04-20T13:58:40Z",
           "uri": "http://zotero.org/users/8871808/items/3JY2TG8Z",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\3JY2TG8Z\\Vaswani 等 - 2017 - Attention is All you Need.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\3JY2TG8Z\\Vaswani_2017_Attention_is_All_you_Need.pdf",
           "select": "zotero://select/library/items/3JY2TG8Z"
         }
       ],
@@ -11136,13 +11034,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Wang 等。 - 2020 - Alternating Minimization Based Trajectory Generati.pdf",
+          "title": "Wang_2020_Alternating_Minimization_Based_Trajectory_Generation_for_Quadrotor_Aggressive.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:19Z",
-          "dateModified": "2021-12-12T12:41:41Z",
+          "dateModified": "2023-04-20T13:58:42Z",
           "uri": "http://zotero.org/users/8871808/items/LVVJA2DM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LVVJA2DM\\Wang 等。 - 2020 - Alternating Minimization Based Trajectory Generati.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LVVJA2DM\\Wang_2020_Alternating_Minimization_Based_Trajectory_Generation_for_Quadrotor_Aggressive.pdf",
           "select": "zotero://select/library/items/LVVJA2DM"
         }
       ],
@@ -11240,13 +11138,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Wang et al_2017_Towards autonomous exploration with information potential field in 3D.pdf",
+          "title": "Wang_2017_Towards_autonomous_exploration_with_information_potential_field_in_3D.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T11:30:04Z",
-          "dateModified": "2022-04-06T11:30:04Z",
+          "dateModified": "2023-04-20T13:58:41Z",
           "uri": "http://zotero.org/users/8871808/items/4MN9GWDU",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\4MN9GWDU\\Wang et al_2017_Towards autonomous exploration with information potential field in 3D.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\4MN9GWDU\\Wang_2017_Towards_autonomous_exploration_with_information_potential_field_in_3D.pdf",
           "select": "zotero://select/library/items/4MN9GWDU"
         }
       ],
@@ -11359,13 +11257,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Wang et al_2019_Autonomous Robotic Exploration by Incremental Road Map Construction.pdf",
+          "title": "Wang_2019_Autonomous_Robotic_Exploration_by_Incremental_Road_Map_Construction.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T13:01:21Z",
-          "dateModified": "2022-04-07T13:01:21Z",
+          "dateModified": "2023-04-20T13:58:40Z",
           "uri": "http://zotero.org/users/8871808/items/82QBWZJX",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\82QBWZJX\\Wang et al_2019_Autonomous Robotic Exploration by Incremental Road Map Construction.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\82QBWZJX\\Wang_2019_Autonomous_Robotic_Exploration_by_Incremental_Road_Map_Construction.pdf",
           "select": "zotero://select/library/items/82QBWZJX"
         }
       ],
@@ -11464,13 +11362,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Wang et al_2018_Efficient Mobile Robot Exploration with Gaussian Markov Random Fields in 3D.pdf",
+          "title": "Wang_2018_Efficient_Mobile_Robot_Exploration_with_Gaussian_Markov_Random_Fields_in_3D.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T11:21:58Z",
-          "dateModified": "2022-04-06T11:21:58Z",
+          "dateModified": "2023-04-20T13:58:40Z",
           "uri": "http://zotero.org/users/8871808/items/PGZJXCTC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\PGZJXCTC\\Wang et al_2018_Efficient Mobile Robot Exploration with Gaussian Markov Random Fields in 3D.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\PGZJXCTC\\Wang_2018_Efficient_Mobile_Robot_Exploration_with_Gaussian_Markov_Random_Fields_in_3D.pdf",
           "select": "zotero://select/library/items/PGZJXCTC"
         }
       ],
@@ -11551,13 +11449,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Wang et al. - 2019 - Efficient Autonomous Robotic Exploration With Sema.pdf",
+          "title": "Wang_2019_Efficient_Autonomous_Robotic_Exploration_With_Semantic_Road_Map_in_Indoor.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:12:03Z",
-          "dateModified": "2021-12-12T13:12:11Z",
+          "dateModified": "2023-04-20T13:58:41Z",
           "uri": "http://zotero.org/users/8871808/items/VM6TD33A",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\VM6TD33A\\Wang et al. - 2019 - Efficient Autonomous Robotic Exploration With Sema.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\VM6TD33A\\Wang_2019_Efficient_Autonomous_Robotic_Exploration_With_Semantic_Road_Map_in_Indoor.pdf",
           "select": "zotero://select/library/items/VM6TD33A"
         }
       ],
@@ -11679,13 +11577,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Wang et al_2020_Efficient Autonomous Exploration With Incrementally Built Topological Map in.pdf",
+          "title": "Wang_2020_Efficient_Autonomous_Exploration_With_Incrementally_Built_Topological_Map_in.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-06T12:06:55Z",
-          "dateModified": "2022-04-06T12:06:55Z",
+          "dateModified": "2023-04-20T13:58:40Z",
           "uri": "http://zotero.org/users/8871808/items/DXKZD8P2",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\DXKZD8P2\\Wang et al_2020_Efficient Autonomous Exploration With Incrementally Built Topological Map in.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\DXKZD8P2\\Wang_2020_Efficient_Autonomous_Exploration_With_Incrementally_Built_Topological_Map_in.pdf",
           "select": "zotero://select/library/items/DXKZD8P2"
         }
       ],
@@ -11801,13 +11699,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Wang_2022_Fast_and_Safe_Exploration_via_Adaptive_Semantic_Perception_in_Outdoor.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-12T11:09:32Z",
-          "dateModified": "2023-02-12T11:09:32Z",
+          "dateModified": "2023-04-20T13:58:42Z",
           "uri": "http://zotero.org/users/8871808/items/N3NN3ADN",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\N3NN3ADN\\Wang 等 - 2022 - Fast and Safe Exploration via Adaptive Semantic Pe.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\N3NN3ADN\\Wang_2022_Fast_and_Safe_Exploration_via_Adaptive_Semantic_Perception_in_Outdoor.pdf",
           "select": "zotero://select/library/items/N3NN3ADN"
         }
       ],
@@ -11915,13 +11813,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "已提交版本",
+          "title": "Wang_2021_Learning-based_3D_Occupancy_Prediction_for_Autonomous_Navigation_in_Occluded.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-03T01:36:52Z",
-          "dateModified": "2022-11-03T01:36:52Z",
+          "dateModified": "2023-04-20T13:58:41Z",
           "uri": "http://zotero.org/users/8871808/items/4X9UZ9LY",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\4X9UZ9LY\\Wang 等 - 2021 - Learning-based 3D Occupancy Prediction for Autonom.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\4X9UZ9LY\\Wang_2021_Learning-based_3D_Occupancy_Prediction_for_Autonomous_Navigation_in_Occluded.pdf",
           "select": "zotero://select/library/items/4X9UZ9LY"
         }
       ],
@@ -12024,13 +11922,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Wang et al_2021_Visibility-aware Trajectory Optimization with Application to Aerial Tracking.pdf",
+          "title": "Wang_2021_Visibility-aware_Trajectory_Optimization_with_Application_to_Aerial_Tracking.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T09:50:34Z",
-          "dateModified": "2023-04-04T09:50:35Z",
+          "dateModified": "2023-04-20T13:58:42Z",
           "uri": "http://zotero.org/users/8871808/items/QKSI6VRW",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\QKSI6VRW\\Wang et al_2021_Visibility-aware Trajectory Optimization with Application to Aerial Tracking.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\QKSI6VRW\\Wang_2021_Visibility-aware_Trajectory_Optimization_with_Application_to_Aerial_Tracking.pdf",
           "select": "zotero://select/library/items/QKSI6VRW"
         }
       ],
@@ -12039,93 +11937,6 @@
       "itemKey": "RHXFXLK9",
       "libraryID": 1,
       "select": "zotero://select/library/items/RHXFXLK9"
-    },
-    {
-      "key": "54Y36932",
-      "version": 5634,
-      "itemType": "conferencePaper",
-      "title": "History-Aware Autonomous Exploration in Confined Environments Using MAVs",
-      "abstractNote": "Many scenarios require a robot to be able to explore its 3D environment online without human supervision. This is especially relevant for inspection tasks and search and rescue missions. To solve this high-dimensional path planning problem, sampling-based exploration algorithms have proven successful. However, these do not necessarily scale well to larger environments or spaces with narrow openings. This paper presents a 3D exploration planner based on the principles of Next-Best Views (NBVs). In this approach, a Micro-Aerial Vehicle (MAV) equipped with a limited ﬁeld-of-view depth sensor randomly samples its conﬁguration space to ﬁnd promising future viewpoints. In order to obtain high sampling efﬁciency, our planner maintains and uses a history of visited places, and locally optimizes the robot’s orientation with respect to unobserved space. We evaluate our method in several simulated scenarios, and compare it against a state-of-the-art exploration algorithm. The experiments show substantial improvements in exploration time (2× faster), computation time, and path length, and advantages in handling difﬁcult situations such as escaping dead-ends (up to 20× faster). Finally, we validate the on-line capability of our algorithm on a computational constrained real world MAV.",
-      "date": "10/2018",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "url": "https://ieeexplore.ieee.org/document/8594502/",
-      "accessDate": "2021-12-12T13:12:16Z",
-      "place": "Madrid",
-      "publisher": "IEEE",
-      "ISBN": "978-1-5386-8094-0",
-      "pages": "1-9",
-      "proceedingsTitle": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "conferenceName": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "DOI": "10.1109/IROS.2018.8594502",
-      "creators": [
-        {
-          "firstName": "Christian",
-          "lastName": "Witting",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Marius",
-          "lastName": "Fehr",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Rik",
-          "lastName": "Behnemann",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Helen",
-          "lastName": "Oleynikova",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Roland",
-          "lastName": "Siegwart",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "Roadmap"
-        }
-      ],
-      "relations": [],
-      "dateAdded": "2021-12-12T13:12:16Z",
-      "dateModified": "2021-12-12T13:14:24Z",
-      "uri": "http://zotero.org/users/8871808/items/54Y36932",
-      "itemID": 84,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "Witting et al. - 2018 - History-Aware Autonomous Exploration in Confined E.pdf",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2021-12-12T13:12:04Z",
-          "dateModified": "2021-12-12T13:12:16Z",
-          "uri": "http://zotero.org/users/8871808/items/SZNPVXEU",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\SZNPVXEU\\Witting et al. - 2018 - History-Aware Autonomous Exploration in Confined E.pdf",
-          "select": "zotero://select/library/items/SZNPVXEU"
-        }
-      ],
-      "notes": [
-        {
-          "key": "GCI4XN5B",
-          "version": 1574,
-          "itemType": "note",
-          "parentItem": "54Y36932",
-          "note": "<div data-schema-version=\"8\"><h1>Key:</h1>\n<ul>\n<li>\nExploration\n</li>\n<li>\nNBVP\n</li>\n<li>\nPath simplification and smoothing\n</li>\n<li>\nHistory-aware\n</li>\n</ul>\n</div>",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2022-05-09T16:54:00Z",
-          "dateModified": "2022-05-09T16:54:41Z",
-          "uri": "http://zotero.org/users/8871808/items/GCI4XN5B"
-        }
-      ],
-      "citationKey": "wittingHistoryAware2018",
-      "itemKey": "54Y36932",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/54Y36932"
     },
     {
       "key": "59I37V6C",
@@ -12216,13 +12027,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Witting_2018_History-Aware_Autonomous_Exploration_in_Confined_Environments_Using_MAVs.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-09-16T07:54:32Z",
-          "dateModified": "2022-09-16T07:54:32Z",
+          "dateModified": "2023-04-20T13:58:43Z",
           "uri": "http://zotero.org/users/8871808/items/6Z7H5SIA",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\6Z7H5SIA\\Witting 等。 - 2018 - History-Aware Autonomous Exploration in Confined E.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\6Z7H5SIA\\Witting_2018_History-Aware_Autonomous_Exploration_in_Confined_Environments_Using_MAVs.pdf",
           "select": "zotero://select/library/items/6Z7H5SIA"
         }
       ],
@@ -12334,13 +12145,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Xu_2021_Autonomous_UAV_Exploration_of_Dynamic_Environments_Via_Incremental_Sampling_and.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-09-16T07:51:43Z",
-          "dateModified": "2022-09-16T07:51:43Z",
+          "dateModified": "2023-04-20T13:58:44Z",
           "uri": "http://zotero.org/users/8871808/items/9RDYAXFH",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\9RDYAXFH\\Xu 等。 - 2021 - Autonomous UAV Exploration of Dynamic Environments.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\9RDYAXFH\\Xu_2021_Autonomous_UAV_Exploration_of_Dynamic_Environments_Via_Incremental_Sampling_and.pdf",
           "select": "zotero://select/library/items/9RDYAXFH"
         }
       ],
@@ -12415,13 +12226,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Xu et al_2021_HiTMap.pdf",
+          "title": "Xu_2021_HiTMap.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T09:07:05Z",
-          "dateModified": "2022-05-16T09:07:05Z",
+          "dateModified": "2023-04-20T13:55:29Z",
           "uri": "http://zotero.org/users/8871808/items/9WNT5MP2",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\9WNT5MP2\\Xu et al_2021_HiTMap.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\9WNT5MP2\\Xu_2021_HiTMap.pdf",
           "select": "zotero://select/library/items/9WNT5MP2"
         }
       ],
@@ -12514,13 +12325,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Xu_2022_A_Localization_and_Trajectory_Planning_Method_for_UAVs_with_Visual-Inertial.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-10-31T07:06:53Z",
-          "dateModified": "2022-10-31T07:06:53Z",
+          "dateModified": "2023-04-20T13:58:43Z",
           "uri": "http://zotero.org/users/8871808/items/7HIEQS78",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7HIEQS78\\Xu 等。 - 2022 - A Localization and Trajectory Planning Method for .pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7HIEQS78\\Xu_2022_A_Localization_and_Trajectory_Planning_Method_for_UAVs_with_Visual-Inertial.pdf",
           "select": "zotero://select/library/items/7HIEQS78"
         }
       ],
@@ -12568,13 +12379,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Yamauchi - 1997 - A frontier-based approach for autonomous explorati.pdf",
+          "title": "Yamauchi_1997_A_frontier-based_approach_for_autonomous_exploration.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:39:40Z",
-          "dateModified": "2021-12-12T12:40:17Z",
+          "dateModified": "2023-04-20T13:58:44Z",
           "uri": "http://zotero.org/users/8871808/items/3J9YKGNU",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\3J9YKGNU\\Yamauchi - 1997 - A frontier-based approach for autonomous explorati.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\3J9YKGNU\\Yamauchi_1997_A_frontier-based_approach_for_autonomous_exploration.pdf",
           "select": "zotero://select/library/items/3J9YKGNU"
         },
         {
@@ -12667,13 +12478,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Ye 等。 - 2021 - TGK-Planner An Efficient Topology Guided Kinodyna.pdf",
+          "title": "Ye_2021_TGK-Planner.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:48:48Z",
-          "dateModified": "2021-12-12T12:49:06Z",
+          "dateModified": "2023-04-20T13:55:30Z",
           "uri": "http://zotero.org/users/8871808/items/PPQ8RV96",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\PPQ8RV96\\Ye 等。 - 2021 - TGK-Planner An Efficient Topology Guided Kinodyna.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\PPQ8RV96\\Ye_2021_TGK-Planner.pdf",
           "select": "zotero://select/library/items/PPQ8RV96"
         }
       ],
@@ -12737,13 +12548,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Yoder and Scherer - 2016 - Autonomous Exploration for Infrastructure Modeling.pdf",
+          "title": "Yoder_Scherer_2016_Autonomous_Exploration_for_Infrastructure_Modeling_with_a_Micro_Aerial_Vehicle.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-08T08:01:18Z",
-          "dateModified": "2022-05-08T08:01:28Z",
+          "dateModified": "2023-04-20T13:58:45Z",
           "uri": "http://zotero.org/users/8871808/items/HB4KMWZR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HB4KMWZR\\Yoder and Scherer - 2016 - Autonomous Exploration for Infrastructure Modeling.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HB4KMWZR\\Yoder_Scherer_2016_Autonomous_Exploration_for_Infrastructure_Modeling_with_a_Micro_Aerial_Vehicle.pdf",
           "select": "zotero://select/library/items/HB4KMWZR"
         }
       ],
@@ -12851,13 +12662,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Yu 等 - 2018 - BiSeNet Bilateral Segmentation Network for Real-T.pdf",
+          "title": "Yu_2018_BiSeNet.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-06T05:23:06Z",
-          "dateModified": "2023-02-06T05:23:10Z",
+          "dateModified": "2023-04-20T13:55:31Z",
           "uri": "http://zotero.org/users/8871808/items/E2BVKYES",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\E2BVKYES\\Yu 等 - 2018 - BiSeNet Bilateral Segmentation Network for Real-T.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\E2BVKYES\\Yu_2018_BiSeNet.pdf",
           "select": "zotero://select/library/items/E2BVKYES"
         }
       ],
@@ -12933,13 +12744,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Full Text PDF",
+          "title": "Yu_2021_BiSeNet_V2.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-06T05:24:32Z",
-          "dateModified": "2023-02-06T05:24:32Z",
+          "dateModified": "2023-04-20T13:58:45Z",
           "uri": "http://zotero.org/users/8871808/items/57TGE4QK",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\57TGE4QK\\Yu 等 - 2021 - BiSeNet V2 Bilateral Network with Guided Aggregat.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\57TGE4QK\\Yu_2021_BiSeNet_V2.pdf",
           "select": "zotero://select/library/items/57TGE4QK"
         }
       ],
@@ -13058,13 +12869,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "已接受版本",
+          "title": "Yue_2019_Probabilistic_3D_Semantic_Map_Fusion_Based_on_Bayesian_Rule.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T03:08:46Z",
-          "dateModified": "2022-11-04T03:08:46Z",
+          "dateModified": "2023-04-20T13:58:45Z",
           "uri": "http://zotero.org/users/8871808/items/8G7X8RMY",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\8G7X8RMY\\Yue 等 - 2019 - Probabilistic 3D Semantic Map Fusion Based on Baye.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\8G7X8RMY\\Yue_2019_Probabilistic_3D_Semantic_Map_Fusion_Based_on_Bayesian_Rule.pdf",
           "select": "zotero://select/library/items/8G7X8RMY"
         }
       ],
@@ -13148,17 +12959,6 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "arXiv Fulltext PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-12-31T05:14:57Z",
-          "dateModified": "2022-12-31T05:14:57Z",
-          "uri": "http://zotero.org/users/8871808/items/LTJYFN32",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LTJYFN32\\Zeng 等 - 2022 - Efficient View Path Planning for Autonomous Implic.pdf",
-          "select": "zotero://select/library/items/LTJYFN32"
-        },
-        {
-          "itemType": "attachment",
           "title": "arXiv.org Snapshot",
           "tags": [],
           "relations": [],
@@ -13167,6 +12967,17 @@
           "uri": "http://zotero.org/users/8871808/items/MNI4VEKG",
           "path": "C:\\Users\\xxt\\Zotero\\storage\\MNI4VEKG\\2209.html",
           "select": "zotero://select/library/items/MNI4VEKG"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Zeng_2022_Efficient_View_Path_Planning_for_Autonomous_Implicit_Reconstruction.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-12-31T05:14:57Z",
+          "dateModified": "2023-04-20T13:58:46Z",
+          "uri": "http://zotero.org/users/8871808/items/LTJYFN32",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LTJYFN32\\Zeng_2022_Efficient_View_Path_Planning_for_Autonomous_Implicit_Reconstruction.pdf",
+          "select": "zotero://select/library/items/LTJYFN32"
         }
       ],
       "notes": [],
@@ -13262,13 +13073,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Zhang_2022_Exploration_with_Global_Consistency_Using_Real-Time_Re-integration_and_Active.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-09-16T05:35:40Z",
-          "dateModified": "2022-09-16T05:35:40Z",
+          "dateModified": "2023-04-20T13:58:47Z",
           "uri": "http://zotero.org/users/8871808/items/A5S6KRL6",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\A5S6KRL6\\Zhang 等。 - 2022 - Exploration with Global Consistency Using Real-Tim.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\A5S6KRL6\\Zhang_2022_Exploration_with_Global_Consistency_Using_Real-Time_Re-integration_and_Active.pdf",
           "select": "zotero://select/library/items/A5S6KRL6"
         }
       ],
@@ -13308,13 +13119,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhang and Scaramuzza - Fisher Information Field an Efﬁcient and Differen.pdf",
+          "title": "Zhang_Scaramuzza_Fisher_Information_Field.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T13:19:44Z",
-          "dateModified": "2021-12-12T13:19:52Z",
+          "dateModified": "2023-04-20T13:58:47Z",
           "uri": "http://zotero.org/users/8871808/items/2CPPKBJZ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\2CPPKBJZ\\Zhang and Scaramuzza - Fisher Information Field an Efﬁcient and Differen.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\2CPPKBJZ\\Zhang_Scaramuzza_Fisher_Information_Field.pdf",
           "select": "zotero://select/library/items/2CPPKBJZ"
         }
       ],
@@ -13382,13 +13193,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhang et al. - 2021 - A Novel Informative Autonomous Exploration Strateg.pdf",
+          "title": "Zhang_2021_A_Novel_Informative_Autonomous_Exploration_Strategy_with_Uniform_Sampling_for.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T06:46:04Z",
-          "dateModified": "2022-05-16T06:46:09Z",
+          "dateModified": "2023-04-20T13:58:46Z",
           "uri": "http://zotero.org/users/8871808/items/HRDYYW7P",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\HRDYYW7P\\Zhang et al. - 2021 - A Novel Informative Autonomous Exploration Strateg.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\HRDYYW7P\\Zhang_2021_A_Novel_Informative_Autonomous_Exploration_Strategy_with_Uniform_Sampling_for.pdf",
           "select": "zotero://select/library/items/HRDYYW7P"
         }
       ],
@@ -13514,13 +13325,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhang et al_2023_Probabilistic Network Topology Prediction for Active Planning.pdf",
+          "title": "Zhang_2023_Probabilistic_Network_Topology_Prediction_for_Active_Planning.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-04T08:25:55Z",
-          "dateModified": "2023-04-04T08:25:56Z",
+          "dateModified": "2023-04-20T13:58:46Z",
           "uri": "http://zotero.org/users/8871808/items/25IQXUCT",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\25IQXUCT\\Zhang et al_2023_Probabilistic Network Topology Prediction for Active Planning.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\25IQXUCT\\Zhang_2023_Probabilistic_Network_Topology_Prediction_for_Active_Planning.pdf",
           "select": "zotero://select/library/items/25IQXUCT"
         }
       ],
@@ -13600,13 +13411,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhao et al_2022_FAEP.pdf",
+          "title": "Zhao_2022_FAEP.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T09:21:41Z",
-          "dateModified": "2022-05-16T09:21:41Z",
+          "dateModified": "2023-04-20T13:55:33Z",
           "uri": "http://zotero.org/users/8871808/items/FMEUT7SC",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\FMEUT7SC\\Zhao et al_2022_FAEP.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\FMEUT7SC\\Zhao_2022_FAEP.pdf",
           "select": "zotero://select/library/items/FMEUT7SC"
         }
       ],
@@ -13723,13 +13534,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhong et al_2022_Information-Driven Fast Marching Autonomous Exploration With Aerial Robots.pdf",
+          "title": "Zhong_2022_Information-Driven_Fast_Marching_Autonomous_Exploration_With_Aerial_Robots.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T06:28:27Z",
-          "dateModified": "2022-04-07T06:28:27Z",
+          "dateModified": "2023-04-20T13:58:47Z",
           "uri": "http://zotero.org/users/8871808/items/LDEHYZQZ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\LDEHYZQZ\\Zhong et al_2022_Information-Driven Fast Marching Autonomous Exploration With Aerial Robots.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\LDEHYZQZ\\Zhong_2022_Information-Driven_Fast_Marching_Autonomous_Exploration_With_Aerial_Robots.pdf",
           "select": "zotero://select/library/items/LDEHYZQZ"
         }
       ],
@@ -13794,13 +13605,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhou 等。 - 2021 - EGO-Planner An ESDF-Free Gradient-Based Local Pla.pdf",
+          "title": "Zhou_2021_EGO-Planner.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:48:47Z",
-          "dateModified": "2021-12-12T12:48:55Z",
+          "dateModified": "2023-04-20T13:55:36Z",
           "uri": "http://zotero.org/users/8871808/items/77Y2TDSR",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\77Y2TDSR\\Zhou 等。 - 2021 - EGO-Planner An ESDF-Free Gradient-Based Local Pla.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\77Y2TDSR\\Zhou_2021_EGO-Planner.pdf",
           "select": "zotero://select/library/items/77Y2TDSR"
         }
       ],
@@ -13851,15 +13662,11 @@
       ],
       "tags": [
         {
-          "tag": "Aerial systems: applications",
+          "tag": "Robot sensing systems",
           "type": 1
         },
         {
-          "tag": "aerial systems: perception and autonomy",
-          "type": 1
-        },
-        {
-          "tag": "Fuels",
+          "tag": "Planning",
           "type": 1
         },
         {
@@ -13871,11 +13678,7 @@
           "type": 1
         },
         {
-          "tag": "Planning",
-          "type": 1
-        },
-        {
-          "tag": "Robot sensing systems",
+          "tag": "Trajectory",
           "type": 1
         },
         {
@@ -13883,11 +13686,19 @@
           "type": 1
         },
         {
-          "tag": "Trajectory",
+          "tag": "Trajectory planning",
           "type": 1
         },
         {
-          "tag": "Trajectory planning",
+          "tag": "aerial systems: perception and autonomy",
+          "type": 1
+        },
+        {
+          "tag": "Aerial systems: applications",
+          "type": 1
+        },
+        {
+          "tag": "Fuels",
           "type": 1
         }
       ],
@@ -13910,13 +13721,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhou et al_2021_FUEL.pdf",
+          "title": "Zhou_2021_FUEL.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-10T08:07:54Z",
-          "dateModified": "2023-04-10T08:07:55Z",
+          "dateModified": "2023-04-20T13:55:35Z",
           "uri": "http://zotero.org/users/8871808/items/7RMK95KL",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\7RMK95KL\\Zhou et al_2021_FUEL.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\7RMK95KL\\Zhou_2021_FUEL.pdf",
           "select": "zotero://select/library/items/7RMK95KL"
         }
       ],
@@ -13928,7 +13739,7 @@
     },
     {
       "key": "WW4ZH9UI",
-      "version": 5699,
+      "version": 5706,
       "itemType": "journalArticle",
       "title": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
       "abstractNote": "Although the use of multiple unmanned aerial vehicles (UAVs) has great potential for fast autonomous exploration, it has received far too little attention. In this article, we present a RApid Collaborative ExploRation (RACER) approach using a fleet of decentralized UAVs. To effectively dispatch the UAVs, a pairwise interaction based on an online hgrid space decomposition is used. It ensures that all UAVs simultaneously explore distinct regions, using only asynchronous and limited communication. Furthermore, we optimize the coverage paths of unknown space and balance the workloads partitioned to each UAV with a capacitated vehicle routing problem formulation. Given the task allocation, each UAV constantly updates the coverage path and incrementally extracts crucial information to support the exploration planning. A hierarchical planner finds exploration paths, refines local viewpoints, and generates minimum-time trajectories in sequence to explore the unknown space agilely and safely. The proposed approach is evaluated extensively, showing high exploration efficiency, scalability, and robustness to limited communication. Furthermore, for the first time, we achieve fully decentralized collaborative exploration with multiple UAVs in the real world. We will release our implementation as an open-source package.",
@@ -13960,30 +13771,6 @@
       ],
       "tags": [
         {
-          "tag": "Task analysis",
-          "type": 1
-        },
-        {
-          "tag": "Robot kinematics",
-          "type": 1
-        },
-        {
-          "tag": "Resource management",
-          "type": 1
-        },
-        {
-          "tag": "Robots",
-          "type": 1
-        },
-        {
-          "tag": "perception and autonomy",
-          "type": 1
-        },
-        {
-          "tag": "Collaboration",
-          "type": 1
-        },
-        {
           "tag": "Aerial system",
           "type": 1
         },
@@ -13996,6 +13783,10 @@
           "type": 1
         },
         {
+          "tag": "Collaboration",
+          "type": 1
+        },
+        {
           "tag": "cooperating robots",
           "type": 1
         },
@@ -14004,11 +13795,31 @@
           "type": 1
         },
         {
+          "tag": "ObsCite"
+        },
+        {
+          "tag": "perception and autonomy",
+          "type": 1
+        },
+        {
           "tag": "Quadrotors",
           "type": 1
         },
         {
-          "tag": "ObsCite"
+          "tag": "Resource management",
+          "type": 1
+        },
+        {
+          "tag": "Robot kinematics",
+          "type": 1
+        },
+        {
+          "tag": "Robots",
+          "type": 1
+        },
+        {
+          "tag": "Task analysis",
+          "type": 1
         }
       ],
       "relations": [],
@@ -14030,13 +13841,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhou et al_2023_RACER.pdf",
+          "title": "Zhou_2023_RACER.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-04-20T07:01:16Z",
-          "dateModified": "2023-04-20T07:01:17Z",
+          "dateModified": "2023-04-20T13:55:35Z",
           "uri": "http://zotero.org/users/8871808/items/NRGZQ4CL",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\NRGZQ4CL\\Zhou et al_2023_RACER.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\NRGZQ4CL\\Zhou_2023_RACER.pdf",
           "select": "zotero://select/library/items/NRGZQ4CL"
         }
       ],
@@ -14154,13 +13965,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Zhou_2021_RAPTOR.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-08-01T06:40:13Z",
-          "dateModified": "2022-08-01T06:40:13Z",
+          "dateModified": "2023-04-20T13:55:34Z",
           "uri": "http://zotero.org/users/8871808/items/9UDTTWCV",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\9UDTTWCV\\Zhou 等。 - 2021 - RAPTOR Robust and Perception-Aware Trajectory Rep.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\9UDTTWCV\\Zhou_2021_RAPTOR.pdf",
           "select": "zotero://select/library/items/9UDTTWCV"
         }
       ],
@@ -14278,13 +14089,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Zhou_2019_Robust_and_Efficient_Quadrotor_Trajectory_Generation_for_Fast_Autonomous_Flight.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-10-22T06:19:28Z",
-          "dateModified": "2022-10-22T06:19:28Z",
+          "dateModified": "2023-04-20T13:58:48Z",
           "uri": "http://zotero.org/users/8871808/items/J8FW2LLB",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\J8FW2LLB\\Zhou 等。 - 2019 - Robust and Efficient Quadrotor Trajectory Generati.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\J8FW2LLB\\Zhou_2019_Robust_and_Efficient_Quadrotor_Trajectory_Generation_for_Fast_Autonomous_Flight.pdf",
           "select": "zotero://select/library/items/J8FW2LLB"
         }
       ],
@@ -14374,13 +14185,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Zhou_2020_Robust_Real-time_UAV_Replanning_Using_Guided_Gradient-based_Optimization_and.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-10-22T06:21:19Z",
-          "dateModified": "2022-10-22T06:21:19Z",
+          "dateModified": "2023-04-20T13:58:47Z",
           "uri": "http://zotero.org/users/8871808/items/5BKV5MZM",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\5BKV5MZM\\Zhou 等。 - 2020 - Robust Real-time UAV Replanning Using Guided Gradi.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\5BKV5MZM\\Zhou_2020_Robust_Real-time_UAV_Replanning_Using_Guided_Gradient-based_Optimization_and.pdf",
           "select": "zotero://select/library/items/5BKV5MZM"
         }
       ],
@@ -14429,13 +14240,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhou 和 Schwager - 2014 - Vector field following for quadrotors using differ.pdf",
+          "title": "Zhou_Schwager_2014_Vector_field_following_for_quadrotors_using_differential_flatness.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-12-12T12:41:23Z",
-          "dateModified": "2021-12-12T12:42:24Z",
+          "dateModified": "2023-04-20T13:58:48Z",
           "uri": "http://zotero.org/users/8871808/items/ZCCS8VUE",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZCCS8VUE\\Zhou 和 Schwager - 2014 - Vector field following for quadrotors using differ.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZCCS8VUE\\Zhou_Schwager_2014_Vector_field_following_for_quadrotors_using_differential_flatness.pdf",
           "select": "zotero://select/library/items/ZCCS8VUE"
         }
       ],
@@ -14538,13 +14349,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhu et al_2018_Deep Reinforcement Learning Supervised Autonomous Exploration in Office.pdf",
+          "title": "Zhu_2018_Deep_Reinforcement_Learning_Supervised_Autonomous_Exploration_in_Office.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-05-16T08:32:22Z",
-          "dateModified": "2022-05-16T08:32:23Z",
+          "dateModified": "2023-04-20T13:58:49Z",
           "uri": "http://zotero.org/users/8871808/items/ZHT4PNNH",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZHT4PNNH\\Zhu et al_2018_Deep Reinforcement Learning Supervised Autonomous Exploration in Office.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZHT4PNNH\\Zhu_2018_Deep_Reinforcement_Learning_Supervised_Autonomous_Exploration_in_Office.pdf",
           "select": "zotero://select/library/items/ZHT4PNNH"
         }
       ],
@@ -14649,13 +14460,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhu et al_2021_DSVP.pdf",
+          "title": "Zhu_2021_DSVP.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-10T06:40:08Z",
-          "dateModified": "2022-04-10T06:40:08Z",
+          "dateModified": "2023-04-20T13:55:37Z",
           "uri": "http://zotero.org/users/8871808/items/YEPMY9DQ",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\YEPMY9DQ\\Zhu et al_2021_DSVP.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\YEPMY9DQ\\Zhu_2021_DSVP.pdf",
           "select": "zotero://select/library/items/YEPMY9DQ"
         }
       ],
@@ -14754,13 +14565,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "Zhu et al_2021_Online Informative Path Planning for Active Information Gathering of a 3D.pdf",
+          "title": "Zhu_2021_Online_Informative_Path_Planning_for_Active_Information_Gathering_of_a_3D.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-04-07T13:08:04Z",
-          "dateModified": "2022-04-07T13:08:04Z",
+          "dateModified": "2023-04-20T13:58:50Z",
           "uri": "http://zotero.org/users/8871808/items/XNY5FTJ2",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\XNY5FTJ2\\Zhu et al_2021_Online Informative Path Planning for Active Information Gathering of a 3D.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\XNY5FTJ2\\Zhu_2021_Online_Informative_Path_Planning_for_Active_Information_Gathering_of_a_3D.pdf",
           "select": "zotero://select/library/items/XNY5FTJ2"
         }
       ],
@@ -14895,13 +14706,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
+          "title": "Zurbrügg_2022_Embodied_Active_Domain_Adaptation_for_Semantic_Segmentation_via_Informative.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-11-04T02:29:38Z",
-          "dateModified": "2022-11-04T02:29:38Z",
+          "dateModified": "2023-04-20T13:58:50Z",
           "uri": "http://zotero.org/users/8871808/items/ZAEQRLLL",
-          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZAEQRLLL\\Zurbrügg 等 - 2022 - Embodied Active Domain Adaptation for Semantic Seg.pdf",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZAEQRLLL\\Zurbrügg_2022_Embodied_Active_Domain_Adaptation_for_Semantic_Segmentation_via_Informative.pdf",
           "select": "zotero://select/library/items/ZAEQRLLL"
         }
       ],
