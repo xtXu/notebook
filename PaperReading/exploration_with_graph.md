@@ -1,5 +1,5 @@
 # Exploration Method using Graph
-#UAV #exploration #planning #paper
+#UAV #exploration #planning #paper #graph
 ## Graph‐based subterranean exploration path planning using aerial and legged robots
 
 > **author**: TungDang, MarcoTranzatto, ShehryarKhattak, FrankMascarich, KostasAlexis, MarcoHutter  
