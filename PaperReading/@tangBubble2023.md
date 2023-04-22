@@ -42,6 +42,8 @@ Since the sphere is free and convex, any segments inside the sphere is occlusion
 1. Evaluate the gain for each viewpoints, which consider the corresponding sphere radius and the distance cost from the current pos to the viewpoint.
 2. Maintain a fixed-size viewpoint priority queue $\mathbf{Q}$.
 3. Plan the global path using ATSP.
+### Local Trajectory Generation
+1. Bubble Planner: piecewise polynomial, spherical safe flight corridor, optimization using a spatial-temporal decomposition method, receding-horizon framework.
 
 ---
 
