@@ -41,7 +41,7 @@ Since the sphere is free and convex, any segments inside the sphere is occlusion
 ### Global Tour Planning
 1. Evaluate the gain for each viewpoints, which consider the corresponding sphere radius and the distance cost from the current pos to the viewpoint.
 2. Maintain a fixed-size viewpoint priority queue $\mathbf{Q}$.
-3. Plan the global path 
+3. Plan the global path using ATSP.
 
 ---
 
