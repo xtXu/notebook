@@ -17,3 +17,10 @@
 1. Find shortest paths from the root to all other vertices using Dijkstra.
 2. Compute the ExplorationGain considering the gain, the distance and the direction.
 3. Select the path maximizing the ExplorationGain.
+
+### Global Planner - Sparse Graph from Local Graph
+**graph building:**
+
+
+**path planning**:
+

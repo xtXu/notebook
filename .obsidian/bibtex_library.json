@@ -2633,13 +2633,14 @@
     },
     {
       "key": "D3K32WEX",
-      "version": 5634,
+      "version": 5899,
       "itemType": "journalArticle",
       "title": "Graph‐based subterranean exploration path planning using aerial and legged robots",
       "abstractNote": "Autonomous exploration of subterranean environments remains a major challenge for robotic systems. In response, this paper contributes a novel graph‐based subterranean exploration path planning method that is attuned to key topological properties of subterranean settings, such as large‐scale tunnel‐like networks and complex multibranched topologies. Designed both for aerial and legged robots, the proposed method is structured around a bifurcated local‐ and global‐planner architecture. The local planner utilizes a rapidly exploring random graph to reliably and efficiently identify paths that optimize an exploration gain within a local subspace, while simultaneously avoiding obstacles, respecting applicable traversability constraints and honoring dynamic limitations of the robots. Reflecting the fact that multibranched and tunnel‐like networks of underground environments can often lead to dead‐ends and accounting for the robot endurance, the global planning layer works in conjunction with the local planner to incrementally build a sparse global graph and is engaged when the system must be repositioned to a previously identified frontier of the exploration space, or commanded to return‐to‐home. The designed planner is detailed with respect to its computational complexity and compared against state‐of‐the‐art approaches. Emphasizing field experimentation, the method is evaluated within multiple real‐life deployments using aerial robots and the ANYmal legged system inside both long‐wall and room‐and‐pillar underground mines in the United States and in Switzerland, as well as inside an underground bunker. The presented results further include missions conducted within the Defense Advanced Research Projects Agency (DARPA) Subterranean Challenge, a relevant competition on underground exploration.",
       "date": "12/2020",
       "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryCatalog": "6.385",
+      "callNumber": "2",
       "url": "https://onlinelibrary.wiley.com/doi/10.1002/rob.21993",
       "accessDate": "2021-12-12T13:12:08Z",
       "volume": "37",
@@ -2688,7 +2689,7 @@
       ],
       "relations": [],
       "dateAdded": "2021-12-12T13:12:08Z",
-      "dateModified": "2021-12-12T13:15:12Z",
+      "dateModified": "2023-04-22T06:39:11Z",
       "uri": "http://zotero.org/users/8871808/items/D3K32WEX",
       "itemID": 82,
       "attachments": [
@@ -2707,14 +2708,14 @@
       "notes": [
         {
           "key": "GC2BMI9G",
-          "version": 963,
+          "version": 5887,
           "itemType": "note",
           "parentItem": "D3K32WEX",
-          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22Autonomous%20exploration%20of%20subterranean%20environments%20remains%20a%20major%20challenge%20for%20robotic%20systems.%20In%20response%2C%20this%20paper%20contributes%20a%20novel%20graph%E2%80%90based%20subterranean%20exploration%20path%20planning%20method%20that%20is%20attuned%20to%20key%20topological%20properties%20of%20subterranean%20settings%2C%20such%20as%20large%E2%80%90scale%20tunnel%E2%80%90like%20networks%20and%20complex%20multibranched%20topologies.%20Designed%20both%20for%20aerial%20and%20legged%20robots%2C%20the%20proposed%20method%20is%20structured%20around%20a%20bifurcated%20local%E2%80%90%20and%20global%E2%80%90planner%20architecture.%20The%20local%20planner%20utilizes%20a%20rapidly%20exploring%20random%20graph%20to%20reliably%20and%20efficiently%20identify%20paths%20that%20optimize%20an%20exploration%20gain%20within%20a%20local%20subspace%2C%20while%20simultaneously%20avoiding%20obstacles%2C%20respecting%20applicable%20traversability%20constraints%20and%20honoring%20dynamic%20limitations%20of%20the%20robots.%20Reflecting%20the%20fact%20that%20multibranched%20and%20tunnel%E2%80%90like%20networks%20of%20underground%20environments%20can%20often%20lead%20to%20dead%E2%80%90ends%20and%20accounting%20for%20the%20robot%20endurance%2C%20the%20global%20planning%20layer%20works%20in%20conjunction%20with%20the%20local%20planner%20to%20incrementally%20build%20a%20sparse%20global%20graph%20and%20is%20engaged%20when%20the%20system%20must%20be%20repositioned%20to%20a%20previously%20identified%20frontier%20of%20the%20exploration%20space%2C%20or%20commanded%20to%20return%E2%80%90to%E2%80%90home.%20The%20designed%20planner%20is%20detailed%20with%20respect%20to%20its%20computational%20complexity%20and%20compared%20against%20state%E2%80%90of%E2%80%90the%E2%80%90art%20approaches.%20Emphasizing%20field%20experimentation%2C%20the%20method%20is%20evaluated%20within%20multiple%20real%E2%80%90life%20deployments%20using%20aerial%20robots%20and%20the%20ANYmal%20legged%20system%20inside%20both%20long%E2%80%90wall%20and%20room%E2%80%90and%E2%80%90pillar%20underground%20mines%20in%20the%20United%20States%20and%20in%20Switzerland%2C%20as%20well%20as%20inside%20an%20underground%20bunker.%20The%20presented%20results%20further%20include%20missions%20conducted%20within%20the%20Defense%20Advanced%20Research%20Projects%20Agency%20(DARPA)%20Subterranean%20Challenge%2C%20a%20relevant%20competition%20on%20underground%20exploration.%22%2C%22container-title%22%3A%22Journal%20of%20Field%20Robotics%22%2C%22DOI%22%3A%2210.1002%2Frob.21993%22%2C%22ISSN%22%3A%221556-4959%2C%201556-4967%22%2C%22issue%22%3A%228%22%2C%22journalAbbreviation%22%3A%22J%20Field%20Robotics%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%221363-1388%22%2C%22source%22%3A%22DOI.org%20(Crossref)%22%2C%22title%22%3A%22Graph%E2%80%90based%20subterranean%20exploration%20path%20planning%20using%20aerial%20and%20legged%20robots%22%2C%22URL%22%3A%22https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Frob.21993%22%2C%22volume%22%3A%2237%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Dang%22%2C%22given%22%3A%22Tung%22%7D%2C%7B%22family%22%3A%22Tranzatto%22%2C%22given%22%3A%22Marco%22%7D%2C%7B%22family%22%3A%22Khattak%22%2C%22given%22%3A%22Shehryar%22%7D%2C%7B%22family%22%3A%22Mascarich%22%2C%22given%22%3A%22Frank%22%7D%2C%7B%22family%22%3A%22Alexis%22%2C%22given%22%3A%22Kostas%22%7D%2C%7B%22family%22%3A%22Hutter%22%2C%22given%22%3A%22Marco%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C12%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222020%22%2C12%5D%5D%7D%2C%22citation-key%22%3A%22dangGraphBasedSubterranean2020%22%7D%7D%5D\" data-schema-version=\"8\"><h1>Key</h1>\n<ul>\n<li>\nExploration (<span style=\"background-color: #ff666680\">DARPA</span>)\n</li>\n<li>\n<span style=\"background-color: #ff666680\">Graph-based</span>\n</li>\n<li>\nLocal-Global\n</li>\n<li>\nLocal: RRG(rapidly exploring random graph), optimize exploration gain\n</li>\n<li>\nGlobal: sparse global graph, engaged when the system must be repositioned to a previously identified frontier of the exploration space, or commanded to return‐to‐home. &nbsp;\n</li>\n</ul>\n</div>",
+          "note": "<div data-schema-version=\"8\"><h1>Key</h1>\n<ul>\n<li>\nExploration (<span style=\"background-color: #ff666680\">DARPA</span>)\n</li>\n<li>\n<span style=\"background-color: #ff666680\">Graph-based</span>\n</li>\n<li>\nLocal-Global\n</li>\n<li>\nLocal: RRG(rapidly exploring random graph), optimize exploration gain\n</li>\n<li>\nGlobal: sparse global graph, engaged when the system must be repositioned to a previously identified frontier of the exploration space, or commanded to return‐to‐home. &nbsp;\n</li>\n</ul>\n</div>",
           "tags": [],
           "relations": {},
           "dateAdded": "2022-05-09T08:26:33Z",
-          "dateModified": "2022-05-09T08:37:43Z",
+          "dateModified": "2023-04-22T06:23:05Z",
           "uri": "http://zotero.org/users/8871808/items/GC2BMI9G"
         }
       ],
