@@ -2739,7 +2739,7 @@
     },
     {
       "key": "SVLFRL4Z",
-      "version": 5978,
+      "version": 5979,
       "itemType": "conferencePaper",
       "title": "Graph-based Path Planning for Autonomous Robotic Exploration in Subterranean Environments",
       "abstractNote": "This paper presents a novel strategy for autonomous graph-based exploration path planning in subterranean environments. Attuned to the fact that subterranean settings, such as underground mines, are often large-scale networks of narrow tunnel-like and multi-branched topologies, the proposed planner is structured around a bifurcated local-and global-planner architecture. The local planner employs a rapidly-exploring random graph to reliably and efficiently identify collision-free paths that optimize an exploration gain within a local subspace. Accounting for the robot endurance limitations and the possibility that the local planner reaches a dead-end (e.g. a mine heading), the global planner is engaged when a return-to-home path must be derived or when the robot should be re-positioned towards an edge of the exploration space. The proposed planner is field evaluated in a collection of deployments inside both active and abandoned underground mines in the U.S. and in Switzerland.",
@@ -2812,7 +2812,20 @@
           "select": "zotero://select/library/items/ZAHEN5XA"
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "key": "EXUKHDGM",
+          "version": 5990,
+          "itemType": "note",
+          "parentItem": "SVLFRL4Z",
+          "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nGraph-based\n</li>\n<li>\n\n</li>\n</ul>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-04-22T08:50:56Z",
+          "dateModified": "2023-04-22T08:51:01Z",
+          "uri": "http://zotero.org/users/8871808/items/EXUKHDGM"
+        }
+      ],
       "citationKey": "dangGraphbased2019",
       "itemKey": "SVLFRL4Z",
       "libraryID": 1,

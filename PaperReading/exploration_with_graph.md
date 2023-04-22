@@ -4,6 +4,7 @@
 
 > **author**: TungDang, FrankMascarich, ShehryarKhattak, ChristosPapachristos, KostasAlexis  
 > **journal**:   
+> **conference**: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)  
 > **link**: [dangGraphbased2019](zotero://select/library/items/SVLFRL4Z)  
 
 
