@@ -157,7 +157,8 @@
         592,
         594,
         691,
-        697
+        697,
+        751
       ]
     },
     "4GRDS67P": {
@@ -2735,6 +2736,87 @@
       "itemKey": "D3K32WEX",
       "libraryID": 1,
       "select": "zotero://select/library/items/D3K32WEX"
+    },
+    {
+      "key": "SVLFRL4Z",
+      "version": 5978,
+      "itemType": "conferencePaper",
+      "title": "Graph-based Path Planning for Autonomous Robotic Exploration in Subterranean Environments",
+      "abstractNote": "This paper presents a novel strategy for autonomous graph-based exploration path planning in subterranean environments. Attuned to the fact that subterranean settings, such as underground mines, are often large-scale networks of narrow tunnel-like and multi-branched topologies, the proposed planner is structured around a bifurcated local-and global-planner architecture. The local planner employs a rapidly-exploring random graph to reliably and efficiently identify collision-free paths that optimize an exploration gain within a local subspace. Accounting for the robot endurance limitations and the possibility that the local planner reaches a dead-end (e.g. a mine heading), the global planner is engaged when a return-to-home path must be derived or when the robot should be re-positioned towards an edge of the exploration space. The proposed planner is field evaluated in a collection of deployments inside both active and abandoned underground mines in the U.S. and in Switzerland.",
+      "date": "2019-11",
+      "libraryCatalog": "IEEE Xplore",
+      "extra": "ISSN: 2153-0866",
+      "pages": "3105-3112",
+      "proceedingsTitle": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "conferenceName": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "DOI": "10.1109/IROS40897.2019.8968151",
+      "creators": [
+        {
+          "firstName": "Tung",
+          "lastName": "Dang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Frank",
+          "lastName": "Mascarich",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shehryar",
+          "lastName": "Khattak",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christos",
+          "lastName": "Papachristos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kostas",
+          "lastName": "Alexis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-04-22T08:40:09Z",
+      "dateModified": "2023-04-22T08:40:09Z",
+      "uri": "http://zotero.org/users/8871808/items/SVLFRL4Z",
+      "itemID": 751,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Dang_2019_Graph-based_Path_Planning_for_Autonomous_Robotic_Exploration_in_Subterranean.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-04-22T08:40:15Z",
+          "dateModified": "2023-04-22T08:40:16Z",
+          "uri": "http://zotero.org/users/8871808/items/A7RJU9XV",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\A7RJU9XV\\Dang_2019_Graph-based_Path_Planning_for_Autonomous_Robotic_Exploration_in_Subterranean.pdf",
+          "select": "zotero://select/library/items/A7RJU9XV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "IEEE Xplore Abstract Record",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-04-22T08:40:13Z",
+          "dateModified": "2023-04-22T08:40:13Z",
+          "uri": "http://zotero.org/users/8871808/items/ZAHEN5XA",
+          "path": "C:\\Users\\xxt\\Zotero\\storage\\ZAHEN5XA\\stamp.html",
+          "select": "zotero://select/library/items/ZAHEN5XA"
+        }
+      ],
+      "notes": [],
+      "citationKey": "dangGraphbased2019",
+      "itemKey": "SVLFRL4Z",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SVLFRL4Z"
     },
     {
       "key": "4MII6JZL",

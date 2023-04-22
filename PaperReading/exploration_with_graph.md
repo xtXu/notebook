@@ -1,5 +1,12 @@
 # Exploration Method using Graph
 #UAV #exploration #planning #paper #graph
+## Graph-based Path Planning for Autonomous Robotic Exploration in Subterranean Environments
+
+> **author**: TungDang, FrankMascarich, ShehryarKhattak, ChristosPapachristos, KostasAlexis  
+> **journal**:   
+> **link**: [dangGraphbased2019](zotero://select/library/items/SVLFRL4Z)  
+
+
 ## Graph‐based subterranean exploration path planning using aerial and legged robots
 
 > **author**: TungDang, MarcoTranzatto, ShehryarKhattak, FrankMascarich, KostasAlexis, MarcoHutter  
