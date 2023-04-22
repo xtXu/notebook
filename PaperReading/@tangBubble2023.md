@@ -35,8 +35,9 @@ Autonomous exploration is a crucial aspect of robotics that has numerous applica
 An occlusion-free sphere is defined by its center $\mathbf{p}_{c}\in \mathbb{R}^{3}$, which lies on the target frontier, and the radius: $r=\Vert \mathrm{p}_{c}-\mathrm{p}_{o}\Vert_{2}$, where $\mathrm{p}_{o}\in\mathbb{R}^{3}$ is the nearest neighbor obstacle point (NN point).  
 Since the sphere is free and convex, any segments inside the sphere is occlusion-free. By employing a viewpoint sampling strategy on the sphere’s surface, no ray-casting is needed to check the visibility to the frontier cells from the viewpoints, which save the computation time.
 ### Viewpoints Generation
-1. Incrementally search frontier cells, and down-sample to generate the set of sphere center candidates $\mathbf{C}$
-2. 
+1. Incrementally search frontier cells, and down-sample to generate the set of sphere center candidates $\mathbf{C}$.
+2. For each center $\mathbf{p}_{c}\in \mathbf{C}$, generate sphere $s_{i}$ and add it to a priority queue $\mathbf{S}$ sorted by sphere radius.
+3. 
 
 ---
 
