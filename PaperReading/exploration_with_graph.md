@@ -20,7 +20,11 @@
 
 ### Global Planner - Sparse Graph from Local Graph
 **graph building:**
-
+1. Add the best path by introducing new vertices and edges along such paths., and add extra edges from the new vertex to the neighbors.
+2. Add additional paths from the list of shortest paths of the local graph which contain vertices with high volumetric gain. To reduce the number of paths, cluster the high-gain paths by DTW similarity metric and only the longest paths from each cluster is added.
+3. The leaf vertices from the added paths are marked as "frontiers". The volumetric gain of each frontier is re-evaluated periodically.
 
 **path planning**:
+1. Two times Dijkstra to (a) find the paths from current position to all frontiers, (b) find the paths from frontiers to the home.
+2. 
 
