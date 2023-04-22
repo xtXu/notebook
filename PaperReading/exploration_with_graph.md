@@ -26,5 +26,5 @@
 
 **path planning**:
 1. Two times Dijkstra to (a) find the paths from current position to all frontiers, (b) find the paths from frontiers to the home.
-2. 
+2. Evaluate GlobalExplorationGain for each frontier considering the volumetric gain, the distance from current to frontier, and the time current->frontier->home.
 
