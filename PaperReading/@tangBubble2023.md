@@ -37,7 +37,11 @@ Since the sphere is free and convex, any segments inside the sphere is occlusion
 ### Viewpoints Generation
 1. Incrementally search frontier cells, and down-sample to generate the set of sphere center candidates $\mathbf{C}$.
 2. For each center $\mathbf{p}_{c}\in \mathbf{C}$, generate sphere $s_{i}$ and add it to a priority queue $\mathbf{S}$ sorted by sphere radius.
-3. 
+3. Generate a set of viewpoints to cover all candidate sphere center: Iteratively select a sphere from $\mathbf{S}$, sample viewpoints on the surface and choose the one with highest coverage, remove the frontier cells and candidate sphere center covered by the viewpoint. The iteration stops when $\mathbf{S}$ is empty.
+### Global Tour Planning
+1. Evaluate the gain for each viewpoints, which consider the corresponding sphere radius and the distance cost from the current pos to the viewpoint.
+2. Maintain a fixed-size viewpoint priority queue $\mathbf{Q}$.
+3. Plan the global path 
 
 ---
 
