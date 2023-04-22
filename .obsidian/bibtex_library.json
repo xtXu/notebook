@@ -3218,7 +3218,7 @@
     },
     {
       "key": "R2EE8RDQ",
-      "version": 5633,
+      "version": 6036,
       "itemType": "conferencePaper",
       "title": "Robotic Exploration of Unknown 2D Environment Using a Frontier-based Automatic-Differentiable Information Gain Measure",
       "abstractNote": "At the heart of path-planning methods for autonomous robotic exploration is a heuristic which encourages exploring unknown regions of the environment. Such heuristics are typically computed using frontier-based or informationtheoretic methods. Frontier-based methods deﬁne the information gain of an exploration path as the number of boundary cells, or frontiers, which are visible from the path. However, the discrete and non-differentiable nature of this measure of information gain makes it difﬁcult to optimize using gradientbased methods. In contrast, information-theoretic methods deﬁne information gain as the mutual information between the sensor’s measurements and the explored map. However, computation of the gradient of mutual information involves ﬁnite differencing and is thus computationally expensive. In this work, we propose an exploration planning framework which combines sampling-based path planning and gradient-based path optimization. The main contribution of this framework is a novel reformulation of information gain as a differentiable function. This allows us to simultaneously optimize information gain with other differentiable quality measures, such as smoothness. The effectiveness of the proposed planning framework is veriﬁed both in simulation and in hardware experiments using a Turtlebot3 Burger robot.",
@@ -3263,12 +3263,15 @@
       ],
       "tags": [
         {
+          "tag": "/unread"
+        },
+        {
           "tag": "Frontier"
         }
       ],
       "relations": [],
       "dateAdded": "2021-12-12T13:09:52Z",
-      "dateModified": "2021-12-12T13:11:59Z",
+      "dateModified": "2023-04-22T09:24:58Z",
       "uri": "http://zotero.org/users/8871808/items/R2EE8RDQ",
       "itemID": 74,
       "attachments": [
