@@ -1,0 +1,108 @@
+# Graph‐based subterranean exploration path planning using aerial and legged robots
+
+## Metadata
+- **CiteKey**: dangGraph2020
+- **Type**: Journal Article
+- **Title**: Graph‐based subterranean exploration path planning using aerial and legged robots
+- **Author**: Dang, Tung; Tranzatto, Marco; Khattak, Shehryar; Mascarich, Frank; Alexis, Kostas; Hutter, Marco 
+- **Journal**: Journal of Field Robotics
+- **Year**: 2020 
+
+
+## Abstract
+Autonomous exploration of subterranean environments remains a major challenge for robotic systems. In response, this paper contributes a novel graph‐based subterranean exploration path planning method that is attuned to key topological properties of subterranean settings, such as large‐scale tunnel‐like networks and complex multibranched topologies. Designed both for aerial and legged robots, the proposed method is structured around a bifurcated local‐ and global‐planner architecture. The local planner utilizes a rapidly exploring random graph to reliably and efficiently identify paths that optimize an exploration gain within a local subspace, while simultaneously avoiding obstacles, respecting applicable traversability constraints and honoring dynamic limitations of the robots. Reflecting the fact that multibranched and tunnel‐like networks of underground environments can often lead to dead‐ends and accounting for the robot endurance, the global planning layer works in conjunction with the local planner to incrementally build a sparse global graph and is engaged when the system must be repositioned to a previously identified frontier of the exploration space, or commanded to return‐to‐home. The designed planner is detailed with respect to its computational complexity and compared against state‐of‐the‐art approaches. Emphasizing field experimentation, the method is evaluated within multiple real‐life deployments using aerial robots and the ANYmal legged system inside both long‐wall and room‐and‐pillar underground mines in the United States and in Switzerland, as well as inside an underground bunker. The presented results further include missions conducted within the Defense Advanced Research Projects Agency (DARPA) Subterranean Challenge, a relevant competition on underground exploration.
+## Files and Links
+- **Local Library**: [Zotero](zotero://select/library/items/D3K32WEX)
+- **File**:[Dang_2020_Graph‐based_subterranean_exploration_path_planning_using_aerial_and_legged.pdf](zotero://open-pdf/library/items/RSQKIQJU)
+
+## Tags and Collections
+- **Keywords**: Graph
+- **Collections**: Exploration; Exploration_cite; FGEP_cite; IROS2023
+
+
+----
+
+## Comments
+*   Exploration (DARPA)
+*   Graph-based
+*   Local Planner + Global Planner
+*   Local Planner: RRG(rapidly exploring random graph), choose the path maximizing the LocalExplorationGain.
+*   Global Planner: Sparse global graph incrementally built from the shortest paths with high gain in local graph. The path maximizing the GlobalExplorationGain.
+*   Path refinement: adjust the vertex far away from obstacles to ensure safety.
+
+## Method
+
+
+----
+
+## Extracted Annotations
+
+Annotations(4/22/2023, 4:18:21 PM)
+
+- *“The local planner utilizes a rapidly exploring random graph”* [(Dang et al., 2020, p. 1)](zotero://open-pdf/library/items/RSQKIQJU?page=1&annotation=S86GLKUN) 
+
+- *“the global planning layer works in conjunction with the local planner to incrementally build a sparse global graph”* [(Dang et al., 2020, p. 1)](zotero://open-pdf/library/items/RSQKIQJU?page=1&annotation=3KIQGYAB) 
+
+- *“We propose a new comprehensive graph‐based exploration path planner (GBPlanner) that builds on a bifurcated local and global planning architecture tailored to the underground domain.”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=GFGZJV9D) 
+
+- *“local planner”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=8KHDFF7W) 
+
+- *“bounded volume”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=KSXZB6G4) 
+
+- *“It employs a rapidly exploring random graph sampling kernel to evaluate robot paths that maximize an information gain”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=AA9WWLGD) 
+
+- *“The best path is selected such that the information gain is maximized and is subsequently refined to enhance its “safety” properties”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=K4BIXJYP) 
+
+- *“global planning”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=MUQ2GXV6) 
+
+- *“searching through a global yet sparse and incrementally built graph, the identification of a path towards a previously perceived edge of the exploration space”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=AH2JSRM4) 
+
+- *“the global planner also continuously updates a return‐to‐home path which is triggered when the robot's remaining endurance approaches its limits”* [(Dang et al., 2020, p. 2)](zotero://open-pdf/library/items/RSQKIQJU?page=2&annotation=5MVQRHCZ) 
+
+- *“Given an occupancy map  and a local subset of it L  centered around the current robot configuration ξ0, find a collision‐free and traversability‐aware (when applicable) path σξ = {} i L to guide the robot towards unmapped areas and maximize an exploration gain defined as the volume which is expected to be mapped when the robot traverses along the path σL with a sensor .”* [(Dang et al., 2020, p. 4)](zotero://open-pdf/library/items/RSQKIQJU?page=4&annotation=UYSVHSRN) 
+
+- *“Given the explored and unknown subsets of an occupancy map  of the environment and the current robot configuration ξ0, find a collision‐free path σG leading the robot towards the frontiers of the unmapped areas.”* [(Dang et al., 2020, p. 4)](zotero://open-pdf/library/items/RSQKIQJU?page=4&annotation=ZTRL929T) 
+
+- *“a local exploration planner which focuses on local exploration surrounding the current robot's pose”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=PQPJDAWU) 
+
+- *“a global planner which performs planning globally inside the currently explored space”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=NCQN8TRF) 
+
+- *“the local planner searches within a sliding local space of fixed dimension to enable faster computation, while simultaneously ensuring that the algorithmic complexity remains independent of the environment's scale.”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=G9YRTRDT) 
+
+- *“the local planner might reach a dead‐end or other scenario that prohibits the derivation of an effective exploration path.”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=7XZTPLSV) 
+
+- *“he global planner is then queried to relocate the robot towards unexplored areas to continue its mission.”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=3SH4FEHK) 
+
+- *“he planner randomly samples a collision‐free configuration ξ ∈ () R rand free inside a local volume VDL”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=5IMETDDK) 
+
+- *“finds its closest vertex ξnearest in the graph”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=XNQ8UWBA) 
+
+- *“If a straight path connecting the two ξξ [ ,] rand nearest passes the collision check, the new sample and the straight path are both added to the graph as a new vertex and new edge”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=382I7YE9) 
+
+- *“ttempts to connect denser collision‐free edges from this newly added vertex to its neighboring vertices within a defined radius δ”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=2RYGQNSN) 
+
+- *“Given the built local graph L  , Dijkstra's algorithm (Cormen et al., 2009) is utilized to find the set of shortest paths ΣL from the root vertex ξ0 to all other vertices in the local graph.”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=WT6TCTK7) 
+
+- *“computes the VolumetricGain for each vertex, which is the expected cumulative unmapped volume”* [(Dang et al., 2020, p. 5)](zotero://open-pdf/library/items/RSQKIQJU?page=5&annotation=JIJ7CUEF) 
+
+- *“The volumetric gain, together with other weight functions related to distance and direction, is utilized to compute the ExplorationGain for each shortest path in ΣL”* [(Dang et al., 2020, p. 6)](zotero://open-pdf/library/items/RSQKIQJU?page=6&annotation=4LZC8WJQ) 
+
+- *“A path that maximizes the ExplorationGain is then selected and refined before being conducted by the robot”* [(Dang et al., 2020, p. 7)](zotero://open-pdf/library/items/RSQKIQJU?page=7&annotation=GE9ZR9A4) 
+
+- *“incrementally build and continually maintain a lightweight undirected graph from the iteratively derived local exploration graphs.”* [(Dang et al., 2020, p. 7)](zotero://open-pdf/library/items/RSQKIQJU?page=7&annotation=82WJADQI) 
+
+- *“In the first step, the global graph adds the best path σL,best by introducing new vertices and edges along such paths.”* [(Dang et al., 2020, p. 7)](zotero://open-pdf/library/items/RSQKIQJU?page=7&annotation=PPCJLK9Y) 
+
+- *“Subsequently, the global planner attempts to add additional paths from the list of shortest paths of the local graph which contain vertices with high volumetric gain”* [(Dang et al., 2020, p. 7)](zotero://open-pdf/library/items/RSQKIQJU?page=7&annotation=TRNSJN53) 
+
+- *“To further reduce the number of potential paths from the local graph, the DTW similarity metric is used to cluster all the high‐gain paths and only the “principal” paths (the longest ones) from each cluster are added to the global graph”* [(Dang et al., 2020, p. 8)](zotero://open-pdf/library/items/RSQKIQJU?page=8&annotation=ELBKLN3A) 
+
+- *“To perform this task, the global planner runs Dijkstra's algorithm two times to (a) find the shortest paths from the current location towards all potential frontiers, and (b) find the shortest paths from all frontiers towards the home location.”* [(Dang et al., 2020, p. 8)](zotero://open-pdf/library/items/RSQKIQJU?page=8&annotation=Y2HIQKTU) 
+
+- *“First, it takes into account the time budget when considering any feasible path,”* [(Dang et al., 2020, p. 8)](zotero://open-pdf/library/items/RSQKIQJU?page=8&annotation=HIYDJ2I7) 
+
+- *“Second, the planner should favor high‐gain areas requiring a short time to arrive.”* [(Dang et al., 2020, p. 8)](zotero://open-pdf/library/items/RSQKIQJU?page=8&annotation=ASWFQFR4) 
+
+- *“Given the best exploration path from the planner σbest, local or global, a refinement step is considered to adjust the path to further improve the safety of the robot”* [(Dang et al., 2020, p. 10)](zotero://open-pdf/library/items/RSQKIQJU?page=10&annotation=LZ7PS34P) 
+
+
