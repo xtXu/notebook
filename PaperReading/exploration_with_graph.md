@@ -7,6 +7,7 @@
 > **conference**: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)  
 > **link**: [dangGraphbased2019](zotero://select/library/items/SVLFRL4Z)  
 
+**graph building**: similar to following [Graph‐based subterranean exploration path planning using aerial and legged robots](#Graph‐based%20subterranean%20exploration%20path%20planning%20using%20aerial%20and%20legged%20robots).
 
 ## Graph‐based subterranean exploration path planning using aerial and legged robots
 
