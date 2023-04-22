@@ -1,6 +1,6 @@
 {
   "bibPath": ".obsidian/bibtex_library.json",
-  "templateContent": "# {{title}}\n\n## Metadata\n- **CiteKey**: {{citeKey}}\n- **Type**: {{itemType}}\n- **Title**: {{title}}\n- **Author**: {{author}} \n- **Journal**: {{publicationTitle}}\n- **Year**: {{year}} \n\n\n## Abstract\n{{abstractNote}}\n## Files and Links\n- **Local Library**: [Zotero]({{localLibraryLink}})\n- **File**:{{zoteroReaderLink}}\n\n## Tags and Collections\n- **Keywords**: {{keywordsAll}}\n- **Collections**: {{collectionsParent}}\n\n\n----\n\n## Comments\n{{UserNotes}}\n\n---\n\n## Method\n\n\n----\n\n## Extracted Annotations\n{{PDFNotes}}",
+  "templateContent": "# {{title}}\n\n## Metadata\n- **CiteKey**: {{citeKey}}\n- **Type**: {{itemType}}\n- **Title**: {{title}}\n- **Author**: {{author}} \n- **Journal**: {{publicationTitle}}\n- **Year**: {{year}} \n\n\n## Abstract\n{{abstractNote}}\n## Files and Links\n- **Local Library**: [Zotero]({{localLibraryLink}})\n- **File**:{{zoteroReaderLink}}\n\n## Tags and Collections\n- **Keywords**: {{keywordsAll}}\n- **Collections**: {{collectionsParent}}\n\n\n---\n\n## Comments\n{{UserNotes}}\n\n\n---\n\n## Method\n\n\n---\n\n## Extracted Annotations\n{{PDFNotes}}",
   "templatePath": "",
   "templateType": "Custom",
   "lastUpdateDate": "2023-04-20T12:47:52.193Z",
