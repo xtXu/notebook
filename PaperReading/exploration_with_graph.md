@@ -52,4 +52,14 @@
 - The road map is built on the sample points and the frontier cluster;
 - The edge is connected without collision-checking; the collision-checking is performed during path finding;
 - The generated sampling points will only be connected to only one node on the graph;
+## Efficient Autonomous Exploration With Incrementally Built Topological Map in 3-D Environments
+
+> **author**: ChaoqunWang, HanMa, WeinanChen, LiLiu, Max Q.-H.Meng  
+> **journal**: IEEE Transactions on Instrumentation and Measurement  
+> **conference**:   
+> **link**: [wangEfficient2020](zotero://select/library/items/MGBFHNIA)  
+### Road map
+- Sample points **within the sensor scope**;
+- The new point is only connected to the nearest node, similar to RRT;
+- Detect frontiers using the road map nodes;
 
