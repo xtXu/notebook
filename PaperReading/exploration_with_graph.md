@@ -38,5 +38,6 @@
 
 ### Global Planner: Global Graph
 1. The graph is incrementally built based on the viewpoints in branches with positive gain.
+2. Ensure the graph is not too dense while providing short paths between vertices.
 
 
