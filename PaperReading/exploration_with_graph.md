@@ -25,8 +25,18 @@
 
 ### Global Planner - Sparse Graph from Local Graph
 **graph building:**
-1. Add the best path by introducing new vertices and edges along such paths., and add extra edges from the new vertex to the neighbors.
+1. Add the best path by introducing new vertices and edges along such paths, and add extra edges from the new vertex to the neighbors.
 2. Add additional paths from the list of shortest paths of the local graph which contain vertices with high volumetric gain. To reduce the number of paths, cluster the high-gain paths by DTW similarity metric and only the longest paths from each cluster is added.
 3. The leaf vertices from the added paths are marked as "frontiers". The volumetric gain of each frontier is re-evaluated periodically.
+
+## DSVP: Dual-Stage Viewpoint Planner for Rapid Exploration by Dynamic Expansion
+
+> **author**: HongbiaoZhu, ChaoCao, YukunXia, SebastianScherer, JiZhang, WeidongWang  
+> **journal**:   
+> **conference**: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)  
+> **link**: [zhuDSVP2021](zotero://select/library/items/F64YLF4C)  
+
+### Global Planner: Global Graph
+1. The graph is incrementally built based on the viewpoints in branches with positive gain.
 
 

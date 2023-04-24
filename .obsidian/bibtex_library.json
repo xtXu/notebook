@@ -14596,7 +14596,20 @@
           "select": "zotero://select/library/items/YEPMY9DQ"
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "key": "4EVK5M2Q",
+          "version": 6174,
+          "itemType": "note",
+          "parentItem": "F64YLF4C",
+          "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nTree-based + graph-based\n</li>\n<li>\nLocal + global planner\n</li>\n<li>\n<p>Local planner: </p>\n<ul>\n<li>\nexpand a <strong>dynamic RRT</strong> in a sliding window; \n</li>\n<li>\n<strong>the sampling is biased by the frontiers</strong>; \n</li>\n<li>\nevaluate the gain and choose the best branch.\n</li>\n</ul>\n</li>\n<li>\n<p>Global planner:</p>\n<ul>\n<li>\nincrementally build a <strong>global graph</strong> from the branches with the positive gain;\n</li>\n<li>\nfind the vertex which can observe the selected nearest global frontier;\n</li>\n</ul>\n</li>\n</ul>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-04-24T06:31:16Z",
+          "dateModified": "2023-04-24T06:37:41Z",
+          "uri": "http://zotero.org/users/8871808/items/4EVK5M2Q"
+        }
+      ],
       "citationKey": "zhuDSVP2021",
       "itemKey": "F64YLF4C",
       "libraryID": 1,

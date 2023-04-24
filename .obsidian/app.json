@@ -11,5 +11,6 @@
   "strictLineBreaks": true,
   "readableLineLength": true,
   "spellcheck": true,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "livePreview": false
 }
