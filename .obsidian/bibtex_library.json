@@ -157,6 +157,7 @@
         592,
         594,
         691,
+        694,
         697,
         751
       ]
@@ -409,8 +410,7 @@
         679,
         682,
         685,
-        688,
-        694
+        688
       ]
     }
   },
@@ -10620,7 +10620,7 @@
     },
     {
       "key": "JDGIH3DQ",
-      "version": 5589,
+      "version": 6380,
       "itemType": "preprint",
       "title": "Bubble Explorer: Fast UAV Exploration in Large-Scale and Cluttered 3D-Environments using Occlusion-Free Spheres",
       "abstractNote": "Autonomous exploration is a crucial aspect of robotics that has numerous applications. Most of the existing methods greedily choose goals that maximize immediate reward. This strategy is computationally efficient but insufficient for overall exploration efficiency. In recent years, some state-of-the-art methods are proposed, which generate a global coverage path and significantly improve overall exploration efficiency. However, global optimization produces high computational overhead, leading to low-frequency planner updates and inconsistent planning motion. In this work, we propose a novel method to support fast UAV exploration in large-scale and cluttered 3-D environments. We introduce a computationally low-cost viewpoints generation method using novel occlusion-free spheres. Additionally, we combine greedy strategy with global optimization, which considers both computational and exploration efficiency. We benchmark our method against state-of-the-art methods to showcase its superiority in terms of exploration efficiency and computational time. We conduct various real-world experiments to demonstrate the excellent performance of our method in large-scale and cluttered environments.",
@@ -10674,15 +10674,11 @@
         {
           "tag": "Computer Science - Robotics",
           "type": 1
-        },
-        {
-          "tag": "/unread",
-          "type": 1
         }
       ],
       "relations": [],
       "dateAdded": "2023-04-18T06:24:26Z",
-      "dateModified": "2023-04-18T06:26:19Z",
+      "dateModified": "2023-04-24T11:29:45Z",
       "uri": "http://zotero.org/users/8871808/items/JDGIH3DQ",
       "itemID": 694,
       "attachments": [
@@ -10712,7 +10708,7 @@
       "notes": [
         {
           "key": "I35ZS995",
-          "version": 6094,
+          "version": 6103,
           "itemType": "note",
           "parentItem": "JDGIH3DQ",
           "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FJDGIH3DQ%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FJDGIH3DQ%22%2C%22type%22%3A%22article%22%2C%22abstract%22%3A%22Autonomous%20exploration%20is%20a%20crucial%20aspect%20of%20robotics%20that%20has%20numerous%20applications.%20Most%20of%20the%20existing%20methods%20greedily%20choose%20goals%20that%20maximize%20immediate%20reward.%20This%20strategy%20is%20computationally%20efficient%20but%20insufficient%20for%20overall%20exploration%20efficiency.%20In%20recent%20years%2C%20some%20state-of-the-art%20methods%20are%20proposed%2C%20which%20generate%20a%20global%20coverage%20path%20and%20significantly%20improve%20overall%20exploration%20efficiency.%20However%2C%20global%20optimization%20produces%20high%20computational%20overhead%2C%20leading%20to%20low-frequency%20planner%20updates%20and%20inconsistent%20planning%20motion.%20In%20this%20work%2C%20we%20propose%20a%20novel%20method%20to%20support%20fast%20UAV%20exploration%20in%20large-scale%20and%20cluttered%203-D%20environments.%20We%20introduce%20a%20computationally%20low-cost%20viewpoints%20generation%20method%20using%20novel%20occlusion-free%20spheres.%20Additionally%2C%20we%20combine%20greedy%20strategy%20with%20global%20optimization%2C%20which%20considers%20both%20computational%20and%20exploration%20efficiency.%20We%20benchmark%20our%20method%20against%20state-of-the-art%20methods%20to%20showcase%20its%20superiority%20in%20terms%20of%20exploration%20efficiency%20and%20computational%20time.%20We%20conduct%20various%20real-world%20experiments%20to%20demonstrate%20the%20excellent%20performance%20of%20our%20method%20in%20large-scale%20and%20cluttered%20environments.%22%2C%22DOI%22%3A%2210.48550%2FarXiv.2304.00852%22%2C%22note%22%3A%22number%3A%20arXiv%3A2304.00852%5CnarXiv%3A2304.00852%20%5Bcs%5D%22%2C%22number%22%3A%22arXiv%3A2304.00852%22%2C%22publisher%22%3A%22arXiv%22%2C%22source%22%3A%22arXiv.org%22%2C%22title%22%3A%22Bubble%20Explorer%3A%20Fast%20UAV%20Exploration%20in%20Large-Scale%20and%20Cluttered%203D-Environments%20using%20Occlusion-Free%20Spheres%22%2C%22title-short%22%3A%22Bubble%20Explorer%22%2C%22URL%22%3A%22http%3A%2F%2Farxiv.org%2Fabs%2F2304.00852%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Tang%22%2C%22given%22%3A%22Benxu%22%7D%2C%7B%22family%22%3A%22Ren%22%2C%22given%22%3A%22Yunfan%22%7D%2C%7B%22family%22%3A%22Zhu%22%2C%22given%22%3A%22Fangcheng%22%7D%2C%7B%22family%22%3A%22He%22%2C%22given%22%3A%22Rui%22%7D%2C%7B%22family%22%3A%22Liang%22%2C%22given%22%3A%22Siqi%22%7D%2C%7B%22family%22%3A%22Kong%22%2C%22given%22%3A%22Fanze%22%7D%2C%7B%22family%22%3A%22Zhang%22%2C%22given%22%3A%22Fu%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C4%2C18%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C4%2C3%5D%5D%7D%2C%22citation-key%22%3A%22tangBubble2023%22%7D%7D%5D\" data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nFrontier-based, similar to FUEL\n</li>\n<li>\nA novel concept: occlusion-free sphere to generate high-quality viewpoints around the frontiers. \n</li>\n<li>\n<p>A novel strategy that combines greedy and global optimization: choose a subset of viewpoints with greatest gain, and plan a global path via ATSP.</p>\n<p></p>\n</li>\n</ul>\n</div>",
