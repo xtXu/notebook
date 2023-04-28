@@ -33,6 +33,11 @@ $$
 ## Practical Newton's Method
 
 The common pipeline of the Newton's method:
+$$
+\begin{align}
+\text{initialize \boldsymbol{}}
+\end{align}
+$$
 ![](../Resources/damped_newton_method_img_4.png)
 **To obtain $\boldsymbol{d}$, solving $\boldsymbol{Md}=\nabla f(\boldsymbol{x})$ is more efficient than solve$\boldsymbol{M}^{-1}$, as**
 $$
