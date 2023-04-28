@@ -37,7 +37,7 @@ Autonomous exploration in large-scale and complex environments is a challenging 
 Frontiers are extracted, candidate viewpoints are sampled and their information gains are evaluated in an efficient incremental manner. A sparse free-space roadmap is expanded. An efficient path optimization outputs the optimal path that considers movement distance, information gain and global coverage.
 ### Fast preprocessing of environmental information
 + **Frontier Detection:** New frontiers are searched within newly updated grids, and the existing frontiers around the robot are rechecked.
-+ ****Frontier Detection:** 
++ **Viewpoint Generation and Gain Evaluation:** Sample viewpoints around the robot in the free space. The frontiers within the sensor range
 
 ---
 
