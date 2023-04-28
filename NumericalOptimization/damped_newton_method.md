@@ -35,10 +35,16 @@ $$
 The common pipeline of the Newton's method:
 $$
 \begin{align}
-\text{initialize}
+&\text{initialize}\quad\boldsymbol{x}\leftarrow\boldsymbol{x}_{0}\in\mathbb{R}_{n} \\
+&\text{while}\quad \Vert\nabla f(\boldsymbol{x})\Vert>\delta\quad\text{do} \\
+&\qquad \boldsymbol{d}\leftarrow-\boldsymbol{M}^{-1}\nabla f(\boldsymbol{x}) \\
+&\qquad t\leftarrow\text{backtracking line search} \\
+&\qquad \boldsymbol{x}\leftarrow \boldsymbol{x}+t\boldsymbol{d}\\
+&\text{end while} \\
+&\text{return}
+&&
 \end{align}
 $$
-![](../Resources/damped_newton_method_img_4.png)
 **To obtain $\boldsymbol{d}$, solving $\boldsymbol{Md}=\nabla f(\boldsymbol{x})$ is more efficient than solve$\boldsymbol{M}^{-1}$, as**
 $$
 \left[\nabla^2 f(\boldsymbol{x})\right] \boldsymbol{d}=-\nabla f(\boldsymbol{x})
