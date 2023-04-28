@@ -5213,7 +5213,7 @@
     },
     {
       "key": "PLEDECGG",
-      "version": 6515,
+      "version": 6517,
       "itemType": "journalArticle",
       "title": "FAEL: Fast Autonomous Exploration for Large-scale Environments With a Mobile Robot",
       "abstractNote": "Autonomous exploration in large-scale and complex environments is a challenging task. As the size of the environment increases, the significant overhead of exploration algorithms could overwhelm the computational capability of mobile platforms, prohibiting timely response to environmental changes. Meanwhile, the quality of exploration paths becomes increasingly important in larger scenes, as poorly selected paths greatly reduce efficiency. In this letter, a systematic framework is proposed to explore large-scale unknown environments. To enable high-frequency planning, a fast preprocessing of environmental information is presented, providing fundamental information to support high-frequency path planning. An path optimization formulation that comprehensively considers key factors about fast exploration is introduced. Further, an heuristic algorithm is devised to solve the NP-hard optimization problem, which empirically finds optimal solution in real time. Simulation results show the run time of our method is significantly shorter than existing ones. Our method completes exploration with the least time and shortest movement distance compared to current state-of-the-art methods.",
@@ -5342,14 +5342,14 @@
       "notes": [
         {
           "key": "LU3I8TQY",
-          "version": 6489,
+          "version": 6523,
           "itemType": "note",
           "parentItem": "PLEDECGG",
-          "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nFrontier-based\n</li>\n<li>\nFrontier-&gt;Viewpoints Sampling-&gt;Path Optimization\n</li>\n<li>\n<p>Contribution</p>\n<ul>\n<li>\nFast preprocessing of environmental information to obtain frontiers, viewpoints, distance.\n</li>\n<li>\nPath optimization to consider both the information and distance. An approximate algorithm to solve NP-hard problem. \n</li>\n</ul>\n</li>\n</ul>\n</div>",
+          "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nFrontier-based, graph\n</li>\n<li>\nFrontier-&gt;Viewpoints Sampling-&gt;Gain Evaluating-&gt;Path Optimization\n</li>\n<li>\n<p>Contribution</p>\n<ul>\n<li>\nFast preprocessing of environmental information to obtain frontiers, viewpoints, distance.\n</li>\n<li>\nPath optimization to consider both the information and distance. An approximate algorithm to solve NP-hard problem.\n</li>\n</ul>\n</li>\n</ul>\n</div>",
           "tags": [],
           "relations": {},
           "dateAdded": "2023-04-28T08:29:25Z",
-          "dateModified": "2023-04-28T08:33:53Z",
+          "dateModified": "2023-04-28T09:59:18Z",
           "uri": "http://zotero.org/users/8871808/items/LU3I8TQY"
         }
       ],
