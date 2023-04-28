@@ -156,6 +156,7 @@
         526,
         592,
         594,
+        648,
         691,
         694,
         697,
@@ -400,7 +401,6 @@
         606,
         607,
         647,
-        648,
         649,
         650,
         651,
@@ -1551,7 +1551,7 @@
     },
     {
       "key": "VXJ5XJX2",
-      "version": 5633,
+      "version": 5793,
       "itemType": "conferencePaper",
       "title": "TARE: A Hierarchical Framework for Efficiently Exploring Complex 3D Environments",
       "abstractNote": "We present a method for autonomous exploration in complex three-dimensional (3D) environments. Our method demonstrates exploration faster than the current state-of-the-art using a hierarchical framework – one level maintains data densely and computes a detailed path within a local planning horizon, while another level maintains data sparsely and computes a coarse path at the global scale. Such a framework shares the insight that detailed processing is most effective close to the robot, and gains computational speed by trading-off computation of details far away from the robot. The method optimizes an overall exploration path with respect to the length of the path. In addition, the path in the local area is kinodynamically feasible for the vehicle to follow at a high speed. In experiments, our systems autonomously explore indoor and outdoor environments at a high degree of complexity, with ground and aerial robots. The method produces 80% more exploration efﬁciency, deﬁned as the average explored volume per second through a run, and consumes less than 50% of computation compared to the stateof-the-art.",
@@ -1741,7 +1741,7 @@
     },
     {
       "key": "YM4BBZIG",
-      "version": 5634,
+      "version": 5792,
       "itemType": "conferencePaper",
       "title": "Information-Theoretic Planning with Trajectory Optimization for Dense 3D Mapping",
       "abstractNote": "We propose an information-theoretic planning approach that enables mobile robots to autonomously construct dense 3D maps in a computationally efﬁcient manner. Inspired by prior work, we accomplish this task by formulating an information-theoretic objective function based on CauchySchwarz quadratic mutual information (CSQMI) that guides robots to obtain measurements in uncertain regions of the map. We then contribute a two stage approach for active mapping. First, we generate a candidate set of trajectories using a combination of global planning and generation of local motion primitives. From this set, we choose a trajectory that maximizes the information-theoretic objective. Second, we employ a gradientbased trajectory optimization technique to locally reﬁne the chosen trajectory such that the CSQMI objective is maximized while satisfying the robot’s motion constraints. We evaluated our approach through a series of simulations and experiments on a ground robot and an aerial robot mapping unknown 3D environments. Real-world experiments suggest our approach reduces the time to explore an environment by 70% compared to a closest frontier exploration strategy and 57% compared to an information-based strategy that uses global planning, while simulations demonstrate the approach extends to aerial robots with higher-dimensional state.",
@@ -2634,7 +2634,7 @@
     },
     {
       "key": "D3K32WEX",
-      "version": 5899,
+      "version": 6513,
       "itemType": "journalArticle",
       "title": "Graph‐based subterranean exploration path planning using aerial and legged robots",
       "abstractNote": "Autonomous exploration of subterranean environments remains a major challenge for robotic systems. In response, this paper contributes a novel graph‐based subterranean exploration path planning method that is attuned to key topological properties of subterranean settings, such as large‐scale tunnel‐like networks and complex multibranched topologies. Designed both for aerial and legged robots, the proposed method is structured around a bifurcated local‐ and global‐planner architecture. The local planner utilizes a rapidly exploring random graph to reliably and efficiently identify paths that optimize an exploration gain within a local subspace, while simultaneously avoiding obstacles, respecting applicable traversability constraints and honoring dynamic limitations of the robots. Reflecting the fact that multibranched and tunnel‐like networks of underground environments can often lead to dead‐ends and accounting for the robot endurance, the global planning layer works in conjunction with the local planner to incrementally build a sparse global graph and is engaged when the system must be repositioned to a previously identified frontier of the exploration space, or commanded to return‐to‐home. The designed planner is detailed with respect to its computational complexity and compared against state‐of‐the‐art approaches. Emphasizing field experimentation, the method is evaluated within multiple real‐life deployments using aerial robots and the ANYmal legged system inside both long‐wall and room‐and‐pillar underground mines in the United States and in Switzerland, as well as inside an underground bunker. The presented results further include missions conducted within the Defense Advanced Research Projects Agency (DARPA) Subterranean Challenge, a relevant competition on underground exploration.",
@@ -2686,11 +2686,14 @@
       "tags": [
         {
           "tag": "Graph"
+        },
+        {
+          "tag": "ObsCite"
         }
       ],
       "relations": [],
       "dateAdded": "2021-12-12T13:12:08Z",
-      "dateModified": "2023-04-22T06:39:11Z",
+      "dateModified": "2023-04-28T09:45:55Z",
       "uri": "http://zotero.org/users/8871808/items/D3K32WEX",
       "itemID": 82,
       "attachments": [
@@ -2721,7 +2724,7 @@
         },
         {
           "key": "M53KMIZN",
-          "version": 0,
+          "version": 5972,
           "itemType": "note",
           "parentItem": "D3K32WEX",
           "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22Autonomous%20exploration%20of%20subterranean%20environments%20remains%20a%20major%20challenge%20for%20robotic%20systems.%20In%20response%2C%20this%20paper%20contributes%20a%20novel%20graph%E2%80%90based%20subterranean%20exploration%20path%20planning%20method%20that%20is%20attuned%20to%20key%20topological%20properties%20of%20subterranean%20settings%2C%20such%20as%20large%E2%80%90scale%20tunnel%E2%80%90like%20networks%20and%20complex%20multibranched%20topologies.%20Designed%20both%20for%20aerial%20and%20legged%20robots%2C%20the%20proposed%20method%20is%20structured%20around%20a%20bifurcated%20local%E2%80%90%20and%20global%E2%80%90planner%20architecture.%20The%20local%20planner%20utilizes%20a%20rapidly%20exploring%20random%20graph%20to%20reliably%20and%20efficiently%20identify%20paths%20that%20optimize%20an%20exploration%20gain%20within%20a%20local%20subspace%2C%20while%20simultaneously%20avoiding%20obstacles%2C%20respecting%20applicable%20traversability%20constraints%20and%20honoring%20dynamic%20limitations%20of%20the%20robots.%20Reflecting%20the%20fact%20that%20multibranched%20and%20tunnel%E2%80%90like%20networks%20of%20underground%20environments%20can%20often%20lead%20to%20dead%E2%80%90ends%20and%20accounting%20for%20the%20robot%20endurance%2C%20the%20global%20planning%20layer%20works%20in%20conjunction%20with%20the%20local%20planner%20to%20incrementally%20build%20a%20sparse%20global%20graph%20and%20is%20engaged%20when%20the%20system%20must%20be%20repositioned%20to%20a%20previously%20identified%20frontier%20of%20the%20exploration%20space%2C%20or%20commanded%20to%20return%E2%80%90to%E2%80%90home.%20The%20designed%20planner%20is%20detailed%20with%20respect%20to%20its%20computational%20complexity%20and%20compared%20against%20state%E2%80%90of%E2%80%90the%E2%80%90art%20approaches.%20Emphasizing%20field%20experimentation%2C%20the%20method%20is%20evaluated%20within%20multiple%20real%E2%80%90life%20deployments%20using%20aerial%20robots%20and%20the%20ANYmal%20legged%20system%20inside%20both%20long%E2%80%90wall%20and%20room%E2%80%90and%E2%80%90pillar%20underground%20mines%20in%20the%20United%20States%20and%20in%20Switzerland%2C%20as%20well%20as%20inside%20an%20underground%20bunker.%20The%20presented%20results%20further%20include%20missions%20conducted%20within%20the%20Defense%20Advanced%20Research%20Projects%20Agency%20(DARPA)%20Subterranean%20Challenge%2C%20a%20relevant%20competition%20on%20underground%20exploration.%22%2C%22call-number%22%3A%222%22%2C%22container-title%22%3A%22Journal%20of%20Field%20Robotics%22%2C%22DOI%22%3A%2210.1002%2Frob.21993%22%2C%22ISSN%22%3A%221556-4959%2C%201556-4967%22%2C%22issue%22%3A%228%22%2C%22journalAbbreviation%22%3A%22J%20Field%20Robotics%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%221363-1388%22%2C%22source%22%3A%226.385%22%2C%22title%22%3A%22Graph%E2%80%90based%20subterranean%20exploration%20path%20planning%20using%20aerial%20and%20legged%20robots%22%2C%22URL%22%3A%22https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Frob.21993%22%2C%22volume%22%3A%2237%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Dang%22%2C%22given%22%3A%22Tung%22%7D%2C%7B%22family%22%3A%22Tranzatto%22%2C%22given%22%3A%22Marco%22%7D%2C%7B%22family%22%3A%22Khattak%22%2C%22given%22%3A%22Shehryar%22%7D%2C%7B%22family%22%3A%22Mascarich%22%2C%22given%22%3A%22Frank%22%7D%2C%7B%22family%22%3A%22Alexis%22%2C%22given%22%3A%22Kostas%22%7D%2C%7B%22family%22%3A%22Hutter%22%2C%22given%22%3A%22Marco%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C12%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222020%22%2C12%5D%5D%7D%2C%22citation-key%22%3A%22dangGraph2020%22%7D%7D%5D\" data-schema-version=\"8\"><h1>Annotations<br/>(4/22/2023, 4:18:21 PM)</h1>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22S86GLKUN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B262.433%2C427.81%2C498.47%2C436.072%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“The local planner utilizes a rapidly exploring random graph”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 1</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%223KIQGYAB%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B444.36%2C352.193%2C541.79%2C361.193%5D%2C%5B209.085%2C337.838%2C541.808%2C346.1%5D%2C%5B209.085%2C322.814%2C231.846%2C331.076%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“the global planning layer works in conjunction with the local planner to incrementally build a sparse global graph”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 1</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22GFGZJV9D%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B307.727%2C721.352%2C550.196%2C729.352%5D%2C%5B307.727%2C708.914%2C550.245%2C716.258%5D%2C%5B307.727%2C695.931%2C457.757%2C703.275%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“We propose a new comprehensive graph‐based exploration path planner (GBPlanner) that builds on a bifurcated local and global planning architecture tailored to the underground domain.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span> GBPlanner: local + global</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%228KHDFF7W%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B475.6%2C695.931%2C518.571%2C703.275%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“local planner”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22KSXZB6G4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B371.273%2C682.892%2C427.021%2C690.236%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“bounded volume”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22AA9WWLGD%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B545.243%2C682.892%2C550.193%2C690.236%5D%2C%5B307.727%2C669.91%2C550.237%2C677.254%5D%2C%5B307.727%2C656.928%2C462.748%2C664.272%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“It employs a rapidly exploring random graph sampling kernel to evaluate robot paths that maximize an information gain”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span> Local planner: rapidly exploring random graph, choose the path maximizing the gain.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22K4BIXJYP%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B408.916%2C617.924%2C550.228%2C625.268%5D%2C%5B307.727%2C604.942%2C550.348%2C612.286%5D%2C%5B307.727%2C591.359%2C372.975%2C599.359%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“The best path is selected such that the information gain is maximized and is subsequently refined to enhance its “safety” properties”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span> The best path is refined to ensure safety</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22MUQ2GXV6%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B530.521%2C552.355%2C550.212%2C560.355%5D%2C%5B307.726%2C539.917%2C335.838%2C547.261%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“global planning”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22AH2JSRM4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B448.035%2C539.917%2C550.24%2C547.261%5D%2C%5B307.726%2C526.934%2C550.288%2C534.278%5D%2C%5B307.726%2C513.895%2C488.851%2C521.239%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“searching through a global yet sparse and incrementally built graph, the identification of a path towards a previously perceived edge of the exploration space”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span> Global planner: incrementally build sparse graph;</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%225MVQRHCZ%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B385.914%2C487.931%2C550.183%2C495.275%5D%2C%5B307.726%2C474.348%2C550.24%2C482.348%5D%2C%5B307.726%2C461.366%2C409.605%2C469.365%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“the global planner also continuously updates a return‐to‐home path which is triggered when the robot's remaining endurance approaches its limits”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 2</span>)</span> Global planner: planning the return-to-home path</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22UYSVHSRN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B451.276%2C370.812%2C550.136%2C378.452%5D%2C%5B307.729%2C357.084%2C415.206%2C365.264%5D%2C%5B404.724%2C357.832%2C550.223%2C365.469%5D%2C%5B307.73%2C343.027%2C550.29%2C352.437%5D%2C%5B307.729%2C331.548%2C399.814%2C339.567%5D%2C%5B370.471%2C331.548%2C392.545%2C339.567%5D%2C%5B384.136%2C330.163%2C385.507%2C335.274%5D%2C%5B365.065%2C331.107%2C550.298%2C339.242%5D%2C%5B307.729%2C318.915%2C550.282%2C326.259%5D%2C%5B307.729%2C305.084%2C545.046%2C313.535%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“Given an occupancy map  and a local subset of it L  centered around the current robot configuration ξ0, find a collision‐free and traversability‐aware (when applicable) path σξ = {} i L to guide the robot towards unmapped areas and maximize an exploration gain defined as the volume which is expected to be mapped when the robot traverses along the path σL with a sensor .”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 4</span>)</span> Definition of local exploration planner.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22ZTRL929T%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B461.311%2C227.924%2C550.483%2C235.323%5D%2C%5B307.73%2C214.793%2C550.295%2C222.433%5D%2C%5B307.73%2C200.047%2C550.267%2C209.524%5D%2C%5B307.73%2C188.919%2C488.353%2C196.263%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“Given the explored and unknown subsets of an occupancy map  of the environment and the current robot configuration ξ0, find a collision‐free path σG leading the robot towards the frontiers of the unmapped areas.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 4</span>)</span> Definition of global exploration planner.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22PQPJDAWU%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B159.837%2C682.885%2C287.366%2C690.229%5D%2C%5B44.787%2C669.903%2C260.302%2C677.247%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“a local exploration planner which focuses on local exploration surrounding the current robot's pose”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22NCQN8TRF%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B44.787%2C656.921%2C287.446%2C664.265%5D%2C%5B44.787%2C643.882%2C95.934%2C651.226%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“a global planner which performs planning globally inside the currently explored space”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22G9YRTRDT%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B145.086%2C643.882%2C287.35%2C651.226%5D%2C%5B44.787%2C630.899%2C287.416%2C638.243%5D%2C%5B44.787%2C617.917%2C287.426%2C625.261%5D%2C%5B44.787%2C604.935%2C183.2%2C612.279%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“the local planner searches within a sliding local space of fixed dimension to enable faster computation, while simultaneously ensuring that the algorithmic complexity remains independent of the environment's scale.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%227XZTPLSV%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B79.173%2C578.369%2C287.39%2C586.369%5D%2C%5B44.787%2C565.931%2C250.224%2C573.275%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“the local planner might reach a dead‐end or other scenario that prohibits the derivation of an effective exploration path.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%223SH4FEHK%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B256.815%2C565.931%2C287.335%2C573.275%5D%2C%5B44.787%2C552.892%2C287.43%2C560.236%5D%2C%5B44.787%2C539.909%2C124.406%2C547.253%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“he global planner is then queried to relocate the robot towards unexplored areas to continue its mission.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%225IMETDDK%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B358.732%2C656.375%2C548.763%2C664.375%5D%2C%5B306.03%2C643.444%2C372.709%2C651.458%5D%2C%5B345.57%2C643.885%2C378.587%2C651.29%5D%2C%5B341.248%2C642.044%2C392.815%2C648.19%5D%2C%5B333.744%2C642.148%2C481.233%2C651.362%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“he planner randomly samples a collision‐free configuration ξ ∈ () R rand free inside a local volume VDL”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22XNQ8UWBA%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B397.589%2C629.042%2C548.78%2C638.453%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“finds its closest vertex ξnearest in the graph”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22382I7YE9%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B482.91%2C617.914%2C548.76%2C625.258%5D%2C%5B306.029%2C604.421%2C414.948%2C612.431%5D%2C%5B377.118%2C604.861%2C444.573%2C612.262%5D%2C%5B382.398%2C603.02%2C548.815%2C612.275%5D%2C%5B306.029%2C591.892%2C548.759%2C599.236%5D%2C%5B306.029%2C578.909%2C384.314%2C586.253%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“If a straight path connecting the two ξξ [ ,] rand nearest passes the collision check, the new sample and the straight path are both added to the graph as a new vertex and new edge”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%222RYGQNSN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B510.098%2C578.909%2C548.793%2C586.253%5D%2C%5B306.029%2C565.382%2C548.794%2C573.382%5D%2C%5B306.03%2C552.626%2C477.132%2C560.636%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“ttempts to connect denser collision‐free edges from this newly added vertex to its neighboring vertices within a defined radius δ”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22WT6TCTK7%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B320.996%2C513.097%2C435.863%2C521.227%5D%2C%5B426.767%2C513.844%2C548.763%2C521.481%5D%2C%5B306.029%2C500.105%2C548.789%2C508.59%5D%2C%5B306.029%2C486.006%2C495.201%2C495.417%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“Given the built local graph L  , Dijkstra's algorithm (Cormen et al., 2009) is utilized to find the set of shortest paths ΣL from the root vertex ξ0 to all other vertices in the local graph.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22JIJ7CUEF%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B306.03%2C370.903%2C548.801%2C378.357%5D%2C%5B306.029%2C357.82%2C411.765%2C365.462%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%7D\">“computes the VolumetricGain for each vertex, which is the expected cumulative unmapped volume”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 5</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%224LZC8WJQ%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B145.36%2C643.882%2C289.267%2C651.226%5D%2C%5B46.487%2C630.899%2C289.252%2C638.243%5D%2C%5B46.487%2C617.119%2C255.219%2C625.604%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“The volumetric gain, together with other weight functions related to distance and direction, is utilized to compute the ExplorationGain for each shortest path in ΣL”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 6</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22GE9ZR9A4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B139.543%2C526.922%2C287.518%2C534.488%5D%2C%5B44.787%2C513.882%2C265.992%2C521.226%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“A path that maximizes the ExplorationGain is then selected and refined before being conducted by the robot”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 7</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%2282WJADQI%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B446.568%2C513.885%2C548.772%2C521.229%5D%2C%5B306.027%2C500.903%2C548.811%2C508.247%5D%2C%5B306.027%2C487.921%2C422.759%2C495.265%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“incrementally build and continually maintain a lightweight undirected graph from the iteratively derived local exploration graphs.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 7</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22PPCJLK9Y%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B508.873%2C461.899%2C548.808%2C469.243%5D%2C%5B306.027%2C448.042%2C548.815%2C456.52%5D%2C%5B306.029%2C435.929%2C439.183%2C443.273%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“In the first step, the global graph adds the best path σL,best by introducing new vertices and edges along such paths.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 7</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22TRNSJN53%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B419.417%2C383.887%2C548.798%2C391.231%5D%2C%5B306.03%2C370.905%2C548.793%2C378.249%5D%2C%5B306.03%2C357.922%2C533.666%2C365.266%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“Subsequently, the global planner attempts to add additional paths from the list of shortest paths of the local graph which contain vertices with high volumetric gain”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 7</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22ELBKLN3A%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B61.512%2C435.93%2C289.131%2C443.274%5D%2C%5B46.488%2C422.347%2C289.094%2C430.347%5D%2C%5B46.488%2C409.364%2C289.164%2C417.364%5D%2C%5B46.488%2C396.926%2C148.924%2C404.27%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%7D\">“To further reduce the number of potential paths from the local graph, the DTW similarity metric is used to cluster all the high‐gain paths and only the “principal” paths (the longest ones) from each cluster are added to the global graph”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 8</span>)</span> Cluster the potential paths. Only the longest one from each cluster is added.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22Y2HIQKTU%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B125.933%2C305.935%2C289.159%2C313.279%5D%2C%5B46.488%2C292.896%2C289.181%2C300.24%5D%2C%5B46.488%2C279.914%2C289.183%2C287.258%5D%2C%5B46.488%2C266.932%2C220.406%2C274.276%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%7D\">“To perform this task, the global planner runs Dijkstra's algorithm two times to (a) find the shortest paths from the current location towards all potential frontiers, and (b) find the shortest paths from all frontiers towards the home location.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 8</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22HIYDJ2I7%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B486.855%2C409.909%2C550.237%2C417.253%5D%2C%5B307.727%2C396.927%2C518.318%2C404.271%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%7D\">“First, it takes into account the time budget when considering any feasible path,”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 8</span>)</span> Time to the selected frontier and the time from the frontier to home.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22ASWFQFR4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B383.255%2C357.38%2C550.284%2C365.379%5D%2C%5B307.726%2C344.885%2C411.309%2C352.228%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%7D\">“Second, the planner should favor high‐gain areas requiring a short time to arrive.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 8</span>)</span> Trade-off the gain and time cost.</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FRSQKIQJU%22%2C%22annotationKey%22%3A%22LZ7PS34P%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%2210%22%2C%22position%22%3A%7B%22pageIndex%22%3A9%2C%22rects%22%3A%5B%5B46.488%2C58.044%2C289.256%2C66.531%5D%2C%5B46.489%2C45.883%2C289.27%2C53.227%5D%2C%5B307.729%2C487.916%2C387.626%2C495.26%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%2210%22%7D%7D\">“Given the best exploration path from the planner σbest, local or global, a refinement step is considered to adjust the path to further improve the safety of the robot”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8871808%2Fitems%2FD3K32WEX%22%5D%2C%22locator%22%3A%2210%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Dang et al., 2020, p. 10</span>)</span> Path refinement</p>\n</div>",
@@ -5210,7 +5213,7 @@
     },
     {
       "key": "PLEDECGG",
-      "version": 5273,
+      "version": 6515,
       "itemType": "journalArticle",
       "title": "FAEL: Fast Autonomous Exploration for Large-scale Environments With a Mobile Robot",
       "abstractNote": "Autonomous exploration in large-scale and complex environments is a challenging task. As the size of the environment increases, the significant overhead of exploration algorithms could overwhelm the computational capability of mobile platforms, prohibiting timely response to environmental changes. Meanwhile, the quality of exploration paths becomes increasingly important in larger scenes, as poorly selected paths greatly reduce efficiency. In this letter, a systematic framework is proposed to explore large-scale unknown environments. To enable high-frequency planning, a fast preprocessing of environmental information is presented, providing fundamental information to support high-frequency path planning. An path optimization formulation that comprehensively considers key factors about fast exploration is introduced. Further, an heuristic algorithm is devised to solve the NP-hard optimization problem, which empirically finds optimal solution in real time. Simulation results show the run time of our method is significantly shorter than existing ones. Our method completes exploration with the least time and shortest movement distance compared to current state-of-the-art methods.",
@@ -5264,15 +5267,7 @@
       ],
       "tags": [
         {
-          "tag": "Sensors",
-          "type": 1
-        },
-        {
-          "tag": "Three-dimensional displays",
-          "type": 1
-        },
-        {
-          "tag": "Planning",
+          "tag": "autonomous agents",
           "type": 1
         },
         {
@@ -5280,7 +5275,26 @@
           "type": 1
         },
         {
+          "tag": "ObsCite"
+        },
+        {
+          "tag": "Optimization",
+          "type": 1
+        },
+        {
+          "tag": "Planning",
+          "type": 1
+        },
+        {
           "tag": "Robots",
+          "type": 1
+        },
+        {
+          "tag": "Search and rescue robots",
+          "type": 1
+        },
+        {
+          "tag": "Sensors",
           "type": 1
         },
         {
@@ -5292,25 +5306,13 @@
           "type": 1
         },
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
-          "tag": "Optimization",
-          "type": 1
-        },
-        {
-          "tag": "autonomous agents",
-          "type": 1
-        },
-        {
-          "tag": "Search and rescue robots",
+          "tag": "Three-dimensional displays",
           "type": 1
         }
       ],
       "relations": [],
       "dateAdded": "2023-03-26T07:48:07Z",
-      "dateModified": "2023-03-27T10:13:29Z",
+      "dateModified": "2023-04-28T09:46:17Z",
       "uri": "http://zotero.org/users/8871808/items/PLEDECGG",
       "itemID": 648,
       "attachments": [
@@ -5340,7 +5342,7 @@
       "notes": [
         {
           "key": "LU3I8TQY",
-          "version": 6488,
+          "version": 6489,
           "itemType": "note",
           "parentItem": "PLEDECGG",
           "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nFrontier-based\n</li>\n<li>\nFrontier-&gt;Viewpoints Sampling-&gt;Path Optimization\n</li>\n<li>\n<p>Contribution</p>\n<ul>\n<li>\nFast preprocessing of environmental information to obtain frontiers, viewpoints, distance.\n</li>\n<li>\nPath optimization to consider both the information and distance. An approximate algorithm to solve NP-hard problem. \n</li>\n</ul>\n</li>\n</ul>\n</div>",
@@ -9412,7 +9414,7 @@
     },
     {
       "key": "ELJKPWHR",
-      "version": 5698,
+      "version": 6513,
       "itemType": "journalArticle",
       "title": "An Efficient Sampling-Based Method for Online Informative Path Planning in Unknown Environments",
       "abstractNote": "The ability to plan informative paths online is essential to robot autonomy. In particular, sampling-based approaches are often used as they are capable of using arbitrary information gain formulations. However, they are prone to local minima, resulting in sub-optimal trajectories, and sometimes do not reach global coverage. In this letter, we present a new RRT*-inspired online informative path planning algorithm. Our method continuously expands a single tree of candidate trajectories and rewires nodes to maintain the tree and reﬁne intermediate paths. This allows the algorithm to achieve global coverage and maximize the utility of a path in a global context, using a single objective function. We demonstrate the algorithm’s capabilities in the applications of autonomous indoor exploration as well as accurate Truncated Signed Distance Field (TSDF)-based 3D reconstruction on-board a Micro Aerial Vehicle (MAV). We study the impact of commonly used information gain and cost formulations in these scenarios and propose a novel TSDF-based 3D reconstruction gain and cost-utility formulation. Detailed evaluation in realistic simulation environments show that our approach outperforms sampling-based state of the art methods in these tasks. Experiments on a real MAV demonstrate the ability of our method to robustly plan in real-time, exploring an indoor environment with on-board sensing and computation. We make our framework available for future research.",
@@ -9466,15 +9468,12 @@
           "tag": "Important"
         },
         {
-          "tag": "ObsCite"
-        },
-        {
           "tag": "Sampling"
         }
       ],
       "relations": [],
       "dateAdded": "2021-12-12T12:39:48Z",
-      "dateModified": "2023-04-20T12:04:57Z",
+      "dateModified": "2023-04-28T09:45:55Z",
       "uri": "http://zotero.org/users/8871808/items/ELJKPWHR",
       "itemID": 13,
       "attachments": [
@@ -9625,7 +9624,7 @@
     },
     {
       "key": "BLJWBSQH",
-      "version": 5706,
+      "version": 6513,
       "itemType": "preprint",
       "title": "SC-Explorer: Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning",
       "abstractNote": "Exploration of unknown environments is a fundamental problem in robotics and an essential component in numerous applications of autonomous systems. A major challenge in exploring unknown environments is that the robot has to plan with the limited information available at each time step. While most current approaches rely on heuristics and assumption to plan paths based on these partial observations, we instead propose a novel way to integrate deep learning into exploration by leveraging 3D scene completion for informed, safe, and interpretable exploration mapping and planning. Our approach, SC-Explorer, combines scene completion using a novel incremental fusion mechanism and a newly proposed hierarchical multi-layer mapping approach, to guarantee safety and efficiency of the robot. We further present an informative path planning method, leveraging the capabilities of our mapping approach and a novel scene-completion-aware information gain. While our method is generally applicable, we evaluate it in the use case of a Micro Aerial Vehicle (MAV). We thoroughly study each component in high-fidelity simulation experiments using only mobile hardware, and show that our method can speed up coverage of an environment by 73% compared to the baselines with only minimal reduction in map accuracy. Even if scene completions are not included in the final map, we show that they can be used to guide the robot to choose more informative paths, speeding up the measurement of the scene with the robot's sensors by 35%. We validate our system on a fully autonomous MAV, showing rapid and reliable scene coverage even in a complex cluttered environment. We make our methods available as open-source.",
@@ -9683,15 +9682,12 @@
           "type": 1
         },
         {
-          "tag": "ObsCite"
-        },
-        {
           "tag": "Semantics"
         }
       ],
       "relations": [],
       "dateAdded": "2022-11-01T08:57:41Z",
-      "dateModified": "2023-04-20T12:49:53Z",
+      "dateModified": "2023-04-28T09:45:55Z",
       "uri": "http://zotero.org/users/8871808/items/BLJWBSQH",
       "itemID": 524,
       "attachments": [
@@ -10633,7 +10629,7 @@
     },
     {
       "key": "JDGIH3DQ",
-      "version": 6380,
+      "version": 6513,
       "itemType": "preprint",
       "title": "Bubble Explorer: Fast UAV Exploration in Large-Scale and Cluttered 3D-Environments using Occlusion-Free Spheres",
       "abstractNote": "Autonomous exploration is a crucial aspect of robotics that has numerous applications. Most of the existing methods greedily choose goals that maximize immediate reward. This strategy is computationally efficient but insufficient for overall exploration efficiency. In recent years, some state-of-the-art methods are proposed, which generate a global coverage path and significantly improve overall exploration efficiency. However, global optimization produces high computational overhead, leading to low-frequency planner updates and inconsistent planning motion. In this work, we propose a novel method to support fast UAV exploration in large-scale and cluttered 3-D environments. We introduce a computationally low-cost viewpoints generation method using novel occlusion-free spheres. Additionally, we combine greedy strategy with global optimization, which considers both computational and exploration efficiency. We benchmark our method against state-of-the-art methods to showcase its superiority in terms of exploration efficiency and computational time. We conduct various real-world experiments to demonstrate the excellent performance of our method in large-scale and cluttered environments.",
@@ -10687,11 +10683,14 @@
         {
           "tag": "Computer Science - Robotics",
           "type": 1
+        },
+        {
+          "tag": "ObsCite"
         }
       ],
       "relations": [],
       "dateAdded": "2023-04-18T06:24:26Z",
-      "dateModified": "2023-04-24T11:29:45Z",
+      "dateModified": "2023-04-28T09:45:56Z",
       "uri": "http://zotero.org/users/8871808/items/JDGIH3DQ",
       "itemID": 694,
       "attachments": [
@@ -13901,6 +13900,30 @@
       ],
       "tags": [
         {
+          "tag": "Task analysis",
+          "type": 1
+        },
+        {
+          "tag": "Robot kinematics",
+          "type": 1
+        },
+        {
+          "tag": "Resource management",
+          "type": 1
+        },
+        {
+          "tag": "Robots",
+          "type": 1
+        },
+        {
+          "tag": "perception and autonomy",
+          "type": 1
+        },
+        {
+          "tag": "Collaboration",
+          "type": 1
+        },
+        {
           "tag": "Aerial system",
           "type": 1
         },
@@ -13913,10 +13936,6 @@
           "type": 1
         },
         {
-          "tag": "Collaboration",
-          "type": 1
-        },
-        {
           "tag": "cooperating robots",
           "type": 1
         },
@@ -13925,36 +13944,13 @@
           "type": 1
         },
         {
-          "tag": "ObsCite"
-        },
-        {
-          "tag": "perception and autonomy",
-          "type": 1
-        },
-        {
           "tag": "Quadrotors",
-          "type": 1
-        },
-        {
-          "tag": "Resource management",
-          "type": 1
-        },
-        {
-          "tag": "Robot kinematics",
-          "type": 1
-        },
-        {
-          "tag": "Robots",
-          "type": 1
-        },
-        {
-          "tag": "Task analysis",
           "type": 1
         }
       ],
       "relations": [],
       "dateAdded": "2023-04-20T07:00:36Z",
-      "dateModified": "2023-04-20T12:49:53Z",
+      "dateModified": "2023-04-28T09:45:55Z",
       "uri": "http://zotero.org/users/8871808/items/WW4ZH9UI",
       "itemID": 697,
       "attachments": [
