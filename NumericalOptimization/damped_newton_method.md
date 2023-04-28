@@ -35,7 +35,7 @@ $$
 The common pipeline of the Newton's method:
 $$
 \begin{align}
-\text{initialize \boldsymbol{}}
+\text{initialize}
 \end{align}
 $$
 ![](../Resources/damped_newton_method_img_4.png)
