@@ -37,7 +37,11 @@ Autonomous exploration in large-scale and complex environments is a challenging 
 Frontiers are extracted, candidate viewpoints are sampled and their information gains are evaluated in an efficient incremental manner. A sparse free-space roadmap is expanded. An efficient path optimization outputs the optimal path that considers movement distance, information gain and global coverage.
 ### Fast preprocessing of environmental information
 + **Frontier Detection:** New frontiers are searched within newly updated grids, and the existing frontiers around the robot are rechecked.
-+ **Viewpoint Generation and Gain Evaluation:** Sample viewpoints around the robot in the free space. The frontiers within the sensor range are connected to their nearest visible sample point. The 
++ **Viewpoint Generation and Gain Evaluation:** Sample viewpoints around the robot in the free space. The frontiers within the sensor range are connected to their nearest visible sample point. The information gains  of viewpoints are evaluated as the number of attached frontiers. High gain viewpoints are reserved.
++ **Sparse Roadmap for Movement Distance:** Uniform sampling to build an sparse roadmap to calculate the distance between viewpoints.
+### Path Optimization
++ Find a path maximizing $\mathbf{v}^* =\max \sum_{k=1}^n \mathbf{U}\left(v_k\right)=\max \sum_{k=1}^n \mathbf{G}\left(v_k\right) \cdot \mathbf{P}\left(v_k\right)=\max \sum_{k=1}^n \mathbf{G}\left(v_k\right) \cdot \exp \left(-c \cdot \mathbf{L}\left(v_0 \cdot v_k\right)\right)$
++ $\mathbf{v}=[v_{1},v_{2},\dots,v_{n}]$ is the sequence  of viewpoints, $\mathbf{G}(v_{k})$ is the information gain, $\mathbf{L}\left(v_0 \cdot v_k\right)$ is the cumulative movement distance from $v_{0}$ to $v_{k}$.
 
 ---
 
