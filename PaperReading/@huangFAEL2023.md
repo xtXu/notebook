@@ -44,7 +44,7 @@ Frontiers are extracted, candidate viewpoints are sampled and their information 
 + $\mathbf{v}=[v_{1},v_{2},\dots,v_{n}]$ is the sequence  of viewpoints, $\mathbf{G}(v_{k})$ is the information gain, $\mathbf{L}\left(v_0 \cdot v_k\right)$ is the cumulative movement distance from $v_{0}$ to $v_{k}$.
 + A method based on 2-opt local search heuristic to solve the NP-hard problem.
   > Firstly, an initial path $\rho_{\text {init }}=\left[v_0, v_1, v_2, \ldots, v_n\right]$ is found by sorting the information gains in descending order. Secondly, two viewpoints are selected randomly and the subsequence between them are reversed. Then a set of paths are acquired by selecting all possible two viewpoints. The total utility of each path is calculated by $\sum_{k=1}^{n}\mathbf{U}(v_{k})$, and the path with the highest utility is determined. Thirdly, the second step is executed again, using the highest utility path as the initial path. This is repeated until there is no higher utility path.
-  
++ Further speed up: only viewpoints within the radius R of the robot are taken into account; viewpoints with low information gain are ignored; many of the previously computed paths between viewpoints are queried.
   
 
 ---
