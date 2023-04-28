@@ -5337,7 +5337,20 @@
           "select": "zotero://select/library/items/Z2SXXQSV"
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "key": "LU3I8TQY",
+          "version": 6488,
+          "itemType": "note",
+          "parentItem": "PLEDECGG",
+          "note": "<div data-schema-version=\"8\"><ul>\n<li>\nExploration\n</li>\n<li>\nFrontier-based\n</li>\n<li>\nFrontier-&gt;Viewpoints Sampling-&gt;Path Optimization\n</li>\n<li>\n<p>Contribution</p>\n<ul>\n<li>\nFast preprocessing of environmental information to obtain frontiers, viewpoints, distance.\n</li>\n<li>\nPath optimization to consider both the information and distance. An approximate algorithm to solve NP-hard problem. \n</li>\n</ul>\n</li>\n</ul>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-04-28T08:29:25Z",
+          "dateModified": "2023-04-28T08:33:53Z",
+          "uri": "http://zotero.org/users/8871808/items/LU3I8TQY"
+        }
+      ],
       "citationKey": "huangFAEL2023",
       "itemKey": "PLEDECGG",
       "libraryID": 1,

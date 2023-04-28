@@ -1,0 +1,41 @@
+# FAEL: Fast Autonomous Exploration for Large-scale Environments With a Mobile Robot
+
+## Metadata
+- **CiteKey**: huangFAEL2023
+- **Type**: Journal Article
+- **Title**: FAEL: Fast Autonomous Exploration for Large-scale Environments With a Mobile Robot
+- **Author**: Huang, Junlong; Zhou, Boyu; Fan, Zhengping; Zhu, Yilin; Jie, Yingrui; Li, Longwei; Cheng, Hui 
+- **Journal**: IEEE Robotics and Automation Letters
+- **Year**: 2023 
+
+
+## Abstract
+Autonomous exploration in large-scale and complex environments is a challenging task. As the size of the environment increases, the significant overhead of exploration algorithms could overwhelm the computational capability of mobile platforms, prohibiting timely response to environmental changes. Meanwhile, the quality of exploration paths becomes increasingly important in larger scenes, as poorly selected paths greatly reduce efficiency. In this letter, a systematic framework is proposed to explore large-scale unknown environments. To enable high-frequency planning, a fast preprocessing of environmental information is presented, providing fundamental information to support high-frequency path planning. An path optimization formulation that comprehensively considers key factors about fast exploration is introduced. Further, an heuristic algorithm is devised to solve the NP-hard optimization problem, which empirically finds optimal solution in real time. Simulation results show the run time of our method is significantly shorter than existing ones. Our method completes exploration with the least time and shortest movement distance compared to current state-of-the-art methods.
+## Files and Links
+- **Local Library**: [Zotero](zotero://select/library/items/PLEDECGG)
+- **File**:[Huang_2023_FAEL.pdf](zotero://open-pdf/library/items/IYUAUB3T); [IEEE Xplore Abstract Record](zotero://open-pdf/library/items/Z2SXXQSV)
+
+## Tags and Collections
+- **Keywords**: /unread; Optimization; Planning; Robots; Search and rescue robots; Sensors; Simultaneous localization and mapping; Space exploration; Three-dimensional displays; autonomous agents; motion and path planning
+
+
+---
+
+## Comments
+*   Exploration
+*   Frontier-based
+*   Frontier->Viewpoints Sampling->Path Optimization
+*   Contribution
+    
+    *   Fast preprocessing of environmental information to obtain frontiers, viewpoints, distance.
+    *   Path optimization to consider both the information and distance. An approximate algorithm to solve NP-hard problem.
+
+
+---
+
+## Method
+
+
+---
+
+## Extracted Annotations
