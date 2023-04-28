@@ -36,6 +36,6 @@ where $M$ should satisfy:
 To preserve the descent directions, $M$ must be PD.
 We can proof that **BFGS update preserves PD if $\Delta g^\top\Delta x > 0$**, and for **strict convex** function, $\langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0$ .
 So, the BFGS for the strict convex funtion can be
-![](../Resources/bfgs_method_img_1.png)
+![|550](../Resources/bfgs_method_img_1.png)
 
 
