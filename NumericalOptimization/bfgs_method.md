@@ -154,5 +154,13 @@ So $B^{k+1}=\text{Left}+\text{Right}\geq0$, i.e. $B^{k+1}$ is PSD.
 Then let's consider whether $B^{k+1}$ is PD.  We discuss this in three cases.  
 **First:** $y=0$, then $\text{Left}=0,\text{Right}=0\Rightarrow y^T B^{k+1} y=0$.  
 **Second:** $y\neq0,Ay\neq0$, then $\text{Left}>0\Rightarrow y^T B^{k+1} y>0$.  
+**Third:** $y\neq0, Ay=0$, then $\text{Left}=0$, 
+$$
+Ay=\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y=0\Rightarrow y=\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}y=\frac{\Delta g(\Delta x^T y)}{\Delta g^T \Delta x}
+$$
+Because $y\neq0\Rightarrow \Delta x^T y\neq0$,
+$$
+\text{Right}=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=y^T\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}y=
+$$
 
 
