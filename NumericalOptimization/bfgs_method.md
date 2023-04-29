@@ -76,6 +76,17 @@ d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^
 \end{cases}
 $$
 The first condition is the sufficient decrease condition, which is same as Armijo.  
+The second condition is the **curvature condition**.
+#### strong wolfe condition
+$$
+\begin{cases}
+f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\\\
+\Vert d^{\mathrm{T}}\nabla f(x^{k}+\alpha d)\Vert \geq c_{2}\cdot \Vert d^{\mathrm{T}}\nabla f(x^{k})\Vert
+\end{cases}
+$$
+The second condition is the **strong curvature condition**.
+
+
 
 
 
