@@ -44,7 +44,7 @@ $$
 $$
 i.e. $M$ must be PD.
 ### Curvature Info
-According to the Taylor expansion:
+According to the Taylor expansion of $\nabla f(x)$:
 $$
 \nabla f(x)-\nabla f(y) \approx H(x-y)
 $$
