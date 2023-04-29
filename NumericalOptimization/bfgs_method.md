@@ -61,5 +61,26 @@ $$
 \end{aligned}
 $$
 
+How to preserve the descent direction if the function is **not strict convex** ?  
+Use **Wolfe Condition** in line search.
+$$
+\text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ is descent direction}
+$$
+The Wolfe condition will be described in detail later.  
+In summary, the **BFGS** for the **possibly non-convex function** can be:
+$$
+\begin{aligned}
+&\text{initialize}\quad x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\text{while}\quad \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\qquad d\leftarrow -B^{k}g^{k}\\
+&\qquad t\leftarrow \text{inexact line serach (Wolfe)}\\
+&\qquad x^{k+1}\leftarrow x^{k}+td\\
+&\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
+&\qquad B^{k+1}\leftarrow \text{BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
+&\qquad k\leftarrow k+1\\
+&\text{end while}\\
+&\text{return}
+\end{aligned}
+$$
 
 
