@@ -42,7 +42,7 @@ For the step size $\tau$ :
 The condition is as followed: 
 
 $$
-\tau \in\left\{\alpha \mid f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right)\right\}\\c\in\left(0,1\right)
+\tau \in\left\{\alpha \mid f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right)\right\}\quad c\in\left(0,1\right)
 $$
 
 To explain the condition, we define $\phi(\alpha)=f(x^k+\alpha d)$, so the derivative $\phi'(\alpha)=d^\top \nabla f(x^k+\alpha d)$. The $d^\top\nabla f(x^k)$ is the derivative at $\alpha=0$. We scalar $\phi'(0)$ with a parameter $c$, and we can get a line  $l(\alpha)=f(x^k)+c\cdot\alpha d^\top\nabla f(x^k)$.
