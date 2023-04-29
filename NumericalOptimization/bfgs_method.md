@@ -77,8 +77,9 @@ d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^
 \end{cases}
 $$
 The first condition is the sufficient decrease condition, which is the same as Armijo.  
-The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the derivative of $\phi(\alpha)=f(x^{k}+\alpha d)$ at $\alpha=0$. The $d$ is a descent direction, so $\phi'(\alpha)<0$ before the first minima. When $f(x^{k}+\alpha d)$ is near to the local minima, $\phi'(\alpha)$ is near to $0$.  Thus, the condition means that we want **the derivatives to decrease sufficiently**, which **can prevent the slow progress** and make $x^{k+1}$ near to the local minima.
+The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the derivative of $\phi(\alpha)=f(x^{k}+\alpha d)$ at $\alpha=0$. The $d$ is a descent direction, so $\phi'(\alpha)<0$ before the first minima. As $f(x^{k}+\alpha d)$ move near the local minima, $\phi'(\alpha)$ increase and  move near $0$.  Thus, the condition means that we want **the derivatives to increase sufficiently**, which **can prevent the slow progress** and make $x^{k+1}$ near to the local minima. 
 ![|500](../Resources/bfgs_method_img_2.png)
+As shown in the figure, the top red lines is the derivatives allowed by the curvature condition. Note that if $x^{k}+\alpha d$ 
 #### strong wolfe condition
 $$
 \begin{cases}
