@@ -126,6 +126,31 @@ The cost per iteration: $O(n^2)$
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
-**Proof:** Because $B^0=I$, it is equivalent to prove that if $B^k\succ 0$ and $\Delta g^T\Delta x>0$, then $B^{k+1}\succ 0$.  
+**Proof:** It is equivalent to prove that if $B^k\succ 0$ and $\Delta g^T\Delta x>0$, then $B^{k+1}\succ 0$.   
+For $\forall y$, 
+$$
+\begin{aligned}
+y^T B^{k+1}y&=y^T\left[\left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)+\frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}\right]y\\
+&=y^T \left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y+y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y
+\end{aligned}
+$$
+Firstly consider the right part:
+$$
+\text{Right}=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=\frac{y^T\Delta x \Delta x^T y}{\Delta g^T \Delta x}=\frac{(\Delta x^T y)^2(\geq 0)}{\Delta g^T \Delta x(>0)}\geq 0
+$$
+Consider the left part:
+$$
+\text{Left}=y^T \left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y
+$$
+Let $A=I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}$, then
+$$
+\text{Left}=y^T A^T B^k A y=(Ay)^T B^k Ay
+$$
+Because $B^k \succ 0$ and $Ay\in\mathbb{R}^n$, 
+$$
+\text{Left}=(Ay)^T B^k Ay\geq 0
+$$
+So $B^{k+1}=\text{Left}+\text{Right}\geq0$, i.e. $B^{k+1}$ is PSD.  
+Then let's consider whether $B^{k+1}$ is PD.  
 
 
