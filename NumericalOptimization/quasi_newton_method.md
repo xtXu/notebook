@@ -33,7 +33,7 @@ where $M$ should satisfy:
 + **preserve descent directions**
 + **contaion curvature info (local quadratic approx.)**
 
-### Preserve discent direction
+### Preserve Descent Direction
 The direction satisfy
 $$
 M^k d^k=-g^k \Rightarrow d^k=-(M^k)^{-1}g^k
@@ -43,7 +43,7 @@ $$
 \left\langle-g,-M^{-1} g\right\rangle=\left\langle g, M^{-1} g\right\rangle=g^T M^{-1} g>0
 $$
 i.e. $M$ must be PD.
-### Curvature info
+### Curvature Info
 According to the Taylor expansion:
 $$
 \nabla f(x)-\nabla f(y) \approx H(x-y)
