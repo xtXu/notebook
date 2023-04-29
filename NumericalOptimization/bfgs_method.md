@@ -33,8 +33,18 @@ Then $M=B^{-1}$ can satisfy:
 + [ ] **preserve descent directions**
 + [x] **contaion curvature info (local quadratic approx.)**
 
-To preserve the descent directions, $M$ must be PD.
-We can proof that **BFGS update preserves PD if $\Delta g^\top\Delta x > 0$**, and for **strict convex** function, $\langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0$ .
+To preserve the descent directions, $M$ must be PD.  
+We can prove that **BFGS update preserves PD if**
+$$
+\Delta g^\top\Delta x > 0
+$$
+The proof is in the appendix at the end of the article.  
+
+For **strict convex** function, 
+$$
+\langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0
+$$
+which means the $d$ can preserve the descent 
 So, the BFGS for the strict convex funtion can be
 ![|550](../Resources/bfgs_method_img_1.png)
 
