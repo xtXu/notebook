@@ -103,6 +103,7 @@ Then the convergence can be guaranteed if
 + the function has bounded sub-level set;
 + the function has Lipschitz continuous gradient.
 
+## Conclusion
 In summary, the **BFGS** for the **possibly non-convex function** can be:
 $$
 \begin{aligned}
