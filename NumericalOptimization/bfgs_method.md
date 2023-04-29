@@ -26,7 +26,7 @@ $$
 & B^0=I, \Delta x=x^{k+1}-x^k, \Delta g=\nabla f\left(x^{k+1}\right)-\nabla f\left(x^k\right)
 \end{aligned}
 $$
-where $M$ should satisfy:
+Then $M=B^{-1}$ can satisfy:
 + [x] not need full 2nd-order derivatives
 + [x] linear equations have closed-form solutions
 + [x] lightweight and compact to store
