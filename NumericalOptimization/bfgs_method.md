@@ -153,5 +153,6 @@ $$
 So $B^{k+1}=\text{Left}+\text{Right}\geq0$, i.e. $B^{k+1}$ is PSD.  
 Then let's consider whether $B^{k+1}$ is PD.  We discuss this in three cases.  
 **First:** $y=0$, then $\text{Left}=0,\text{Right}=0\Rightarrow y^T B^{k+1} y=0$.  
-**Second:** $y\neq0,Ay\neq0$
+**Second:** $y\neq0,Ay\neq0$, then $\text{Left}>0\Rightarrow y^T B^{k+1} y>0$.  
+
 
