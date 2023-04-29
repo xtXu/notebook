@@ -33,7 +33,7 @@ Then $M=B^{-1}$ can satisfy:
 + [ ] **preserve descent directions**
 + [x] **contaion curvature info (local quadratic approx.)**
 
-To preserve the descent directions, $M$ must be PD.  
+To preserve the descent directions, $B=M^{-1}$ must be PD.  
 We can prove that **BFGS update preserves PD if**
 $$
 \Delta g^\top\Delta x > 0
