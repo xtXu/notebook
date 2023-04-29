@@ -77,7 +77,7 @@ d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^
 \end{cases}
 $$
 The first condition is the sufficient decrease condition, which is same as Armijo.  
-The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the 
+The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the gradient of 
 #### strong wolfe condition
 $$
 \begin{cases}
