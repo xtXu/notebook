@@ -160,7 +160,12 @@ Ay=\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y=0\Rightarrow 
 $$
 Because $y\neq0\Rightarrow \Delta x^T y\neq0$,
 $$
-\text{Right}=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=y^T\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}y=
+\begin{aligned}
+\text{Right}&=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=\frac{(y^T \Delta x) (\Delta x^T y)}{\Delta g^T \Delta x}
+=\frac{(\Delta x^T y)^2(>0)}{\Delta g^T \Delta x}>0
+\end{aligned}
 $$
+Thus, $\text{Right}>0\Rightarrow y^T B^{k+1}y>0$.
 
+In summary, for $\forall y\neq0$
 
