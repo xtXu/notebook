@@ -167,5 +167,6 @@ $$
 $$
 Thus, $\text{Right}>0\Rightarrow y^T B^{k+1}y>0$.
 
-In summary, for $\forall y\neq0$
+In summary, for $\forall y\neq0$, $y^T B^{k+1}y>0$, $B^{k+1}\succ 0$.  
+Thus, given $B^0=I\succ 0$, we can preserve PD if $\Delta g^T\Delta x>0$.
 
