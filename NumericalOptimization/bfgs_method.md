@@ -44,8 +44,22 @@ For **strict convex** function,
 $$
 \langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0
 $$
-which means the $d$ can preserve the descent 
-So, the BFGS for the strict convex funtion can be
-![|550](../Resources/bfgs_method_img_1.png)
+which means the $d$ can preserve the descent direction if the function is strict convex.  
+The BFGS for the **strict convex funtion** can be
+$$
+\begin{aligned}
+&\text{initialize}\quad x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\text{while}\quad \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\qquad d\leftarrow -B^{k}g^{k}\\
+&\qquad t\leftarrow \text{backtracking line serach (Armijo)}\\
+&\qquad x^{k+1}\leftarrow x^{k}+td\\
+&\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
+&\qquad B^{k+1}\leftarrow \text{BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
+&\qquad k\leftarrow k+1\\
+&\text{end while}\\
+&\text{return}
+\end{aligned}
+$$
+
 
 
