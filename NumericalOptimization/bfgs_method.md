@@ -66,7 +66,19 @@ Use **Wolfe Condition** in line search.
 $$
 \text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ is descent direction}
 $$
-The Wolfe condition will be described in detail later.  
+### Wolfe Condition
+
+
+
+
+
+
+
+
+
+
+
+
 In summary, the **BFGS** for the **possibly non-convex function** can be:
 $$
 \begin{aligned}
@@ -76,7 +88,7 @@ $$
 &\qquad t\leftarrow \text{inexact line serach (Wolfe)}\\
 &\qquad x^{k+1}\leftarrow x^{k}+td\\
 &\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
-&\qquad B^{k+1}\leftarrow \text{BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
+&\qquad B^{k+1}\leftarrow \text{cautious-BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
 &\qquad k\leftarrow k+1\\
 &\text{end while}\\
 &\text{return}
