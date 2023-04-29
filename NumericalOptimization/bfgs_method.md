@@ -88,7 +88,10 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 \Vert d^{\mathrm{T}}\nabla f(x^{k}+\alpha d)\Vert \geq c_{2}\cdot \Vert d^{\mathrm{T}}\nabla f(x^{k})\Vert
 \end{cases}
 $$
-The second condition is the **strong curvature condition**.  
+The second condition is the **strong curvature condition**. It make $x^{k}+\alpha d$ near the local minima, and prevent one step over too far, as shown in the figure below.
+![500](../Resources/bfgs_method_img_3.png)
+The strong wolfe condition can suppress the oscillation.
+
 We can summarize that
 $$
 \text{Strong Wolfe}\rightarrow \text{Weak Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow \text{descent}
