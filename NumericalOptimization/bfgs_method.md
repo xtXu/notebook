@@ -71,10 +71,12 @@ $$
 Given parameters $0<c_{1}<c_{2}<1$, typically $c_{1}=10^{-4},c_{2}=0.9$, the **weak wolfe condition** can be formulated as
 $$
 \begin{cases}
-f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\
+f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\\\
 d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})
 \end{cases}
 $$
+The first condition is the sufficient decrease condition, which is same as Armijo.  
+
 
 
 
