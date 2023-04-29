@@ -61,8 +61,7 @@ $$
 \end{aligned}
 $$
 
-How to preserve the descent direction if the function is **not strict convex** ?  
-Use **Wolfe Condition** in line search.
+For **non strict convex function**, we can use **Wolfe Condition** in line search.
 $$
 \text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ is descent direction}
 $$
@@ -84,21 +83,25 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 \Vert d^{\mathrm{T}}\nabla f(x^{k}+\alpha d)\Vert \geq c_{2}\cdot \Vert d^{\mathrm{T}}\nabla f(x^{k})\Vert
 \end{cases}
 $$
-The second condition is the **strong curvature condition**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The second condition is the **strong curvature condition**.  
+We can summarize that
+$$
+\text{Strong Wolfe}\rightarrow \text{Weak Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow \text{descent}
+$$
+In practical, **weak wolfe** is used more often to keep the robust.
+### Cautious Update
+Wolfe condition **cannot guarantee the convergence** of BFGS in some cases.  
+So the **cautious update** is introduced:
+$$
+B^{k+1}=
+\begin{cases}
+&\left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)+\frac{\Delta x \Delta x^T}{\Delta g^{T} \Delta x}\quad &\text{if}\,\Delta g^T\Delta x>\epsilon\Vert g_k\Vert\Delta x^T\Delta x,\epsilon=10^{-6}\\
+&B^k &\text{otherwise}
+\end{cases}
+$$
+Then the convergence can be guaranteed if
++ the function has bounded sub-level set;
++ the function has Lipschitz continuous gradient.
 
 In summary, the **BFGS** for the **possibly non-convex function** can be:
 $$
