@@ -16,34 +16,35 @@ H=\int_0^1 \nabla^2 f\left[(1-\tau) x^k+\tau x^{k+1}\right] d \tau
 $$
 ## BFGS更新
 
-为了还原海森阵中的曲率信息，我们可通过BFGS更新公式来求得满足要求的矩阵 $B$：
+我们可通过**BFGS更新**公式来求得满足要求的矩阵 $B$：
 $$
 \begin{aligned}
 & B^{k+1}=\left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)+\frac{\Delta x \Delta x^T}{\Delta g^T \Delta x} \\
 & B^0=I, \Delta x=x^{k+1}-x^k, \Delta g=\nabla f\left(x^{k+1}\right)-\nabla f\left(x^k\right)
 \end{aligned}
 $$
-这样， $M=B^{-1}$ 即为海森阵的逆矩阵的近似，满足:
-+ [x] not need full 2nd-order derivatives
-+ [x] linear equations have closed-form solutions
-+ [x] lightweight and compact to store
-+ [ ] **preserve descent directions**
-+ [x] **contaion curvature info (local quadratic approx.)**
+这样， $M=B^{-1}$ 即为海森阵的逆矩阵的近似，且满足:
++ [x] 无需求二阶导数
++ [x] 线性方程组有闭式解（求出 $B$ 后，即可直接求出 $d=-Bg$）
++ [x] 轻量，便于存储（$O(n^2)$）
++ [ ] **保证下降方向**
++ [x] **包含曲率信息**
 
-To **preserve the descent directions**, $B=M^{-1}$ must be PD.  
-We can prove that **BFGS update preserves PD if**
+为了**保证下降方向**，$B=M^{-1}$ 需正定。
+我们可以证明：若满足
 $$
 \Delta g^\top\Delta x > 0
 $$
-The proof is in the appendix at the end of the article.  
+则**BFGS更新可以保留 $B$ 的正定**。  
+证明见文章最后。
 
-## For Strict Convex Smooth Function
-For **strict convex** function, 
+## BFGS用于严格凸的光滑函数
+对于**严格凸函数**，
 $$
 \langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0
 $$
-which means the $d$ can preserve the descent direction if the function is strict convex.  
-The BFGS for the **strict convex funtion** can be
+因此一定能保证 $d$ 为下降方向。  
+用于**严格凸函数**的BFGS算法如下：
 $$
 \begin{aligned}
 &\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
@@ -59,23 +60,28 @@ $$
 \end{aligned}
 $$
 
-## For Non-Convex Smooth Function
-For **non strict convex function**, we can use **Wolfe Condition** in line search.
+## BFGS用于非凸函数
+对于**非凸函数**，我们可以在**线搜索**中使用 **Wolfe Condition** 来保证 $\Delta g^\top\Delta x > 0$，从而保证下降方向：
 $$
-\text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ is descent direction}
+\text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ 为下降方向}
 $$
 ### Wolfe Condition
 #### weak wolfe condition
-Given parameters $0<c_{1}<c_{2}<1$, typically $c_{1}=10^{-4},c_{2}=0.9$, the **weak wolfe condition** can be formulated as
+给定参数 $0<c_{1}<c_{2}<1$, 通常取 $c_{1}=10^{-4},c_{2}=0.9$, **weak wolfe condition** 的表述如下：
 $$
 \begin{cases}
 f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\\\
 d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})
 \end{cases}
 $$
+其中，第一个条件为充分下降条件，与 Armijo 条件相同。  
+第二个条件为曲率条件。$d^\mathrm{T}\nabla f(x^k)$ 为函数 $\phi(\alpha)=f(x^{k}+\alpha d)$ 在 $\alpha=0$ 时的导数，即对应切线的斜率。由于方向 $d$ 为下降方向，则在遇到第一个极小值前 $\phi'(\alpha)<0$，对于小于0的数乘上一个常数，则 $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$。当 $f(x^{k}+\alpha d)$ 接近局部极小值时，$\phi'(\alpha)$ 变大并趋于0。因此，该条件保证了导数变化（增大）的足够多，从而防止 $x^k$ 到 $x^{k+1}$ 变化的太少，下降的太慢，同时也使得 $x^{k+1}$ 趋近于局部极小。
+![|500](../Resources/bfgs_method_img_2.png)
+如图所示，上方红色的直线表示曲率条件可以接受的导数（切线斜率）范围。当变化步长较大导致越过了局部极小值时，导数为正，此时也满足条件，因为也可以防止 $x^k$ 到 $x^{k+1}$ 变化过少，
+
 The first condition is the sufficient decrease condition, which is the same as Armijo.  
 The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the derivative of $\phi(\alpha)=f(x^{k}+\alpha d)$ at $\alpha=0$. The $d$ is a descent direction, so $\phi'(\alpha)<0$ before the first minima, and $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$. As $f(x^{k}+\alpha d)$ move near the local minima, $\phi'(\alpha)$ increase and  move near $0$.  Thus, the condition means that we want **the derivatives to increase sufficiently**, which **can prevent the slow progress** and make $x^{k+1}$ near to the local minima. 
-![|500](../Resources/bfgs_method_img_2.png)
+
 As shown in the figure, the top red lines is the derivatives allowed by the curvature condition. Note that if the descent step exceeds the local minima, the derivative become positive, which can also prevent the slow progress and also meets the curvature condition.  
 ****
 #### strong wolfe condition
