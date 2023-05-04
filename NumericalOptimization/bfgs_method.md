@@ -193,6 +193,14 @@ Generally for smooth function, we use interpolation to search the step size that
 
 For nonsmooth function, we use **Lewis & Overton line search** to obtain the feasible step size. In weak wolfe condition, let
 $$
+\begin{cases}
+S(\alpha)=f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\\\
+C(\alpha)=d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})
+\end{cases}
+$$
+**Lewis & Overton line search:**
+$$
+\begin
 $$
 
 
