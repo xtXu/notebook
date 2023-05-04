@@ -134,8 +134,24 @@ The cost per iteration: $O(n^2)$
 
 ## Limited-memory BFGS (L-BFGS)
 **Motivation:**
-+ For BFGS method, $B^k$ contains all information of $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$. However, the information before many iterations is unuseful.
-+ We want to reduce $O(n^2)$ cost per iteration, but after too many iterations, $B^k$ can be dense and the rank can become too large.
++ For BFGS method, $B^k$ contains all information of $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$. However, the information before many iterations is not useful, and $B^k$ can be dense and the rank can become too large.
++ We want to reduce $O(n^2)$ cost per iteration, but after too many iterations.
+
+**Only exploit last m+1 pairs of $\{x^k, g^k\}$.**
+
+**Limited-memory BFGS:**
+$$
+s^k=\Delta x^{k+1}=x^{k+1}-x^k,y^k=\Delta g^{k+1}=g^{k+1}-g^k, \rho^k=\frac{1}{\langle s^k,y^k\rangle}
+$$
+Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^k,\rho^k$.  
+Then in every iteration, we can obtain $B^k$ as:
+$$
+\begin{aligned}
+&\text{for}\quad i=1,2,\dots,m
+&B^{i+1}\leftarrow\text{BFGS}(B^i, g^{i+1}-g^i,x^{i+1}-x^i)\\
+&k\leftarrow k+1
+\end{aligned}
+$$
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
