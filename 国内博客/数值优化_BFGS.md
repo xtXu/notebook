@@ -166,6 +166,7 @@ $$
 |  | Newtons | BFGS | L-BFGS |
 | :---: | :---: | :---: | :---: |
 | Work per iter | $O(n^3)$ | $O(n^2)$ | $O(mn)$ |
+
 L-BFGS是十分有效的求解光滑非凸优化的方法。  
 同样，为了保证收敛，可以仅在满足 Li-Fukushima 条件时，存储对应的 $s^k,y^k,\rho^k$。
 
