@@ -272,8 +272,8 @@ $$
 =\frac{(\Delta x^T y)^2(>0)}{\Delta g^T \Delta x}>0
 \end{aligned}
 $$
-因此，$\text{Right}>0\Rightarrow y^T B^{k+1}y>0$.
+因此，$\text{Right}>0\Rightarrow y^T B^{k+1}y>0$。
 
-综上, 对于 $\forall y\neq0$, $y^T B^{k+1}y>0$, $B^{k+1}\succ 0$.  
+综上, 对于 $\forall y\neq0$, $y^T B^{k+1}y>0$， $B^{k+1}\succ 0$。  
 因此，当 $B^0=I\succ 0$ 时，只需保证 $\Delta g^T\Delta x>0$，就可以保证 $B^{k}$ 正定。
 
