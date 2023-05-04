@@ -49,8 +49,8 @@ which means the $d$ can preserve the descent direction if the function is strict
 The BFGS for the **strict convex funtion** can be
 $$
 \begin{aligned}
-&\text{initialize}\quad x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
-&\text{while}\quad \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\text{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\text{while}~~ \Vert g^{k}\Vert>\delta\quad\text{do}\\
 &\qquad d\leftarrow -B^{k}g^{k}\\
 &\qquad t\leftarrow \text{backtracking line serach (Armijo)}\\
 &\qquad x^{k+1}\leftarrow x^{k}+td\\
@@ -111,12 +111,11 @@ Then the convergence can be guaranteed if
 + the function has bounded sub-level set;
 + the function has Lipschitz continuous gradient.
 
-## Conclusion
 In summary, the **BFGS** for the **possibly non-convex function** can be:
 $$
 \begin{aligned}
-&\text{initialize}\quad x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
-&\text{while}\quad \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\text{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\text{while}~~ \Vert g^{k}\Vert>\delta\quad\text{do}\\
 &\qquad d\leftarrow -B^{k}g^{k}\\
 &\qquad t\leftarrow \text{inexact line serach (Wolfe)}\\
 &\qquad x^{k+1}\leftarrow x^{k}+td\\
@@ -147,12 +146,42 @@ Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^
 Then in every iteration, we can obtain $B^k$ as:
 $$
 \begin{aligned}
-&\text{for}\quad i=k-m,k-m+1,\dots,k\\
+&\text{for}~~ i=k-m,k-m+1,\dots,k\\
 &\qquad B^{i+1}\leftarrow\text{BFGS}(B^i, g^{i+1}-g^i,x^{i+1}-x^i)\\
 &\text{end}
 \end{aligned}
 $$
 However, the cost to calculate $B^k$ is $O(mn^2)$.
+
+Instead, we can use the algorithm below, whose result is same:
+$$
+\begin{aligned}
+&d^k\leftarrow g^k\\
+&\text{for}~~ i=k-1,k-2,\dots,k-m\\
+&\qquad \alpha^i\leftarrow\rho^i\langle s^i,d\rangle\\
+&\qquad d\leftarrow d-\alpha^i y^i\\
+&\text{end}\\
+&\gamma\leftarrow\rho^{k-1}\langle y^{k-1},y^{k-1}\rangle\\
+&d\leftarrow d/\gamma\\
+&\text{for}~~ i=k-m,k-m+1,\dots,k-1\\
+&\qquad \beta\leftarrow\rho^i\langle y^i,d\rangle\\
+&\qquad d\leftarrow d+s^i(\alpha^i-\beta)\\
+&\text{end}\\
+&\text{return search direction}~d
+\end{aligned}
+$$
+![](../Resources/bfgs_method_img_4.png)
+
+|  | Newtons | BFGS | L-BFGS |
+| :---: | :---: | :---: | :---: |
+| Work per iter | $O(n^3)$ | $O(n^2)$ | $O(mn)$ |
+
+**L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**
+
+
+
+
+
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
