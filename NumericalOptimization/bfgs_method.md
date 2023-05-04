@@ -179,6 +179,8 @@ $$
 **L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**  
 To guarantee the convergence, we can store the $s^k,y^k,\rho^k$ only when meeting the Li-Fukushima condition (i.e. Cautious Update).
 
+## For Non-Smooth Function
+
 
 
 
