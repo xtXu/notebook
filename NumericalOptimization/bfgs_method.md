@@ -49,16 +49,16 @@ which means the $d$ can preserve the descent direction if the function is strict
 The BFGS for the **strict convex funtion** can be
 $$
 \begin{aligned}
-&\text{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
-&\text{while}~~ \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\textbf{while}~~ \Vert g^{k}\Vert>\delta\quad\textbf{do}\\
 &\qquad d\leftarrow -B^{k}g^{k}\\
 &\qquad t\leftarrow \text{backtracking line serach (Armijo)}\\
 &\qquad x^{k+1}\leftarrow x^{k}+td\\
 &\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
 &\qquad B^{k+1}\leftarrow \text{BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
 &\qquad k\leftarrow k+1\\
-&\text{end while}\\
-&\text{return}
+&\textbf{end while}\\
+&\textbf{return}
 \end{aligned}
 $$
 
@@ -114,16 +114,16 @@ Then the convergence can be guaranteed if
 In summary, the **BFGS** for the **possibly non-convex function** can be:
 $$
 \begin{aligned}
-&\text{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
-&\text{while}~~ \Vert g^{k}\Vert>\delta\quad\text{do}\\
+&\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\textbf{while}~~ \Vert g^{k}\Vert>\delta\quad\textbf{do}\\
 &\qquad d\leftarrow -B^{k}g^{k}\\
 &\qquad t\leftarrow \text{inexact line serach (Wolfe)}\\
 &\qquad x^{k+1}\leftarrow x^{k}+td\\
 &\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
 &\qquad B^{k+1}\leftarrow \text{cautious-BFGS}(B^{k},g^{k+1}-g^{k},x^{k+1}-x^{k})\\
 &\qquad k\leftarrow k+1\\
-&\text{end while}\\
-&\text{return}
+&\textbf{end while}\\
+&\textbf{return}
 \end{aligned}
 $$
 
@@ -146,9 +146,9 @@ Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^
 Then in every iteration, we can obtain $B^k$ as:
 $$
 \begin{aligned}
-&\text{for}~~ i=k-m,k-m+1,\dots,k\\
+&\textbf{for}~~ i=k-m,k-m+1,\dots,k\\
 &\qquad B^{i+1}\leftarrow\text{BFGS}(B^i, g^{i+1}-g^i,x^{i+1}-x^i)\\
-&\text{end}
+&\textbf{end}
 \end{aligned}
 $$
 However, the cost to calculate $B^k$ is $O(mn^2)$.
@@ -157,17 +157,17 @@ Instead, we can use the algorithm below, whose result is same:
 $$
 \begin{aligned}
 &d^k\leftarrow g^k\\
-&\text{for}~~ i=k-1,k-2,\dots,k-m\\
+&\textbf{for}~~ i=k-1,k-2,\dots,k-m\\
 &\qquad \alpha^i\leftarrow\rho^i\langle s^i,d\rangle\\
 &\qquad d\leftarrow d-\alpha^i y^i\\
-&\text{end}\\
+&\textbf{end}\\
 &\gamma\leftarrow\rho^{k-1}\langle y^{k-1},y^{k-1}\rangle\\
 &d\leftarrow d/\gamma\\
-&\text{for}~~ i=k-m,k-m+1,\dots,k-1\\
+&\textbf{for}~~ i=k-m,k-m+1,\dots,k-1\\
 &\qquad \beta\leftarrow\rho^i\langle y^i,d\rangle\\
 &\qquad d\leftarrow d+s^i(\alpha^i-\beta)\\
-&\text{end}\\
-&\text{return search direction}~d
+&\textbf{end}\\
+&\textbf{return search direction}~d
 \end{aligned}
 $$
 ![](../Resources/bfgs_method_img_4.png)
