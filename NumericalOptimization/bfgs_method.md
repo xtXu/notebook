@@ -147,11 +147,12 @@ Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^
 Then in every iteration, we can obtain $B^k$ as:
 $$
 \begin{aligned}
-&\text{for}\quad i=1,2,\dots,m
-&B^{i+1}\leftarrow\text{BFGS}(B^i, g^{i+1}-g^i,x^{i+1}-x^i)\\
-&k\leftarrow k+1
+&\text{for}\quad i=k-m,k-m+1,\dots,k\\
+&\qquad B^{i+1}\leftarrow\text{BFGS}(B^i, g^{i+1}-g^i,x^{i+1}-x^i)\\
+&\text{end}
 \end{aligned}
 $$
+However, the cost increase to 
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
