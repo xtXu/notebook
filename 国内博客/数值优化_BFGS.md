@@ -23,7 +23,7 @@ $$
 & B^0=I, \Delta x=x^{k+1}-x^k, \Delta g=\nabla f\left(x^{k+1}\right)-\nabla f\left(x^k\right)
 \end{aligned}
 $$
-这样， $M=B^{-1}$ 即为海森阵的逆矩阵的近似，且满足:
+这样， $M=B^{-1}$ 即为海森阵的逆矩阵的近似，且满足：
 + [x] 无需求二阶导数
 + [x] 线性方程组有闭式解（求出 $B$ 后，即可直接求出 $d=-Bg$）
 + [x] 轻量，便于存储（$O(n^2)$）
