@@ -185,6 +185,8 @@ Trouble with nonsmoothness:
 + Negative sub-grad does not descent
 + Curvature can be vary large
 
+**Here it is assumed that the function is a splicing of multiple smooth functions, i.e., only the connections are non-smooth, and the percentage of non-smooth regions is 0.**
+
 **When applying strong wolfe condition to nonsmooth function,** it may be unable to meet the strong curvature condition, since there is no $\alpha$ where the derivative is close to 0.
 ![](../Resources/bfgs_method_img_5.png)
 Therefore, **we should use weak wolfe condition.**
