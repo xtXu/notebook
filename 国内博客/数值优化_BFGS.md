@@ -134,9 +134,7 @@ $$
 $$
 s^k=\Delta x^{k+1}=x^{k+1}-x^k,y^k=\Delta g^{k+1}=g^{k+1}-g^k, \rho^k=\frac{1}{\langle s^k,y^k\rangle}
 $$
-我们不直接存储 $B^k$，而是存储 $\mathrm{m}$ 对
-Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^k,\rho^k$.  
-Then in every iteration, we can obtain $B^k$ as:
+我们不直接存储 $B^k$，而是存储至多 $\mathrm{m}$ 对 $s^k,y^k,\rho^k$。这样，在每轮迭代中，可以通过
 $$
 \begin{aligned}
 &\textbf{for}~~ i=k-m,k-m+1,\dots,k\\
@@ -144,9 +142,8 @@ $$
 &\textbf{end}
 \end{aligned}
 $$
-However, the cost to calculate $B^k$ is $O(mn^2)$.
-
-Instead, we can use the algorithm below, whose result is same:
+来求出 $B^k$。但这样的计算复杂度为 $O(mn^2)$，不仅没有降低，还比原来大。  
+因此，可以通过如下算法直接求出方向 $d$，结果相同：
 $$
 \begin{aligned}
 &d^k\leftarrow g^k\\
@@ -163,35 +160,37 @@ $$
 &\textbf{return search direction}~d
 \end{aligned}
 $$
+此时的复杂度为 $O(mn)$。
 ![](../Resources/bfgs_method_img_4.png)
 
 |  | Newtons | BFGS | L-BFGS |
 | :---: | :---: | :---: | :---: |
 | Work per iter | $O(n^3)$ | $O(n^2)$ | $O(mn)$ |
+L-BFGS是十分有效的求解光滑非凸优化的方法。  
+同样，为了保证收敛，可以仅在满足 Li-Fukushima 条件时，存储对应的 $s^k,y^k,\rho^k$。
 
-**L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**  
-To guarantee the convergence, we can store the $s^k,y^k,\rho^k$ only when meeting the Li-Fukushima condition (i.e. Cautious Update).
+## BFGS用于非光滑函数
+函数非光滑时，存在的问题：
++ 梯度可能不存在
++ 负梯度方向不一定下降
++ 曲率可能十分大
 
-## For Non-Smooth Function
-Trouble with nonsmoothness:
-+ Gradient may not exist
-+ Negative sub-grad does not descent
-+ Curvature can be vary large
+**这里假设函数是多个光滑函数的拼接，即只有连接处非光滑，非光滑区域的占比为0。**
 
-**When applying strong wolfe condition to nonsmooth function,** it may be unable to meet the strong curvature condition, since there is no $\alpha$ where the gradient is close to 0.
+在处理非光滑函数时，若使用 **strong wolfe condition**，则其中的**强曲率条件**可能无法满足，因为不存在 $\alpha$ 使得导数为0。
 ![](../Resources/bfgs_method_img_5.png)
-Therefore, **we should use weak wolfe condition.**
+因此, **我们选择 weak wolfe condition.**
 
-Generally for smooth function, we use interpolation to search the step size that meets the weak wolfe conditions. 
+通常对于光滑函数，在线搜索时常利用插值函数来寻找满足 weak wolfe condition 的步长，但这对于非光滑函数可能无效。
 
-For nonsmooth function, we use **Lewis & Overton line search** to obtain the feasible step size. In weak wolfe condition, let
+对于非光滑函数，我们使用 **Lewis & Overton line search** 来获得可行的步长。记
 $$
 \begin{cases}
 S(\alpha)=f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{T}} \nabla f\left(x^k\right) \\\\
 C(\alpha)=d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})
 \end{cases}
 $$
-**Lewis & Overton line search:**
+则 **Lewis & Overton line search** 的步骤为：
 $$
 \begin{aligned}
 &l\leftarrow0\\
@@ -211,8 +210,9 @@ $$
 &\textbf{end}
 \end{aligned}
 $$
+通过不断地缩小范围，寻找满足条件的步长。
 
-**L-BFGS method for possibly nonsmooth functions:**
+综上，用于**非光滑函数的 L-BFGS 算法**如下：
 $$
 \begin{aligned}
 &\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
@@ -230,49 +230,50 @@ $$
 
 
 
-## Appendix
-BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
-**Proof:** It is equivalent to prove that if $B^k\succ 0$ and $\Delta g^T\Delta x>0$, then $B^{k+1}\succ 0$.   
-For $\forall y$, 
+## 附录
+若 $\Delta g^T\Delta x>0$，则 BFGS 更新可以保证 $B^k$ 的正定。
+
+**证明：** 等价于证明，若 $B^k\succ 0$ 且 $\Delta g^T\Delta x>0$, 则 $B^{k+1}\succ 0$。  
+对于 $\forall y$， 
 $$
 \begin{aligned}
 y^T B^{k+1}y&=y^T\left[\left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)+\frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}\right]y\\
 &=y^T \left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y+y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y
 \end{aligned}
 $$
-Firstly consider the right part:
+首先考虑右边的部分：
 $$
 \text{Right}=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=\frac{y^T\Delta x \Delta x^T y}{\Delta g^T \Delta x}=\frac{(\Delta x^T y)^2(\geq 0)}{\Delta g^T \Delta x(>0)}\geq 0
 $$
-Consider the left part:
+考虑左边的部分：
 $$
 \text{Left}=y^T \left(I-\frac{\Delta x \Delta g^T}{\Delta g^T \Delta x}\right) B^k\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y
 $$
-Let $A=I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}$, then
+令 $A=I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}$，则
 $$
 \text{Left}=y^T A^T B^k A y=(Ay)^T B^k Ay
 $$
-Because $B^k \succ 0$ and $Ay\in\mathbb{R}^n$, 
+由于 $B^k \succ 0$ 且 $Ay\in\mathbb{R}^n$，
 $$
 \text{Left}=(Ay)^T B^k Ay\geq 0
 $$
-So $B^{k+1}=\text{Left}+\text{Right}\geq0$, i.e. $B^{k+1}$ is PSD.  
-Then let's consider whether $B^{k+1}$ is PD.  We discuss this in three cases.  
-**First:** $y=0$, then $\text{Left}=0,\text{Right}=0\Rightarrow y^T B^{k+1} y=0$.  
-**Second:** $y\neq0,Ay\neq0$, then $\text{Left}>0\Rightarrow y^T B^{k+1} y>0$.  
-**Third:** $y\neq0, Ay=0$, then $\text{Left}=0$, 
+因此 $B^{k+1}=\text{Left}+\text{Right}\geq0$，即 $B^{k+1}$ 半正定。  
+然后分三种情况来考虑 $B^{k+1}$ 是否正定。  
+**情况1：** $y=0$，则 $\text{Left}=0, \text{Right}=0\Rightarrow y^T B^{k+1} y=0$.  
+**情况2：** $y\neq0,Ay\neq0$，则 $\text{Left}>0\Rightarrow y^T B^{k+1} y>0$.  
+**情况3：** $y\neq0, Ay=0$，则 $\text{Left}=0$，
 $$
 Ay=\left(I-\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}\right)y=0\Rightarrow y=\frac{\Delta g \Delta x^T}{\Delta g^T \Delta x}y=\frac{\Delta g(\Delta x^T y)}{\Delta g^T \Delta x}
 $$
-Because $y\neq0\Rightarrow \Delta x^T y\neq0$,
+因为 $y\neq0\Rightarrow \Delta x^T y\neq0$，
 $$
 \begin{aligned}
 \text{Right}&=y^T \frac{\Delta x \Delta x^T}{\Delta g^T \Delta x}y=\frac{(y^T \Delta x) (\Delta x^T y)}{\Delta g^T \Delta x}
 =\frac{(\Delta x^T y)^2(>0)}{\Delta g^T \Delta x}>0
 \end{aligned}
 $$
-Thus, $\text{Right}>0\Rightarrow y^T B^{k+1}y>0$.
+因此，$\text{Right}>0\Rightarrow y^T B^{k+1}y>0$.
 
-In summary, for $\forall y\neq0$, $y^T B^{k+1}y>0$, $B^{k+1}\succ 0$.  
-Thus, given $B^0=I\succ 0$, we can preserve PD if $\Delta g^T\Delta x>0$.
+综上, 对于 $\forall y\neq0$, $y^T B^{k+1}y>0$, $B^{k+1}\succ 0$.  
+因此，当 $B^0=I\succ 0$ 时，只需保证 $\Delta g^T\Delta x>0$，就可以保证 $B^{k}$ 正定。
 
