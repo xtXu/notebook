@@ -132,6 +132,8 @@ In most cases, BFGS is robustness enough, so cautious-BFGS is not necessary.
 In many libraries, BFGS is applied easily without cautious update.  
 The cost per iteration: $O(n^2)$
 
+## 
+
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
 **Proof:** It is equivalent to prove that if $B^k\succ 0$ and $\Delta g^T\Delta x>0$, then $B^{k+1}\succ 0$.   
