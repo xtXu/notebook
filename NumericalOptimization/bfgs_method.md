@@ -132,7 +132,8 @@ In most cases, BFGS is robustness enough, so cautious-BFGS is not necessary.
 In many libraries, BFGS is applied easily without cautious update.  
 The cost per iteration: $O(n^2)$
 
-## 
+## L-BFGS
+
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
