@@ -40,7 +40,7 @@ $$
 $$
 The proof is in the appendix at the end of the article.  
 
-## For Strict Convex Function
+## For Strict Convex Smooth Function
 For **strict convex** function, 
 $$
 \langle y-x,\nabla f(y)-\nabla f(x)\rangle >0\Rightarrow \Delta g^\top\Delta x > 0
@@ -62,7 +62,7 @@ $$
 \end{aligned}
 $$
 
-## For Non-Convex Function
+## For Non-Convex Smooth Function
 For **non strict convex function**, we can use **Wolfe Condition** in line search.
 $$
 \text{Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow d\text{ is descent direction}
