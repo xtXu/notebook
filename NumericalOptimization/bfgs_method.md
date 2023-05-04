@@ -152,7 +152,7 @@ $$
 &\text{end}
 \end{aligned}
 $$
-However, the cost increase to 
+However, the cost to calculate $B^k$ is $O(mn^2)$.
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
