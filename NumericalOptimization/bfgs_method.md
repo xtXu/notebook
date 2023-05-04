@@ -133,7 +133,9 @@ In many libraries, BFGS is applied easily without cautious update.
 The cost per iteration: $O(n^2)$
 
 ## Limited-memory BFGS (L-BFGS)
-
+**Motivation:**
++ For BFGS method, $B^k$ contains all information of $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$. However, the information before many iterations is unuseful.
++ We want to reduce $O(n^2)$ cost per iteration, but after too many iterations, $B^k$ can be dense and the rank can become too large.
 
 ## Appendix
 BFGS update preserves PD if $\Delta g^T\Delta x>0$.    
