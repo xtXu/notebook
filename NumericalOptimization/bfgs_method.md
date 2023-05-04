@@ -185,6 +185,9 @@ Trouble with nonsmoothness:
 + Negative sub-grad does not descent
 + Curvature can be vary large
 
+**When applying strong wolfe condition to nonsmooth function,** 
+![](../Resources/bfgs_method_img_5.png)
+
 
 
 
