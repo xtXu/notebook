@@ -219,6 +219,21 @@ $$
 \end{aligned}
 $$
 
+**L-BFGS method for possibly nonsmooth functions:**
+$$
+\begin{aligned}
+&\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
+&\textbf{while}~~ \Vert g^{k}\Vert>\delta\quad\textbf{do}\\
+&\qquad d\leftarrow -B^{k}g^{k}\\
+&\qquad t\leftarrow \text{Lewis Overton line search}\\
+&\qquad x^{k+1}\leftarrow x^{k}+td\\
+&\qquad g^{k+1}\leftarrow \nabla f(x^{k+1})\\
+&\qquad B^{k+1}\leftarrow \text{Cautious-Limited-Memory-BFGS}(g^{k+1}-g^{k},x^{k+1}-x^{k})\\
+&\qquad k\leftarrow k+1\\
+&\textbf{end while}\\
+&\textbf{return}
+\end{aligned}
+$$
 
 
 
