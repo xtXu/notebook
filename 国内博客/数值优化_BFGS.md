@@ -87,7 +87,7 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 $$
 其中第二个条件称为**强曲率条件**，它保证了 $x^{k}+\alpha d$ 在极小值附近，防止了步长太大，如图所示。
 ![500](../Resources/bfgs_method_img_3.png)
-Strong wolfe condition可以抑制振荡。
+Strong wolfe condition 可以抑制振荡。
 
 综上，
 $$
