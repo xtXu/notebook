@@ -189,8 +189,11 @@ Trouble with nonsmoothness:
 ![](../Resources/bfgs_method_img_5.png)
 Therefore, **we should use weak wolfe condition.**
 
-Generally for smooth function, we use interpolation to search the step size that meets the weak wolfe conditions.
+Generally for smooth function, we use interpolation to search the step size that meets the weak wolfe conditions. 
 
+For nonsmooth function, we use **Lewis & Overton line search** to obtain the feasible step size. In weak wolfe condition, let
+$$
+$$
 
 
 
