@@ -180,7 +180,10 @@ $$
 To guarantee the convergence, we can store the $s^k,y^k,\rho^k$ only when meeting the Li-Fukushima condition (i.e. Cautious Update).
 
 ## For Non-Smooth Function
-
+Trouble with nonsmoothness:
++ Gradient may not exist
++ Negative sub-grad does not descent
++ Curvature can be vary large
 
 
 
