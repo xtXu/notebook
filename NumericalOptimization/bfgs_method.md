@@ -176,7 +176,8 @@ $$
 | :---: | :---: | :---: | :---: |
 | Work per iter | $O(n^3)$ | $O(n^2)$ | $O(mn)$ |
 
-**L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**
+**L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**  
+**L-BFGS:**
 
 
 
