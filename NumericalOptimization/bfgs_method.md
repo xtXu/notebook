@@ -134,7 +134,7 @@ The cost per iteration: $O(n^2)$
 ## Limited-memory BFGS (L-BFGS)
 **Motivation:**
 + For BFGS method, $B^k$ contains all information of $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$. However, the information before many iterations is not useful, and $B^k$ can be dense and the rank can become too large.
-+ We want to reduce $O(n^2)$ cost per iteration, but after too many iterations.
++ We want to reduce $O(n^2)$ cost per iteration.
 
 **Only exploit last m+1 pairs of $\{x^k, g^k\}$.**
 

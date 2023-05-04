@@ -74,16 +74,10 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})
 \end{cases}
 $$
-其中，第一个条件为充分下降条件，与 Armijo 条件相同。  
-第二个条件为曲率条件。$d^\mathrm{T}\nabla f(x^k)$ 为函数 $\phi(\alpha)=f(x^{k}+\alpha d)$ 在 $\alpha=0$ 时的导数，即对应切线的斜率。由于方向 $d$ 为下降方向，则在遇到第一个极小值前 $\phi'(\alpha)<0$，对于小于0的数乘上一个常数，则 $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$。当 $f(x^{k}+\alpha d)$ 接近局部极小值时，$\phi'(\alpha)$ 变大并趋于0。因此，该条件保证了导数变化（增大）的足够多，从而防止 $x^k$ 到 $x^{k+1}$ 变化的太少，下降的太慢，同时也使得 $x^{k+1}$ 趋近于局部极小。
+其中，第一个条件为**充分下降条件**，与 Armijo 条件相同。  
+第二个条件为**曲率条件**。$d^\mathrm{T}\nabla f(x^k)$ 为函数 $\phi(\alpha)=f(x^{k}+\alpha d)$ 在 $\alpha=0$ 时的导数，即对应切线的斜率。由于方向 $d$ 为下降方向，则在遇到第一个极小值前 $\phi'(\alpha)<0$，对于小于0的数乘上一个常数，则 $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$。当 $f(x^{k}+\alpha d)$ 接近局部极小值时，$\phi'(\alpha)$ 变大并趋于0。因此，该条件保证了导数变化（增大）的足够多，从而防止 $x^k$ 到 $x^{k+1}$ 变化的太少，下降的太慢，同时也使得 $x^{k+1}$ 趋近于局部极小。
 ![|500](../Resources/bfgs_method_img_2.png)
-如图所示，上方红色的直线表示曲率条件可以接受的导数（切线斜率）范围。当变化步长较大导致越过了局部极小值时，导数为正，此时也满足条件，因为也可以防止 $x^k$ 到 $x^{k+1}$ 变化过少，
-
-The first condition is the sufficient decrease condition, which is the same as Armijo.  
-The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the derivative of $\phi(\alpha)=f(x^{k}+\alpha d)$ at $\alpha=0$. The $d$ is a descent direction, so $\phi'(\alpha)<0$ before the first minima, and $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$. As $f(x^{k}+\alpha d)$ move near the local minima, $\phi'(\alpha)$ increase and  move near $0$.  Thus, the condition means that we want **the derivatives to increase sufficiently**, which **can prevent the slow progress** and make $x^{k+1}$ near to the local minima. 
-
-As shown in the figure, the top red lines is the derivatives allowed by the curvature condition. Note that if the descent step exceeds the local minima, the derivative become positive, which can also prevent the slow progress and also meets the curvature condition.  
-****
+如图所示，上方红色的直线表示曲率条件可以接受的导数（切线斜率）范围。当步长较大导致越过了局部极小值时，导数为正，此时也满足条件，因为此时的 $x^{k+1}$ 也可以防止变化过少，虽然对于这轮迭代来说，沿下降方向没有接近极小值，但在总体上来说，这一步迭代仍是有效的。
 #### strong wolfe condition
 $$
 \begin{cases}
@@ -91,18 +85,18 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 \Vert d^{\mathrm{T}}\nabla f(x^{k}+\alpha d)\Vert \geq c_{2}\cdot \Vert d^{\mathrm{T}}\nabla f(x^{k})\Vert
 \end{cases}
 $$
-The second condition is the **strong curvature condition**. It make $x^{k}+\alpha d$ near the local minima, and prevent one step over too far, as shown in the figure below.
+其中第二个条件称为**强曲率条件**，它保证了 $x^{k}+\alpha d$ 在极小值附近，防止了步长太大，如图所示。
 ![500](../Resources/bfgs_method_img_3.png)
-The strong wolfe condition can suppress the oscillation.
+Strong wolfe condition可以抑制振荡。
 
-We can summarize that
+综上，
 $$
 \text{Strong Wolfe}\rightarrow \text{Weak Wolfe}\rightarrow \Delta g^{T}\Delta x>0\rightarrow B\text{ is PD}\rightarrow \text{descent}
 $$
-In practical, **weak wolfe** is used more often to keep the robust.
+在实际中，**weak wolfe**已经足够用来保证算法的鲁棒性了。
+
 ### Cautious Update
-Wolfe condition **cannot guarantee the convergence** of BFGS in some cases.  
-So the **cautious update** is introduced:
+在一些情况下，wolfe condition 无法保证 BFGS 一定收敛。因此，可以通过 **cautious update** 来保证收敛：
 $$
 B^{k+1}=
 \begin{cases}
@@ -110,11 +104,9 @@ B^{k+1}=
 &B^k &\text{otherwise}
 \end{cases}
 $$
-Then the convergence can be guaranteed if
-+ the function has bounded sub-level set;
-+ the function has Lipschitz continuous gradient.
+上述更新 $B$ 的条件也叫做 Li-Fukushima 条件。  
 
-In summary, the **BFGS** for the **possibly non-convex function** can be:
+综上，对于可能**非凸的函数**，BFGS算法如下：
 $$
 \begin{aligned}
 &\textbf{initialize}~~ x^{0},g^{0}\leftarrow f(x^{0}),\,B^{0}\leftarrow I,\,k\leftarrow 0\\
@@ -129,22 +121,20 @@ $$
 &\textbf{return}
 \end{aligned}
 $$
-
-In most cases, BFGS is robustness enough, so cautious-BFGS is not necessary.  
-In many libraries, BFGS is applied easily without cautious update.  
-The cost per iteration: $O(n^2)$
-
+在多数情况下，BFGS足够鲁棒，无需 cautious-BFGS。  
+每次迭代的复杂度：$O(n^2)$
 ## Limited-memory BFGS (L-BFGS)
-**Motivation:**
-+ For BFGS method, $B^k$ contains all information of $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$. However, the information before many iterations is not useful, and $B^k$ can be dense and the rank can become too large.
-+ We want to reduce $O(n^2)$ cost per iteration, but after too many iterations.
+**动机:**
++ 在 BFGS 算法中，$B^k$ 包含了 $\Delta x_i, \Delta g_i, (i=1,\dots,k-1)$ 的所有信息，其中多次迭代前的信息对于当前迭代几乎没有作用。但随着迭代次数的增加，$B^k$ 会变得越来越稠密，秩越来越大，不利于计算。
++ 进一步降低单轮迭代所需的 $O(n^2)$ 复杂度。
 
-**Only exploit last m+1 pairs of $\{x^k, g^k\}$.**
+因此，可以**只利用 m+1 对 $\{x^k, g^k\}$ 来还原当前点的曲率信息.**
 
-**Limited-memory BFGS:**
+**Limited-memory BFGS（有限内存的BFGS）:**
 $$
 s^k=\Delta x^{k+1}=x^{k+1}-x^k,y^k=\Delta g^{k+1}=g^{k+1}-g^k, \rho^k=\frac{1}{\langle s^k,y^k\rangle}
 $$
+我们不直接存储 $B^k$，而是存储 $\mathrm{m}$ 对
 Instead of store $B^k$ explicitly, we store up to $\mathrm{m}$ values of $s^k,y^k,\rho^k$.  
 Then in every iteration, we can obtain $B^k$ as:
 $$
