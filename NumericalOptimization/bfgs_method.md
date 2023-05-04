@@ -177,7 +177,7 @@ $$
 | Work per iter | $O(n^3)$ | $O(n^2)$ | $O(mn)$ |
 
 **L-BFGS is almost the 1st choice for efficient smooth nonconvex optimization.**  
-**L-BFGS:**
+To guarantee the convergence, we can store the $s^k,y^k,\rho^k$ only when meeting the Li-Fukushima condition (i.e. Cautious Update).
 
 
 
