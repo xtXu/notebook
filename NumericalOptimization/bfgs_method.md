@@ -200,7 +200,23 @@ C(\alpha)=d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\
 $$
 **Lewis & Overton line search:**
 $$
-\begin
+\begin{aligned}
+&l\leftarrow0\\
+&u\leftarrow+\infty\\
+&\alpha\leftarrow1\\
+&\textbf{repeat}\\
+&\qquad \textbf{if}~~S(\alpha)~\text{fails}\\
+&\qquad \qquad u\leftarrow \alpha\\
+&\qquad \textbf{else if}~~C(\alpha)~\text{fails}\\
+&\qquad \qquad l\leftarrow \alpha\\
+&\qquad \textbf{else}\\
+&\qquad \qquad \textbf{return}~~\alpha\\
+&\qquad \textbf{if}~~u<+\infty\\
+&\qquad \qquad \alpha\leftarrow (l+u)/2\\
+&\qquad \textbf{else}\\
+&\qquad \qquad \alpha\leftarrow 2l\\
+&\textbf{end}
+\end{aligned}
 $$
 
 
