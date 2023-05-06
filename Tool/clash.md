@@ -10,6 +10,19 @@ parsers: # array
       prepend-rules:
         - DOMAIN,ieeexplore.ieee.org,DIRECT # rules最前面增加一个规则
 ```
+
+## Web of Science
+**Problem:** 校园网ip登录webofscience，若通过代理则无法认证。  
+**Fix:** 可通过`Parsers`功能在机场提供的配置基础上增加分流规则：
+```yml
+parsers: # array
+  - url: #{{订阅链接}}
+    yaml:
+      prepend-rules:
+        - DOMAIN-KEYWORD,webofscience,DIRECT
+        - DOMAIN-KEYWORD,webofknowledge,DIRECT
+        - DOMAIN-KEYWORD,clarivate,DIRECT
+```
 ## TUN Mode
 **Problem:** 部分浏览器，如Google Chrome，无法连接。  
 **Fix:** 关闭**安全DNS**。
