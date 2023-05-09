@@ -27,4 +27,7 @@ Images => Inverse Rendering => 3D contents (computer vision)
 
 ![](../Resources/基于NeRF的三维内容生成_img_2.png)
 
+**Rendering operators:**
++ Depend on the specific shape and appearance representations.
++ Need to be fully differentiable. (can optimize the L2 loss between the rendered image and the groudtruth image)
  
