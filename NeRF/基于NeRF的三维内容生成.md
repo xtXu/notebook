@@ -30,4 +30,6 @@ Images => Inverse Rendering => 3D contents (computer vision)
 **Rendering operators:**
 + Depend on the specific shape and appearance representations.
 + Need to be fully differentiable. (can optimize the L2 loss between the rendered image and the groudtruth image)
+
+
  
