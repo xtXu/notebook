@@ -60,6 +60,11 @@ $$
 
 **NeRF geometry quality: the surface normal is noisy ( low local geometry quality), but the depth map does not capture details.**
 
+## NeRF++
+Nerf faces resolution issue for 360 captures of unbounded scenes.  
+**NeRF++** Separate foreground/background modelling.  
+**NeRF++** uses inverted sphere parametrization to establish symmetry between 360 inward-facing and 360 outward-facing captures.
+
 
 
  
