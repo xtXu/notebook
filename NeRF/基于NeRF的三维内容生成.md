@@ -40,6 +40,17 @@ Break NeRF in 3 key factors:
 + appearance: radiance field $(x,y,z,\theta,\phi)\rightarrow rgb$
 + rendering
 
+**Soft shape:**  
+Compare with hard geometry:
++ Not require object segmentation masks: genus issue.
++ No boundary discontinuity: easy for differential rendering.
++ Rendering is more expensive, editing is hard.
+
+**Fourier features fixed the spectral bias of MLPs.**
+$$
+\gamma(\mathbf{v})=\left[\ldots, \cos \left(2 \pi \sigma^{j / m} \mathbf{v}\right), \sin \left(2 \pi \sigma^{j / m} \mathbf{v}\right), \ldots\right]^{\mathrm{T}} \text { for } j=0, \ldots, m-1
+$$
+
 **NeRF geometry quality: the surface normal is noisy ( low local geometry quality), but the depth map does not capture details.**
 
 
