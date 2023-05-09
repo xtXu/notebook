@@ -62,8 +62,13 @@ $$
 
 ## NeRF++
 Nerf faces resolution issue for 360 captures of unbounded scenes.  
-**NeRF++** Separate foreground/background modelling.  
+**NeRF++** Separate foreground/background modelling.
+
+![](../Resources/基于NeRF的三维内容生成_img_5.png)
+
 **NeRF++** uses inverted sphere parametrization to establish symmetry between 360 inward-facing and 360 outward-facing captures.
+
+![](../Resources/基于NeRF的三维内容生成_img_6.png)
 
 
 
