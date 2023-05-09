@@ -7,3 +7,14 @@ Images => Inverse Rendering => 3D contents (computer vision)
 ![](../Resources/基于NeRF的三维内容生成_img_1.png)
 
 3D Reconstruction: high quality geometric structure, no appearance (material or lighting).
+
+3 key factors in inverse rendering:
++ shape representation
++ appearance representation
++ render operation
+
+Shape representation:
++ Mesh
++ Point Cloud
++ Occupancy field
++ Signed distance field
