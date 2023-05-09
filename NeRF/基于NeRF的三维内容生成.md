@@ -13,8 +13,14 @@ Images => Inverse Rendering => 3D contents (computer vision)
 + appearance representation
 + render operation
 
-Shape representation:
+**Shape representation:**
 + Mesh
 + Point Cloud
 + Occupancy field
 + Signed distance field
+
+**Appearance representation:**
++ Material texture map & environmental lighting
++ Radiance field (surface light field)
+
+![](../Resources/基于NeRF的三维内容生成_img_2.png)
