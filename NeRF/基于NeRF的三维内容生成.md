@@ -35,7 +35,8 @@ Images => Inverse Rendering => 3D contents (computer vision)
 NeRF can generate highly photo-realistic novel views.
 
 Break NeRF in 3 key factors:
-+ shape: soft opacity field (fog) $(x,y,z)\rightarrow \sigma$
++ shape: soft opacity field (fog) $(x,y,z)\rightarrow \sigma$.   
+  $\sigma$:光在空间传播单位距离能量衰减的速度（材质对光照的吸收速率）。
   ![](../Resources/基于NeRF的三维内容生成_img_3.png)
 + appearance: radiance field $(x,y,z,\theta,\phi)\rightarrow rgb$
 + rendering
