@@ -51,7 +51,14 @@ $$
 \gamma(\mathbf{v})=\left[\ldots, \cos \left(2 \pi \sigma^{j / m} \mathbf{v}\right), \sin \left(2 \pi \sigma^{j / m} \mathbf{v}\right), \ldots\right]^{\mathrm{T}} \text { for } j=0, \ldots, m-1
 $$
 
+**Neural fields for inverse rendering:**
++ Compact: each NeRF is only ~10MB
++ Continuous: scenes are not discretized
++ Flexible and easy for optimization: implicit regularization from neural networks.
+![](../Resources/基于NeRF的三维内容生成_img_4.png)
+
 **NeRF geometry quality: the surface normal is noisy ( low local geometry quality), but the depth map does not capture details.**
+
 
 
  
