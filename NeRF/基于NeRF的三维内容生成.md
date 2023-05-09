@@ -31,5 +31,15 @@ Images => Inverse Rendering => 3D contents (computer vision)
 + Depend on the specific shape and appearance representations.
 + Need to be fully differentiable. (can optimize the L2 loss between the rendered image and the groudtruth image)
 
+## NeRF
+NeRF can generate highly photo-realistic novel views.
+
+Break NeRF in 3 key factors:
++ shape: soft opacity field (fog) $(x,y,z)\rightarrow \sigma$
+  ![](../Resources/基于NeRF的三维内容生成_img_3.png)
++ appearance: radiance field $(x,y,z,\theta,\phi)\rightarrow rgb$
+
+**NeRF geometry quality: the surface normal is noisy ( low local geometry quality), but the depth map does not capture details.**
+
 
  
