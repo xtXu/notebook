@@ -11,7 +11,7 @@ $$
 $$
 
 ## Line-Search Steepest Gradient Descent
-![](../Resources/gradient_descent_img_1.png)
+![](../Resource/gradient_descent_img_1.png)
 Iteration: $x^{k+1}=x^{k}-\tau\nabla f(x^k)$
 
 We can formed it as: 
@@ -32,7 +32,7 @@ For the step size $\tau$ :
     - Like Armijo condition which is easy to satisfy
 
 ### Constant Step Size
-![](../Resources/gradient_descent_img_2.png)
+![](../Resource/gradient_descent_img_2.png)
 - Too large: may oscillate and diverge
 - Too small: may be too slow
 - “Just right”: fast convergence
@@ -50,9 +50,9 @@ To explain the condition, we define $\phi(\alpha)=f(x^k+\alpha d)$, so the deriv
 If for $\alpha$, $\phi(\alpha)$ decrease more than $l(\alpha)$, we consider it as sufficient decrease.
 
 For convex function:
-![](../Resources/gradient_descent_img_3.png)
+![](../Resource/gradient_descent_img_3.png)
 For non-convex function:
-![](../Resources/gradient_descent_img_4.png)
+![](../Resource/gradient_descent_img_4.png)
 ### Backtracking Armijo line search
 
 Considering the Armijo condition, if $\tau$ is small enough, it will meet the condition, but the small step size results in the slow convergence.
@@ -60,19 +60,19 @@ Considering the Armijo condition, if $\tau$ is small enough, it will meet the co
 We want the $\tau$ to be a bit large, and far away from $0$.
 
 So the backtracking Armijo line search is as below:
-![](../Resources/gradient_descent_img_5.png)
+![](../Resource/gradient_descent_img_5.png)
 ### Comparison between Exact/Inexact line search
 
  Although the inexact line search needs more iterations, it doesn’t need the sub optimization problem which the exact line search needs. 
 
 **Fewer iterations do not guarantee higher efficiency.**
-![](../Resources/gradient_descent_img_6.png)
+![](../Resource/gradient_descent_img_6.png)
 ### Drawbacks:
 
 - Gradients are perpendicular to contours
-![](../Resources/gradient_descent_img_7.png)
+![](../Resource/gradient_descent_img_7.png)
 - Poor conditioning causes performance degeneration
-![](../Resources/gradient_descent_img_8.png)
-![](../Resources/gradient_descent_img_9.png)
+![](../Resource/gradient_descent_img_8.png)
+![](../Resource/gradient_descent_img_9.png)
 
 So, **curvature info is needed !**

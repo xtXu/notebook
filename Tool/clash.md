@@ -38,7 +38,7 @@ Host github.com
 
 **Problem:** windows会向所有网卡发送DNS查询请求，因此就算设置了TUN模式，也会将DNS请求发送给物理网卡，导致DNS泄露。  
 **Fix:** 组策略-计算机配置-管理模板-网络-DNS客户端-禁用智能多宿主名称解析-启用。
-![](../Resources/clash_img_1.png)
+![](../Resource/clash_img_1.png)
 
 **Problem:** DNS设置：nameserver, fallback, fake-ip, fake-ip-filter。在分流规则匹配时，若域名要和ip规则进行匹配，则需要查询DNS时，Clash会先向nameserver中的所有服务器发送请求，并接受第一个返回的ip，若该ip是国外ip，则再次通过fallback查询，以保证获得未被污染的dns。  
 **Fix:**

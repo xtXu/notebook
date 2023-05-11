@@ -76,7 +76,7 @@ d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^
 $$
 其中，第一个条件为**充分下降条件**，与 Armijo 条件相同。  
 第二个条件为**曲率条件**。$d^\mathrm{T}\nabla f(x^k)$ 为函数 $\phi(\alpha)=f(x^{k}+\alpha d)$ 在 $\alpha=0$ 时的导数，即对应切线的斜率。由于方向 $d$ 为下降方向，则在遇到第一个极小值前 $\phi'(\alpha)<0$，对于小于0的数乘上一个常数，则 $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$。当 $f(x^{k}+\alpha d)$ 接近局部极小值时，$\phi'(\alpha)$ 变大并趋于0。因此，该条件保证了导数变化（增大）的足够多，从而防止 $x^k$ 到 $x^{k+1}$ 变化的太少，下降的太慢，同时也使得 $x^{k+1}$ 趋近于局部极小。
-![|500](../Resources/bfgs_method_img_2.png)
+![|500](../Resource/bfgs_method_img_2.png)
 如图所示，上方红色的直线表示曲率条件可以接受的导数（切线斜率）范围。当步长较大导致越过了局部极小值时，导数为正，此时也满足条件，因为此时的 $x^{k+1}$ 也可以防止变化过少，虽然对于这轮迭代来说，沿下降方向没有接近极小值，但在总体上来说，这一步迭代仍是有效的。
 #### strong wolfe condition
 $$
@@ -86,7 +86,7 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 \end{cases}
 $$
 其中第二个条件称为**强曲率条件**，它保证了 $x^{k}+\alpha d$ 在极小值附近，防止了步长太大，如图所示。
-![500](../Resources/bfgs_method_img_3.png)
+![500](../Resource/bfgs_method_img_3.png)
 Strong wolfe condition 可以抑制振荡。
 
 综上，
@@ -161,7 +161,7 @@ $$
 \end{aligned}
 $$
 此时的复杂度为 $O(mn)$。
-![](../Resources/bfgs_method_img_4.png)
+![](../Resource/bfgs_method_img_4.png)
 
 |  | Newtons | BFGS | L-BFGS |
 | :---: | :---: | :---: | :---: |
@@ -179,7 +179,7 @@ L-BFGS是十分有效的求解光滑非凸优化的方法。
 **这里假设函数是多个光滑函数的拼接，即只有连接处非光滑，非光滑区域的占比为0。**
 
 在处理非光滑函数时，若使用 **strong wolfe condition**，则其中的**强曲率条件**可能无法满足，因为不存在 $\alpha$ 使得导数为0。
-![](../Resources/bfgs_method_img_5.png)
+![](../Resource/bfgs_method_img_5.png)
 因此, **我们选择 weak wolfe condition.**
 
 通常对于光滑函数，在线搜索时常利用插值函数来寻找满足 weak wolfe condition 的步长，但这对于非光滑函数可能无效。

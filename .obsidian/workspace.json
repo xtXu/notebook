@@ -13,24 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "二叉树.md",
+                "file": "Leetcode/动态规划.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
+            },
+            "group": "cf10d7c2d4b589a3"
+          }
+        ]
+      },
+      {
+        "id": "0f022d9e161c256e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "2d27494a7bec781a",
+            "id": "049394b266449a02",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "Leetcode/动态规划.md",
+                "mode": "preview",
+                "source": false
               }
-            }
+            },
+            "group": "cf10d7c2d4b589a3"
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "二叉树.md",
+                "file": "Leetcode/动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "二叉树.md",
+                "file": "Leetcode/动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "二叉树.md"
+                "file": "Leetcode/动态规划.md"
               }
             }
           }
@@ -166,23 +174,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6983b353b17c11a",
+  "active": "049394b266449a02",
   "lastOpenFiles": [
-    "resources/二叉树_img_6.png",
-    "resources/二叉树_img_5.png",
+    "Daily/2023-05-11.md",
+    "二叉树.md",
+    "Resource/二叉树_img_6.png",
+    "Resource/二叉树_img_5.png",
     "numerical_optimization/quasi_newton_method.md",
     "numerical_optimization/bfgs_method.md",
-    "二叉树.md",
-    "resources/二叉树_img_4.png",
-    "resources/二叉树_img_3.png",
-    "resources/二叉树_img_2.png",
-    "resources/二叉树_img_1.png",
+    "Resource/二叉树_img_4.png",
+    "Resource/二叉树_img_3.png",
+    "Resource/二叉树_img_2.png",
+    "Resource/二叉树_img_1.png",
     "numerical_optimization/damped_newton_method.md",
-    "resources/bfgs_method_img_1.png",
-    "resources/damped_newton_method_img_6.png",
-    "resources/damped_newton_method_img_5.png",
-    "resources/damped_newton_method_img_4.png",
-    "resources/damped_newton_method_img_3.png",
+    "Resource/bfgs_method_img_1.png",
+    "Resource/damped_newton_method_img_6.png",
+    "Resource/damped_newton_method_img_5.png",
+    "Resource/damped_newton_method_img_4.png",
     "numerical_optimization/gradient_descent.md",
     "digital_image/level_set.md",
     "digital_image/planar_surface_differential_geometry.md",
@@ -195,9 +203,9 @@
     "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0",
     "Review_of_Linear_Algebra b5bd6f020502401a9bc008be3e0f59f0/Untitled.png.md",
     "2023-03-23.md",
-    "record/autopilot_SikangLiu_221020.md",
-    "record",
-    "resources",
+    "Record/autopilot_SikangLiu_221020.md",
+    "Record",
+    "Resource",
     "img/2022-10-28-19-11-17.png.md",
     "img",
     "digital_image/resources",

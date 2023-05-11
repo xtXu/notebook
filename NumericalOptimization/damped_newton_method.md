@@ -20,7 +20,7 @@ So the **Newton Step** is
 $$
 \boldsymbol{x}_{k+1}=\boldsymbol{x}_k-\left[\nabla^2 f\left(\boldsymbol{x}_k\right)\right]^{-1} \nabla f\left(\boldsymbol{x}_k\right)
 $$
-![](../Resources/damped_newton_method_img_1.png)There are 3 aspects to evaluate a numerical optimization method:
+![](../Resource/damped_newton_method_img_1.png)There are 3 aspects to evaluate a numerical optimization method:
 + Convergence speed
 + Stability
 + Computation work per iteration
@@ -28,7 +28,7 @@ $$
 **For Newton's method, there are much fewer iterations, but each iteration is more expensive.**
 
 **Drawbacks:** Hessian can be **singular** and **indefinite**.
-![](../Resources/damped_newton_method_img_3.png)
+![](../Resource/damped_newton_method_img_3.png)
 
 ## Practical Newton's Method
 

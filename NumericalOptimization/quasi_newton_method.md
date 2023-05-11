@@ -9,7 +9,7 @@ Define the error$$e^k=x^k-x^*$$
 + Quadratic convergence: $\left\|e^{k+1}\right\|=C\left\|e^k\right\|^2$ (Newton)
 + Superlinear convergence: $\left\|e^{k+1}\right\|=C\left\|e^k\right\|^p, p>1$
 
-![|500](../Resources/quasi_newton_method_img_1.png)
+![|500](../Resource/quasi_newton_method_img_1.png)
 ## Approximation
 
 Newton approximation (PD Hessian $H$):

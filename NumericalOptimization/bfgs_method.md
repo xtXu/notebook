@@ -78,7 +78,7 @@ d^{\mathrm{T}}\nabla f(x^{k}+\alpha d) \geq c_{2}\cdot d^{\mathrm{T}}\nabla f(x^
 $$
 The first condition is the sufficient decrease condition, which is the same as Armijo.  
 The second condition is the **curvature condition**. The $d^\mathrm{T}\nabla f(x^k)$ is the derivative of $\phi(\alpha)=f(x^{k}+\alpha d)$ at $\alpha=0$. The $d$ is a descent direction, so $\phi'(\alpha)<0$ before the first minima, and $c_{2}\cdot d^{\mathrm{T}}\nabla f(x^{k})>d^{\mathrm{T}}\nabla f(x^{k})$. As $f(x^{k}+\alpha d)$ move near the local minima, $\phi'(\alpha)$ increase and  move near $0$.  Thus, the condition means that we want **the derivatives to increase sufficiently**, which **can prevent the slow progress** and make $x^{k+1}$ near to the local minima. 
-![|500](../Resources/bfgs_method_img_2.png)
+![|500](../Resource/bfgs_method_img_2.png)
 As shown in the figure, the top red lines is the derivatives allowed by the curvature condition. Note that if the descent step exceeds the local minima, the derivative become positive, which can also prevent the slow progress and also meets the curvature condition.  
 ****
 #### strong wolfe condition
@@ -89,7 +89,7 @@ f\left(x^k\right)-f\left(x^k+\alpha d\right) \geq-c_{1} \cdot \alpha d^{\mathrm{
 \end{cases}
 $$
 The second condition is the **strong curvature condition**. It make $x^{k}+\alpha d$ near the local minima, and prevent one step over too far, as shown in the figure below.
-![500](../Resources/bfgs_method_img_3.png)
+![500](../Resource/bfgs_method_img_3.png)
 The strong wolfe condition can suppress the oscillation.
 
 We can summarize that
@@ -170,7 +170,7 @@ $$
 &\textbf{return search direction}~d
 \end{aligned}
 $$
-![](../Resources/bfgs_method_img_4.png)
+![](../Resource/bfgs_method_img_4.png)
 
 |  | Newtons | BFGS | L-BFGS |
 | :---: | :---: | :---: | :---: |
@@ -188,7 +188,7 @@ Trouble with nonsmoothness:
 **Here it is assumed that the function is a splicing of multiple smooth functions, i.e., only the connections are non-smooth, and the percentage of non-smooth regions is 0.**
 
 **When applying strong wolfe condition to nonsmooth function,** it may be unable to meet the strong curvature condition, since there is no $\alpha$ where the derivative is close to 0.
-![](../Resources/bfgs_method_img_5.png)
+![](../Resource/bfgs_method_img_5.png)
 Therefore, **we should use weak wolfe condition.**
 
 Generally for smooth function, we use interpolation to search the step size that meets the weak wolfe conditions. 

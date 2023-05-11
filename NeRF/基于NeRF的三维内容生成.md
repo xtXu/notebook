@@ -4,7 +4,7 @@
 3D contents = shape + (material + lighting)(Appearance)  
 3D contents => Rendering => Images (computer graphics)  
 Images => Inverse Rendering => 3D contents (computer vision)
-![](../Resources/基于NeRF的三维内容生成_img_1.png)
+![](../Resource/基于NeRF的三维内容生成_img_1.png)
 
 3D Reconstruction: high quality geometric structure, no appearance (material or lighting).
 
@@ -25,7 +25,7 @@ Images => Inverse Rendering => 3D contents (computer vision)
 + Radiance field (surface light field).   
   (hard to edit, hard to solve in new environment)
 
-![](../Resources/基于NeRF的三维内容生成_img_2.png)
+![](../Resource/基于NeRF的三维内容生成_img_2.png)
 
 **Rendering operators:**
 + Depend on the specific shape and appearance representations.
@@ -37,7 +37,7 @@ NeRF can generate highly photo-realistic novel views.
 Break NeRF in 3 key factors:
 + shape: soft opacity field (fog) $(x,y,z)\rightarrow \sigma$.   
   $\sigma$:光在空间传播单位距离能量衰减的速度（材质对光照的吸收速率）。
-  ![](../Resources/基于NeRF的三维内容生成_img_3.png)
+  ![](../Resource/基于NeRF的三维内容生成_img_3.png)
 + appearance: radiance field $(x,y,z,\theta,\phi)\rightarrow rgb$
 + rendering
 
@@ -56,7 +56,7 @@ $$
 + Compact: each NeRF is only ~10MB
 + Continuous: scenes are not discretized
 + Flexible and easy for optimization: implicit regularization from neural networks.
-![](../Resources/基于NeRF的三维内容生成_img_4.png)
+![](../Resource/基于NeRF的三维内容生成_img_4.png)
 
 **NeRF geometry quality: the surface normal is noisy ( low local geometry quality), but the depth map does not capture details.**
 
@@ -64,11 +64,11 @@ $$
 Nerf faces resolution issue for 360 captures of unbounded scenes.  
 **NeRF++** Separate foreground/background modelling.
 
-![](../Resources/基于NeRF的三维内容生成_img_5.png)
+![](../Resource/基于NeRF的三维内容生成_img_5.png)
 
 **NeRF++** uses inverted sphere parametrization to establish symmetry between 360 inward-facing and 360 outward-facing captures.
 
-![](../Resources/基于NeRF的三维内容生成_img_6.png)
+![](../Resource/基于NeRF的三维内容生成_img_6.png)
 
 
 

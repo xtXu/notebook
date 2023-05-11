@@ -8,7 +8,7 @@
 $C(p)=\left\lbrace x(p),y(p)\right\rbrace,\quad p\in\left[0,1\right]$
 
 If the curve is closed, then $C(0)=C(1)$.
-![](../Resources/planar_surface_differential_geometry_img_1.png)
+![](../Resource/planar_surface_differential_geometry_img_1.png)
 
 **Simplified Notation:** $C_p=\frac{\partial C}{\partial p} = [x_p,y_p]$ 
 
@@ -37,7 +37,7 @@ $\vec{n}$ is the normal, and $\kappa$ is defined as **curvature**, $s$ is called
 **Affine**: $\{\tilde{x}, \tilde{y}\}^T=A\{x, y\}^T+\bar{b}$  
 **Equi-Affine**(the area is preserved): $\{\tilde{x}, \tilde{y}\}^T=A\{x, y\}^T+\bar{b}, \text{det}(A)=1$  
 **Euclidean**(translation & rotation): $A=\left[\bar{u}_1, \bar{u}_2\right\rfloor \text { where }\left\langle\bar{u}_1, \bar{u}_2\right\rangle=0 \text { and }\left\langle\bar{u}_i, \bar{u}_i\right\rangle=1$
-![](../Resources/planar_surface_differential_geometry_img_2.png)
+![](../Resource/planar_surface_differential_geometry_img_2.png)
 
 
 ***For simplity, the affine transformations mentioned later stand for equi-affine.*** 
@@ -45,7 +45,7 @@ $\vec{n}$ is the normal, and $\kappa$ is defined as **curvature**, $s$ is called
 ### Differential Signatures
 **Euclidean invariant signature:** $\left\lbrace s,\kappa(s)\right\rbrace$  
 The pair $\left\lbrace s,\kappa(s)\right\rbrace$ uniquely identifies the curve, meaning the shape up to a rotation and translation. It dont change after basic translation and rotation.
-![](../Resources/planar_surface_differential_geometry_img_3.png)
+![](../Resource/planar_surface_differential_geometry_img_3.png)
 
 
 ### Invariant arclength should be
@@ -55,7 +55,7 @@ $w=\int F\left(C, C_p, C_{p p}, \ldots\right) d p=\int F\left(C, C_r, C_{r r}, \
 2. Invariant under the group of the transformations
 
 ### Euclidean arclength
-![](../Resources/planar_surface_differential_geometry_img_4.png)
+![](../Resource/planar_surface_differential_geometry_img_4.png)
 
 With Euclidean transformations, the length is preserved, thus  
 
@@ -69,7 +69,7 @@ s&=\int d s=\int\left\lvert C_p\right\rvert d p \\
 $$  
 
 ### Equi-affine arclength
-![](../Resources/planar_surface_differential_geometry_img_5.png)
+![](../Resource/planar_surface_differential_geometry_img_5.png)
 
 Area is preserved, and $v$ is now the arclength. Now we are going to look for the $v$, that make the area equal to 1, as  
 
@@ -119,7 +119,7 @@ $$
 $\mu$ is the affine invariant curvature.  
 
 **Euclidean invariant signature:** $\left\lbrace v,\mu(v)\right\rbrace$  
-![](../Resources/planar_surface_differential_geometry_img_6.png)
+![](../Resource/planar_surface_differential_geometry_img_6.png)
 
 
 ## Surface Differential Geometry
@@ -129,11 +129,11 @@ $S(u,v)=\left\lbrace x(u,v),y(u,v),z(u,v)\right\rbrace$
 + **Normal:** $\vec{N}=\frac{S_u \times S_v}{\left\lvert S_u \times S_v\right\rvert}$
 + **Area element:** $dA=\left\lvert S_u \times S_v \right\rvert$ 
 + **Total area:** $A=\int\int\left\lvert S_u \times S_v\right\rvert d u d v$
-+ ![](../Resources/planar_surface_differential_geometry_img_7.png)
++ ![](../Resource/planar_surface_differential_geometry_img_7.png)
 
 Imagin a curve $C$ on the surface, we can get the tagent $C_s$, and the normal $C_{ss}=\kappa\vec{n}$. The $C_{ss}$ is pendicular to the curve, but not nessessarily to the surface. So we can project it into the surface, and get
 + **Normal Curvature:** $\kappa_n=\left\langle C_{ss},\vec{N}\right\rangle$  
-+ ![](../Resources/planar_surface_differential_geometry_img_8.png)
++ ![](../Resource/planar_surface_differential_geometry_img_8.png)
 
 But if we have a point on the surface, there are multiple curves that go through that point. Each curve can have a curvature. It turns out that there is one minimum curvature and one maximum. So we define
 + **Principle Curvatures:**
