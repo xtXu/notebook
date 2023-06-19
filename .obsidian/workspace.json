@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NeRF/基于NeRF的三维内容生成.md",
+                "file": "国内博客/数值优化_BFGS.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NeRF/基于NeRF的三维内容生成.md",
+                "file": "国内博客/数值优化_BFGS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NeRF/基于NeRF的三维内容生成.md",
+                "file": "国内博客/数值优化_BFGS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NeRF/基于NeRF的三维内容生成.md",
+                "file": "国内博客/数值优化_BFGS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NeRF/基于NeRF的三维内容生成.md"
+                "file": "国内博客/数值优化_BFGS.md"
               }
             }
           }
@@ -193,6 +193,7 @@
   },
   "active": "eb949401110a814d",
   "lastOpenFiles": [
+    "NeRF/基于NeRF的三维内容生成.md",
     "背包问题.md",
     "Resource/背包问题_img_1.png",
     "Resource/基于NeRF的三维内容生成_img_6.png",
@@ -210,7 +211,6 @@
     "Leetcode/动态规划.md",
     "Daily/2023-05-10.md",
     "Daily/2023-05-09.md",
-    "NeRF/基于NeRF的三维内容生成.md",
     "NeRF",
     "Daily/2023-05-08.md",
     "Daily/2023-05-07.md",
