@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "国内博客/数值优化_BFGS.md",
+                "file": "背包问题.md",
                 "mode": "source",
                 "source": true
               }
             },
             "group": "1ac330fbd5988566"
-          },
-          {
-            "id": "74cb3077db036eef",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "66ffeeda619551ca",
@@ -43,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "国内博客/数值优化_BFGS.md",
+                "file": "背包问题.md",
                 "mode": "preview",
                 "source": true
               }
@@ -125,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "国内博客/数值优化_BFGS.md",
+                "file": "背包问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "国内博客/数值优化_BFGS.md",
+                "file": "背包问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "国内博客/数值优化_BFGS.md"
+                "file": "背包问题.md"
               }
             }
           }
@@ -202,8 +191,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74cb3077db036eef",
+  "active": "eb949401110a814d",
   "lastOpenFiles": [
+    "Leetcode/动态规划.md",
+    "Leetcode/贪心法.md",
+    "国内博客/数值优化_BFGS.md",
     "NeRF/基于NeRF的三维内容生成.md",
     "背包问题.md",
     "Resource/背包问题_img_1.png",
@@ -219,7 +211,6 @@
     "Resource",
     "Leetcode/单调栈.md",
     "Daily/2023-05-11.md",
-    "Leetcode/动态规划.md",
     "Daily/2023-05-10.md",
     "Daily/2023-05-09.md",
     "NeRF",
@@ -240,8 +231,6 @@
     "review_linear_algebra.md",
     "D435_overview.md",
     "DigitalImage/level_set.md",
-    "DigitalImage/planar_surface_differential_geometry.md",
-    "NumericalOptimization/bfgs_method.md",
     "国内博客",
     "Tool",
     "PaperReading",
