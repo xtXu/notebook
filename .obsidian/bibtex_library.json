@@ -84,8 +84,7 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
@@ -97,7 +96,7 @@
   },
   "version": {
     "zotero": "6.0.25",
-    "bbt": "6.7.75"
+    "bbt": "6.7.79"
   },
   "collections": {
     "EF7NNS8M": {
