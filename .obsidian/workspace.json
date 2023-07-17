@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0b7e8a517a41e592",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eb949401110a814d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "背包问题.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "1ac330fbd5988566"
-          }
-        ]
-      },
-      {
         "id": "66ffeeda619551ca",
         "type": "tabs",
         "children": [
@@ -36,8 +17,7 @@
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "1ac330fbd5988566"
+            }
           }
         ]
       }
@@ -191,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb949401110a814d",
+  "active": "7aebe552343448d0",
   "lastOpenFiles": [
     "Leetcode/动态规划.md",
+    "背包问题.md",
     "Leetcode/贪心法.md",
     "国内博客/数值优化_BFGS.md",
     "NeRF/基于NeRF的三维内容生成.md",
-    "背包问题.md",
     "Resource/背包问题_img_1.png",
     "Resource/基于NeRF的三维内容生成_img_6.png",
     "Resource/基于NeRF的三维内容生成_img_5.png",
