@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "481c8149e0d32aa0",
@@ -192,7 +193,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7aebe552343448d0",
+  "active": "4f5f4f68438a858a",
   "lastOpenFiles": [
     "背包问题.md",
     "秋招/秋招记录.md",
