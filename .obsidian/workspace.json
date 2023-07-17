@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "背包问题.md",
+                "file": "秋招/秋招记录.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ef33f83989c379e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92a41336ec596255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "秋招/秋招记录.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "背包问题.md",
+                "file": "秋招/秋招记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "背包问题.md",
+                "file": "秋招/秋招记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "背包问题.md"
+                "file": "秋招/秋招记录.md"
               }
             }
           }
@@ -171,10 +189,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7aebe552343448d0",
+  "active": "92a41336ec596255",
   "lastOpenFiles": [
-    "Leetcode/动态规划.md",
     "背包问题.md",
+    "秋招/秋招记录.md",
+    "秋招",
+    "Leetcode/动态规划.md",
     "Leetcode/贪心法.md",
     "国内博客/数值优化_BFGS.md",
     "NeRF/基于NeRF的三维内容生成.md",
@@ -210,14 +230,12 @@
     "transformation.md",
     "review_linear_algebra.md",
     "D435_overview.md",
-    "DigitalImage/level_set.md",
     "国内博客",
     "Tool",
     "PaperReading",
     "Day Planners",
     "Daily",
     "Leetcode",
-    "NumericalOptimization",
-    "Transformation ff41ee90930644488a7da9478a54d0d1"
+    "NumericalOptimization"
   ]
 }
