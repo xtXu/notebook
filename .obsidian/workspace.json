@@ -4,27 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "66ffeeda619551ca",
+        "id": "712c81880639ac93",
         "type": "tabs",
         "children": [
           {
-            "id": "7aebe552343448d0",
+            "id": "5319533e7d90baf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "秋招/秋招记录.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "6f2d305d107340bc",
+            "id": "261cbf10a5ad24f6",
             "type": "leaf",
             "state": {
-              "type": "card-board-view",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "秋招/秋招进度.md"
+              }
             }
           }
         ],
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "秋招/秋招记录.md",
+                "file": "秋招/秋招进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "秋招/秋招记录.md",
+                "file": "秋招/秋招进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "秋招/秋招记录.md"
+                "file": "秋招/秋招进度.md"
               }
             }
           },
@@ -186,14 +188,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "card-board:CardBoard": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6f2d305d107340bc",
+  "active": "261cbf10a5ad24f6",
   "lastOpenFiles": [
-    "秋招/秋招进度.md",
     "秋招/秋招记录.md",
+    "秋招/秋招进度.md",
+    "Daily/2023-04-09.md",
+    "Daily/2023-04-18.md",
+    "Daily/2023-04-25.md",
+    "Daily/2023-04-22.md",
+    "Daily/2023-04-26.md",
+    "Daily/2023-04-24.md",
+    "Daily/2023-04-20.md",
+    "Daily/2023-04-17.md",
+    "Daily/2023-04-12.md",
     "大疆车载.md",
     "PaperReading/exploration_with_graph.md",
     "PaperReading/@tangBubble2023.md",
@@ -213,9 +223,6 @@
     "Untitled",
     "背包问题.md",
     "秋招",
-    "Leetcode/动态规划.md",
-    "Leetcode/贪心法.md",
-    "NeRF/基于NeRF的三维内容生成.md",
     "Resource/背包问题_img_1.png",
     "Resource/基于NeRF的三维内容生成_img_6.png",
     "Resource/基于NeRF的三维内容生成_img_5.png",
@@ -227,13 +234,7 @@
     "Resource/二叉树_img_5.png",
     "Resource/二叉树_img_4.png",
     "Resource",
-    "Leetcode/单调栈.md",
-    "Daily/2023-05-11.md",
-    "Daily/2023-05-10.md",
-    "Daily/2023-05-09.md",
     "NeRF",
-    "Daily/2023-05-08.md",
-    "Daily/2023-05-07.md",
     "国内博客",
     "Tool",
     "PaperReading",
