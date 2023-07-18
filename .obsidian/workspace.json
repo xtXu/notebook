@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "秋招/秋招进度.md",
+                "file": "秋招/秋招记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "秋招/秋招进度.md",
+                "file": "秋招/秋招记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "秋招/秋招进度.md"
+                "file": "秋招/秋招记录.md"
               }
             }
           },
@@ -191,10 +190,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "261cbf10a5ad24f6",
+  "active": "5319533e7d90baf2",
   "lastOpenFiles": [
-    "秋招/秋招记录.md",
     "秋招/秋招进度.md",
+    "秋招/秋招记录.md",
     "Daily/2023-04-09.md",
     "Daily/2023-04-18.md",
     "Daily/2023-04-25.md",
