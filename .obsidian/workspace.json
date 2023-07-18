@@ -11,18 +11,26 @@
             "id": "7aebe552343448d0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "秋招/Untitled.canvas",
-                "viewState": {
-                  "x": -118.5,
-                  "y": 250,
-                  "zoom": 0
-                }
+                "file": "秋招/秋招记录.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9cf492e8f8eca902",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "秋招/秋招进度.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "秋招/Untitled.canvas",
+                "file": "秋招/秋招进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "秋招/Untitled.canvas",
+                "file": "秋招/秋招进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "秋招/Untitled.canvas"
+                "file": "秋招/秋招进度.md"
               }
             }
           },
@@ -183,12 +191,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7aebe552343448d0",
+  "active": "9cf492e8f8eca902",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "秋招/Untitled.canvas",
-    "秋招/Untitled Kanban.md",
     "秋招/秋招记录.md",
+    "秋招/秋招进度.md",
+    "大疆车载.md",
+    "PaperReading/exploration_with_graph.md",
+    "PaperReading/@tangBubble2023.md",
+    "PaperReading/@huangFAEL2023.md",
+    "PaperReading/@dangGraph2020.md",
+    "NumericalOptimization/quasi_newton_method.md",
+    "NumericalOptimization/gradient_descent.md",
+    "NumericalOptimization/damped_newton_method.md",
+    "NumericalOptimization/bfgs_method.md",
+    "DigitalImage/planar_surface_differential_geometry.md",
+    "DigitalImage/level_set.md",
+    "秋招/Untitled.canvas",
+    "Untitled.canvas",
     "Untitled.md",
     "二叉树.md",
     "国内博客/数值优化_BFGS.md",
@@ -216,16 +235,6 @@
     "NeRF",
     "Daily/2023-05-08.md",
     "Daily/2023-05-07.md",
-    "Daily/2023-05-06.md",
-    "PaperReading/@huangFAEL2023.md",
-    "NumericalOptimization/gradient_descent.md",
-    "Daily/2023-05-05.md",
-    "Daily/2023-04-29.md",
-    "Daily/2023-04-25.md",
-    "Daily/2023-04-26.md",
-    "Daily/2023-04-27.md",
-    "Daily/2023-04-28.md",
-    "Daily/2023-05-04.md",
     "国内博客",
     "Tool",
     "PaperReading",
