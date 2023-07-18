@@ -8,38 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5319533e7d90baf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "秋招/秋招记录.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "261cbf10a5ad24f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "秋招/秋招记录.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d2adc7abcc762ddb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e85bfe44c232840e",
+            "id": "1d55657f16689c0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -211,7 +180,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "261cbf10a5ad24f6",
+  "active": "1d55657f16689c0f",
   "lastOpenFiles": [
     "秋招/秋招进度.md",
     "秋招/秋招记录.md",
