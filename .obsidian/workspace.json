@@ -6,7 +6,6 @@
       {
         "id": "66ffeeda619551ca",
         "type": "tabs",
-        "dimension": 47.42779783393502,
         "children": [
           {
             "id": "7aebe552343448d0",
@@ -14,27 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "秋招/秋招记录.md",
+                "file": "秋招/Untitled Kanban.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ef33f83989c379e0",
-        "type": "tabs",
-        "dimension": 52.57220216606498,
-        "children": [
-          {
-            "id": "92a41336ec596255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "秋招/秋招记录.md",
-                "mode": "preview",
                 "source": true
               }
             }
@@ -97,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "481c8149e0d32aa0",
@@ -115,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "秋招/秋招记录.md",
+                "file": "秋招/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "秋招/秋招记录.md",
+                "file": "秋招/Untitled Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,12 +134,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "秋招/秋招记录.md"
+                "file": "秋招/Untitled Kanban.md"
               }
+            }
+          },
+          {
+            "id": "13b4eb2933e4ceb5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "498b147e06aa8e81",
@@ -193,14 +180,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f5f4f68438a858a",
+  "active": "7aebe552343448d0",
   "lastOpenFiles": [
-    "背包问题.md",
     "秋招/秋招记录.md",
+    "秋招/Untitled Kanban.md",
+    "Untitled.md",
+    "二叉树.md",
+    "国内博客/数值优化_BFGS.md",
+    "Untitled",
+    "背包问题.md",
     "秋招",
     "Leetcode/动态规划.md",
     "Leetcode/贪心法.md",
-    "国内博客/数值优化_BFGS.md",
     "NeRF/基于NeRF的三维内容生成.md",
     "Resource/背包问题_img_1.png",
     "Resource/基于NeRF的三维内容生成_img_6.png",
@@ -231,15 +222,11 @@
     "Daily/2023-04-28.md",
     "Daily/2023-05-04.md",
     "Tool/clash.md",
-    "transformation.md",
-    "review_linear_algebra.md",
-    "D435_overview.md",
     "国内博客",
     "Tool",
     "PaperReading",
     "Day Planners",
     "Daily",
-    "Leetcode",
-    "NumericalOptimization"
+    "Leetcode"
   ]
 }
