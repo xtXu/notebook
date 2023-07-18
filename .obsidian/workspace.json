@@ -18,8 +18,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6f2d305d107340bc",
+            "type": "leaf",
+            "state": {
+              "type": "card-board-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,10 +186,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "7aebe552343448d0",
+  "active": "6f2d305d107340bc",
   "lastOpenFiles": [
     "秋招/秋招进度.md",
     "秋招/秋招记录.md",
