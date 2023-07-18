@@ -1,4 +1,7 @@
 {
-  "show-checkboxes": true,
-  "tag-colors": []
+  "show-checkboxes": false,
+  "tag-colors": [],
+  "hide-date-display": false,
+  "show-relative-date": true,
+  "hide-date-in-title": true
 }

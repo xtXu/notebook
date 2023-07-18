@@ -14,23 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "秋招/秋招记录.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
-          },
-          {
-            "id": "9cf492e8f8eca902",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "秋招/秋招进度.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "秋招/秋招进度.md",
+                "file": "秋招/秋招记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "秋招/秋招进度.md",
+                "file": "秋招/秋招记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "秋招/秋招进度.md"
+                "file": "秋招/秋招记录.md"
               }
             }
           },
@@ -191,10 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9cf492e8f8eca902",
+  "active": "7aebe552343448d0",
   "lastOpenFiles": [
-    "秋招/秋招记录.md",
     "秋招/秋招进度.md",
+    "秋招/秋招记录.md",
     "大疆车载.md",
     "PaperReading/exploration_with_graph.md",
     "PaperReading/@tangBubble2023.md",
