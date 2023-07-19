@@ -1,17 +1,22 @@
 
-resources
-record
+
+
 review_linear_algebra.md
 transformation.md
 
 二叉树.md
 D435_overview.md
-daily
+
 DigitalImage
-leetcode
+
 NeRF
 NumericalOptimization
 PaperReading
 Tool
 背包问题.md
 国内博客
+Daily
+Leetcode
+Record
+Resource
+秋招
