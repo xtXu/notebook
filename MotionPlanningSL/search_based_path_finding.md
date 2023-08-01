@@ -1,6 +1,6 @@
 # Search-based Path Finding
 ## Configuration Space
-![](../search_based_path_finding_img_14.png)
+![](../Resource/search_based_path_finding_img_14.png)
 
 **Planning in workspace:**
 + Robot has different shape and size
@@ -14,7 +14,7 @@
 
 ## Graph and Search Method
 ### Graph
-![](../search_based_path_finding_img_15.png)
+![](../Resource/search_based_path_finding_img_15.png)
 
 ### Search-based method
 **State space graph: a mathematical representation of a search algorithm**  
@@ -23,7 +23,7 @@
 + Searching -> a search tree
 + Back-tracking in the tree -> the path from start to the node
 + For many problems we can never build the whole tree (too large or inefficient)
-![](../search_based_path_finding_img_16.png)
+![](../Resource/search_based_path_finding_img_16.png)
 
 ## Graph Search Overview
 + Maintain a **container** to store all the nodes **to be visited**
@@ -46,16 +46,17 @@
 **Breath First Search (BFS) vs. Depth First Search (DFS)**  
 + BFS: queue (first in first out)
 + DFS: stack (last in first out)
-![](../search_based_path_finding_img_17.png)
+![](../Resource/search_based_path_finding_img_17.png)
 
 ### Depth First Search (DFS)
 **Strategy:** remove / expand the deepest node in the container
 **Implementation:** main a LIFO container (i.e. stack)
-![](../search_based_path_finding_img_18.png)
+![](../Resource/search_based_path_finding_img_18.png)
 
 ### Breath First Search (BFS)
 Strategy:** remove / expand the shallowest node in the container
 **Implementation:** main a FIFO container (i.e. queue)
-![](../search_based_path_finding_img_19.png)
+![](../Resource/search_based_path_finding_img_19.png)
 
 ### Greedy Best First Search
+![](../Resource/search_based_path_finding_img_6.png)
