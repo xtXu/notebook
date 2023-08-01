@@ -11,3 +11,7 @@
 + Obstacles -> C-obstacles
 + C-space = C-free + C--obstacle
 + The path planning is finding a path between start point and end point within C-free.
+
+## Graph and Search Method
+### Graph
+
