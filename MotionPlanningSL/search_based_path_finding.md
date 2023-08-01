@@ -178,3 +178,4 @@ h = (dx+dy)+(sqrt(2)-2)*min(dx,dy)
 	+ `dy2 = abs(start.y-goal.y)`
 	+ `cross = abs(dx1*dy2-dx2*dy1)`
 	+ h = h + cross*0.01
++ ...
