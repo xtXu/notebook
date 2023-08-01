@@ -88,4 +88,8 @@ Algorithm overflow:
 	+  No information about goal
 
 ## A*: Dijkstra with a Heuristic
-
++ **Accumulated cost:** $g(n)$
++ **Heuristic:** 
+	+ $h(n)$: The estimated least cost from node $n$ to the goal
++ $f(n)=g(n)+h(n)$
++ **Strategy:** remove / expand the node with **cheapest** $f(n)$ 
