@@ -115,3 +115,13 @@ Generally,
 + $L\infty$ norm: always
 + 0 distance: always 
 ![500](../Resource/search_based_path_finding_img_26.png)
+
+### Sub-optimal Solution
+Use an over-estimated heuristic:  
++ Sub-optimal path
++ Faster
+
+=>**Weighted A:**
++ $f=g+\epsilon*h, (\epsilon>1)$ bias towards the goal state
++ Optimality vs. speed
++ $\epsilon$-suboptimal
