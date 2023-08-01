@@ -64,4 +64,8 @@ Strategy:** remove / expand the shallowest node in the container
 + easy to compute
 ![](../Resource/search_based_path_finding_img_20.png)
 
+### Cost on Actions
++ A practical search problem has a **cost** from a node to its neighbor
++ When all weights are 1, BFS finds the optimal solution
++ For general case, how to find the **least-cost path** as soon as possible?
 
