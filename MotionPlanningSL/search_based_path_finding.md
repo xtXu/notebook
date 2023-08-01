@@ -1,6 +1,6 @@
 # Search-based Path Finding
 ## Configuration Space
-![](../Resource/秋招记录_img_1.png)
+![](../Resource/search_based_path_finding_img_37.png)
 
 **Planning in workspace:**
 + Robot has different shape and size
@@ -14,7 +14,7 @@
 
 ## Graph and Search Method
 ### Graph
-![](../Resource/search_based_path_finding_img_15.png)
+![](../Resource/search_based_path_finding_img_38.png)
 
 ### Search-based method
 **State space graph: a mathematical representation of a search algorithm**  
@@ -23,7 +23,7 @@
 + Searching -> a search tree
 + Back-tracking in the tree -> the path from start to the node
 + For many problems we can never build the whole tree (too large or inefficient)
-![](../Resource/search_based_path_finding_img_16.png)
+![](../Resource/search_based_path_finding_img_39.png)
 
 ## Graph Search Overview
 + Maintain a **container** to store all the nodes **to be visited**
@@ -46,24 +46,24 @@
 **Breath First Search (BFS) vs. Depth First Search (DFS)**  
 + BFS: queue (first in first out)
 + DFS: stack (last in first out)
-![](../Resource/search_based_path_finding_img_17.png)
+![](../Resource/search_based_path_finding_img_40.png)
 
 ### Depth First Search (DFS)
 **Strategy:** remove / expand the deepest node in the container
 **Implementation:** main a LIFO container (i.e. stack)
-![](../Resource/search_based_path_finding_img_18.png)
+![](../Resource/search_based_path_finding_img_41.png)
 
 ### Breath First Search (BFS)
 **Strategy:** remove / expand the shallowest node in the container
 **Implementation:** main a FIFO container (i.e. queue)  
 *If all weights are 1, BFS can get the optimal path*
-![](../Resource/search_based_path_finding_img_19.png)
+![](../Resource/search_based_path_finding_img_42.png)
 
 ### Greedy Best First Search (Heuristic)
 **A heuristic is a guess of how close you are to the target:**  
 + guides in the right direction
 + easy to compute
-![](../Resource/search_based_path_finding_img_20.png)
+![](../Resource/search_based_path_finding_img_43.png)
 
 ### Cost on Actions
 + A practical search problem has a **cost** from a node to its neighbor
@@ -75,10 +75,10 @@
 + $g(n)$: The current best estimates of the accumulated cost from the start to node $n$
 + Update the accumulated cost $g(m)$ for all unexpanded neighbors $m$ of node $n$
 + An expanded node have the smallest cost from the start state
-![](../Resource/search_based_path_finding_img_23.png)
+![](../Resource/search_based_path_finding_img_44.png)
 
 ### Algorithm overflow
-![](../Resource/search_based_path_finding_img_22.png)
+![](../Resource/search_based_path_finding_img_45.png)
 
 ### Pros and Cons
 + **Good:** 
@@ -93,10 +93,10 @@
 	+ $h(n)$: The estimated least cost from node $n$ to the goal
 + $f(n)=g(n)+h(n)$
 + **Strategy:** remove / expand the node with **cheapest** $f(n)$ 
-![](../Resource/search_based_path_finding_img_25.png)
+![](../Resource/search_based_path_finding_img_46.png)
 
 ### Algorithm
-![](../Resource/search_based_path_finding_img_24.png)
+![](../Resource/search_based_path_finding_img_47.png)
 
 ### A* Optimality
 **To keep the optimal:**
@@ -114,7 +114,7 @@ Generally,
 + $L1$ norm (Manhattan Distance): depends
 + $L\infty$ norm: always
 + 0 distance: always 
-![500](../Resource/search_based_path_finding_img_26.png)
+![500](../Resource/search_based_path_finding_img_48.png)
 
 ### Sub-optimal Solution
 Use an over-estimated heuristic:  
@@ -126,11 +126,11 @@ Use an over-estimated heuristic:
 + Optimality vs. speed
 + $\epsilon$-suboptimal: cost(solution) <= $\epsilon*$cost(optimal solution)
 + can be orders of magnitude faster than A*
-![](../Resource/search_based_path_finding_img_27.png)
+![](../Resource/search_based_path_finding_img_49.png)
 
 ### Engineering Considerations
 **Represent the grid as graph**
-![](../Resource/search_based_path_finding_img_28.png)
+![](../Resource/search_based_path_finding_img_50.png)
 
 **Priority queue in C++:**
 + `std::priority_queue`
@@ -143,10 +143,10 @@ Because **not tight**.
 **Tight:** The $h(n)$ is near $h^*(n)$.  
 
 For Euclidean Heuristic, too many nodes are expanded, since the Euclidean distance is far from the **truly theoretical optimal solution**.
-![](../Resource/search_based_path_finding_img_29.png)
+![](../Resource/search_based_path_finding_img_51.png)
 
 Fortunately, the grid map is highly structural,
-![](../Resource/search_based_path_finding_img_31.png)
+![](../Resource/search_based_path_finding_img_52.png)
 
 **Diagonal Heuristic:**
 + To get the **true theoretical optimal solution**, use the **closed-form solution
@@ -155,18 +155,18 @@ dx = abs(node.x-goal.x)
 dy = abs(node.y-goal.y)
 h = (dx+dy)+(sqrt(2)-2)*min(dx,dy)
 ```
-![](../Resource/search_based_path_finding_img_32.png)
+![](../Resource/search_based_path_finding_img_53.png)
 
 #### **Tie Breaker**
 + Many path have the same $f$ value, making them explored equally
-+ ![500](../Resource/search_based_path_finding_img_34.png)
++ ![500](../Resource/search_based_path_finding_img_54.png)
 + Manipulate $f$ value breaks the tie
 + Make same $f$ value differ
 + Interfere $h$ slightly
 	+ $h=h*(1.0+p)$
 	+ $p<\frac{\text{minimum cost of  one step}}{\text{expected maximum path cost}}$
 + Slighted breaks the admissibility, but doesn't matter
-+ ![500](../Resource/search_based_path_finding_img_35.png)
++ ![500](../Resource/search_based_path_finding_img_55.png)
 
 **Core idea** of tie breaker: (find a preference among same cost paths) 
 + When $f$ same, compare $h$
