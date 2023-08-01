@@ -45,8 +45,12 @@
 ## Graph Traversal
 **Breath First Search (BFS) vs. Depth First Search (DFS)**  
 + BFS: queue (first in first out)
-+ DFS: stack (first in last out)
++ DFS: stack (last in first out)
 ![](../search_based_path_finding_img_4.png)
 
 ### Depth First Search (DFS)
-Strategy: remove / expand the deepest node 
+**Strategy:** remove / expand the deepest node in the container
+![](../search_based_path_finding_img_5.png)
+
+**Implementation:** main a LIFO container (i.e. stack)
+![](../search_based_path_finding_img_6.png)
