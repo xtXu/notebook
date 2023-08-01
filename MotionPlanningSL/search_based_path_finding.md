@@ -129,3 +129,15 @@ Use an over-estimated heuristic:
 ![](../Resource/search_based_path_finding_img_27.png)
 
 ### Engineering Considerations
+**Represent the grid as graph**
+![](../Resource/search_based_path_finding_img_28.png)
+
+**Priority queue in C++:**
++ `std::priority_queue`
++ `std::make_heap`
++ `std::multimap`
+
+**The Best Heuristic:**  
+$L2$ norm, $L\infty$ norm and 0 distance are all admissible,  but **none of them** is the best choice.  
+Because **not tight**.
+
