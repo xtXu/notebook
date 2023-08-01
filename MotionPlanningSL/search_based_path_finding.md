@@ -1,6 +1,6 @@
 # Search-based Path Finding
 ## Configuration Space
-![](../Resource/search_based_path_finding_img_14.png)
+![](../Resource/秋招记录_img_1.png)
 
 **Planning in workspace:**
 + Robot has different shape and size
