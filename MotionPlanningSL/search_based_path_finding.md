@@ -50,7 +50,10 @@
 
 ### Depth First Search (DFS)
 **Strategy:** remove / expand the deepest node in the container
-![](../search_based_path_finding_img_5.png)
-
 **Implementation:** main a LIFO container (i.e. stack)
 ![](../search_based_path_finding_img_6.png)
+
+### Breath First Search (BFS)
+Strategy:** remove / expand the shallowest node in the container
+**Implementation:** main a FIFO container (i.e. queue)
+![](../search_based_path_finding_img_7.png)
