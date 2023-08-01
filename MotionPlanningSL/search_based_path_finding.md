@@ -77,7 +77,7 @@
 + An expanded node have the smallest cost from the start state
 ![](../Resource/search_based_path_finding_img_23.png)
 
-Algorithm overflow: 
+### Algorithm overflow
 ![](../Resource/search_based_path_finding_img_22.png)
 
 ### Pros and Cons
@@ -93,5 +93,9 @@ Algorithm overflow:
 	+ $h(n)$: The estimated least cost from node $n$ to the goal
 + $f(n)=g(n)+h(n)$
 + **Strategy:** remove / expand the node with **cheapest** $f(n)$ 
+![](../Resource/search_based_path_finding_img_25.png)
 
+### Algorithm
 ![](../Resource/search_based_path_finding_img_24.png)
+
+### A* Optimality
