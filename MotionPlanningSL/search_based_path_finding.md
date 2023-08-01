@@ -54,8 +54,9 @@
 ![](../Resource/search_based_path_finding_img_18.png)
 
 ### Breath First Search (BFS)
-Strategy:** remove / expand the shallowest node in the container
-**Implementation:** main a FIFO container (i.e. queue)
+**Strategy:** remove / expand the shallowest node in the container
+**Implementation:** main a FIFO container (i.e. queue)  
+*If all weights are 1, BFS can get the optimal path*
 ![](../Resource/search_based_path_finding_img_19.png)
 
 ### Greedy Best First Search (Heuristic)
