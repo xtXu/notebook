@@ -105,4 +105,13 @@
 ### Admissible Heuristics
 + A Heuristic $h(n)$ is admissible if $h(n)<h^*(n)$ , $h^*(n)$ is the actual least cost to goal
 + If the heuristic is admissible, A* is optimal
-+ 
+
+### Heuristic Design
+Case by case !  
+
+Generally, 
++ $L2$ norm (Euclidean Distance): always
++ $L1$ norm (Manhattan Distance): depends
++ $L\infty$ norm: always
++ 0 distance: always 
+![500](../Resource/search_based_path_finding_img_26.png)
