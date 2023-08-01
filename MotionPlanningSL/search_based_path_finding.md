@@ -99,3 +99,10 @@
 ![](../Resource/search_based_path_finding_img_24.png)
 
 ### A* Optimality
+**To keep the optimal:**
++ The estimated least cost to goal (heuristic) < The actual least cost
+
+### Admissible Heuristics
++ A Heuristic $h(n)$ is admissible if $h(n)<h^*(n)$ , $h^*(n)$ is the actual least cost to goal
++ If the heuristic is admissible, A* is optimal
++ 
