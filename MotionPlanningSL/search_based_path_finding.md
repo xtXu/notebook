@@ -86,4 +86,6 @@ Algorithm overflow:
 + **Bad:** 
 	+ Exploring next in every direction
 	+  No information about goal
-	
+
+## A*: Dijkstra with a Heuristic
+
