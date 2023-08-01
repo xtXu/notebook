@@ -12,5 +12,5 @@
   "readableLineLength": true,
   "spellcheck": true,
   "autoConvertHtml": false,
-  "livePreview": false
+  "livePreview": true
 }
