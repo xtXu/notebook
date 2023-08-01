@@ -124,4 +124,5 @@ Use an over-estimated heuristic:
 =>**Weighted A*:**
 + $f=g+\epsilon*h, (\epsilon>1)$ bias towards the goal state
 + Optimality vs. speed
-+ $\epsilon$-suboptimal:
++ $\epsilon$-suboptimal: cost(solution) <= $\epsilon*$cost(optimal solution)
++ can be orders of magnitude faster than A*
