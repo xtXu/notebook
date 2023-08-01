@@ -75,7 +75,7 @@
 + $g(n)$: The current best estimates of the accumulated cost from the start to node $n$
 + Update the accumulated cost $g(m)$ for all unexpanded neighbors $m$ of node $n$
 + An expanded node have the smallest cost from the start state
-![](../Resource/search_based_path_finding_img_21.png)
+![](../Resource/search_based_path_finding_img_23.png)
 
 Algorithm overflow: 
 ![](../Resource/search_based_path_finding_img_22.png)
