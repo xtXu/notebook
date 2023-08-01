@@ -126,3 +126,6 @@ Use an over-estimated heuristic:
 + Optimality vs. speed
 + $\epsilon$-suboptimal: cost(solution) <= $\epsilon*$cost(optimal solution)
 + can be orders of magnitude faster than A*
+![](../Resource/search_based_path_finding_img_27.png)
+
+### Engineering Considerations
