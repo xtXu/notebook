@@ -93,3 +93,5 @@ Algorithm overflow:
 	+ $h(n)$: The estimated least cost from node $n$ to the goal
 + $f(n)=g(n)+h(n)$
 + **Strategy:** remove / expand the node with **cheapest** $f(n)$ 
+
+![](../Resource/search_based_path_finding_img_24.png)
