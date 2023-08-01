@@ -14,4 +14,5 @@
 
 ## Graph and Search Method
 ### Graph
+![](../search_based_path_finding_img_2.png)
 
