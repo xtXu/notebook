@@ -16,3 +16,11 @@
 ### Graph
 ![](../search_based_path_finding_img_2.png)
 
+### Search-based method
+**State space graph: a mathematical representation of a search algorithm**  
+
+**The search start from start state: **  
++ Searching -> a search tree
++ Back-tracking in the tree -> the path from start to the node
++ For many problems we can never build the whole tree (too large or inefficient)
+![](../search_based_path_finding_img_3.png)
