@@ -121,7 +121,7 @@ Use an over-estimated heuristic:
 + Sub-optimal path
 + Faster
 
-=>**Weighted A:**
+=>**Weighted A*:**
 + $f=g+\epsilon*h, (\epsilon>1)$ bias towards the goal state
 + Optimality vs. speed
-+ $\epsilon$-suboptimal
++ $\epsilon$-suboptimal:
