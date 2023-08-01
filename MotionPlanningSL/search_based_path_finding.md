@@ -158,4 +158,23 @@ h = (dx+dy)+(sqrt(2)-2)*min(dx,dy)
 ![](../Resource/search_based_path_finding_img_32.png)
 
 #### **Tie Breaker**
-+ many
++ Many path have the same $f$ value, making them explored equally
++ ![500](../Resource/search_based_path_finding_img_34.png)
++ Manipulate $f$ value breaks the tie
++ Make same $f$ value differ
++ Interfere $h$ slightly
+	+ $h=h*(1.0+p)$
+	+ $p<\frac{\text{minimum cost of  one step}}{\text{expected maximum path cost}}$
++ Slighted breaks the admissibility, but doesn't matter
++ ![500](../Resource/search_based_path_finding_img_35.png)
+
+**Core idea** of tie breaker: (find a preference among same cost paths) 
++ When $f$ same, compare $h$
++ Add deterministic random numbers to the heuristic cost (hash of coord)
++ Prefer paths along the straight line from the start to the goal
+	+ `dx1 = abs(node.x-goal.x)`
+	+ `dy1 = abs(node.y-goal.y)`
+	+ `dx2 = abs(start.x-goal.x)`
+	+ `dy2 = abs(start.y-goal.y)`
+	+ `cross = abs(dx1*dy2-dx2*dy1)`
+	+ h = h + cross*0.01
