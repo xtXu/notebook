@@ -137,7 +137,13 @@ Use an over-estimated heuristic:
 + `std::make_heap`
 + `std::multimap`
 
-**The Best Heuristic:**  
+#### **The Best Heuristic:**  
 $L2$ norm, $L\infty$ norm and 0 distance are all admissible,  but **none of them** is the best choice.  
-Because **not tight**.
+Because **not tight**.  
+**Tight:** The $h(n)$ is near $h^*(n)$.  
+
+For Euclidean Heuristic, too many nodes are expanded, since the Euclidean distance is far from the **truly theoretical optimal solution**.
+![](../Resource/search_based_path_finding_img_29.png)
+
+How
 
