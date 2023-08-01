@@ -145,5 +145,15 @@ Because **not tight**.
 For Euclidean Heuristic, too many nodes are expanded, since the Euclidean distance is far from the **truly theoretical optimal solution**.
 ![](../Resource/search_based_path_finding_img_29.png)
 
-How
+Fortunately, the grid map is highly structural,
+![](../Resource/search_based_path_finding_img_31.png)
+
+**Diagonal Heuristic:**
++ To get the **true theoretical optimal solution**, use the **closed-form solution
+```cpp
+dx = abs(node.x-goal.x)
+dy = abs(node.y-goal.y)
+h = (dx+dy)+(sqrt(2)-2)*min(dx,dy)
+```
+![](../Resource/search_based_path_finding_img_32.png)
 
