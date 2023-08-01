@@ -57,3 +57,5 @@
 Strategy:** remove / expand the shallowest node in the container
 **Implementation:** main a FIFO container (i.e. queue)
 ![](../search_based_path_finding_img_7.png)
+
+### Greedy Best First Search
