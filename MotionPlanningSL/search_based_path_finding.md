@@ -80,3 +80,8 @@
 Algorithm overflow: 
 ![](../Resource/search_based_path_finding_img_22.png)
 
+### Pros and Cons
++ **Good:** 
+	+ Complete and Optimal
++ **Bad:** 
+	+ 
