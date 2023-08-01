@@ -84,4 +84,4 @@ Algorithm overflow:
 + **Good:** 
 	+ Complete and Optimal
 + **Bad:** 
-	+ 
+	+  
