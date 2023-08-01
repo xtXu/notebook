@@ -24,3 +24,29 @@
 + Back-tracking in the tree -> the path from start to the node
 + For many problems we can never build the whole tree (too large or inefficient)
 ![](../search_based_path_finding_img_3.png)
+
+## Graph Search Overview
++ Maintain a **container** to store all the nodes **to be visited**
++ The container is initialized with start state
++ Loop
+	+ **Remove** a node from the container according to score function
+	+ **Expansion:** Obtain all neighbors of the node
+	+ **Push** them into container
++ End Loop
+
+**Q1: When to end loop**
++ Possible: when the container is empty
+
+**Q2: What if the graph is cyclic
++ When a node is visited, it should never be added back to the container
+
+**Q3: In what way to remove the node such that the goal can be reached as soon as possible, which results in less expansion**
+
+## Graph Traversal
+**Breath First Search (BFS) vs. Depth First Search (DFS)**  
++ BFS: queue (first in first out)
++ DFS: stack (first in last out)
+![](../search_based_path_finding_img_4.png)
+
+### Depth First Search (DFS)
+Strategy: remove / expand the deepest node 
