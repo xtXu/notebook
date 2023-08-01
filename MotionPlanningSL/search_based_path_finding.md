@@ -58,5 +58,10 @@ Strategy:** remove / expand the shallowest node in the container
 **Implementation:** main a FIFO container (i.e. queue)
 ![](../Resource/search_based_path_finding_img_19.png)
 
-### Greedy Best First Search
-![](../Resource/search_based_path_finding_img_6.png)
+### Greedy Best First Search (Heuristic)
+**A heuristic is a guess of how close you are to the target:**  
++ guides in the right direction
++ easy to compute
+![](../Resource/search_based_path_finding_img_20.png)
+
+
