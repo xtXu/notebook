@@ -1,6 +1,6 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "resources",
+  "attachmentFolderPath": "Resource",
   "newLinkFormat": "relative",
   "spellcheckLanguages": [
     "zh-CN",
