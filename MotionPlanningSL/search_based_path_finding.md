@@ -157,3 +157,5 @@ h = (dx+dy)+(sqrt(2)-2)*min(dx,dy)
 ```
 ![](../Resource/search_based_path_finding_img_32.png)
 
+#### **Tie Breaker**
++ many
