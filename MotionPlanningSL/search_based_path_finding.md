@@ -84,4 +84,6 @@ Algorithm overflow:
 + **Good:** 
 	+ Complete and Optimal
 + **Bad:** 
-	+  
+	+ Exploring next in every direction
+	+  No information about goal
+	
