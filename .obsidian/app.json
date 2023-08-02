@@ -2,10 +2,7 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "Resource",
   "newLinkFormat": "relative",
-  "spellcheckLanguages": [
-    "zh-CN",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
