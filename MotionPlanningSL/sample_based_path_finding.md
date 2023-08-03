@@ -42,4 +42,14 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 
 ## Rapidly-Exploring Random Tree
 
+### Algorithm
 ![](../Resource/sample_based_path_finding_img_5.png)
+
+### Pros and Cons
++ **Pros:**
+	+ Aim to find a path from start to goal
+	+ More target-oriented than PRM
++ **Cons:**
+	+ Not optimal
+	+ Not efficient (narrow passage)
+	+ Sample in the whole space
