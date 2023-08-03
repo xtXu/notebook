@@ -71,3 +71,4 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 
 Change `Steer()` function to fit with motion or other constrains in robot navigation
 ![](../Resource/sample_based_path_finding_img_9.png)
+![](../Resource/sample_based_path_finding_img_10.png)
