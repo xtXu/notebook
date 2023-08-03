@@ -52,7 +52,7 @@ $$
 \end{array}\right)=\left(\begin{array}{c}
 v \cos \theta \\
 v \sin \theta \\
-\frac{r}{L} \tan \emptyset
+\frac{v}{L} \tan \emptyset
 \end{array}\right)
 $$
 + Simple car model: $|v| \leq v_{\max }, \quad|\emptyset| \leq \emptyset_{\max }<\frac{\pi}{2}$
