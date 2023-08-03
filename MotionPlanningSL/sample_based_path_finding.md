@@ -53,3 +53,7 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 	+ Not optimal
 	+ Not efficient (narrow passage)
 	+ Sample in the whole space
+
+### Improving Efficiency
++ Kd-tree
++ 
