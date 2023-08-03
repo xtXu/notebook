@@ -41,3 +41,5 @@ $$
 \frac{r}{L}\left(\omega_r-\omega_l\right)
 \end{array}\right)
 $$
+
+**Simplified car model:**
