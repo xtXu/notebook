@@ -9,7 +9,7 @@
 + Coarse-to-fine
 + Trajectory only optimize locally
 + Infeasible path means nothing to nonholonomic system
-+ ![200](../Resource/kinodynamic_path_finding_img_1.png)
++ ![200](../Resource/秋招记录_img_1.png)
 
 **Unicycle drive model:**
 ![](../Resource/kinodynamic_path_finding_img_2.png)
