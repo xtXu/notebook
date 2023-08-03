@@ -8,3 +8,6 @@
 **Why kinodynamic planning?**
 + Coarse-to-fine
 + Trajectory only optimize locally
++ Infeasible path means nothing to nonholonomic system
++ ![200](../Resource/kinodynamic_path_finding_img_1.png)
+
