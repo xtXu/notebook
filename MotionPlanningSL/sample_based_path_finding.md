@@ -13,7 +13,7 @@ PRM:
 + Collision checking can be done efficiently
 + A relatively small number of nodes and connections are sufficient to capture the connectivity of the free space
 ### Learning Phase
-+ Sample N points in C-space
++ Sample N points in C-space (Detect the space using random points)
 + Delete collision points
 + ![300](../Resource/sample_based_path_finding_img_2.png)
-+ 
++ Connect the nearest points and get collision-free segment 
