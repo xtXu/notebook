@@ -4,3 +4,7 @@
 + Dynamic constrains: velocity, acceleration, force
 + **Differentially constrained**
 + **Up to force (acceleration)**
+
+**Why kinodynamic planning?**
++ Coarse-to-fine
++ Trajectory only optimize locally
