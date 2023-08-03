@@ -32,6 +32,7 @@
 	+ Build graph but not focus on generating a path
 	+ Not efficient
 
-### **Towards improving efficiency**
-+ **Lazy collision-checking**
+### Lazy Collision-Checking
+**Towards Improving Efficiency.**
++ Collision-checking is time-consuming
 + 
