@@ -67,8 +67,14 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 ### Algorithm
  ![](../Resource/sample_based_path_finding_img_8.png)
 
-## Kinodynamic-RRT*
+### Extension
++ Kinodynamic-RRT*
+	+ Change `Steer()` function to fit with motion or other constrains in robot navigation
+	+ ![](../Resource/sample_based_path_finding_img_9.png)
+	+ ![](../Resource/sample_based_path_finding_img_10.png)
++ Anytime-RRT*
 
-Change `Steer()` function to fit with motion or other constrains in robot navigation
-![](../Resource/sample_based_path_finding_img_9.png)
-![](../Resource/sample_based_path_finding_img_10.png)
+## Informed RRT*
+ 
+
+
