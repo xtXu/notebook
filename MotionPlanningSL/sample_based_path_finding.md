@@ -57,6 +57,7 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 ### Improving Efficiency
 + Kd-tree
 	+ ![](../Resource/sample_based_path_finding_img_6.png)
-+  Bidirectional RRT / RRT Connect
++  Bidirectional RRT / RRT Connect (Helpful for narrow passage)
 	+ Grow a tree from both start and goal
-	+ 
+	+ Path finding when two trees are connected
+	+ ![](../Resource/sample_based_path_finding_img_7.png)
