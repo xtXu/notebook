@@ -78,6 +78,6 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 ![](../Resource/sample_based_path_finding_img_11.png)
 **Ellipsoidal Heuristic:**
 + Start and goal as the focus of the ellipse
-+ The length of the generated path (red) as the 
++ The length of the generated path (red) as the long axis
 
 
