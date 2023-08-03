@@ -39,3 +39,6 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 + Collision-checking if necessary: 
 	+ **find path, if the path is not free, delete the collision edge and nodes**
 	+ **restart finding path**
+
+## Rapidly-Exploring Random Tree
+ 
