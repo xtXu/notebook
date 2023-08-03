@@ -31,3 +31,7 @@
 	+ Required to solve 2 point boundary value problem
 	+ Build graph but not focus on generating a path
 	+ Not efficient
+
+### **Towards improving efficiency**
++ **Lazy collision-checking**
++ 
