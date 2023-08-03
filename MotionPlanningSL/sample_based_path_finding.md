@@ -63,4 +63,7 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 	+ ![](../Resource/sample_based_path_finding_img_7.png)
 
 ## Rapidly-Exploring Random Tree*
+
+### Algorithm
+ ![](../Resource/sample_based_path_finding_img_8.png)
  
