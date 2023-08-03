@@ -43,3 +43,18 @@ $$
 $$
 
 **Simplified car model:**
+![](../Resource/kinodynamic_path_finding_img_4.png)
+$$
+\left(\begin{array}{c}
+\dot{x} \\
+\dot{y} \\
+\dot{\theta}
+\end{array}\right)=\left(\begin{array}{c}
+v \cos \theta \\
+v \sin \theta \\
+\frac{r}{L} \tan \emptyset
+\end{array}\right)
+$$
++ Simple car model: $|v| \leq v_{\max }, \quad|\emptyset| \leq \emptyset_{\max }<\frac{\pi}{2}$
++ Reeds & Shepp's car: $v \in\left\{-v_{\max }, v_{\max }\right\}, \quad|\emptyset| \leq \emptyset_{\max }<\frac{\pi}{2}$
++ Dubin's car: $v =v_{\max }, \quad|\emptyset| \leq \emptyset_{\max }<\frac{\pi}{2}$
