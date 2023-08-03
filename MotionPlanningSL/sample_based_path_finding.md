@@ -10,4 +10,10 @@ PRM:
 + Two phases planning:
 	+ Learning 
 	+ Query
++ Collision checking can be done efficiently
++ A relatively small number of nodes and connections are sufficient to capture the connectivity of the free space
+### Learning Phase
++ Sample N points in C-space
++ Delete collision points
++ ![300](../Resource/sample_based_path_finding_img_2.png)
 + 
