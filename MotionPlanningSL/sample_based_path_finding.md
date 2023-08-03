@@ -66,6 +66,10 @@ Collision-checking is time-consuming (in complex or high-dimensional env).
 
 ### Algorithm
  ![](../Resource/sample_based_path_finding_img_8.png)
+ + Choose Parent
+	 + ![300](../Resource/sample_based_path_finding_img_14.png)
+ + Rewire
+	 + ![300](../Resource/sample_based_path_finding_img_15.png)
 
 ### Extension
 + Kinodynamic-RRT*
