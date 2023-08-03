@@ -33,6 +33,9 @@
 	+ Not efficient
 
 ### Lazy Collision-Checking
+Collision-checking is time-consuming (in complex or high-dimensional env).  
 **Towards Improving Efficiency.**
-+ Collision-checking is time-consuming (in complex or high-dimensional env)
-+ 
++ **Sample points and segments without checking (Lazy)**
++ Collision-checking if necessary: 
+	+ **find path, if the path is not free, delete the collision edge and nodes**
+	+ **restart finding path**
