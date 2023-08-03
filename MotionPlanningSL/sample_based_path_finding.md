@@ -23,3 +23,11 @@
 + Search on the road map to find a path (using Dijkstra or A*)
 + Road map is now similar with the grid map (simplified)
 + ![300](../Resource/sample_based_path_finding_img_4.png)
+
+### Pros and Cons
++ **Pros:**
+	+ Probabilistic complete
++ **Cons:**
+	+ Required to solve 2 point boundary value problem
+	+ Build graph but not focus on generating a path
+	+ Not efficient
