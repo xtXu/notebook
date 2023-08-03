@@ -34,5 +34,5 @@
 
 ### Lazy Collision-Checking
 **Towards Improving Efficiency.**
-+ Collision-checking is time-consuming
++ Collision-checking is time-consuming (in complex or high-dimensional env)
 + 
