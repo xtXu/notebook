@@ -86,4 +86,5 @@ $s$ is the state, $u$ is the input.
 		+ Good mission guidence
 		+ *Need calculate $u$, $T$*
 		+ *Hard to implement*
-+ 
+
+
