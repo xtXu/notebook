@@ -103,4 +103,10 @@ System equation: $\dot{s}=A \cdot s+B \cdot u$,  $A=\left[\begin{array}{llllll}0
 
 Sample example:![](../Resource/kinodynamic_path_finding_img_5.png)
 
+The lattice graph obtained by searching:
+![](../Resource/kinodynamic_path_finding_img_6.png)
++ During searching, the graph can be built when necessary
++ Create nodes and connection when newly discovered
++ Save computation time/space
+
 
