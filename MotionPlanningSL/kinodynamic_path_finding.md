@@ -124,3 +124,9 @@ The lattice graph obtained by searching:
 + Different initial states
 ![](../Resource/kinodynamic_path_finding_img_8.png)
 
+**Comparison with control space:**
++ Sample in control space (no machine guidance) can result in infeasible motion
++ ![](../Resource/kinodynamic_path_finding_img_9.png)
++ Sample in control space: Trajectories are denser in the direction of the initial angular velocity.
++ Sample in control space: Very similar outputs for several distinct inputs.
++ ![](../Resource/kinodynamic_path_finding_img_10.png)
