@@ -99,5 +99,8 @@ System equation: $\dot{s}=A \cdot s+B \cdot u$,  $A=\left[\begin{array}{llllll}0
 + Zero-state response $G(t)=[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$
 + $e^{AT}:$ state transition matrix, critical to integration
 	+ $e^{A t}=I+\frac{A t}{1 !}+\frac{(A t)^2}{2 !}+\frac{(A t)^3}{3 !}+\cdots+\frac{(A t)^k}{k !}+\cdots$
-	+ Since $A$ is nilpotent, 
+	+ Since $A$ is nilpotent, if $A^n=0$, then $e^{At}$ has a closed-form expression in the form of an (n-1) degree matrix polynomial in $t$.
+
+Sample example:![](../Resource/kinodynamic_path_finding_img_5.png)
+
 
