@@ -109,4 +109,18 @@ The lattice graph obtained by searching:
 + Create nodes and connection when newly discovered
 + Save computation time/space
 
+### Sample in state place
+
+**Build the lattice graph for a Reeds-Shepp Car Model:**
++ Given an origin
++ for 8 neighbor nodes around the origin, feasible paths are found
++ extend outward to 24 neighbors
++ complete lattice
+![500](../Resource/kinodynamic_path_finding_img_7.png)
+
+**Another example:**
++ Two layer lattice graph
++ Only first layer is different
++ Different initial states
+![](../Resource/kinodynamic_path_finding_img_8.png)
 
