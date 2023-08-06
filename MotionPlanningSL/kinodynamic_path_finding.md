@@ -94,5 +94,10 @@ System equation: $\dot{s}=A \cdot s+B \cdot u$,  $A=\left[\begin{array}{llllll}0
 + Several-order integrator
 + $A$ is **nilpotent** (密邻矩阵): $\exists k>0, \forall i>k, A^i=0$
 
-**State Transition:** $s(t)=e^{At}s_0+$
+**State Transition:** $s(t)=e^{At}s_0+[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$  
++ Zero-input response $F(t)=e^{At}s_0$
++ Zero-state response $G(t)=[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$
++ $e^{AT}:$ state transition matrix, critical to integration
+	+ $e^{A t}=I+\frac{A t}{1 !}+\frac{(A t)^2}{2 !}+\frac{(A t)^3}{3 !}+\cdots+\frac{(A t)^k}{k !}+\cdots$
+	+ Since $A$ is nilpotent, 
 
