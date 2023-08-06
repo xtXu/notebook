@@ -67,4 +67,9 @@ $$
 	+ **Forward:** discrete in control space
 	+ **Reverse:** discrete in state space
 
-
+For a robot model:
+$$
+\dot{s}=f(s, u)
+$$
+$s$ is the state, $u$ is the input.  
++ The robot is differently 
