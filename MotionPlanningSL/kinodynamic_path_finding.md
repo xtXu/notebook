@@ -61,3 +61,9 @@ $$
 
 ## State Lattice Planning
 
+**Basic Idea:**
++ Require a graph with feasible motion connections
++ Create a graph with all edges executable
+	+ **Forward:** discrete in control space
+	+ **Reverse:** discrete in state space
+
