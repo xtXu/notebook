@@ -72,4 +72,18 @@ $$
 \dot{s}=f(s, u)
 $$
 $s$ is the state, $u$ is the input.  
-+ The robot is differently 
++ The robot is differentially driven
++ The initial state is $s_0$
++ Generate feasible local motion by:
+	+ Select $u$, fix time $t$, forward simulate the system (numerical integration)
+		+ Forward simulation
+		+ Fixed $u$, $T$
+		+ Easy to implement
+		+ *No mission guidance*
+		+ *Low planning efficiency*
+	+ Select $s_f$, find the connection between $s_0$ and $s_f$
+		+ Backward simulation
+		+ Good mission guidence
+		+ *Need calculate $u$, $T$*
+		+ *Hard to implement*
++ 
