@@ -141,3 +141,11 @@ For example, design a trajectory $x(t)$ such that: $x(0)=a,x(T)=b$
 + Solve:$$\left[\begin{array}{l}a \\b \\0 \\0 \\0 \\0\end{array}\right]=\left[\begin{array}{cccccc}0 & 0 & 0 & 0 & 0 & 1 \\T^5 & T^4 & T^3 & T^2 & T & 1 \\0 & 0 & 0 & 0 & 1 & 0 \\5 T^4 & 4 T^3 & 3 T^2 & 2 T & 1 & 0 \\0 & 0 & 0 & 2 & 0 & 0 \\20 T^3 & 12 T^2 & 6 T & 2 & 0 & 0\end{array}\right]\left[\begin{array}{l}c_5 \\c_4 \\c_3 \\c_2 \\c_1 \\c_0\end{array}\right]$$
 
 ## Optimal Boundary Value Problem (OBVP)
+### Modelling
+The objective is to minimize the integral of squared jerk:
+$$
+\begin{matrix}
+J_\sum=\sum_{k=1}^3\limits J_k, \quad J_k=\int_0^Tj_k(t)^2dt \\
+
+\end{matrix}
+$$
