@@ -177,6 +177,18 @@ and the optimal control input is :
 $$
 u^*(t)=\arg \min _{u(t)} H\left(s^*(t), u(t), \lambda(t)\right)
 $$
+### Solving
+Given $s_0$, $s_f$, Take the UAV model as example:
+$$
+\begin{aligned}
+J&=h(s(T))+\int_0^T g(s(t),u(t))dt\\
+&=\int_0^T \frac{1}{T}j(t)^2dt\\
+h(s(T))=\begin{array}a\\b\end{array}
+\end{aligned}
+$$
+
+
+
 
 
 First, introduce the costate (corresponding to $f_S$):
