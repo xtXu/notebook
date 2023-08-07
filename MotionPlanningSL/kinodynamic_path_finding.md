@@ -298,3 +298,5 @@ $$
 $$
 ## Graph search problem
 After building the **lattice graph**, the problem become a graph search problem.  
+
+## Trajectory Library
