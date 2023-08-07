@@ -212,3 +212,13 @@ $$
 \lambda_3=\frac{1}{2}\alpha^2t-\beta t+\gamma \\
 \end{cases}
 $$
+which can also be formulated to simplify the next  calculation:
+$$
+\lambda(t)=\frac{1}{T}\begin{bmatrix}-2\alpha\\2\alpha t+2\beta\\-\alpha t^2-2\beta t-2\gamma\end{bmatrix}
+$$
+According to $u^*=j^*=\arg \min_j H(s^*,j,\lambda)$,
+$$
+\begin{aligned}
+H(s^*,j,\lambda)=
+\end{aligned}
+$$
