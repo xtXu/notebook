@@ -183,7 +183,7 @@ $$
 \begin{aligned}
 J&=h(s(T))+\int_0^T g(s(t),u(t))dt\\
 &=\int_0^T \frac{1}{T}j(t)^2dt\\
-h(s(T))=\begin{array}a\\b\end{array}
+h(s(T))&=\left\{ \begin{array}\end{array} \right.
 \end{aligned}
 $$
 
