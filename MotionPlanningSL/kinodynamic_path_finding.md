@@ -130,3 +130,5 @@ The lattice graph obtained by searching:
 + Sample in control space: Trajectories are denser in the direction of the initial angular velocity.
 + Sample in control space: Very similar outputs for several distinct inputs.
 + ![](../Resource/kinodynamic_path_finding_img_10.png)
+
+## Boundary Value Problem
