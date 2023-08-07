@@ -199,5 +199,16 @@ H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
 $$
 According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
 $$
-\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(v,a,j\right)
+\begin{aligned}
+&\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(0,\lambda_1,\lambda_2\right)\\
+&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,\lambda_1,\lambda_2)
+\end{aligned}
+$$
+Solving $\dot{\lambda}=(0,\lambda_1,\lambda_2)$, we can obtain
+$$
+\begin{cases} 
+\lambda_1=\alpha\\
+\lambda_2=-\alpha t+\beta\\
+\lambda_3=\frac{1}{2}\alpha^2t-\beta t+\gamma \\
+\end{cases}
 $$
