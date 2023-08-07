@@ -166,5 +166,9 @@ $$
 $\dot{s}^*=f_s(s^*(t),u^*(t))$, given $s^*(0)=s(0)$,  
 $\lambda(t)$ is the solution of:
 $$
-\dot{\lambda}(t)=-\nabla_sH(s*(t),u*(t),\lambda(t))
+\dot{\lambda}(t)=-\nabla_sH(s^*(t),u^*(t),\lambda(t))
+$$
+with the boundary condition of: 
+$$
+\lambda(T)=-\nabla h(s^*(T))
 $$
