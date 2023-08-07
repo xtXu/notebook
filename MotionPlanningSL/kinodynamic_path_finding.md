@@ -336,3 +336,5 @@ Basic idea:
 + non-holonomic-without-obstacles + holonomic-with-obstacles (2D shortest path)
 ![](../Resource/kinodynamic_path_finding_img_17.png)
 ### Other tricks
+**Analytic Expansions:** one shot  heuristic, add a state-driven bias  towards the searching process.  
+During the planning, randomly try connecting the cur nodes to the goal using OBVP.
