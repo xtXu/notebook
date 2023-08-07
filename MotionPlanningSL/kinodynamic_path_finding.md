@@ -284,3 +284,15 @@ $$
 J=\gamma^2+\beta \gamma T+\frac{1}{3} \beta^2 T^2+\frac{1}{3} \alpha \gamma T^2+\frac{1}{4} \alpha \beta T^3+\frac{1}{20} \alpha^2 T^4
 $$
 $J$ only depends on $T$, and the boundary states (known), so we can even get an optimal $T$ through polynomial function root finding problem.
+
+**For fixed final state problem (discussed above),**
+$$
+h(s(T))= \begin{cases}0, s(T)=s_f\\ \infty, otherwise\end{cases}
+$$
+is not differential, so we discard the condition, use given $x(T)$ to solve for unknown variables.
+
+**For (partially)-free final state problem,** given $s_i(T),i\in I$,  
+we have boundary condition for other costate:
+$$
+\lambda_j(T)=
+$$
