@@ -237,3 +237,45 @@ s^*(t)=\left[\begin{array}{c}
 \end{array}\right]
 $$
 given $s_f=s(T)=(p_f,v_f,a_f)$,
+$$
+\begin{aligned}
+& {\left[\begin{array}{ccc}
+\frac{1}{120} T^5 & \frac{1}{24} T^4 & \frac{1}{6} T^3 \\
+\frac{1}{24} T^4 & \frac{1}{6} T^3 & \frac{1}{2} T^2 \\
+\frac{1}{6} T^3 & \frac{1}{2} T^2 & T
+\end{array}\right]\left[\begin{array}{c}
+\alpha \\
+\beta \\
+\gamma
+\end{array}\right]=\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]} \\
+& {\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]=\left[\begin{array}{c}
+p_f-p_0-v_0 T-\frac{1}{2} a_0 T^2 \\
+v_f-v_0-a_0 T \\
+a_f-a_0
+\end{array}\right]}
+\end{aligned}
+$$
+solving
+$$
+\left[\begin{array}{l}
+\alpha \\
+\beta \\
+\gamma
+\end{array}\right]=\frac{1}{T^5}\left[\begin{array}{ccc}
+720 & -360 T & 60 T^2 \\
+-360 T & 168 T^2 & -24 T^3 \\
+60 T^2 & -24 T^3 & 3 T^4
+\end{array}\right]\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]
+$$
