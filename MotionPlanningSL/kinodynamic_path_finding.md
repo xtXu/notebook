@@ -315,4 +315,8 @@ Principle: solve an easier problem
 + dynamic reference frame
 + lateral and longitudinal independently
 + For lane following problem, the problem is decoupled
++ Motion parametrization:
+	+ $$\begin{aligned}& d(t)=a_{d 0}+a_{d 1} t+a_{d 2} t^2+a_{d 3} t^3+a_{d 4} t^4+a_{d 5} t^5 \\& s(t)=a_{s 0}+a_{s 1} t+a_{s 2} t^2+a_{s 3} t^3+a_{s 4} t^4+a_{s 5} t^5\end{aligned}$$
+	+ Solve the optimal control problem
 ![](../Resource/kinodynamic_path_finding_img_13.png)
+![](../Resource/kinodynamic_path_finding_img_14.png)
