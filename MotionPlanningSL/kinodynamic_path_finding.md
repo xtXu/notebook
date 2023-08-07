@@ -320,3 +320,18 @@ Principle: solve an easier problem
 	+ Solve the optimal control problem
 ![](../Resource/kinodynamic_path_finding_img_13.png)
 ![](../Resource/kinodynamic_path_finding_img_14.png)
+
+## Hybrid A*
+
+Basic idea:
++ Online generate dense lattice is time-consuming
++ Prune nodes: use grid map
+![](../Resource/kinodynamic_path_finding_img_15.png)
+
+### Algorithm
+![](../Resource/kinodynamic_path_finding_img_16.png)
+### Heuristic design
++ 2D Euclidean distance
++ non-holonomic-without-obstacles (bad performance in some cases)
++ non-holonomic-without-obstacles + holonomic-with-obstacles (2D shortest path)
+![](../Resource/kinodynamic_path_finding_img_17.png)
