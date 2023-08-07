@@ -151,6 +151,33 @@ J_\sum=\sum_{k=1}^3\limits J_k, \quad J_k=\frac{1}{T}\int_0^Tj_k(t)^2dt \\
 \end{matrix}
 $$
 ### Pontryain's Minimum Principle
+Generally, 
+$$
+J=h(s(T))+\int_0^T g(s(t),u(t))dt
+$$
+where $h(s(T))$ is the final state, $\int_0^T g(s(t),u(t))dt$ is the transition cost.  
+Define the Hamilton function and costate:
+$$
+\begin{matrix} 
+H(s,u,\lambda)=g(s,u)+\lambda^Tf_s(s,u) \\ 
+\lambda=(\lambda_1,\lambda_2,\lambda_3) 
+\end{matrix}
+$$
+Suppose $s^*$ is optimal state, $u^*$ is optimal input,  
+$\dot{s}^*=f_s(s^*(t),u^*(t))$, given $s^*(0)=s(0)$,  
+$\lambda(t)$ is the solution of:
+$$
+\dot{\lambda}(t)=-\nabla_sH(s^*(t),u^*(t),\lambda(t))
+$$
+with the boundary condition of: 
+$$
+\lambda(T)=-\nabla h(s^*(T))
+$$
+and the optimal control input is :
+$$
+u^*(t)=\arg \min _{u(t)} H\left(s^*(t), u(t), \lambda(t)\right)
+$$
+
 
 First, introduce the costate (corresponding to $f_S$):
 $$
@@ -162,13 +189,4 @@ $$
 H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
 &=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
 \end{aligned}
-$$
-$\dot{s}^*=f_s(s^*(t),u^*(t))$, given $s^*(0)=s(0)$,  
-$\lambda(t)$ is the solution of:
-$$
-\dot{\lambda}(t)=-\nabla_sH(s^*(t),u^*(t),\lambda(t))
-$$
-with the boundary condition of: 
-$$
-\lambda(T)=-\nabla h(s^*(T))
 $$
