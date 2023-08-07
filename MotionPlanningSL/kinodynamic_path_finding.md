@@ -163,3 +163,8 @@ H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
 &=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
 \end{aligned}
 $$
+$\dot{s}^*=f_s(s^*(t),u^*(t))$, given $s^*(0)=s(0)$,  
+$\lambda(t)$ is the solution of:
+$$
+\dot{\lambda}(t)=-\nabla_sH(s*(t),u*(t),\lambda(t))
+$$
