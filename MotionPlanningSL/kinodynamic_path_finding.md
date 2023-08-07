@@ -219,6 +219,20 @@ $$
 According to $u^*=j^*=\arg \min_j H(s^*,j,\lambda)$,
 $$
 \begin{aligned}
-H(s^*,j,\lambda)=
+&H(s^*,j,\lambda)=\frac{1}{T}j^2+\lambda_1 v^*+\lambda_2 a^* +\lambda_3 j\\
+&\frac{\partial H(s^*,j,\lambda)}{\partial j}=\frac{2}{T}j+\lambda_3=0\\
+&j=-\frac{T}{2}\lambda_3
 \end{aligned}
+$$
+Finally obtain
+$$
+u^*=j^*=\frac{1}{2}\alpha t^2+\beta t+\gamma
+$$
+Integrate $u^*$, consider the initial state $s_0=(p_0,v_0,a_0)$
+$$
+s^*(t)=\left[\begin{array}{c}
+\frac{\alpha}{120} t^5+\frac{\beta}{24} t^4+\frac{\gamma}{6} t^3+\frac{a_0}{2} t^2+v_0 t+p_0 \\
+\frac{\alpha}{24} t^4+\frac{\beta}{6} t^3+\frac{\gamma}{2} t^2+a_0 t+v_0 \\
+\frac{\alpha}{6} t^3+\frac{\beta}{2} t^2+\gamma t+a_0
+\end{array}\right]
 $$
