@@ -132,3 +132,5 @@ The lattice graph obtained by searching:
 + ![](../Resource/kinodynamic_path_finding_img_10.png)
 
 ## Boundary Value Problem
+
+**BVP** is the basis of state lattice planning.  
