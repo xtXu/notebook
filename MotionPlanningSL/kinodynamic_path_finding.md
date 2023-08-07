@@ -300,3 +300,6 @@ $$
 After building the **lattice graph**, the problem become a graph search problem.  
 
 ## Trajectory Library
++ Single layer lattice planning, common for local collision avoidance
++ No graph search, only trajectory selection
++ Rating each trajectory based on a multi-term cost function
