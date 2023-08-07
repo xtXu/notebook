@@ -338,3 +338,4 @@ Basic idea:
 ### Other tricks
 **Analytic Expansions:** one shot  heuristic, add a state-driven bias  towards the searching process.  
 During the planning, randomly try connecting the cur nodes to the goal using OBVP.
+![400](../Resource/kinodynamic_path_finding_img_18.png)
