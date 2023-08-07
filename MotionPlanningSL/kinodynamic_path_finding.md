@@ -145,8 +145,21 @@ For example, design a trajectory $x(t)$ such that: $x(0)=a,x(T)=b$
 The objective is to minimize the integral of squared jerk:
 $$
 \begin{matrix}
-J_\sum=\sum_{k=1}^3\limits J_k, \quad J_k=\int_0^Tj_k(t)^2dt \\
+J_\sum=\sum_{k=1}^3\limits J_k, \quad J_k=\frac{1}{T}\int_0^Tj_k(t)^2dt \\
 \text{State: }s_k=(p_k,v_k,a_k) \quad \text{Input: }u_k=j_k \\ 
-\text{System Model: }\dot{s_k}=f_s(s_k,u_k)=()
+\text{System Model: }\dot{s}=f_s(s,u)=(v,a,j)
 \end{matrix}
+$$
+### Pontryain's Minimum Principle
+
+First, introduce the costate (corresponding to $f_S$):
+$$
+\lambda=(\lambda_1,\lambda_2,\lambda_3)
+$$
+Define the Hamiltonian function:
+$$
+\begin{aligned}
+H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
+&=
+\end{aligned}
 $$
