@@ -307,5 +307,7 @@ After building the **lattice graph**, the problem become a graph search problem.
 
 ## Heuristic Design
 Principle: solve an easier problem
-+ Assume no obstacle existence
-+ Assume no dynamic existence
++ Assume no obstacle existence: solve OBVP 
++ Assume no dynamic existence: search the shortest path
+
+## Planning in Frenet-serret Frame
