@@ -146,6 +146,7 @@ The objective is to minimize the integral of squared jerk:
 $$
 \begin{matrix}
 J_\sum=\sum_{k=1}^3\limits J_k, \quad J_k=\int_0^Tj_k(t)^2dt \\
-
+\text{State: }s_k=(p_k,v_k,a_k) \quad \text{Input: }u_k=j_k \\ 
+\text{System Model: }\dot{s_k}=f_s(s_k,u_k)=()
 \end{matrix}
 $$
