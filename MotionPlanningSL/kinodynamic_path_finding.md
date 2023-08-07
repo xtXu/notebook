@@ -296,3 +296,4 @@ we have boundary condition for other costate:
 $$
 \lambda_j(T)=\frac{\partial h(s^*(T))}{\partial s_j}, j\neq i
 $$
+  
