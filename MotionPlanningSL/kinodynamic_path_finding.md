@@ -303,3 +303,5 @@ After building the **lattice graph**, the problem become a graph search problem.
 + Single layer lattice planning, common for local collision avoidance
 + No graph search, only trajectory selection
 + Rating each trajectory based on a multi-term cost function
++ ![](../Resource/kinodynamic_path_finding_img_12.png)
+
