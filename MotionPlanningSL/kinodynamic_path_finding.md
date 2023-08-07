@@ -305,3 +305,7 @@ After building the **lattice graph**, the problem become a graph search problem.
 + Rating each trajectory based on a multi-term cost function
 + ![](../Resource/kinodynamic_path_finding_img_12.png)
 
+## Heuristic Design
+Principle: solve an easier problem
++ Assume no obstacle existence
++ Assume no dynamic existence
