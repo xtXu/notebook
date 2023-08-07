@@ -160,6 +160,6 @@ Define the Hamiltonian function:
 $$
 \begin{aligned}
 H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
-&=
+&=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
 \end{aligned}
 $$
