@@ -181,16 +181,11 @@ $$
 Given $s_0$, $s_f$, Take the UAV model as example:
 $$
 \begin{aligned}
-J&=h(s(T))+\int_0^T g(s(t),u(t))dt\\
-&=\int_0^T \frac{1}{T}j(t)^2dt\\
-h(s(T))&=\left\{ \begin{array}\end{array} \right.
+&J=h(s(T))+\int_0^T g(s(t),u(t))dt=\int_0^T \frac{1}{T}j(t)^2dt\\
+&h(s(T))= \begin{cases}0, s(T)=s_f\\ \infty, s(T)\neq s_f\end{cases}\\
+&g(s(t),u(t))=\frac{1}{T}u(t)^2=\frac{1}{T}j(t)^2
 \end{aligned}
 $$
-
-
-
-
-
 First, introduce the costate (corresponding to $f_S$):
 $$
 \lambda=(\lambda_1,\lambda_2,\lambda_3)
@@ -201,4 +196,8 @@ $$
 H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
 &=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
 \end{aligned}
+$$
+According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
+$$
+\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(v,a,j\right)
 $$
