@@ -311,3 +311,8 @@ Principle: solve an easier problem
 + Assume no dynamic existence: search the shortest path
 
 ## Planning in Frenet-serret Frame
+### Frenet-serret Frame:
++ dynamic reference frame
++ lateral and longitudinal independently
++ For lane following problem, the problem is decoupled
+![](../Resource/kinodynamic_path_finding_img_13.png)
