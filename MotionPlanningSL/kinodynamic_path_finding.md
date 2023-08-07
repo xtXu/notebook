@@ -335,3 +335,4 @@ Basic idea:
 + non-holonomic-without-obstacles (bad performance in some cases)
 + non-holonomic-without-obstacles + holonomic-with-obstacles (2D shortest path)
 ![](../Resource/kinodynamic_path_finding_img_17.png)
+### Other tricks
