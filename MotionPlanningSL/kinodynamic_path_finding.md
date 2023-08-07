@@ -236,3 +236,4 @@ s^*(t)=\left[\begin{array}{c}
 \frac{\alpha}{6} t^3+\frac{\beta}{2} t^2+\gamma t+a_0
 \end{array}\right]
 $$
+given $s_f=s(T)=(p_f,v_f,a_f)$,
