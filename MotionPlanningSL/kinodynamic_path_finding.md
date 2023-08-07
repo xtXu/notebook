@@ -341,3 +341,4 @@ During the planning, randomly try connecting the cur nodes to the goal using OBV
 ![400](../Resource/kinodynamic_path_finding_img_18.png)
 
 ## Kinodynamic RRT*
+ 
