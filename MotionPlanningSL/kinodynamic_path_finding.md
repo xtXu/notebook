@@ -279,3 +279,8 @@ $$
 \Delta a
 \end{array}\right]
 $$
+The final optimal cost is $\int_0^T\frac{1}{T}{j^*}^2$ 
+$$
+J=\gamma^2+\beta \gamma T+\frac{1}{3} \beta^2 T^2+\frac{1}{3} \alpha \gamma T^2+\frac{1}{4} \alpha \beta T^3+\frac{1}{20} \alpha^2 T^4
+$$
+$J$ only depends on $T$, and the boundary states (known), so we can even get an optimal $T$ through polynomial function root finding problem.
