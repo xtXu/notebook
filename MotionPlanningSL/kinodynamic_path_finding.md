@@ -465,7 +465,7 @@ e^{At}=I+At=\begin{bmatrix}1 & 0 & 0 & t & 0 & 0\\0 & 1 & 0 & 0 & t & 0\\0 & 0 &
 $$
 Based on the $s(t)=e^{At}s_0+[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$, 
 $$
-
+s(t)=\begin{bmatrix}p_{x_0}+v_{x_0}t+\frac{a_x}{2}t^2\\p_{y_0}+v_{y_0}t+\frac{a_y}{2}t^2\\p_{z_0}+v_{z_0}t+\frac{a_z}{2}t^2\\v_{x_0}+a_xt\\v_{y_0}+a_yt\\v_{z_0}+a_zt\\\end{bmatrix}
 $$
 
 Objective:
