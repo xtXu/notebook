@@ -590,10 +590,10 @@ $$
 J&=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t\\
 &=T+\left(\frac{1}{3} \alpha_1{ }^2 T^3+\alpha_1 \beta_1 T^2+\beta_1{ }^2 T\right)+\left(\frac{1}{3} \alpha_2{ }^2 T^3+\alpha_2 \beta_2 T^2+\beta_2{ }^2 T\right)\\
 &+\left(\frac{1}{3} \alpha_3{ }^2 T^3+\alpha_3 \beta_3 T^2+\beta_3{ }^2 T\right)\\
-&=\frac{12 (-\text{px0}+\text{pxf}-T \text{vx0})^2}{T^3}-\frac{12 (\text{vxf}-\text{vx0}) (-\text{px0}+\text{pxf}-T \text{vx0})}{T^2}\\
-&+\frac{12 (-\text{py0}+\text{pyf}-T \text{vy0})^2}{T^3}-\frac{12 (\text{vyf}-\text{vy0}) (-\text{py0}+\text{pyf}-T \text{vy0})}{T^2}\\
-&+\frac{12 (-\text{pz0}+\text{pzf}-T \text{vz0})^2}{T^3}-\frac{12 (\text{vzf}-\text{vz0}) (-\text{pz0}+\text{pzf}-T \text{vz0})}{T^2}\\
-&+\frac{4 (\text{vxf}-\text{vx0})^2}{T}+\frac{4 (\text{vyf}-\text{vy0})^2}{T}+\frac{4 (\text{vzf}-\text{vz0})^2}{T}+T
+&=\frac{12 (-p_{x_0}+p_{x_f}-T v_{x_0})^2}{T^3}-\frac{12 (v_{x_f}-v_{x_0}) (-p_{x_0}+p_{x_f}-T v_{x_0})}{T^2}\\
+&+\frac{12 (-p_{y_0}+p_{y_f}-T v_{y_0})^2}{T^3}-\frac{12 (v_{y_f}-v_{y_0}) (-p_{y_0}+p_{y_f}-T v_{y_0})}{T^2}\\
+&+\frac{12 (-p_{z_0}+p_{z_f}-T v_{z_0})^2}{T^3}-\frac{12 (v_{z_f}-v_{z_0}) (-p_{z_0}+p_{z_f}-T v_{z_0})}{T^2}\\
+&+\frac{4 (v_{x_f}-v_{x_0})^2}{T}+\frac{4 (v_{y_f}-v_{y_0})^2}{T}+\frac{4 (v_{z_f}-v_{z_0})^2}{T}+T
 \end{aligned}
 
 $$
