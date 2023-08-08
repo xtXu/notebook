@@ -401,7 +401,7 @@ $$
 $$
 Finally obtain
 $$
-u^*=j^*=\frac{1}{2}\alpha t^2+\beta t+\gamma
+u^*=j^*=\frac{}{}
 $$
 Integrate $u^*$, consider the initial state $s_0=(p_0,v_0,a_0)$
 $$
