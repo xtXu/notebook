@@ -467,8 +467,133 @@ Based on the $s(t)=e^{At}s_0+[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$,
 $$
 s(t)=\begin{bmatrix}p_{x_0}+v_{x_0}t+\frac{a_x}{2}t^2\\p_{y_0}+v_{y_0}t+\frac{a_y}{2}t^2\\p_{z_0}+v_{z_0}t+\frac{a_z}{2}t^2\\v_{x_0}+a_xt\\v_{y_0}+a_yt\\v_{z_0}+a_zt\\\end{bmatrix}
 $$
-
+#### State Sample (OBVP)
 Objective:
 $$
 J=\int_0^T g(x, u) d t=\int_0^T\left(1+u^T R u\right) d t=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t
+$$
+Introduce the costate:
+$$
+\lambda=(\lambda_1,\lambda_2,\lambda_3,\lambda_4,\lambda_5,\lambda_6)
+$$
+Define the Hamiltonian function:
+$$
+\begin{aligned}
+H(x,u,\lambda)&=\left(1+a_x^2+a_y^2+a_z^2\right)+\lambda_1v_x+\lambda_2v_y+\lambda_3v_z+\lambda_1a_x+\lambda_2a_y+\lambda_3a_z
+\end{aligned}
+
+$$
+According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
+$$
+\begin{aligned}
+&\nabla_x H(x,u,\lambda) =\left(0,0,0,\lambda_1,\lambda_2,\lambda_3\right)\\
+&\dot{\lambda}=-\nabla_s H(x^*,u^*,\lambda)=\left(0,0,0,-\lambda_1,-\lambda_2,-\lambda_3\right)
+\end{aligned}
+$$
+Solving
+$$
+\lambda=\left(\begin{array}{c}
+2 \alpha_1 \\
+2 \alpha_2 \\
+2 \alpha_3 \\
+-2 \alpha_1 t-2 \beta_1 \\
+-2 \alpha_2 t-2 \beta_2 \\
+-2 \alpha_3 t-2 \beta_3
+\end{array}\right)
+$$
+For $u^*=\arg \min_u H(x^*,u,\lambda)$,
+$$
+\begin{aligned}
+\frac{\partial H(x^*,u,\lambda)}{\partial u}&=\left(2a_x+\lambda_4,2a_y+\lambda_5,2a_z+\lambda_6\right)\\
+u^*&=\left(-\frac{1}{2}\lambda_4, -\frac{1}{2}\lambda_5,-\frac{1}{2}\lambda_6\right)\\
+&=\left(\alpha_1t+\beta_1,\alpha_2t+\beta_2,\alpha_3t+\beta_3\right)
+\end{aligned}
+$$
+Then we can integrate $u^*$ to get 
+$$
+x^*=\left(\begin{array}{c}
+\frac{1}{6} \alpha_1 t^3+\frac{1}{2} \beta_1 t^2+v_{x 0} t+p_{x 0} \\
+\frac{1}{6} \alpha_2 t^3+\frac{1}{2} \beta_2 t^2+v_{y 0} t+p_{y 0} \\
+\frac{1}{6} \alpha_3 t^3+\frac{1}{2} \beta_3 t^2+v_{z 0} t+p_{z 0} \\
+\frac{1}{2} \alpha_1 t^2+\beta_1 t+v_{x 0} \\
+\frac{1}{2} \alpha_2 t^2+\beta_2 t+v_{y 0} \\
+\frac{1}{2} \alpha_3 t^2+\beta_3 t+v_{z 0}
+\end{array}\right)
+$$
+Considering the initial and final state, $\alpha,\beta,\gamma$ are solved as
+$$
+\begin{matrix}
+\left(\begin{array}{cccccc}
+\frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 & 0 & 0 \\
+0 & \frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 & 0 \\
+0 & 0 & \frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 \\
+\frac{1}{2} T^2 & 0 & 0 & T & 0 & 0 \\
+0 & \frac{1}{2} T^2 & 0 & 0 & T & 0 \\
+0 & 0 & \frac{1}{2} T^2 & 0 & 0 & T
+\end{array}\right)\left(\begin{array}{l}
+\alpha_1 \\
+\alpha_2 \\
+\alpha_3 \\
+\beta_1 \\
+\beta_2 \\
+\beta_3
+\end{array}\right)=\left(\begin{array}{l}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)\\
+\left(\begin{array}{c}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)=\left(\begin{array}{c}
+p_{x f}-v_{x 0} T-p_{x 0} \\
+p_{y f}-v_{y 0} T-p_{y 0} \\
+p_{z f}-v_{x 0} T-p_{z 0} \\
+v_{x f}-v_{x 0} \\
+v_{y f}-v_{y 0} \\
+v_{z f}-v_{z 0}
+\end{array}\right)\\
+\left(\begin{array}{l}
+\alpha_1 \\
+\alpha_2 \\
+\alpha_3 \\
+\beta_1 \\
+\beta_2 \\
+\beta_3
+\end{array}\right)=\left(\begin{array}{cccccc}
+-\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} & 0 & 0 \\
+0 & -\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} & 0 \\
+0 & 0 & -\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} \\
+\frac{6}{T^2} & 0 & 0 & -\frac{2}{T} & 0 & 0 \\
+0 & \frac{6}{T^2} & 0 & 0 & -\frac{2}{T} & 0 \\
+0 & 0 & \frac{6}{T^2} & 0 & 0 & -\frac{2}{T}
+\end{array}\right)\left(\begin{array}{c}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)
+\end{matrix}
+$$
+The cost
+$$
+\begin{aligned}
+J&=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t\\
+&=T+\left(\frac{1}{3} \alpha_1{ }^2 T^3+\alpha_1 \beta_1 T^2+\beta_1{ }^2 T\right)+\left(\frac{1}{3} \alpha_2{ }^2 T^3+\alpha_2 \beta_2 T^2+\beta_2{ }^2 T\right)\\
+&+\left(\frac{1}{3} \alpha_3{ }^2 T^3+\alpha_3 \beta_3 T^2+\beta_3{ }^2 T\right)\\
+&=\frac{12 (-\text{px0}+\text{pxf}-T \text{vx0})^2}{T^3}-\frac{12 (\text{vxf}-\text{vx0}) (-\text{px0}+\text{pxf}-T \text{vx0})}{T^2}\\
+&+\frac{12 (-\text{py0}+\text{pyf}-T \text{vy0})^2}{T^3}-\frac{12 (\text{vyf}-\text{vy0}) (-\text{py0}+\text{pyf}-T \text{vy0})}{T^2}\\
+&+\frac{12 (-\text{pz0}+\text{pzf}-T \text{vz0})^2}{T^3}-\frac{12 (\text{vzf}-\text{vz0}) (-\text{pz0}+\text{pzf}-T \text{vz0})}{T^2}\\
+&+\frac{4 (\text{vxf}-\text{vx0})^2}{T}+\frac{4 (\text{vyf}-\text{vy0})^2}{T}+\frac{4 (\text{vzf}-\text{vz0})^2}{T}+T
+\end{aligned}
+
 $$
