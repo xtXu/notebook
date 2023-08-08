@@ -450,9 +450,20 @@ a_y \\
 a_z
 \end{array}\right)
 $$
-#### Control Sample ()
-
-
+#### Control Sample (Forward Integration)
+The system equation:
+$$
+\dot{x}=Ax+Bu,\quad A=\begin{bmatrix}0 & 0 & 0 & 1 & 0 & 0\\0 & 0 & 0 & 0 & 1 & 0\\0 & 0 & 0 & 0 & 0 & 1\\0 & 0 & 0 & 0 & 0 & 0\\0 & 0 & 0 & 0 & 0 & 0\\0 & 0 & 0 & 0 & 0 & 0\end{bmatrix},\quad B=\begin{bmatrix}0 & 0 & 0 \\0 & 0 & 0  \\0 & 0 & 0 \\1 & 0 & 0 \\0 & 1 & 0 \\0 & 0 & 1 \end{bmatrix}
+$$
+According to 
+$$
+e^{A t}=I+\frac{A t}{1 !}+\frac{(A t)^2}{2 !}+\frac{(A t)^3}{3 !}+\cdots+\frac{(A t)^k}{k !}+\cdots
+$$
+and $A$ is nilpotent, $\forall k\geq 2,A^k=0$, so we can get
+$$
+e^{At}=I+At=\begin{bmatrix}1 & 0 & 0 & t & 0 & 0\\0 & 1 & 0 & 0 & t & 0\\0 & 0 & 1& 0 & 0 & t\\0 & 0 & 0 & 1 & 0 & 0\\0 & 0 & 0 & 0 & 1 & 0\\0 & 0 & 0 & 0 & 0 & 1\end{bmatrix}
+$$
+Based on the 
 
 Objective:
 $$
