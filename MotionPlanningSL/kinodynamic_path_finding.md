@@ -385,7 +385,11 @@ $$
 $$
 Then we can get
 $$
-\lambda(t)=\frac{1}{T}\begin{bmatrix}-2\alpha\\2\alpha t+2\beta\\-\alpha t^2-2\beta t-2\gamma\end{bmatrix}
+\lambda(t)=\frac{1}{T}\left[\begin{array}{c}
+-2 \alpha \\
+2 \alpha(t-T) \\
+-\alpha(t-T)^2
+\end{array}\right]
 $$
 According to $u^*=j^*=\arg \min_j H(s^*,j,\lambda)$,
 $$
