@@ -427,3 +427,34 @@ $$
 J=\int_0^T \frac{1}{T} j^*(t)^2 d t=\int_0^T \frac{1}{T}\left(\frac{10 \Delta p}{T^5}(t-T)\right)^2 d t
 $$
 
+### Example for a Linear Modeled Robot
+The system model:
+$$
+x=\left(\begin{array}{l}
+p_x \\
+p_y \\
+p_z \\
+v_x \\
+v_y \\
+v_z
+\end{array}\right), u=\left(\begin{array}{l}
+a_x \\
+a_y \\
+a_z
+\end{array}\right), \dot{x}=f(x, u)=\left(\begin{array}{l}
+v_x \\
+v_y \\
+v_z \\
+a_x \\
+a_y \\
+a_z
+\end{array}\right)
+$$
+#### Control Sample ()
+
+
+
+Objective:
+$$
+J=\int_0^T g(x, u) d t=\int_0^T\left(1+u^T R u\right) d t=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t
+$$
