@@ -379,17 +379,11 @@ For the free final state,
 $$
 \begin{aligned}
 \lambda_{2,3}(T)&=-\nabla_{s_v,s_a} h(s^*(T))\\
-\lambda_2(T)&=-\frac{\partial h}{\partial v(T)}(s^*(T))=0
+\lambda_2(T)&=-\frac{\partial h}{\partial v(T)}(s^*(T))=0\\
+\lambda_3(T)&=-\frac{\partial h}{\partial a(T)}(s^*(T))=0\\
 \end{aligned}
 $$
-$$
-\begin{cases} 
-\lambda_1=\alpha\\
-\lambda_2=-\alpha t+\beta\\
-\lambda_3=\frac{1}{2}\alpha^2t-\beta t+\gamma \\
-\end{cases}
-$$
-which can also be formulated to simplify the next  calculation:
+Then we can get
 $$
 \lambda(t)=\frac{1}{T}\begin{bmatrix}-2\alpha\\2\alpha t+2\beta\\-\alpha t^2-2\beta t-2\gamma\end{bmatrix}
 $$
