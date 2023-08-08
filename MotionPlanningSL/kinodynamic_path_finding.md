@@ -378,7 +378,8 @@ $$
 For the free final state, 
 $$
 \begin{aligned}
-
+\lambda_{2,3}(T)&=-\nabla_{s_v,s_a} h(s^*(T))\\
+&=
 \end{aligned}
 $$
 $$
