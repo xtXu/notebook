@@ -201,7 +201,7 @@ According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$,
 $$
 \begin{aligned}
 &\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(0,\lambda_1,\lambda_2\right)\\
-&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,\lambda_1,\lambda_2)
+&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,-\lambda_1,-\lambda_2)
 \end{aligned}
 $$
 Solving $\dot{\lambda}=(0,\lambda_1,\lambda_2)$, we can obtain
@@ -341,4 +341,259 @@ During the planning, randomly try connecting the cur nodes to the goal using OBV
 ![400](../Resource/kinodynamic_path_finding_img_18.png)
 
 ## Kinodynamic RRT*
- 
+
+
+
+
+
+
+## Appendix
+### Solving OBVP for partially-free final state
+$s_0$, $p_f$ is given, $v_f$ and $a_f$ is free:
+$$
+\begin{aligned}
+&J=h(s(T))+\int_0^T g(s(t),u(t))dt=\int_0^T \frac{1}{T}j(t)^2dt\\
+&h(s(T))= 0\\
+&g(s(t),u(t))=\frac{1}{T}u(t)^2=\frac{1}{T}j(t)^2
+\end{aligned}
+$$
+Introduce the costate:
+$$
+\lambda=(\lambda_1,\lambda_2,\lambda_3)
+$$
+Define the Hamiltonian function:
+$$
+\begin{aligned}
+H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
+&=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
+\end{aligned}
+$$
+According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
+$$
+\begin{aligned}
+&\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(0,\lambda_1,\lambda_2\right)\\
+&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,-\lambda_1,-\lambda_2)
+\end{aligned}
+$$
+For the free final state, 
+$$
+\begin{aligned}
+\lambda_{2,3}(T)&=-\nabla_{s_v,s_a} h(s^*(T))\\
+\lambda_2(T)&=-\frac{\partial h}{\partial v(T)}(s^*(T))=0\\
+\lambda_3(T)&=-\frac{\partial h}{\partial a(T)}(s^*(T))=0\\
+\end{aligned}
+$$
+Then we can get
+$$
+\lambda(t)=\frac{1}{T}\left[\begin{array}{c}
+-2 \alpha \\
+2 \alpha(t-T) \\
+-\alpha(t-T)^2
+\end{array}\right]
+$$
+According to $u^*=j^*=\arg \min_j H(s^*,j,\lambda)$,
+$$
+\begin{aligned}
+&H(s^*,j,\lambda)=\frac{1}{T}j^2+\lambda_1 v^*+\lambda_2 a^* +\lambda_3 j\\
+&\frac{\partial H(s^*,j,\lambda)}{\partial j}=\frac{2}{T}j+\lambda_3=0\\
+&j=-\frac{T}{2}\lambda_3
+\end{aligned}
+$$
+Finally obtain
+$$
+u^*=j^*=\frac{\alpha}{2}(t-T)^2
+$$
+Integrate $u^*$, consider the initial state $s_0=(p_0,v_0,a_0)$
+$$
+s^*(t)=\left[\begin{array}{c}
+\frac{\alpha}{120}(t-T)^5+\frac{1}{2}\left(a_0+\frac{\alpha}{6} T^3\right) t^2+\left(v_0-\frac{\alpha}{24} T^4\right) t+\left(p_0+\frac{\alpha}{120} T^5\right) \\
+\frac{\alpha}{24}(t-T)^4+\left(a_0+\frac{\alpha}{6} T^3\right) t+\left(v_0-\frac{\alpha}{24} T^4\right) \\
+\frac{\alpha}{6}(t-T)^3+\left(a_0+\frac{\alpha}{6} T^3\right)
+\end{array}\right]
+$$
+given $p(T)=p_f$,
+$$
+\begin{aligned}
+p_f&=\frac{1}{2}\left(a_0+\frac{\alpha}{6} T^3\right) T^2+\left(v_0-\frac{\alpha}{24} T^4\right) T+\left(p_0+\frac{\alpha}{120} T^5\right)\\
+\Delta p&=p_f-p_0-v_0T-\frac{a_0}{2}T^2
+\end{aligned}
+$$
+solving
+$$
+\alpha=\frac{20\Delta p}{T^5}
+$$
+The final optimal cost is 
+$$
+J=\int_0^T \frac{1}{T} j^*(t)^2 d t=\int_0^T \frac{1}{T}\left(\frac{10 \Delta p}{T^5}(t-T)\right)^2 d t
+$$
+
+### Example for a Linear Modeled Robot
+The system model:
+$$
+x=\left(\begin{array}{l}
+p_x \\
+p_y \\
+p_z \\
+v_x \\
+v_y \\
+v_z
+\end{array}\right), u=\left(\begin{array}{l}
+a_x \\
+a_y \\
+a_z
+\end{array}\right), \dot{x}=f(x, u)=\left(\begin{array}{l}
+v_x \\
+v_y \\
+v_z \\
+a_x \\
+a_y \\
+a_z
+\end{array}\right)
+$$
+#### Control Sample (Forward Integration)
+The system equation:
+$$
+\dot{x}=Ax+Bu,\quad A=\begin{bmatrix}0 & 0 & 0 & 1 & 0 & 0\\0 & 0 & 0 & 0 & 1 & 0\\0 & 0 & 0 & 0 & 0 & 1\\0 & 0 & 0 & 0 & 0 & 0\\0 & 0 & 0 & 0 & 0 & 0\\0 & 0 & 0 & 0 & 0 & 0\end{bmatrix},\quad B=\begin{bmatrix}0 & 0 & 0 \\0 & 0 & 0  \\0 & 0 & 0 \\1 & 0 & 0 \\0 & 1 & 0 \\0 & 0 & 1 \end{bmatrix}
+$$
+According to 
+$$
+e^{A t}=I+\frac{A t}{1 !}+\frac{(A t)^2}{2 !}+\frac{(A t)^3}{3 !}+\cdots+\frac{(A t)^k}{k !}+\cdots
+$$
+and $A$ is nilpotent, $\forall k\geq 2,A^k=0$, so we can get
+$$
+e^{At}=I+At=\begin{bmatrix}1 & 0 & 0 & t & 0 & 0\\0 & 1 & 0 & 0 & t & 0\\0 & 0 & 1& 0 & 0 & t\\0 & 0 & 0 & 1 & 0 & 0\\0 & 0 & 0 & 0 & 1 & 0\\0 & 0 & 0 & 0 & 0 & 1\end{bmatrix}
+$$
+Based on the $s(t)=e^{At}s_0+[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$, 
+$$
+s(t)=\begin{bmatrix}p_{x_0}+v_{x_0}t+\frac{a_x}{2}t^2\\p_{y_0}+v_{y_0}t+\frac{a_y}{2}t^2\\p_{z_0}+v_{z_0}t+\frac{a_z}{2}t^2\\v_{x_0}+a_xt\\v_{y_0}+a_yt\\v_{z_0}+a_zt\\\end{bmatrix}
+$$
+#### State Sample (OBVP)
+Objective:
+$$
+J=\int_0^T g(x, u) d t=\int_0^T\left(1+u^T R u\right) d t=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t
+$$
+Introduce the costate:
+$$
+\lambda=(\lambda_1,\lambda_2,\lambda_3,\lambda_4,\lambda_5,\lambda_6)
+$$
+Define the Hamiltonian function:
+$$
+\begin{aligned}
+H(x,u,\lambda)&=\left(1+a_x^2+a_y^2+a_z^2\right)+\lambda_1v_x+\lambda_2v_y+\lambda_3v_z+\lambda_1a_x+\lambda_2a_y+\lambda_3a_z
+\end{aligned}
+
+$$
+According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
+$$
+\begin{aligned}
+&\nabla_x H(x,u,\lambda) =\left(0,0,0,\lambda_1,\lambda_2,\lambda_3\right)\\
+&\dot{\lambda}=-\nabla_s H(x^*,u^*,\lambda)=\left(0,0,0,-\lambda_1,-\lambda_2,-\lambda_3\right)
+\end{aligned}
+$$
+Solving
+$$
+\lambda=\left(\begin{array}{c}
+2 \alpha_1 \\
+2 \alpha_2 \\
+2 \alpha_3 \\
+-2 \alpha_1 t-2 \beta_1 \\
+-2 \alpha_2 t-2 \beta_2 \\
+-2 \alpha_3 t-2 \beta_3
+\end{array}\right)
+$$
+For $u^*=\arg \min_u H(x^*,u,\lambda)$,
+$$
+\begin{aligned}
+\frac{\partial H(x^*,u,\lambda)}{\partial u}&=\left(2a_x+\lambda_4,2a_y+\lambda_5,2a_z+\lambda_6\right)\\
+u^*&=\left(-\frac{1}{2}\lambda_4, -\frac{1}{2}\lambda_5,-\frac{1}{2}\lambda_6\right)\\
+&=\left(\alpha_1t+\beta_1,\alpha_2t+\beta_2,\alpha_3t+\beta_3\right)
+\end{aligned}
+$$
+Then we can integrate $u^*$ to get 
+$$
+x^*=\left(\begin{array}{c}
+\frac{1}{6} \alpha_1 t^3+\frac{1}{2} \beta_1 t^2+v_{x 0} t+p_{x 0} \\
+\frac{1}{6} \alpha_2 t^3+\frac{1}{2} \beta_2 t^2+v_{y 0} t+p_{y 0} \\
+\frac{1}{6} \alpha_3 t^3+\frac{1}{2} \beta_3 t^2+v_{z 0} t+p_{z 0} \\
+\frac{1}{2} \alpha_1 t^2+\beta_1 t+v_{x 0} \\
+\frac{1}{2} \alpha_2 t^2+\beta_2 t+v_{y 0} \\
+\frac{1}{2} \alpha_3 t^2+\beta_3 t+v_{z 0}
+\end{array}\right)
+$$
+Considering the initial and final state, $\alpha,\beta,\gamma$ are solved as
+$$
+\begin{matrix}
+\left(\begin{array}{cccccc}
+\frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 & 0 & 0 \\
+0 & \frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 & 0 \\
+0 & 0 & \frac{1}{6} T^3 & 0 & 0 & \frac{1}{2} T^2 \\
+\frac{1}{2} T^2 & 0 & 0 & T & 0 & 0 \\
+0 & \frac{1}{2} T^2 & 0 & 0 & T & 0 \\
+0 & 0 & \frac{1}{2} T^2 & 0 & 0 & T
+\end{array}\right)\left(\begin{array}{l}
+\alpha_1 \\
+\alpha_2 \\
+\alpha_3 \\
+\beta_1 \\
+\beta_2 \\
+\beta_3
+\end{array}\right)=\left(\begin{array}{l}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)\\
+\left(\begin{array}{c}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)=\left(\begin{array}{c}
+p_{x f}-v_{x 0} T-p_{x 0} \\
+p_{y f}-v_{y 0} T-p_{y 0} \\
+p_{z f}-v_{x 0} T-p_{z 0} \\
+v_{x f}-v_{x 0} \\
+v_{y f}-v_{y 0} \\
+v_{z f}-v_{z 0}
+\end{array}\right)\\
+\left(\begin{array}{l}
+\alpha_1 \\
+\alpha_2 \\
+\alpha_3 \\
+\beta_1 \\
+\beta_2 \\
+\beta_3
+\end{array}\right)=\left(\begin{array}{cccccc}
+-\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} & 0 & 0 \\
+0 & -\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} & 0 \\
+0 & 0 & -\frac{12}{T^3} & 0 & 0 & \frac{6}{T^2} \\
+\frac{6}{T^2} & 0 & 0 & -\frac{2}{T} & 0 & 0 \\
+0 & \frac{6}{T^2} & 0 & 0 & -\frac{2}{T} & 0 \\
+0 & 0 & \frac{6}{T^2} & 0 & 0 & -\frac{2}{T}
+\end{array}\right)\left(\begin{array}{c}
+\Delta p_x \\
+\Delta p_y \\
+\Delta p_z \\
+\Delta v_x \\
+\Delta v_y \\
+\Delta v_z
+\end{array}\right)
+\end{matrix}
+$$
+The cost
+$$
+\begin{aligned}
+J&=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t\\
+&=T+\left(\frac{1}{3} \alpha_1{ }^2 T^3+\alpha_1 \beta_1 T^2+\beta_1{ }^2 T\right)+\left(\frac{1}{3} \alpha_2{ }^2 T^3+\alpha_2 \beta_2 T^2+\beta_2{ }^2 T\right)\\
+&+\left(\frac{1}{3} \alpha_3{ }^2 T^3+\alpha_3 \beta_3 T^2+\beta_3{ }^2 T\right)\\
+&=\frac{12 (-\text{px0}+\text{pxf}-T \text{vx0})^2}{T^3}-\frac{12 (\text{vxf}-\text{vx0}) (-\text{px0}+\text{pxf}-T \text{vx0})}{T^2}\\
+&+\frac{12 (-\text{py0}+\text{pyf}-T \text{vy0})^2}{T^3}-\frac{12 (\text{vyf}-\text{vy0}) (-\text{py0}+\text{pyf}-T \text{vy0})}{T^2}\\
+&+\frac{12 (-\text{pz0}+\text{pzf}-T \text{vz0})^2}{T^3}-\frac{12 (\text{vzf}-\text{vz0}) (-\text{pz0}+\text{pzf}-T \text{vz0})}{T^2}\\
+&+\frac{4 (\text{vxf}-\text{vx0})^2}{T}+\frac{4 (\text{vyf}-\text{vy0})^2}{T}+\frac{4 (\text{vzf}-\text{vz0})^2}{T}+T
+\end{aligned}
+
+$$
