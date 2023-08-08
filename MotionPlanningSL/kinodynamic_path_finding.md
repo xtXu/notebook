@@ -201,7 +201,7 @@ According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$,
 $$
 \begin{aligned}
 &\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(0,\lambda_1,\lambda_2\right)\\
-&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,\lambda_1,\lambda_2)
+&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,-\lambda_1,-\lambda_2)
 \end{aligned}
 $$
 Solving $\dot{\lambda}=(0,\lambda_1,\lambda_2)$, we can obtain
@@ -341,4 +341,122 @@ During the planning, randomly try connecting the cur nodes to the goal using OBV
 ![400](../Resource/kinodynamic_path_finding_img_18.png)
 
 ## Kinodynamic RRT*
- 
+
+
+
+
+
+
+## Appendix
+### Solving OBVP for partially-free final state
+$s_0$, $p_f$ is given, $v_f$ and $a_f$ is free:
+$$
+\begin{aligned}
+&J=h(s(T))+\int_0^T g(s(t),u(t))dt=\int_0^T \frac{1}{T}j(t)^2dt\\
+&h(s(T))= 0\\
+&g(s(t),u(t))=\frac{1}{T}u(t)^2=\frac{1}{T}j(t)^2
+\end{aligned}
+$$
+Introduce the costate:
+$$
+\lambda=(\lambda_1,\lambda_2,\lambda_3)
+$$
+Define the Hamiltonian function:
+$$
+\begin{aligned}
+H(s,u,\lambda)&=\frac{1}{T}j^2+\lambda^T f_s(s,u)\\
+&=\frac{1}{T}j^2+\lambda_1v+\lambda_2a+\lambda_3j
+\end{aligned}
+$$
+According to $\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)$, 
+$$
+\begin{aligned}
+&\nabla_s H(s,u,\lambda) = \left(\frac{\partial H}{\partial p},\frac{\partial H}{\partial v},\frac{\partial H}{\partial a}\right)=\left(0,\lambda_1,\lambda_2\right)\\
+&\dot{\lambda}=-\nabla_s H(s^*,u^*,\lambda)=(0,-\lambda_1,-\lambda_2)
+\end{aligned}
+$$
+For the free final state, 
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+$$
+\begin{cases} 
+\lambda_1=\alpha\\
+\lambda_2=-\alpha t+\beta\\
+\lambda_3=\frac{1}{2}\alpha^2t-\beta t+\gamma \\
+\end{cases}
+$$
+which can also be formulated to simplify the next  calculation:
+$$
+\lambda(t)=\frac{1}{T}\begin{bmatrix}-2\alpha\\2\alpha t+2\beta\\-\alpha t^2-2\beta t-2\gamma\end{bmatrix}
+$$
+According to $u^*=j^*=\arg \min_j H(s^*,j,\lambda)$,
+$$
+\begin{aligned}
+&H(s^*,j,\lambda)=\frac{1}{T}j^2+\lambda_1 v^*+\lambda_2 a^* +\lambda_3 j\\
+&\frac{\partial H(s^*,j,\lambda)}{\partial j}=\frac{2}{T}j+\lambda_3=0\\
+&j=-\frac{T}{2}\lambda_3
+\end{aligned}
+$$
+Finally obtain
+$$
+u^*=j^*=\frac{1}{2}\alpha t^2+\beta t+\gamma
+$$
+Integrate $u^*$, consider the initial state $s_0=(p_0,v_0,a_0)$
+$$
+s^*(t)=\left[\begin{array}{c}
+\frac{\alpha}{120} t^5+\frac{\beta}{24} t^4+\frac{\gamma}{6} t^3+\frac{a_0}{2} t^2+v_0 t+p_0 \\
+\frac{\alpha}{24} t^4+\frac{\beta}{6} t^3+\frac{\gamma}{2} t^2+a_0 t+v_0 \\
+\frac{\alpha}{6} t^3+\frac{\beta}{2} t^2+\gamma t+a_0
+\end{array}\right]
+$$
+given $s_f=s(T)=(p_f,v_f,a_f)$,
+$$
+\begin{aligned}
+& {\left[\begin{array}{ccc}
+\frac{1}{120} T^5 & \frac{1}{24} T^4 & \frac{1}{6} T^3 \\
+\frac{1}{24} T^4 & \frac{1}{6} T^3 & \frac{1}{2} T^2 \\
+\frac{1}{6} T^3 & \frac{1}{2} T^2 & T
+\end{array}\right]\left[\begin{array}{c}
+\alpha \\
+\beta \\
+\gamma
+\end{array}\right]=\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]} \\
+& {\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]=\left[\begin{array}{c}
+p_f-p_0-v_0 T-\frac{1}{2} a_0 T^2 \\
+v_f-v_0-a_0 T \\
+a_f-a_0
+\end{array}\right]}
+\end{aligned}
+$$
+solving
+$$
+\left[\begin{array}{l}
+\alpha \\
+\beta \\
+\gamma
+\end{array}\right]=\frac{1}{T^5}\left[\begin{array}{ccc}
+720 & -360 T & 60 T^2 \\
+-360 T & 168 T^2 & -24 T^3 \\
+60 T^2 & -24 T^3 & 3 T^4
+\end{array}\right]\left[\begin{array}{c}
+\Delta p \\
+\Delta v \\
+\Delta a
+\end{array}\right]
+$$
+The final optimal cost is $\int_0^T\frac{1}{T}{j^*}^2$ 
+$$
+J=\gamma^2+\beta \gamma T+\frac{1}{3} \beta^2 T^2+\frac{1}{3} \alpha \gamma T^2+\frac{1}{4} \alpha \beta T^3+\frac{1}{20} \alpha^2 T^4
+$$
+$J$ only depends on $T$, and the boundary states (known), so we can even get an optimal $T$ through polynomial function root finding problem.
