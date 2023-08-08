@@ -414,48 +414,16 @@ $$
 given $p(T)=p_f$,
 $$
 \begin{aligned}
-& {\left[\begin{array}{ccc}
-\frac{1}{120} T^5 & \frac{1}{24} T^4 & \frac{1}{6} T^3 \\
-\frac{1}{24} T^4 & \frac{1}{6} T^3 & \frac{1}{2} T^2 \\
-\frac{1}{6} T^3 & \frac{1}{2} T^2 & T
-\end{array}\right]\left[\begin{array}{c}
-\alpha \\
-\beta \\
-\gamma
-\end{array}\right]=\left[\begin{array}{c}
-\Delta p \\
-\Delta v \\
-\Delta a
-\end{array}\right]} \\
-& {\left[\begin{array}{c}
-\Delta p \\
-\Delta v \\
-\Delta a
-\end{array}\right]=\left[\begin{array}{c}
-p_f-p_0-v_0 T-\frac{1}{2} a_0 T^2 \\
-v_f-v_0-a_0 T \\
-a_f-a_0
-\end{array}\right]}
+p_f&=\frac{1}{2}\left(a_0+\frac{\alpha}{6} T^3\right) T^2+\left(v_0-\frac{\alpha}{24} T^4\right) T+\left(p_0+\frac{\alpha}{120} T^5\right)\\
+\Delta p&=p_f-p_0-v_0T-\frac{a_0}{2}T^2
 \end{aligned}
 $$
 solving
 $$
-\left[\begin{array}{l}
-\alpha \\
-\beta \\
-\gamma
-\end{array}\right]=\frac{1}{T^5}\left[\begin{array}{ccc}
-720 & -360 T & 60 T^2 \\
--360 T & 168 T^2 & -24 T^3 \\
-60 T^2 & -24 T^3 & 3 T^4
-\end{array}\right]\left[\begin{array}{c}
-\Delta p \\
-\Delta v \\
-\Delta a
-\end{array}\right]
+\alpha=\frac{20\Delta p}{T^5}
 $$
-The final optimal cost is $\int_0^T\frac{1}{T}{j^*}^2$ 
+The final optimal cost is 
 $$
-J=\gamma^2+\beta \gamma T+\frac{1}{3} \beta^2 T^2+\frac{1}{3} \alpha \gamma T^2+\frac{1}{4} \alpha \beta T^3+\frac{1}{20} \alpha^2 T^4
+J=\int_0^T \frac{1}{T} j^*(t)^2 d t=\int_0^T \frac{1}{T}\left(\frac{10 \Delta p}{T^5}(t-T)\right)^2 d t
 $$
-$J$ only depends on $T$, and the boundary states (known), so we can even get an optimal $T$ through polynomial function root finding problem.
+
