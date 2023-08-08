@@ -463,7 +463,10 @@ and $A$ is nilpotent, $\forall k\geq 2,A^k=0$, so we can get
 $$
 e^{At}=I+At=\begin{bmatrix}1 & 0 & 0 & t & 0 & 0\\0 & 1 & 0 & 0 & t & 0\\0 & 0 & 1& 0 & 0 & t\\0 & 0 & 0 & 1 & 0 & 0\\0 & 0 & 0 & 0 & 1 & 0\\0 & 0 & 0 & 0 & 0 & 1\end{bmatrix}
 $$
-Based on the 
+Based on the $s(t)=e^{At}s_0+[\int_{0}^{t} e^{A(t-\sigma)}B d\sigma] u_m$, 
+$$
+
+$$
 
 Objective:
 $$
