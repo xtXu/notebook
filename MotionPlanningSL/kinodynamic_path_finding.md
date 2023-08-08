@@ -401,17 +401,17 @@ $$
 $$
 Finally obtain
 $$
-u^*=j^*=\frac{}{}
+u^*=j^*=\frac{\alpha}{2}(t-T)^2
 $$
 Integrate $u^*$, consider the initial state $s_0=(p_0,v_0,a_0)$
 $$
 s^*(t)=\left[\begin{array}{c}
-\frac{\alpha}{120} t^5+\frac{\beta}{24} t^4+\frac{\gamma}{6} t^3+\frac{a_0}{2} t^2+v_0 t+p_0 \\
-\frac{\alpha}{24} t^4+\frac{\beta}{6} t^3+\frac{\gamma}{2} t^2+a_0 t+v_0 \\
-\frac{\alpha}{6} t^3+\frac{\beta}{2} t^2+\gamma t+a_0
+\frac{\alpha}{120}(t-T)^5+\frac{1}{2}\left(a_0+\frac{\alpha}{6} T^3\right) t^2+\left(v_0-\frac{\alpha}{24} T^4\right) t+\left(p_0+\frac{\alpha}{120} T^5\right) \\
+\frac{\alpha}{24}(t-T)^4+\left(a_0+\frac{\alpha}{6} T^3\right) t+\left(v_0-\frac{\alpha}{24} T^4\right) \\
+\frac{\alpha}{6}(t-T)^3+\left(a_0+\frac{\alpha}{6} T^3\right)
 \end{array}\right]
 $$
-given $s_f=s(T)=(p_f,v_f,a_f)$,
+given $p(T)=p_f$,
 $$
 \begin{aligned}
 & {\left[\begin{array}{ccc}
