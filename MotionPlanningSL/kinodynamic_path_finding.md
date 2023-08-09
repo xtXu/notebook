@@ -378,7 +378,10 @@ The optimal control $u^*(t)$
 $$
 u^*(t)=R^{-1} B^T \exp \left[A^T(\tau-t)\right] G(\tau)^{-1}\left[x_1-\bar{x}(\tau)\right] .
 $$
-$G(t)$ is the weighted controllability 
+$G(t)$ is the weighted controllability Gramian:
+$$
+G(t)=\int_0^t exp(A(t-t'))BR^{-1}B^Texp[A^T(t-t')]dt'
+$$
 
 
 
