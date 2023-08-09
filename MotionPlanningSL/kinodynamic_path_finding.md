@@ -597,3 +597,7 @@ J&=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t\\
 \end{aligned}
 
 $$
+To minimize $J$, solve the derivative of $J$ with respect to $T$ 
+$$
+
+$$
