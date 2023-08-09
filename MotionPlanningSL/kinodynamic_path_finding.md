@@ -341,7 +341,27 @@ During the planning, randomly try connecting the cur nodes to the goal using OBV
 ![400](../Resource/kinodynamic_path_finding_img_18.png)
 
 ## Kinodynamic RRT*
-
+### Algorithm
+![600](../Resource/kinodynamic_path_finding_img_20.png)
+### Sample
+Instead of sampling in Euclidean space, **sample in full state space.**  
+The LTI system state-space equation:
+$$
+\dot{x(t)}=Ax(t)+Bu(t)+c
+$$
+For example, the double integrator system
+$$
+x=\left[\begin{array}{l}
+p \\
+v
+\end{array}\right], A=\left[\begin{array}{ll}
+0 & I \\
+0 & 0
+\end{array}\right], B=\left[\begin{array}{l}
+0 \\
+I
+\end{array}\right]
+$$
 
 
 
