@@ -394,8 +394,21 @@ which is the solution to the differential equation
 $$
 \dot{\bar{x}}(t)=A \bar{x}(t)+c, \bar{x}(0)=x_0
 $$
-
-
+#### Fixed final state, free final time
+If we want to find the optimal arrive time $\tau$, fill in the $u^*(t)$ into the cost function
+$$
+c[\tau]=\tau+\left[x_1-\bar{x}(\tau)\right]^T G(t)^{-1}\left[x_1-\bar{x}(\tau)\right] .
+$$
+The optimal $\tau$ can be found by taking the derivative of $c[\tau]$ with respect to $\tau$
+$$
+\dot{c}[\tau]=1-2\left(A x_1+c\right)^T d(\tau)-d(\tau)^T B R^{-1} B^T d(\tau)
+$$
+where
+$$
+d(\tau)=G(t)^{-1}\left[x_1-\bar{x}(\tau)\right] .
+$$
+Solve $\dot{c}[\tau]=0$ for $\tau^*$.  
+The function $c[\tau]$ may have multiple local minima, for a double integrator system, it's a 4th order polynomial.
 
 
 
