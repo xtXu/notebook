@@ -390,7 +390,11 @@ $\bar{x}(t)$ describe what the state $x$ would be at time $t$ if no control inpu
 $$
 \bar{x}(t)=exp(At)x_0+\int_0^t exp[A(t-t')]cdt'
 $$
-which is the
+which is the solution to the differential equation
+$$
+\dot{\bar{x}}(t)=A \bar{x}(t)+c, \bar{x}(0)=x_0
+$$
+
 
 
 
