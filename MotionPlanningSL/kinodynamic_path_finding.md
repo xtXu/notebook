@@ -416,7 +416,25 @@ Choose one with the minimal cost and check **$x(t)$ and $u(t)$ are in bounds**.
 *Chech every nodes in the tree is not efficient*
 #### Find near nodes efficiently
 If we set a cost tolerance $r$, we can calculate the forward-reachable set (reached by $x_{rand}$) and the backward-reachable set (reach $x_{rand}$).   
-Then we can store nodes in form of a kd-tree and do range query.
+Then we can store nodes in form of a kd-tree and do range query.  
+
+$$
+c[\tau]=\tau+\left[x_1-\bar{x}(\tau)\right]^T G(t)^{-1}\left[x_1-\bar{x}(\tau)\right] .
+$$
+This is the cost of transferring from $x_0$ to $x_1$ with time $\tau$.  
+Given $x_0$, cost tolerance $r$ and time $\tau$, the forward-reachable set of $x_0$ is
+$$
+\begin{aligned}
+& \left\{x_1 \mid \tau+\left[x_1-\bar{x}(\tau)\right]^T G(t)^{-1}\left[x_1-\bar{x}(\tau)\right]<r\right\} \\
+= & \left\{x_1 \mid\left[x_1-\bar{x}(\tau)\right]^T \frac{G(t)^{-1}}{r-\tau}\left[x_1-\bar{x}(\tau)\right]<1\right\} . \\
+= & \mathcal{E}[\bar{x}(\tau), G(t)(r-\tau)] .
+\end{aligned}
+$$
+where $\mathcal{E}[x,M]$ is an **ellipsoid** with center $x$ and positive weight matrix $M$
+$$
+\mathcal{E}[x, M]=\left\{x^{\prime} \mid\left(x^{\prime}-x\right)^T M^{-1}\left(x^{\prime}-x\right)<1\right\} .
+$$
+![500](../Resource/kinodynamic_path_finding_img_21.png)
 
 
 
