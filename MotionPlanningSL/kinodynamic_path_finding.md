@@ -382,8 +382,15 @@ $G(t)$ is the weighted controllability Gramian:
 $$
 G(t)=\int_0^t exp(A(t-t'))BR^{-1}B^Texp[A^T(t-t')]dt'
 $$
-
-
+which is the solution to the Lyapunov equation:
+$$
+\dot{G}(t)=A G(t)+G(t) A^T+B R^{-1} B^T, G(0)=0 .
+$$
+$\bar{x}(t)$ describe what the state $x$ would be at time $t$ if no control input:
+$$
+\bar{x}(t)=exp(At)x_0+\int_0^t exp[A(t-t')]cdt'
+$$
+which is the
 
 
 
