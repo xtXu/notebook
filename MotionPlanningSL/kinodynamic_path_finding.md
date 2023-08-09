@@ -362,6 +362,23 @@ v
 I
 \end{array}\right]
 $$
+### Near
+If without motion constraints, Euclidean or Manhattan distance can be used.  
+In state space, **bring in optimal control.**
+
+If bring optimal control, define cost function.  
+Typically, a quadratic form of time-energy optimal is adopted.
+$$
+c[\pi]=\int_0^\tau\left(1+u(t)^T R u(t)\right) d t
+$$
+Two states are near if the cost is small.
+
+#### Fixed final state, fixed final time
+The optimal control $u^*(t)$
+$$
+u^*(t)=R^{-1} B^T \exp \left[A^T(\tau-t)\right] G(\tau)^{-1}\left[x_1-\bar{x}(\tau)\right] .
+$$
+$G(t)$ is the weighted controllability 
 
 
 
