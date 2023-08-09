@@ -599,5 +599,11 @@ J&=\int_0^T\left(1+a_x^2+a_y^2+a_z^2\right) d t\\
 $$
 To minimize $J$, solve the derivative of $J$ with respect to $T$, given $v_f=0$
 $$
-D
+\begin{aligned}
+\frac{dJ}{dT}=&-\frac{36 \left((p_{x_f}-p_{x_0})^2+(p_{y_f}-p_{y_0})^2+(p_{z_f}-p_{z_0})^2\right)}{T^4}\\
+&+\frac{24 ((p_{x_f}-p_{x_0})v_{x_0}+(p_{y_f}-p_{y_0})v_{y_0}+(p_{z_f}-p_{z_0})v_{z_0})}{T^3}\\
+&-\frac{4 \left(v_{x_0}^2+v_{y_0}^2+v_{z_0}^2\right)}{T^2}+1\\
+\frac{dJ}{dT}&=0
+\end{aligned}
 $$
+Solve the zero point of the polynomial to obtain $T$, then the optimal $J$ is output. 
