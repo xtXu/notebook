@@ -369,7 +369,7 @@ In state space, **bring in optimal control.**
 If bring optimal control, define cost function.  
 Typically, a quadratic form of time-energy optimal is adopted.
 $$
-c[\pi]=\int_0^\tau\left(1+u(t)^T R u(t)\right) d t
+c[\tau]=\int_0^\tau\left(1+u(t)^T R u(t)\right) d t
 $$
 Two states are near if the cost is small.
 
