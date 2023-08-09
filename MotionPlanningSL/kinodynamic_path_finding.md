@@ -387,6 +387,7 @@ $$
 
 
 
+
 ## Appendix
 ### Solving OBVP for partially-free final state
 $s_0$, $p_f$ is given, $v_f$ and $a_f$ is free:
