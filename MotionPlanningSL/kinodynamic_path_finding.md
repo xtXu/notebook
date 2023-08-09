@@ -410,6 +410,14 @@ $$
 Solve $\dot{c}[\tau]=0$ for $\tau^*$.  
 The function $c[\tau]$ may have multiple local minima, for a double integrator system, it's a 4th order polynomial.
 
+### Choose Parent
+If we sample a random state, we can calculate control policy and cost from other state-nodes to the sampled state using OBVP.  
+Choose one with the minimal cost and check **$x(t)$ and $u(t)$ are in bounds**.  
+*Chech every nodes in the tree is not efficient*
+#### Find near nodes efficiently
+If we set a cost tolerance $r$, we can calculate the forward-reachable set (reached by $x_{rand}$) and the backward-reachable set (reach $x_{rand}$).   
+Then we can store nodes in form of a kd-tree and do range query.
+
 
 
 ## Appendix
