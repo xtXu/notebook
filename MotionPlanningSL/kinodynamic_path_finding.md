@@ -435,6 +435,19 @@ $$
 \mathcal{E}[x, M]=\left\{x^{\prime} \mid\left(x^{\prime}-x\right)^T M^{-1}\left(x^{\prime}-x\right)<1\right\} .
 $$
 ![500](../Resource/kinodynamic_path_finding_img_21.png)
+Hence, the forward-reachable set is the union of high dimensional ellipsoids for all possible arrival times $\tau$.  
+For **simplification**
++ Sample several $\tau$ and calculate axis-aligned bounding box of the ellipsoids for each $\tau$, and update maximum and minimum in each dimension
++ $$\prod_{k=1}^n\left[\begin{array}{l}\min \{0<\tau<r\}\left(\bar{x}(\tau)_k-\sqrt{G[\tau]_{(k, k)}(r-\tau)}\right) \\\max \{0<\tau<r\}\left(\bar{x}(\tau)_k+\sqrt{G[\tau]_{(k, k)}(r-\tau)}\right)\end{array}\right]$$
+**The backward-reachable set is similar.**
+
+**For near query and choosing parent, $X_{near}$ can be found from the backward-reachable set of $x_{rand}$.**  
+
+### Rewire
+**For rewiring, we calculate forward-reachable set of $x_{rand}$ and solve OBVPs**.
+
+![](../Resource/kinodynamic_path_finding_img_22.png)
+
 
 
 
