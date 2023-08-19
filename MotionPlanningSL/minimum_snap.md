@@ -27,3 +27,6 @@ The states and inputs of a quadrotor can be written as **algebraic functions** o
 $$
 \mathbf{X}=\left[x, y, z, \phi, \theta, \psi, \dot{x}, \dot{y}, \dot{z}, \omega_x, \omega_y, \omega_z\right]^T
 $$
+**Nonlinear dynamics:**
++ Newtow Equation: $$m \ddot{\boldsymbol{p}}=\left[\begin{array}{c}0 \\0 \\-m g\end{array}\right]+\boldsymbol{R}\left[\begin{array}{c}0 \\0 \\F_1+F_2+F_3+F_4\end{array}\right]$$
++ 
