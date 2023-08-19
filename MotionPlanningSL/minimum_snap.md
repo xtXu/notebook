@@ -6,3 +6,9 @@
 + The robot should not stop at turns
 + Save energy
 
+**Why trajectory generation/optimizaton:**
++ Path quality
++ Time efficiency 
+
+## Smooth trajectory generation
++ 
