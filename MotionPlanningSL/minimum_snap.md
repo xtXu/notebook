@@ -14,4 +14,5 @@
 + Boundary condition: start, goal position (orientations)
 + Intermediate condition: waypoint positions (orientations)
 	+ found by path finding
-+ 
++ Smoothness criteria
+	+ minimizing rate of change of "input"
