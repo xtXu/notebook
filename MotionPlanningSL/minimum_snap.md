@@ -23,4 +23,4 @@ The states and inputs of a quadrotor can be written as **algebraic functions** o
 + A possible choice: $\sigma=[x,y,z,\psi]^T$
 + Trajectory in the space of flat outputs: $\sigma(t)=[T_0,T_M]\rightarrow \mathbb{R}^3\times SO(2)$ 
 
-**Quadrotor states:** 
+**Quadrotor states:**  
