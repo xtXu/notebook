@@ -19,6 +19,8 @@
 
 ## Differential Flatness
 The states and inputs of a quadrotor can be written as **algebraic functions** of **four carefully selected flat outputs and their derivatives.**
-+ Any smooth trajectory in the space of flat outputs can be followed by the under-actuated quadrotor
++ Any smooth trajectory in the space of flat outputs (with reasonably bounded derivatives) can be followed by the under-actuated quadrotor (geometric control)
 + A possible choice: $\sigma=[x,y,z,\psi]^T$
 + Trajectory in the space of flat outputs: $\sigma(t)=[T_0,T_M]\rightarrow \mathbb{R}^3\times SO(2)$ 
+
+**Quadrotor states:** 
