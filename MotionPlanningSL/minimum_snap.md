@@ -16,3 +16,5 @@
 	+ found by path finding
 + Smoothness criteria
 	+ minimizing rate of change of "input"
+
+## Differential Flatness
