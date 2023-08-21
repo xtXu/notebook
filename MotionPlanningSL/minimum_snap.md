@@ -190,5 +190,28 @@ p_{j+1, l} \\
 $$
 
 In summary, the constrained **QP** formulation:
+$$
+\begin{aligned}
+& \min \left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right]^T\left[\begin{array}{ccc}
+\mathbf{Q}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \mathbf{Q}_M
+\end{array}\right]\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right] \\
+& \text { s.t. } \mathbf{A}_{\mathrm{eq}}\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right]=\mathbf{d}_{e q} \\
+&
+\end{aligned}
+$$
 
  
