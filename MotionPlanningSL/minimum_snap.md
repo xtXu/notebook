@@ -63,4 +63,6 @@ Choose the **flat output** $\sigma=[x,y,z,\psi]^T$,
 + we know that $\boldsymbol{\omega}_{B W}=\omega_x \mathbf{x}_B+\omega_y \mathbf{y}_B+\omega_z \mathbf{z}_B$, then $$\begin{aligned}\boldsymbol{\omega}_{B W}\times\mathbf{z}_B&=\omega_x\mathbf{x}_B\times\mathbf{z}_B+\omega_y\mathbf{y}_B\times\mathbf{z}_B+\omega_z\mathbf{z}_B\times\mathbf{z}_B \\ \mathbf{h}_\omega&=-\omega_x\mathbf{y}_B+\omega_y\mathbf{x}_B\end{aligned}$$
 + Multiply both sides by $\mathbf{x}_B$ or $\mathbf{y}_B$, the angular velocitys can be found:$$\omega_x=-\mathbf{h}_\omega \cdot \mathbf{y}_B, \quad \omega_y=\mathbf{h}_\omega \cdot \mathbf{x}_B$$
 + Since $\boldsymbol{\omega}_{B W}=\boldsymbol{\omega}_{B C}+\boldsymbol{\omega}_{C W}$, $\boldsymbol{\omega}_{B C}$ has no $\mathbf{z}_B$ component, $$\omega_z=\boldsymbol{\omega}_{B W} \cdot \mathbf{z}_B=\boldsymbol{\omega}_{C W} \cdot \mathbf{z}_B=\dot{\psi} \mathbf{z}_W \cdot \mathbf{z}_B$$
+**Planning-control loop:**
+![](../Resource/minimum_snap_img_2.png)
  
