@@ -93,4 +93,6 @@ $$
 + Each is polynomial
 + No need to fix the order, but keep it same make the problem easier
 + Time duration must be known
-+ Derivative constraints: $$
++ Derivative constraints: $\left\{\begin{aligned} f_0^{(k)}\left(T_{0}\right) & =x_{0}^{(k)} \\ f_N^{(k)}\left(T_N\right) & =x_{T}^{(k)}\end{aligned}\right.$
++ Continuity constraints: $f_{j}^{(k)}(T_j)=f_{j+1}^{(k)}(T_j)$
+![](../Resource/minimum_snap_img_4.png)
