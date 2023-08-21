@@ -112,4 +112,8 @@ Minimum degree polynomial to ensure smoothness for k-segment trajectory:
 	+ Unknown nums: $(N+1)*k$
 	+ $(N+1)*k=k+5,N=\frac{5}{k}$
 
+Timeline:
++ Many relative timeline: Numerical stable
++ One common timeline: Mathematical clear
+
  
