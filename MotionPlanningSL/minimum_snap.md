@@ -111,4 +111,5 @@ Minimum degree polynomial to ensure smoothness for k-segment trajectory:
 	+ Constrain nums: $3+3+(k-1)=k+5$
 	+ Unknown nums: $(N+1)*k$
 	+ $(N+1)*k=k+5,N=\frac{5}{k}$
-+ 
+
+ 
