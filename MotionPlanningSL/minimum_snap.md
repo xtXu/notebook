@@ -57,5 +57,7 @@ Choose the **flat output** $\sigma=[x,y,z,\psi]^T$,
 + Define the yaw vector (Z-X-Y Euler):$$\mathbf{x}_C=\left[\cos \boldsymbol{\sigma}_4, \sin \boldsymbol{\sigma}_4, 0\right]^T$$
 + Orientation can be expressed:$$\mathbf{y}_B=\frac{\mathbf{z}_B \times \mathbf{x}_C}{\left\|\mathbf{z}_B \times \mathbf{x}_C\right\|}, \quad \mathbf{x}_B=\mathbf{y}_B \times \mathbf{z}_B \quad \boldsymbol{R}_B=\left[\begin{array}{lll}\mathbf{x}_B & \mathbf{y}_B & \mathbf{z}_B\end{array}\right]$$
 **Angular Velocity:**
-+ Take the derivative of the motion equation:$$m \ddot{\boldsymbol{p}}=-m g \mathbf{z}_W+u_1 \mathbf{z}_B . \quad \longrightarrow \quad m \dot{\boldsymbol{a}}=\dot{u}_1 \mathbf{z}_B+\boldsymbol{\omega}_{B W} \times u_1 \mathbf{z}_B$$The $\omega_{BW}$ is the body angular velocity viewed in the world framen  
++ Take the derivative of the motion equation:$$m \ddot{\boldsymbol{p}}=-m g \mathbf{z}_W+u_1 \mathbf{z}_B . \quad \longrightarrow \quad m \dot{\boldsymbol{a}}=\dot{u}_1 \mathbf{z}_B+\boldsymbol{\omega}_{B W} \times u_1 \mathbf{z}_B$$The $\omega_{BW}$ is the body angular velocity viewed in the world frame.
++ vertical thrust: $\dot{u}_1=\mathbf{z}_B \cdot m \dot{\boldsymbol{a}}$
++ 
  
