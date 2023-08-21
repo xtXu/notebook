@@ -75,6 +75,22 @@ Choose the **flat output** $\sigma=[x,y,z,\psi]^T$,
 	+ Easy and closed form calculation of derivatives
 	+ Decoupled trajectory generation in three dimensions
 
-## Minimum Snap
+## Optimization-based Trajectory Generation
++ Minimize Jerk: minimize angualr velocity, good for visual tracking
++ Minimize Snap: minimize differential thrust, save energy
+![](../Resource/minimum_snap_img_3.png)
 
- 
+
+Multi-segment Formulation:
+$$
+ f(t)=\left\{\begin{array}{cc}
+f_1(t) \doteq \sum_{i=0}^N p_{1, i} t^i & T_0 \leq t \leq T_1 \\
+f_2(t) \doteq \sum_{i=0}^N p_{2, i} t^i & T_1 \leq t \leq T_2 \\
+\vdots & \vdots \\
+f_M(t) \doteq \sum_{i=0}^N p_{M, i} t^i & T_{M-1} \leq t \leq T_M
+\end{array}\right.
+$$
++ Each is polynomial
++ No need to fix the order, but keep it same make the problem easier
++ Time duration must be known
++ Derivative constraints: $$
