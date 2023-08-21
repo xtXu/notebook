@@ -131,25 +131,11 @@ $$
 which is a **Quadratic form:**
 $$
 \begin{aligned}
-& =\left[\begin{array}{c}
-\vdots \\
-p_i \\
-\vdots
-\end{array}\right]^T\left[\begin{array}{ccc}
-\vdots & \frac{i(i-1)(i-2)(i-3) l(l-1)(l-2)(l-3)}{i+l-7} \\
-\vdots & \ldots
-\end{array}\right]\left[\begin{array}{c}
-\vdots \\
-p_l \\
-\vdots
-\end{array}\right] \\
-& \Rightarrow J_j(T)=\mathbf{p}_j^T \mathbf{Q}_j \mathbf{p}_j \text { Minimize this! }
-\end{aligned}
-
-\begin{aligned}
-J_j(T)=
+J_j(T)&=
 \begin{bmatrix}\vdots\\p_i\\\vdots\end{bmatrix}^T
 \begin{bmatrix}&\vdots&\\\dots&q_{il}&\dots\\&\vdots&\end{bmatrix}
+\begin{bmatrix}\vdots\\p_l\\\vdots\end{bmatrix}\\
+&=\mathbf{p}_j^T\mathbf{Q}_j\mathbf{p}_j
 \end{aligned}
 $$
 
