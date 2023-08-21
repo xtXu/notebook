@@ -109,4 +109,6 @@ Minimum degree polynomial to ensure smoothness for one-segment trajectory:
 Minimum degree polynomial to ensure smoothness for k-segment trajectory:
 + Minimum jerk ($p,v,a$ fixed at start and goal, $p$ fixed in intermidiate point): 
 	+ Constrain nums: $3+3+(k-1)=k+5$
-	+ Unknown nums: 
+	+ Unknown nums: $(N+1)*k$
+	+ $(N+1)*k=k+5,N=\frac{5}{k}$
++ 
