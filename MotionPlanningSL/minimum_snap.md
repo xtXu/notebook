@@ -103,4 +103,10 @@ Determine the trajectory order:
 + Minimize control input at an order
 
 Minimum degree polynomial to ensure smoothness for one-segment trajectory:
-+ Minimum jerk (the $p,v,a$ at boundary is fixed)
++ Minimum jerk ( $p,v,a$ at boundary is fixed): $N=2*3(jerk)-1=5$
++ Minimum snap ($p,v,a,j$ at boundary is fixed): $N=2*4(snap)-1=7$
+
+Minimum degree polynomial to ensure smoothness for k-segment trajectory:
++ Minimum jerk ($p,v,a$ fixed at start and goal, $p$ fixed in intermidiate point): 
+	+ Constrain nums: $3+3+(k-1)=k+5$
+	+ Unknown nums: 
