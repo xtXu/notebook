@@ -138,5 +138,57 @@ J_j(T)&=
 &=\mathbf{p}_j^T\mathbf{Q}_j\mathbf{p}_j
 \end{aligned}
 $$
+**Derivative constraint for one segment:**
+$$
+\begin{aligned}
+& f_j^{(k)}\left(T_j\right)=x_j^{(k)} \\
+& \Rightarrow \sum_{i \geq k} \frac{i !}{(i-k) !} T_j^{i-k} p_{j, i}=x_{T, j}^{(k)} \\
+& \Rightarrow\left[\begin{array}{lll}
+\cdots & \frac{i !}{(i-k) !} T_j^{i-k} & \cdots
+\end{array}\right]\left[\begin{array}{c}
+\vdots \\
+p_{j, i} \\
+\vdots
+\end{array}\right]=x_{T, j}^{(k)} \\
+& \Rightarrow\left[\begin{array}{ccc}
+\cdots & \frac{i !}{(i-k) !} T_{j-1}^{i-k} & \cdots \\
+\cdots & \frac{i !}{(i-k) !} T_j^{i-k} & \cdots
+\end{array}\right]\left[\begin{array}{c}
+\vdots \\
+p_{j, i} \\
+\vdots
+\end{array}\right]=\left[\begin{array}{c}
+x_{0, j}^{(k)} \\
+x_{T, j}^{(k)}
+\end{array}\right] \\
+& \Rightarrow \mathbf{A}_j \mathbf{p}_j=\mathbf{d}_j
+\end{aligned}
+$$
+
+**Continuity constraint:**
+$$
+\begin{aligned}
+& f_j^{(k)}\left(T_j\right)=f_{j+1}^{(k)}\left(T_j\right) \\
+& \Rightarrow \sum_{i \geq k} \frac{i !}{(i-k) !} T_j^{i-k} p_{j, i}-\sum_{l \geq k} \frac{l !}{(l-k) !} T_j^{l-k} p_{j+1, l}=0 \\
+& \Rightarrow\left[\begin{array}{lllll}
+\cdots & \frac{i !}{(i-k) !} T_j^{i-k} & \cdots & -\frac{l !}{(l-k) !} T_j^{l-k} & \cdots
+\end{array}\right]\left[\begin{array}{c}
+\vdots \\
+p_{j, i} \\
+\vdots \\
+p_{j+1, l} \\
+\vdots
+\end{array}\right]=0 \\
+& \Rightarrow\left[\begin{array}{ll}
+\mathbf{A}_j & -\mathbf{A}_{j+1}
+\end{array}\right]\left[\begin{array}{c}
+\mathbf{p}_j \\
+\mathbf{p}_{j+1}
+\end{array}\right]=0 \\
+&
+\end{aligned}
+$$
+
+In summary, the constrained **QP** formulation:
 
  
