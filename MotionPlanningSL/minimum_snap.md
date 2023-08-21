@@ -66,3 +66,15 @@ Choose the **flat output** $\sigma=[x,y,z,\psi]^T$,
 **Planning-control loop:**
 ![](../Resource/minimum_snap_img_2.png)
  
+
+## Polynomial Trajectories
++ Flat outputs: $\sigma=[x,y,z,\psi]^T$
++ Trajectory in the space of flat outputs: $\sigma(t)=[T_0,T_M]\rightarrow \mathbb{R}^3\times SO(2)$ 
++ Polynomial function used to specify trajectories in the space of outputs:
+	+ Easy determination of smoothness criterion with polynomial orders
+	+ Easy and closed form calculation of derivatives
+	+ Decoupled trajectory generation in three dimensions
+
+## Minimum Snap
+
+ 
