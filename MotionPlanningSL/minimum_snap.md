@@ -61,5 +61,5 @@ Choose the **flat output** $\sigma=[x,y,z,\psi]^T$,
 + vertical thrust: $\dot{u}_1=\mathbf{z}_B \cdot m \dot{\boldsymbol{a}}$
 + we have:$$\mathbf{h}_\omega=\boldsymbol{\omega}_{B W} \times \mathbf{z}_B=\frac{m}{u_1}\left(\dot{\boldsymbol{a}}-\left(\mathbf{z}_B \cdot \dot{\boldsymbol{a}}\right) \mathbf{z}_B\right) .$$
 + we know that $\boldsymbol{\omega}_{B W}=\omega_x \mathbf{x}_B+\omega_y \mathbf{y}_B+\omega_z \mathbf{z}_B$, then $$\begin{aligned}\boldsymbol{\omega}_{B W}\times\mathbf{z}_B&=\omega_x\mathbf{x}_B\times\mathbf{z}_B+\omega_y\mathbf{y}_B\times\mathbf{z}_B+\omega_z\mathbf{z}_B\times\mathbf{z}_B \\ \mathbf{h}_\omega&=-\omega_x\mathbf{y}_B+\omega_y\mathbf{x}_B\end{aligned}$$
-+ Multiply both sides by $\mathbf{x}_B$
++ Multiply both sides by $\mathbf{x}_B$ or $\mathbf{y}_B$, the angular velocitys can be found:$$$$
  
