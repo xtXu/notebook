@@ -43,7 +43,7 @@ $$
 \omega_x \\
 \omega_y \\
 \omega_z
-\end{array}\right], \quad \boldsymbol{\omega}_B=\boldsymbol{I}^{-1}\left[-\boldsymbol{\omega}_B \times \boldsymbol{I} \cdot \boldsymbol{\omega}_B+\left[\begin{array}{l}
+\end{array}\right], \quad \boldsymbol{\dot{\omega}}_B=\boldsymbol{I}^{-1}\left[-\boldsymbol{\omega}_B \times \boldsymbol{I} \cdot \boldsymbol{\omega}_B+\left[\begin{array}{l}
 u_2 \\
 u_3 \\
 u_4
