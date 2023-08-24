@@ -329,7 +329,8 @@ J=\mathbf{d}_F^T \mathbf{R}_{F F} \mathbf{d}_F+\mathbf{d}_F^T \mathbf{R}_{F P} \
 \end{gathered}
 $$
 
-
+### Build the selection matrix
+![](../Resource/minimum_snap_img_5.png)
  
 
  
