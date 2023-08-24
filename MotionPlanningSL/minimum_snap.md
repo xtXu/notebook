@@ -221,7 +221,20 @@ $$
 ## Closed-form Solution to Minimum Snap
 
 ### Decision variable mapping
-+ Direct optimizing the polynomial trajectories is numerically unstable. (The parameters of polynomial $p_i$ )
++ Direct optimizing the polynomial trajectories is numerically unstable. (The parameters of polynomial $p_i$ don't have the physical meaning)
++ A change of variable that optimizes segment endpoint derivatives is preferred
+
+For $\mathbf{p}_j$, we can map it to $\mathbf{M}_j\mathbf{p}_j=\mathbf{d}_j$.
+
+For example, 
+$$
+\begin{aligned}
+& x(t)=p_5 t^5+p_4 t^4+p_3 t^3+p_2 t^2+p_1 t+p_0 \\
+& x^{\prime}(t)=5 p_5 t^4+4 p_4 t^3+3 p_3 t^2+2 p_2 t+p_1 \\
+& x^{\prime \prime}(t)=20 p_5 t^3+12 p_4 t^2+6 p_3 t+2 p_2
+\end{aligned}
+$$
+
  
 
  
