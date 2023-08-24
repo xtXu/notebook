@@ -244,6 +244,8 @@ T^5 & T^4 & T^3 & T^2 & T & 1 \\
 5 T^4 & 4 T^3 & 3 T^2 & 2 T & 1 & 0 \\
 20 T^3 & 12 T^2 & 6 T & 2 & 0 & 0
 \end{array}\right]
+\qquad
+\mathbf{d}_j=\left[\begin{array}{c}x_{j,0}\\ \dot{x}_{j,0} \\ \ddot{x}_{j,0} \\ x_{j,T} \\ \dot{x}_{j,T} \\ \ddot{x}_{j,T} \end{array}\right]
 $$
 Then the objective funtion is 
 $$
@@ -284,7 +286,9 @@ J&=\left[\begin{array}{c}
 \end{array}\right]
 \end{aligned}
 $$
-
+Use a selection matrix $\mathbf{C}$ to separte free ($\mathbf{d}_P$) and constraint ($\mathbf{d}_F$) variables:
++ Free: only enforced by continuity constraints, like the waypoint between two segments
++ Constraint: specified, like the initial state and final state
 
  
 
