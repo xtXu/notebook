@@ -234,6 +234,57 @@ $$
 & x^{\prime \prime}(t)=20 p_5 t^3+12 p_4 t^2+6 p_3 t+2 p_2
 \end{aligned}
 $$
+given the state when $t=0, t=T$, 
+$$
+M=\left[\begin{array}{cccccc}
+0 & 0 & 0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 2 & 0 & 0 \\
+T^5 & T^4 & T^3 & T^2 & T & 1 \\
+5 T^4 & 4 T^3 & 3 T^2 & 2 T & 1 & 0 \\
+20 T^3 & 12 T^2 & 6 T & 2 & 0 & 0
+\end{array}\right]
+$$
+Then the objective funtion is 
+$$
+\begin{aligned}
+J&=\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right]^T\left[\begin{array}{ccc}
+\mathbf{Q}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \mathbf{Q}_M
+\end{array}\right]\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right] \quad \\
+J&=\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]^T\left[\begin{array}{ccc}
+\boldsymbol{M}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \boldsymbol{M}_M
+\end{array}\right]^{-T}\left[\begin{array}{ccc}
+\mathbf{Q}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \mathbf{Q}_M
+\end{array}\right]\left[\begin{array}{ccc}
+\boldsymbol{M}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \boldsymbol{M}_M
+\end{array}\right]^{-1}\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]
+\end{aligned}
+$$
+
 
  
 
