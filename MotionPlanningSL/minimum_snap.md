@@ -214,4 +214,123 @@ $$
 \end{aligned}
 $$
 
+## Convex Optimization
+
+
+
+## Closed-form Solution to Minimum Snap
+
+### Decision variable mapping
++ Direct optimizing the polynomial trajectories is numerically unstable. (The parameters of polynomial $p_i$ don't have the physical meaning)
++ A change of variable that optimizes segment endpoint derivatives is preferred
+
+For $\mathbf{p}_j$, we can map it to $\mathbf{M}_j\mathbf{p}_j=\mathbf{d}_j$.
+
+For example, 
+$$
+\begin{aligned}
+& x(t)=p_5 t^5+p_4 t^4+p_3 t^3+p_2 t^2+p_1 t+p_0 \\
+& x^{\prime}(t)=5 p_5 t^4+4 p_4 t^3+3 p_3 t^2+2 p_2 t+p_1 \\
+& x^{\prime \prime}(t)=20 p_5 t^3+12 p_4 t^2+6 p_3 t+2 p_2
+\end{aligned}
+$$
+given the state when $t=0, t=T$, 
+$$
+M=\left[\begin{array}{cccccc}
+0 & 0 & 0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 2 & 0 & 0 \\
+T^5 & T^4 & T^3 & T^2 & T & 1 \\
+5 T^4 & 4 T^3 & 3 T^2 & 2 T & 1 & 0 \\
+20 T^3 & 12 T^2 & 6 T & 2 & 0 & 0
+\end{array}\right]
+\qquad
+\mathbf{d}_j=\left[\begin{array}{c}x_{j,0}\\ \dot{x}_{j,0} \\ \ddot{x}_{j,0} \\ x_{j,T} \\ \dot{x}_{j,T} \\ \ddot{x}_{j,T} \end{array}\right]
+$$
+Then the objective funtion is 
+$$
+\begin{aligned}
+J&=\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right]^T\left[\begin{array}{ccc}
+\mathbf{Q}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \mathbf{Q}_M
+\end{array}\right]\left[\begin{array}{c}
+\mathbf{p}_1 \\
+\vdots \\
+\mathbf{p}_M
+\end{array}\right] \quad \\
+J&=\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]^T\left[\begin{array}{ccc}
+\boldsymbol{M}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \boldsymbol{M}_M
+\end{array}\right]^{-T}\left[\begin{array}{ccc}
+\mathbf{Q}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \mathbf{Q}_M
+\end{array}\right]\left[\begin{array}{ccc}
+\boldsymbol{M}_1 & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \ddots & \mathbf{0} \\
+\mathbf{0} & \mathbf{0} & \boldsymbol{M}_M
+\end{array}\right]^{-1}\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]
+\end{aligned}
+$$
+### Fixed and free variable separation
+Use a selection matrix $\mathbf{C}$ to separte free ($\mathbf{d}_P$) and constraint ($\mathbf{d}_F$) variables:
++ Free: only enforced by continuity constraints, like the derivatives between two segments, **to optimize**
++ Constraint: specified, like the initial state, final state and intermediate waypoints, **fixed value**
+$$
+\mathbf{C}^T\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]=\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]
+\qquad
+J=\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]^T \underbrace{\mathbf{C} \boldsymbol{M}^{-T} \mathbf{Q} \boldsymbol{M}^{-1} \mathbf{C}^T}_{\mathbf{R}}\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]=\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]^T\left[\begin{array}{ll}
+\mathbf{R}_{F F} & \mathbf{R}_{F P} \\
+\mathbf{R}_{P F} & \mathbf{R}_{P P}
+\end{array}\right]\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]
+$$
+Due to the selection, 
++ The derivative constraints are modeled by the fixed variable $\mathbf{d}_F$
++ The continuity constraints are modeled as: use $\mathbf{C}$ to map the variable $\mathbf{d}_{Pi}$ to multiple variables with same value (continous) in $[\mathbf{d}_1\cdots\mathbf{d}_M]^T$ .
+
+The problem is turned into an unconstrained quadratic programming that can be solved in close-form.
+$$
+\begin{gathered}
+J=\mathbf{d}_F^T \mathbf{R}_{F F} \mathbf{d}_F+\mathbf{d}_F^T \mathbf{R}_{F P} \mathbf{d}_P+\mathbf{d}_P^T \mathbf{R}_{P F} \mathbf{d}_F+\mathbf{d}_P^T \mathbf{R}_{P P} \mathbf{d}_P \\
+\mathbf{d}_P^*=-\mathbf{R}_{P P}^{-1} \mathbf{R}_{F P}^T \mathbf{d}_F
+\end{gathered}
+$$
+
+### Build the selection matrix
+![](../Resource/minimum_snap_img_5.png)
+ 
+
  
