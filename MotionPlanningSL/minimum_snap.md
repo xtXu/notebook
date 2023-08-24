@@ -286,6 +286,7 @@ J&=\left[\begin{array}{c}
 \end{array}\right]
 \end{aligned}
 $$
+### Fixed and free variable separation
 Use a selection matrix $\mathbf{C}$ to separte free ($\mathbf{d}_P$) and constraint ($\mathbf{d}_F$) variables:
 + Free: only enforced by continuity constraints, like the waypoint between two segments, **to optimize**
 + Constraint: specified, like the initial state and final state, **fixed value**
@@ -317,8 +318,17 @@ J=\left[\begin{array}{l}
 \end{array}\right]
 $$
 Due to the selection, 
-+ The derivative constraint is modeled by the fixed variable $\mathbf{d}_F$
-+ 
++ The derivative constraints are modeled by the fixed variable $\mathbf{d}_F$
++ The continuity constraints are modeled as: use $\mathbf{C}$ to map the variable $\mathbf{d}_{Pi}$ to multiple variables with same value (continous) in $[\mathbf{d}_1\cdots\mathbf{d}_M]^T$ .
+
+The problem is turned into an unconstrained quadratic programming that can be solved in close-form.
+$$
+\begin{gathered}
+J=\mathbf{d}_F^T \mathbf{R}_{F F} \mathbf{d}_F+\mathbf{d}_F^T \mathbf{R}_{F P} \mathbf{d}_P+\mathbf{d}_P^T \mathbf{R}_{P F} \mathbf{d}_F+\mathbf{d}_P^T \mathbf{R}_{P P} \mathbf{d}_P \\
+\mathbf{d}_P^*=-\mathbf{R}_{P P}^{-1} \mathbf{R}_{F P}^T \mathbf{d}_F
+\end{gathered}
+$$
+
 
  
 
