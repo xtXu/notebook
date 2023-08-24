@@ -288,8 +288,8 @@ J&=\left[\begin{array}{c}
 $$
 ### Fixed and free variable separation
 Use a selection matrix $\mathbf{C}$ to separte free ($\mathbf{d}_P$) and constraint ($\mathbf{d}_F$) variables:
-+ Free: only enforced by continuity constraints, like the waypoint between two segments, **to optimize**
-+ Constraint: specified, like the initial state and final state, **fixed value**
++ Free: only enforced by continuity constraints, like the derivatives between two segments, **to optimize**
++ Constraint: specified, like the initial state, final state and intermediate waypoints, **fixed value**
 $$
 \mathbf{C}^T\left[\begin{array}{l}
 \mathbf{d}_F \\
