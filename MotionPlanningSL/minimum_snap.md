@@ -215,6 +215,13 @@ $$
 $$
 
 ## Convex Optimization
+
+
+
+## Closed-form Solution to Minimum Snap
+
+### Decision variable mapping
++ Direct optimizing the polynomial trajectories is numerically unstable. (The parameters of polynomial $p_i$ )
  
 
  
