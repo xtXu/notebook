@@ -287,8 +287,38 @@ J&=\left[\begin{array}{c}
 \end{aligned}
 $$
 Use a selection matrix $\mathbf{C}$ to separte free ($\mathbf{d}_P$) and constraint ($\mathbf{d}_F$) variables:
-+ Free: only enforced by continuity constraints, like the waypoint between two segments
-+ Constraint: specified, like the initial state and final state
++ Free: only enforced by continuity constraints, like the waypoint between two segments, **to optimize**
++ Constraint: specified, like the initial state and final state, **fixed value**
+$$
+\mathbf{C}^T\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]=\left[\begin{array}{c}
+\mathbf{d}_1 \\
+\vdots \\
+\mathbf{d}_M
+\end{array}\right]
+\qquad
+J=\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]^T \underbrace{\mathbf{C} \boldsymbol{M}^{-T} \mathbf{Q} \boldsymbol{M}^{-1} \mathbf{C}^T}_{\mathbf{R}}\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]=\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]^T\left[\begin{array}{ll}
+\mathbf{R}_{F F} & \mathbf{R}_{F P} \\
+\mathbf{R}_{P F} & \mathbf{R}_{P P}
+\end{array}\right]\left[\begin{array}{l}
+\mathbf{d}_F \\
+\mathbf{d}_P
+\end{array}\right]
+$$
+Due to the selection, 
++ The derivative constraint is modeled by the fixed variable $\mathbf{d}_F$
++ 
 
  
 
