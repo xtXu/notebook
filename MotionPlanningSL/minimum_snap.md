@@ -339,7 +339,7 @@ $$
 + We can approach the trajectory to the path iteratively
 + If the trajectory is collide, add intermediate waypoints
 
-**flight corridor**
+**Flight Corridor**
 + detect obstacles
 + search a flight corridor
 + inflate flight corridor
