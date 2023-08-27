@@ -334,9 +334,15 @@ $$
 
 ### Ensure Collision Trajectory
 
-Iterative:
+**Iterative**:
 + The initial-path is collision
 + We can approach the trajectory to the path iteratively
 + If the trajectory is collide, add intermediate waypoints
+
+**flight corridor**
++ detect obstacles
++ search a flight corridor
++ inflate flight corridor
++ generate dynamically-feasible trajectories that fits entirely within the flight corridor
 
  
