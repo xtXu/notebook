@@ -209,7 +209,7 @@ $$
 \begin{cases} 
 \lambda_1=\alpha\\
 \lambda_2=-\alpha t+\beta\\
-\lambda_3=\frac{1}{2}\alpha^2t-\beta t+\gamma \\
+\lambda_3=\frac{1}{2}\alpha t^2-\beta t+\gamma \\
 \end{cases}
 $$
 which can also be formulated to simplify the next  calculation:
