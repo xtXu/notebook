@@ -289,6 +289,18 @@ Convex: linear objective, second-order cone constraints.
 + For $c_i=0$, it reduces to a QCQP
 + More general than QCQP and LP
 
+**Semidefinite Programming (SDP)**
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & c^T x \\
+\text { subject to } & x_1 F_1+x_2 F_2+\cdots+x_n F_n \preceq G \\
+& A x=b
+\end{array}
+$$
++ Inequality constraint is called linear matrix inequality (LMI)
++ Convex: linear objective function, LMI constraints
++ Including all above problems
+
 
 
 ## Closed-form Solution to Minimum Snap
