@@ -384,3 +384,10 @@ OOQP: for QP problem
 ### Time Allocation
 Piecewise trajectories depends on a piecewise time allocation.
 ![](../Resource/minimum_snap_img_11.png)
+
+#### Naive solution
++ "trapezoidal velocity" time profile
+	+ ![](../Resource/minimum_snap_img_12.png)
++ average velocity profile
+
+#### Iterative numerical solution
