@@ -352,4 +352,4 @@ Constraints:
 Make sure the transition point be in the overlapped area of two bounding boxes.  
 However, it can't ensure the whole segment be in the bounding boxes:
 + Iteratively check extremum and add extra constraints:![](../Resource/minimum_snap_img_8.png)
-+ Adding numerous constraints at discrete time risk
++ Adding numerous constraints at discrete time risk![](../Resource/minimum_snap_img_10.png)
