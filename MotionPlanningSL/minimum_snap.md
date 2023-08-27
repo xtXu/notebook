@@ -365,5 +365,22 @@ OOQP: for QP problem
 	+ small time duration may break the generation entirely
 	+ scale short time durations to a normal number
 	+ adding scale factor to all piece of curve
-	+ use relative timeline
-	+ 
+	+ use relative timeline$$f(t)=\left\{\begin{array}{cc}\sum_{i=0}^N p_{1, i}\left(\frac{t-T_0}{T_1-T_0}\right)^i & T_0 \leq t \leq T_1 \\\sum_{i=0}^N p_{2, i}\left(\frac{t-T_1}{T_2-T_1}\right)^i & T_1 \leq t \leq T_2 \\\vdots & \vdots \\\sum_{i=0}^N p_{M, i}\left(\frac{t-T_{M-1}}{T_M-T_{M-1}}\right)^i & T_{M-1} \leq t \leq T_M\end{array}\right.$$
++ Problem scale normalization
+	+ If the problem is underlying for large-scale scene
+	+ Consider solve a tiny problem, and re-scale the solution back
+
+#### Other engineering stuff
++ Solve 3 axis independently or together
+	+ solve 3 small problem is better (stable, faster)
+	+ coupled generation may add different weighting
++ Is close-form always better
+	+ when the matrix operation is expansive, numerical solver is more robust
++ Is polynomial can do anything
+	+ almost, but not
+	+ best solution for minimizing single squared control input, but not for multiple input
+
+
+### Time Allocation
+Piecewise trajectories depends on a piecewise time allocation.
+![](../Resource/minimum_snap_img_11.png)
