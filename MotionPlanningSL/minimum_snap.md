@@ -216,6 +216,79 @@ $$
 
 ## Convex Optimization
 
+**convex function:** A function $f:R^n\rightarrow R$ is said to be convex if the domain, dom $f$,
+is convex and for any $x,y\in\text{dom}f$ and $0\leq \theta \leq 1$,
+$$
+f(\theta x+(1-\theta) y) \leq \theta f(x)+(1-\theta) f(y)
+$$
+
+**convex set**: A set $C\in R^n$ is said to be convex if the line segment between any two points is in the set: for any $x,y\in C$ and $0\leq \theta \leq 1$,
+$$
+\theta x+(1-\theta)y \in C
+$$
+
+**optimization problem in standard form**:
+$$
+\begin{array}{lll}
+\underset{x}{\operatorname{minimize}} & f_0(x) & \\
+\text { subject to } & f_i(x) \leq 0 & i=1, \ldots, m \\
+& h_i(x)=0 & i=1, \ldots, p
+\end{array}
+$$
+
+**convex optimization problem in standard form**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & f_0(x) \\
+\text { subject to } & f_i(x) \leq 0 \quad i=1, \ldots, m \\
+& \mathrm{~A} x=b
+\end{array}
+$$
+where $f_i(x)$ is convex, and $Ax=b$ is affine.
+
+**Linear Programming (LP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & c^T x+d \\
+\text { subject to } & G x \leq h \\
+& A x=b
+\end{array}
+$$
+Convex: affine objective and constraint functions
+
+**Quadratic Programming (QP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & (1 / 2) x^T P x+q^T x+r \\
+\text { subject to } & G x \leq h \\
+& A x=b
+\end{array}
+$$
+Convex: objective function is convex, constraints functions are affine
+
+**Quadratically Constrained QP (QCQP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & (1 / 2) x^T P_0 x+q_0^T x+r_0 \\
+\text { subject to } & (1 / 2) x^T P_i x+q_i^T x+r_i \leq 0 \quad i=1, \ldots, m \\
+& A x=b
+\end{array}
+$$
+Convex: convex quadratic objective and constraint functions
+
+**Second-Order Cone Programming (SOCP)**
+$$
+\begin{array}{cl}
+\underset{x}{\operatorname{minimize}} & f^T x \\
+\text { subject to } & \left\|A_i x+b_i\right\| \leq c_i^T x+d_i i=1, \ldots, m \\
+& F x=g
+\end{array}
+$$
+Convex: linear objective, second-order cone constraints.
++ For $A_i$ row vector, it reduces to an LP
++ For $c_i=0$, it reduces to a QCQP
++ More general than QCQP and LP
+
 
 
 ## Closed-form Solution to Minimum Snap
