@@ -331,6 +331,12 @@ $$
 
 ### Build the selection matrix
 ![](../Resource/minimum_snap_img_5.png)
- 
+
+### Ensure Collision Trajectory
+
+Iterative:
++ The initial-path is collision
++ We can approach the trajectory to the path iteratively
++ If the trajectory is collide, add intermediate waypoints
 
  
