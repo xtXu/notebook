@@ -344,5 +344,6 @@ $$
 + search a flight corridor
 + inflate flight corridor
 + generate dynamically-feasible trajectories that fits entirely within the flight corridor
-
- 
+![500](../Resource/minimum_snap_img_6.png)
+Constraints:
+![](../Resource/minimum_snap_img_7.png)
