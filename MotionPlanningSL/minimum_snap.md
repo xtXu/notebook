@@ -332,7 +332,7 @@ $$
 ### Build the selection matrix
 ![](../Resource/minimum_snap_img_5.png)
 
-### Ensure Collision Trajectory
+## Ensure Collision Trajectory
 
 **Iterative**:
 + The initial-path is collision
@@ -353,3 +353,17 @@ Make sure the transition point be in the overlapped area of two bounding boxes.
 However, it can't ensure the whole segment be in the bounding boxes:
 + Iteratively check extremum and add extra constraints:![](../Resource/minimum_snap_img_8.png)
 + Adding numerous constraints at discrete time risk![](../Resource/minimum_snap_img_10.png)
+
+## Implementation Details
+
+### Convex Solver
+OOQP: for QP problem
+
+### Numerical Stability
+#### Normalization
++ Time normalization
+	+ small time duration may break the generation entirely
+	+ scale short time durations to a normal number
+	+ adding scale factor to all piece of curve
+	+ use relative timeline
+	+ 
