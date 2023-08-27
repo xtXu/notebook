@@ -391,3 +391,11 @@ Piecewise trajectories depends on a piecewise time allocation.
 + average velocity profile
 
 #### Iterative numerical solution
+![](../Resource/minimum_snap_img_13.png)
++ Minimize the objective function $J_T$
++ Get the gradient to $T$ numerically
+![500](../Resource/minimum_snap_img_14.png)
+
+How to solve the dynamic limit:
++ Unconstrained, find the best time allocation, fix the ratio
++ s
