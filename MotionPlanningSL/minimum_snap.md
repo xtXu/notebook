@@ -390,6 +390,9 @@ Piecewise trajectories depends on a piecewise time allocation.
 	+ ![](../Resource/minimum_snap_img_12.png)
 + average velocity profile
 
+For the **flight corridor**, the optimization can choose the intermediate points in the overlapping area. When the $T$ is fixed, adjusting the waypoints can adjust the time allocation to some extent, making the time allocation more properly.
+![](../Resource/minimum_snap_img_15.png)
+
 #### Iterative numerical solution
 ![](../Resource/minimum_snap_img_13.png)
 + Minimize the objective function $J_T$
