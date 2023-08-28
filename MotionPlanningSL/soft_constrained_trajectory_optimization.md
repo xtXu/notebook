@@ -54,6 +54,27 @@ J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
 & =\sum_{k=0}^{T / \delta t} c\left(p\left(T_k\right)\right)\|v(t)\| \delta t, T_k=T_0+k \delta t
 \end{aligned}
 $$
-For one 
+The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
+$$
+\frac{\alpha J_c}{\alpha \boldsymbol{d}_{p \mu}}=\sum_{k=0}^{T / \delta t}\left\{\forall_\mu c\left(p\left(T_k\right)\right)\|v\| \boldsymbol{F}+c\left(p\left(T_k\right)\right) \frac{v_\mu}{\|v\|} \boldsymbol{G}\right\} \delta t, \mu \in\{x, y, z\}
+$$
+$L_{dp}$ is the right block of matrix $\boldsymbol{M}^{-1}\boldsymbol{C}$ which corresponds to the free derivatives on the $\mu$ axis of the $\boldsymbol{d}_{p\mu}$, then
+$$
+F=TL_{dp}\qquad G=TV_{m}L_{dp}
+$$
+$\forall_\mu c(\cdot)$ is the gradient in $\mu$ axis of the collision cost.
+
+$V_m$ maps the coefficients of the position to the coefficients of the velocity.
+
+$T=[T^0_k,T^1_k,\dots,T^n_k]$
+
+The Hessian matrix
+$$
+\begin{aligned}
+& \mathbf{H}_o=\left[\frac{\partial^2 f_o}{\partial \mathbf{d}_{P_x}^2}, \frac{\partial^2 f_o}{\partial \mathbf{d}_{P_y}^2}, \frac{\partial^2 f_o}{\partial \mathbf{d}_{P_z}^2}\right] \\
+& \frac{\partial^2 f_o}{\partial \mathbf{d}_{P \mu}^2}=\sum_{k=0}^{\tau / \delta t}\left\{\mathbf { F } ^ { T } \nabla _ { \mu } c \left(p\left(\mathcal{T}_k\right) \frac{v_\mu}{\|v\|} \mathbf{G}+\mathbf{F}^T \nabla_\mu^2 c\left(p\left(\mathcal{T}_k\right)\right)\|v\| \mathbf{F}\right.\right. \\
+& \left.+\mathbf{G}^T \nabla_\mu c\left(p\left(\mathcal{T}_k\right)\right) \frac{v_\mu}{\|v\|} \mathbf{F}+\mathbf{G}^T c\left(p\left(\mathcal{T}_k\right)\right) \frac{v_\mu^2}{\|v\|^3} \mathbf{G}\right\} \delta t
+\end{aligned}
+$$
 
 **Dynamic Cost**: penalize on the velocity and acceleration where exceeds limits (similar to collision term)
