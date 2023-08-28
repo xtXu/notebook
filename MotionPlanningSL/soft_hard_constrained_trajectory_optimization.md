@@ -122,3 +122,17 @@ $$
 + too many constraints, computation burden is high
 
 ## Mixed-Integer Optimization
+***For quadrotor teams***
+
+Assuming that an obstacle is a box, than the robot is collision-free if 
+$$
+\begin{aligned}
+& \forall t_k: x_1\left(t_k\right)-x_2\left(t_k\right) \leq d_x \\
+& \text { or } \quad x_2\left(t_k\right)-x_1\left(t_k\right) \leq d_x \\
+& \text { or } \quad y_1\left(t_k\right)-y_2\left(t_k\right) \leq d_y \\
+& \text { or } \quad y_2\left(t_k\right)-y_1\left(t_k\right) \leq d_y \\
+& \text { or } \quad z_1\left(t_k\right)-z_2\left(t_k\right) \leq d_z \\
+& \text { or } \quad z_2\left(t_k\right)-z_1\left(t_k\right) \leq d_z
+\end{aligned}
+$$
+
