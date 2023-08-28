@@ -88,3 +88,10 @@ $$
 + **Convex hull:** entirely confined within the convex hull defined by all control points
 + **Hodograph**: The derivative curve $B'(t)$ is called as hodograph, and it is also a Bezier curve with control points $n\cdot(c_{i+1}-c_i)$, $n$ is the degree
 + **Fix time interval**: defined on $[0,1]$
+
+**Using the convex hull property to formulate the interval constraints:**
++ Flight corridor consists of control points
++ Each cube corresponds to a piece of Bezier curve
++ Control points of this curve are enforced inside the polygon
++ The trajectory is entirely insdie the convex hull of all points
++ **The trajectory is inside the flight corridor**
