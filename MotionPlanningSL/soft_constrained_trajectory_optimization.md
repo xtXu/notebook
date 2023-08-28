@@ -54,6 +54,8 @@ J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
 & =\sum_{k=0}^{T / \delta t} c\left(p\left(T_k\right)\right)\|v(t)\| \delta t, T_k=T_0+k \delta t
 \end{aligned}
 $$
+Here we should
+
 The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
 $$
 \frac{\alpha J_c}{\alpha \boldsymbol{d}_{p \mu}}=\sum_{k=0}^{T / \delta t}\left\{\forall_\mu c\left(p\left(T_k\right)\right)\|v\| \boldsymbol{F}+c\left(p\left(T_k\right)\right) \frac{v_\mu}{\|v\|} \boldsymbol{G}\right\} \delta t, \mu \in\{x, y, z\}
