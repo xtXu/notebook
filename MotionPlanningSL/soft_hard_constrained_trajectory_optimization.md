@@ -43,9 +43,23 @@ $$
 + transition point constraint: $\mathbf{A}\mathbf{p}=\mathbf{b},\mathbf{A}\mathbf{p}\leq\mathbf{b}$
 + continuity constraint: $\mathbf{A}\mathbf{p}_i=\mathbf{A}\mathbf{p}_{i+1}$
 
-**Interval linear constraints:** (hard to imple)
+**Interval linear constraints:** (hard to implement, apporiximated by enforcing the intermediate points in the overlapping area)
 + boundary constraint: $\left(\mathbf{A}(t) \mathbf{p} \leq \mathbf{b}, \forall t \in\left[t_l, t_r\right]\right)$
 + dynamic constraint: $\left(\mathbf{A}(t) \mathbf{p} \leq \mathbf{b}, \forall t \in\left[t_l, t_r\right]\right)$
 	+ velocity constraint
 	+ acceleration constraint
 
+**Advantages:**
++ Efficiency: path search in the reduced graph, convex optimization in the corridor are efficient
++ High quality: corridor provides large optimization freedom
+![](../Resource/soft_hard_constrained_trajectory_optimization_img_4.png)
+
+**Problem**:  
+All constraints are enforced on joints only, how to guarantee they are active along all trajectory?
++ Iteratively check extremum and add extra constraints.![](../Resource/soft_hard_constrained_trajectory_optimization_img_5.png)
++ Checking extremum is a polynomial root finding problem
+	+ up to quadratic function, easy
+	+ higher order, need numerical solution
++ Root finding using the MATLAB provided way:
+	+ The general polynomial function has the companion matrix: $$A=\left[\begin{array}{ccccc}0 & 0 & \cdots & 0 & -a_0 \\1 & 0 & \cdots & 0 & -a_1 \\0 & 1 & \cdots & 0 & -a_2 \\\vdots & & \ddots & & \vdots \\0 & 0 & \cdots & 1 & -a_{n-1}\end{array}\right]$$
+	+ The 
