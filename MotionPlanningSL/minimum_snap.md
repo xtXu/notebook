@@ -417,7 +417,7 @@ $$
 ### Build the selection matrix
 ![](../Resource/minimum_snap_img_5.png)
 
-## Ensure Collision Trajectory
+## Ensure Collision-Free Trajectory
 
 **Iterative**:
 + The initial-path is collision
