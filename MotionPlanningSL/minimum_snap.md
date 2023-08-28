@@ -216,6 +216,91 @@ $$
 
 ## Convex Optimization
 
+**convex function:** A function $f:R^n\rightarrow R$ is said to be convex if the domain, dom $f$,
+is convex and for any $x,y\in\text{dom}f$ and $0\leq \theta \leq 1$,
+$$
+f(\theta x+(1-\theta) y) \leq \theta f(x)+(1-\theta) f(y)
+$$
+
+**convex set**: A set $C\in R^n$ is said to be convex if the line segment between any two points is in the set: for any $x,y\in C$ and $0\leq \theta \leq 1$,
+$$
+\theta x+(1-\theta)y \in C
+$$
+
+**optimization problem in standard form**:
+$$
+\begin{array}{lll}
+\underset{x}{\operatorname{minimize}} & f_0(x) & \\
+\text { subject to } & f_i(x) \leq 0 & i=1, \ldots, m \\
+& h_i(x)=0 & i=1, \ldots, p
+\end{array}
+$$
+
+**convex optimization problem in standard form**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & f_0(x) \\
+\text { subject to } & f_i(x) \leq 0 \quad i=1, \ldots, m \\
+& \mathrm{~A} x=b
+\end{array}
+$$
+where $f_i(x)$ is convex, and $Ax=b$ is affine.
+
+**Linear Programming (LP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & c^T x+d \\
+\text { subject to } & G x \leq h \\
+& A x=b
+\end{array}
+$$
+Convex: affine objective and constraint functions
+
+**Quadratic Programming (QP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & (1 / 2) x^T P x+q^T x+r \\
+\text { subject to } & G x \leq h \\
+& A x=b
+\end{array}
+$$
+Convex: objective function is convex, constraints functions are affine
+
+**Quadratically Constrained QP (QCQP)**:
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & (1 / 2) x^T P_0 x+q_0^T x+r_0 \\
+\text { subject to } & (1 / 2) x^T P_i x+q_i^T x+r_i \leq 0 \quad i=1, \ldots, m \\
+& A x=b
+\end{array}
+$$
+Convex: convex quadratic objective and constraint functions
+
+**Second-Order Cone Programming (SOCP)**
+$$
+\begin{array}{cl}
+\underset{x}{\operatorname{minimize}} & f^T x \\
+\text { subject to } & \left\|A_i x+b_i\right\| \leq c_i^T x+d_i i=1, \ldots, m \\
+& F x=g
+\end{array}
+$$
+Convex: linear objective, second-order cone constraints.
++ For $A_i$ row vector, it reduces to an LP
++ For $c_i=0$, it reduces to a QCQP
++ More general than QCQP and LP
+
+**Semidefinite Programming (SDP)**
+$$
+\begin{array}{ll}
+\underset{x}{\operatorname{minimize}} & c^T x \\
+\text { subject to } & x_1 F_1+x_2 F_2+\cdots+x_n F_n \preceq G \\
+& A x=b
+\end{array}
+$$
++ Inequality constraint is called linear matrix inequality (LMI)
++ Convex: linear objective function, LMI constraints
++ Including all above problems
+
 
 
 ## Closed-form Solution to Minimum Snap
@@ -331,6 +416,74 @@ $$
 
 ### Build the selection matrix
 ![](../Resource/minimum_snap_img_5.png)
- 
 
- 
+## Ensure Collision Trajectory
+
+**Iterative**:
++ The initial-path is collision
++ We can approach the trajectory to the path iteratively
++ If the trajectory is collide, add intermediate waypoints
+
+**Flight Corridor**
++ detect obstacles
++ search a flight corridor
++ inflate flight corridor
++ generate dynamically-feasible trajectories that fits entirely within the flight corridor
+![500](../Resource/minimum_snap_img_6.png)
+Constraints:
+![](../Resource/minimum_snap_img_7.png)
+
+**How to ensure the interval polynomial in the safety corridor**:
+Make sure the transition point be in the overlapped area of two bounding boxes.  
+However, it can't ensure the whole segment be in the bounding boxes:
++ Iteratively check extremum and add extra constraints:![](../Resource/minimum_snap_img_8.png)
++ Adding numerous constraints at discrete time risk![](../Resource/minimum_snap_img_10.png)
+
+## Implementation Details
+
+### Convex Solver
+OOQP: for QP problem
+
+### Numerical Stability
+#### Normalization
++ Time normalization
+	+ small time duration may break the generation entirely
+	+ scale short time durations to a normal number
+	+ adding scale factor to all piece of curve
+	+ **use relative timeline**$$f(t)=\left\{\begin{array}{cc}\sum_{i=0}^N p_{1, i}\left(\frac{t-T_0}{T_1-T_0}\right)^i & T_0 \leq t \leq T_1 \\\sum_{i=0}^N p_{2, i}\left(\frac{t-T_1}{T_2-T_1}\right)^i & T_1 \leq t \leq T_2 \\\vdots & \vdots \\\sum_{i=0}^N p_{M, i}\left(\frac{t-T_{M-1}}{T_M-T_{M-1}}\right)^i & T_{M-1} \leq t \leq T_M\end{array}\right.$$
++ Problem scale normalization
+	+ If the problem is underlying for large-scale scene
+	+ Consider solve a tiny problem, and re-scale the solution back
+
+#### Other engineering stuff
++ Solve 3 axis independently or together
+	+ solve 3 small problem is better (stable, faster)
+	+ coupled generation may add different weighting
++ Is close-form always better
+	+ when the matrix operation is expansive, numerical solver is more robust
++ Is polynomial can do anything
+	+ almost, but not
+	+ best solution for minimizing single squared control input, but not for multiple input
+
+
+### Time Allocation
+Piecewise trajectories depends on a piecewise time allocation.
+![](../Resource/minimum_snap_img_11.png)
+
+#### Naive solution
++ "trapezoidal velocity" time profile
+	+ ![](../Resource/minimum_snap_img_12.png)
++ average velocity profile
+
+For the **flight corridor** based generation, the optimization can choose the intermediate points in the overlapping area. When the $T$ is fixed, adjusting the waypoints can adjust the time allocation to some extent, making the time allocation more properly.
+![](../Resource/minimum_snap_img_15.png)
+
+#### Iterative numerical solution
+![](../Resource/minimum_snap_img_13.png)
++ Minimize the objective function $J_T$
++ Get the gradient to $T$ numerically
+![500](../Resource/minimum_snap_img_14.png)
+
+How to solve the dynamic limit:
++ Unconstrained, find the best time allocation, fix the ratio
++ If constraint cannot be satisfied, scale the total time preserving the optimal ratio
