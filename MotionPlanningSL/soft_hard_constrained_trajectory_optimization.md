@@ -95,3 +95,20 @@ $$
 + Control points of this curve are enforced inside the polygon
 + The trajectory is entirely insdie the convex hull of all points
 + **The trajectory is inside the flight corridor**
+![500](../Resource/soft_hard_constrained_trajectory_optimization_img_6.png)
+
+**Problem Formulation:**
++ Higher order control points: $a_{\mu j}^{0, i}=c_{\mu j}^i, a_{\mu j}^{l, i}=\frac{n !}{(n-l) !} \cdot\left(a_{\mu j}^{l-1, i+1}-a_{\mu j}^{l-1, i}\right), \quad l \geq 1$
++ Boundary Constraints: $a_{\mu j}^{l, 0} \cdot s_j^{(1-l)}=d_{\mu j}^{(l)}$
++ Continuity Constraints: $a_{\mu j}^{\phi, n} \cdot s_j^{(1-\phi)}=a_{\mu, j+1}^{\phi, 0} \cdot s_{j+1}^{(1-\phi)}, \quad a_{\mu j}^{0, i}=c_{\mu j}^i .$
++ Safety Constraints: $\beta_{\mu j}^{-} \leq c_{\mu j}^i \leq \beta_{\mu j}^{+}, \quad \mu \in\{x, y, z\}, i=0,1,2, \ldots, n$
++ Dynamical Feasibility Constraints: $$\begin{aligned}& v_m^{-} \leq n \cdot\left(c_{\mu j}^i-c_{\mu j}^{i-1}\right) \leq v_m^{+} \\& a_m^{-} \leq n \cdot(n-1) \cdot\left(c_{\mu j}^i-2 c_{\mu j}^{i-1}+c_{\mu j}^{i-2}\right) / s_j \leq a_m^{+}\end{aligned}$$
+Combine the constraints above:
+$$
+\begin{array}{ll}
+\min & \mathbf{c}^T \mathbf{Q c} \\
+\text { s.t. } & \mathbf{A}_{e q} \mathbf{c}=\mathbf{b}_{e q} \\
+& \mathbf{A}_{l q} \mathbf{c} \leq \mathbf{b}_{l q} \\
+& \mathbf{c}_j\in \Omega_j, j=1,2,\dots,m
+\end{array}
+$$
