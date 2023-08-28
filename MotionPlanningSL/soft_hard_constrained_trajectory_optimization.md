@@ -114,3 +114,9 @@ $$
 $$
 
 ## Dense Constraints
++ Adding numerous constraints at discrete time ticks
++ Piecewise-constant accelerations at each tick
++ QP program solution
+![](../Resource/soft_hard_constrained_trajectory_optimization_img_7.png)
++ over-conservative
++ too many constraints, computation burden is high
