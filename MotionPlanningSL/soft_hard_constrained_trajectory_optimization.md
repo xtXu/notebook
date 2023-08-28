@@ -120,3 +120,5 @@ $$
 ![](../Resource/soft_hard_constrained_trajectory_optimization_img_7.png)
 + over-conservative
 + too many constraints, computation burden is high
+
+## Mixed-Integer Optimization
