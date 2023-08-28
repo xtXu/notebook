@@ -44,9 +44,8 @@ $$
 To solve the nonlinear optimization problem, the gradient is needed.  
 The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
 $$
-
+\frac{\alpha J_s}{\alpha \boldsymbol{d}_{p \mu}}=2 \boldsymbol{d}_F^T \boldsymbol{R}_{F P}+2 \boldsymbol{d}_P^T \boldsymbol{R}_{P P}
 $$
-
 
 **Collision Cost**: penalize on the distance to nearest obstacle 
 $$
@@ -55,4 +54,6 @@ J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
 & =\sum_{k=0}^{T / \delta t} c\left(p\left(T_k\right)\right)\|v(t)\| \delta t, T_k=T_0+k \delta t
 \end{aligned}
 $$
+For one 
+
 **Dynamic Cost**: penalize on the velocity and acceleration where exceeds limits (similar to collision term)
