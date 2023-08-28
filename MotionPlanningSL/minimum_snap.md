@@ -433,7 +433,7 @@ $$
 Constraints:
 ![](../Resource/minimum_snap_img_7.png)
 
-**How to ensure the interval polynomial in the safety corridor**:
+**How to ensure the in terval polynomial in the safety corridor**:
 Make sure the transition point be in the overlapped area of two bounding boxes.  
 However, it can't ensure the whole segment be in the bounding boxes:
 + Iteratively check extremum and add extra constraints:![](../Resource/minimum_snap_img_8.png)
