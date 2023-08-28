@@ -66,3 +66,7 @@ All constraints are enforced on joints only, how to guarantee they are active al
 	+ In other word, the eigen values of $A$ are the solutions.
 
 ## Bezier Curve Optimization
+
+**Bezier Curve**:
++ Use **Bernstein** polynomial basis instead of monomial basis
++ 
