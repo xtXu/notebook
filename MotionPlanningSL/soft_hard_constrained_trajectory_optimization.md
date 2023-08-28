@@ -69,4 +69,22 @@ All constraints are enforced on joints only, how to guarantee they are active al
 
 **Bezier Curve**:
 + Use **Bernstein** polynomial basis instead of monomial basis
-+ 
++ Just a special polynomial, it can be mapped to monomial polynomial by $p=M\cdot c$, and all previous derivations still hold
+$$
+\begin{aligned}
+&P_j(t)=p_j^0+p_j^1 t+p_j^2 t^2+\cdots+p_j^n t^n\\
+&\begin{gathered}
+B_j(t)=c_j^0 b_n^0(t)+c_j^1 b_n^1(t)+\cdots+c_j^n b_n^n(t)=\sum_{i=0}^n c_j^i b_n^i(t) \\
+b_n^i(t)=\left(\begin{array}{l}
+n \\
+i
+\end{array}\right) \cdot t^i \cdot(1-t)^{n-i}
+\end{gathered}
+\end{aligned}
+$$
+
+**Bezier Curve Properties:**
++ **Endpoint interpolation:** start at the first control point, end at the last control point, never pass any other control points.
++ **Convex hull:** entirely confined within the convex hull defined by all control points
++ **Hodograph**: The derivative curve $B'(t)$ is called as hodograph, and it is also a Bezier curve with control points $n\cdot(c_{i+1}-c_i)$, $n$ is the degree
++ **Fix time interval**: defined on $[0,1]$
