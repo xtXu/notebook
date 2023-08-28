@@ -1,4 +1,4 @@
-# Soft and Hard Constrained Trajectory Optimization
+ # Soft and Hard Constrained Trajectory Optimization
 **Minimum snap**: good for smooth, not for collision avoidance
 + only constrain the intermediate waypoints
 + computational cheap and easy to implenmentation
@@ -112,3 +112,5 @@ $$
 & \mathbf{c}_j\in \Omega_j, j=1,2,\dots,m
 \end{array}
 $$
+
+## Dense Constraints
