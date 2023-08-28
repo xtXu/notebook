@@ -30,4 +30,29 @@ $$
 $$
 where $J_s$ is smooth cost, $J_c$ is collision cost, $J_d$ is dynamic cost.
 
-+ Smoothness Cost: minimum snap formulation $$\begin{aligned}J_s & =\sum_{\mu \in\{x, y, z\}} \int_0^T\left(\frac{d^k f_\mu(t)}{d t^k}\right)^2 d t \\& =\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]^T \boldsymbol{C}^T \boldsymbol{M}^{-T} \boldsymbol{Q} \boldsymbol{M}^{-1} \boldsymbol{C}\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]=\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]^T\left[\begin{array}{ll}\boldsymbol{R}_{F F} & \boldsymbol{R}_{F P} \\\boldsymbol{R}_{P F} & \boldsymbol{R}_{P P}\end{array}\right]\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]\end{aligned}$$
+**Smoothness Cost**: minimum snap formulation 
+$$
+\begin{aligned}
+J_s & =\sum_{\mu \in\{x, y, z\}} \int_0^T\left(\frac{d^k f_\mu(t)}{d t^k}\right)^2 d t \\
+& =\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]^T \boldsymbol{C}^T \boldsymbol{M}^{-T} \boldsymbol{Q} \boldsymbol{M}^{-1} \boldsymbol{C}\left[\begin{array}{l}\boldsymbol{d}_F \\
+\boldsymbol{d}_P\end{array}\right]=\left[\begin{array}{l}\boldsymbol{d}_F \\
+\boldsymbol{d}_P\end{array}\right]^T\left[\begin{array}{ll}\boldsymbol{R}_{F F} & \boldsymbol{R}_{F P} \\
+\boldsymbol{R}_{P F} & \boldsymbol{R}_{P P}\end{array}\right]\left[\begin{array}{l}\boldsymbol{d}_F \\
+\boldsymbol{d}_P\end{array}\right]
+\end{aligned}
+$$
+To solve the nonlinear optimization problem, the gradient is needed.  
+The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
+$$
+
+$$
+
+
+**Collision Cost**: penalize on the distance to nearest obstacle 
+$$
+\begin{aligned}
+J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
+& =\sum_{k=0}^{T / \delta t} c\left(p\left(T_k\right)\right)\|v(t)\| \delta t, T_k=T_0+k \delta t
+\end{aligned}
+$$
+**Dynamic Cost**: penalize on the velocity and acceleration where exceeds limits (similar to collision term)
