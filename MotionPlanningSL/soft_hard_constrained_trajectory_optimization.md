@@ -64,3 +64,5 @@ All constraints are enforced on joints only, how to guarantee they are active al
 	+ The general polynomial function has the companion matrix: $$A=\left[\begin{array}{ccccc}0 & 0 & \cdots & 0 & -a_0 \\1 & 0 & \cdots & 0 & -a_1 \\0 & 1 & \cdots & 0 & -a_2 \\\vdots & & \ddots & & \vdots \\0 & 0 & \cdots & 1 & -a_{n-1}\end{array}\right]$$
 	+ The characteristic polynomial $det(xI-A)$ of $A$ is the polynomial $p(x)$.
 	+ In other word, the eigen values of $A$ are the solutions.
+
+## Bezier Curve Optimization
