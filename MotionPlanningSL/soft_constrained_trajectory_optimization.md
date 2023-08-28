@@ -56,7 +56,7 @@ J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
 $$
 Here we should integrate with respect to the curve $s$ instead of $t$.  
 With respect to $s$, the trajectory far away to the obstacle is preferred.  
-With respect to $t$, 
+With respect to $t$, the optimization may reduce the time duration (increase speed) to reduce the cost, which is not expected.
 
 The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
 $$
