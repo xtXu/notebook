@@ -32,3 +32,8 @@ $$
 
 
 ## Corridor-based Trajectory Optimization
+![](../Resource/soft_hard_constrained_trajectory_optimization_img_3.png)
++ Cost function: $J=\sum_{\mu \in\{x, y, z\}} \int_0^T\left(\frac{d^k f_\mu(t)}{d t^k}\right)^2 d t$
++ Boundary constraints
++ Continiuty constraints
++ Safety constraints
