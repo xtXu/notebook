@@ -50,6 +50,7 @@
       "importJabRefStrings": true,
       "importNoteToExtra": "",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
       "itemObserverDelay": 5,
       "jabrefFormat": 0,
@@ -83,7 +84,7 @@
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,biblatex.doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
@@ -97,7 +98,7 @@
   },
   "version": {
     "zotero": "6.0.25",
-    "bbt": "6.7.93"
+    "bbt": "6.7.114"
   },
   "collections": {
     "EF7NNS8M": {
