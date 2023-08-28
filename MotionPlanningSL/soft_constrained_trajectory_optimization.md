@@ -54,7 +54,9 @@ J_c & =\int_{T_0}^{T_M} c(p(t)) d s \\
 & =\sum_{k=0}^{T / \delta t} c\left(p\left(T_k\right)\right)\|v(t)\| \delta t, T_k=T_0+k \delta t
 \end{aligned}
 $$
-Here we should
+Here we should integrate with respect to the curve $s$ instead of $t$.  
+With respect to $s$, the trajectory far away to the obstacle is preferred.  
+With respect to $t$, 
 
 The Jacobian with respect to free derivatives $\boldsymbol{d}_{p\mu}$ is
 $$
