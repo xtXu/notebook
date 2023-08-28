@@ -1,4 +1,4 @@
- # Soft and Hard Constrained Trajectory Optimization
+# Hard Constrained Trajectory Optimization
 **Minimum snap**: good for smooth, not for collision avoidance
 + only constrain the intermediate waypoints
 + computational cheap and easy to implenmentation
@@ -6,8 +6,8 @@
 + "overshoot" unavoidable
 
 **Minimum snap with safety constraints:**
-+ Adding forces
-+ Adding bounds
++ Adding forces (soft)
++ Adding bounds (hard)
 ![](../Resource/soft_hard_constrained_trajectory_optimization_img_1.png)
 
 ## hard/soft constraints
@@ -135,4 +135,19 @@ $$
 & \text { or } \quad z_2\left(t_k\right)-z_1\left(t_k\right) \leq d_z
 \end{aligned}
 $$
+Formulate the above using Mixed-Integer and Big "M" method
+$$
+\begin{gathered}
+\forall t_k: x_1\left(t_k\right)-x_2\left(t_k\right)-c_0 \cdot M \leq d_x \\
+x_2\left(t_k\right)-x_1\left(t_k\right)-c_1 \cdot M \leq d_x \\
+y_1\left(t_k\right)-y_2\left(t_k\right)-c_2 \cdot M \leq d_y \\
+y_2\left(t_k\right)-y_1\left(t_k\right)-c_3 \cdot M \leq d_y \\
+z_1\left(t_k\right)-z_2\left(t_k\right)-c_4 \cdot M \leq d_z \\
+z_2\left(t_k\right)-z_1\left(t_k\right)-c_5 \cdot M \leq d_z \\
+\sum_{i=0}^5 c_i=5, M=100000 \\
+c_i \in\{0,1\}\\
+\end{gathered}
+$$
+MIQP is super slow.
+
 
