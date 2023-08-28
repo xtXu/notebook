@@ -30,22 +30,4 @@ $$
 $$
 where $J_s$ is smooth cost, $J_c$ is collision cost, $J_d$ is dynamic cost.
 
-+ Smoothness Cost: minimum snap formulation $$\begin{aligned}
-J_s & =\sum_{\mu \in\{x, y, z\}} \int_0^T\left(\frac{d^k f_\mu(t)}{d t^k}\right)^2 d t \\
-& =\left[\begin{array}{l}
-\boldsymbol{d}_F \\
-\boldsymbol{d}_P
-\end{array}\right]^T \boldsymbol{C}^T \boldsymbol{M}^{-T} \boldsymbol{Q} \boldsymbol{M}^{-1} \boldsymbol{C}\left[\begin{array}{l}
-\boldsymbol{d}_F \\
-\boldsymbol{d}_P
-\end{array}\right]=\left[\begin{array}{l}
-\boldsymbol{d}_F \\
-\boldsymbol{d}_P
-\end{array}\right]^T\left[\begin{array}{ll}
-\boldsymbol{R}_{F F} & \boldsymbol{R}_{F P} \\
-\boldsymbol{R}_{P F} & \boldsymbol{R}_{P P}
-\end{array}\right]\left[\begin{array}{l}
-\boldsymbol{d}_F \\
-\boldsymbol{d}_P
-\end{array}\right]
-\end{aligned}$$
++ Smoothness Cost: minimum snap formulation $$\begin{aligned}J_s & =\sum_{\mu \in\{x, y, z\}} \int_0^T\left(\frac{d^k f_\mu(t)}{d t^k}\right)^2 d t \\& =\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]^T \boldsymbol{C}^T \boldsymbol{M}^{-T} \boldsymbol{Q} \boldsymbol{M}^{-1} \boldsymbol{C}\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]=\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]^T\left[\begin{array}{ll}\boldsymbol{R}_{F F} & \boldsymbol{R}_{F P} \\\boldsymbol{R}_{P F} & \boldsymbol{R}_{P P}\end{array}\right]\left[\begin{array}{l}\boldsymbol{d}_F \\\boldsymbol{d}_P\end{array}\right]\end{aligned}$$
