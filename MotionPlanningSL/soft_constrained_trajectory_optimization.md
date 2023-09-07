@@ -87,4 +87,8 @@ Use exponential function as cost funtion, to prevent trajectory from be near to 
 ![](../Resource/soft_constrained_trajectory_optimization_img_2.png)
 
 ### Planning Strategy
-+ **Receding horizon re-planning**
++ **Receding horizon re-planning**![](../Resource/soft_constrained_trajectory_optimization_img_3.png)
++ **Exploration strategy** ![](../Resource/soft_constrained_trajectory_optimization_img_4.png)
++ Initialize:
+	+ Minimum snap trajectory: good smooth; unsafe
+	+ Straight-line path: poor smooth; collision-free, safe
