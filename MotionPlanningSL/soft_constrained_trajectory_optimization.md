@@ -82,3 +82,7 @@ $$
 $$
 
 **Dynamic Cost**: penalize on the velocity and acceleration where exceeds limits (similar to collision term)
+
+Use exponential function as cost funtion, to prevent trajectory from be near to obstacle
+![](../Resource/soft_constrained_trajectory_optimization_img_2.png)
+
