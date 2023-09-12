@@ -80,3 +80,19 @@ $$
 \vec{a} &= |\vec{\dot{v}}|\vec{\tau_h}+|\vec{v}|^2k_h\vec{n_h}
 \end{aligned}
 $$
+
+## Frenet 和 Cartesian的转换
+
+![](../Resource/frenet_cartesian_img_12.png)
+
+核心步骤：
+1. 7个辅助公式
+2. 找到车在frenet坐标系的投影点在Cartesian的坐标，记为 $x_r,y_r,\theta_r,k_r$，则 $\vec{r_r}=(x_r,y_r),\vec{\tau_r}=(\cos\theta_r,\sin\theta_r),\vec{n_r}=(-\sin\theta_r,\cos\theta_r)$
+3. 利用向量三角形 $\vec{r_r}+l\vec{n_r}=\vec{r_h}$ 和微积分，求出 $s,\dot{s},\ddot{s},l,\dot{l},\ddot{l}$
+
+### 步骤三：利用 $\vec{r_r}+l\vec{n_r}=\vec{r_h}$
+
+核心公式：$\vec{r_r}+l\vec{n_r}=\vec{r_h}$
+
+
+（1）计算
