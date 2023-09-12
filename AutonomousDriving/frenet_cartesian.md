@@ -119,3 +119,7 @@ $$
 &\ddot{s}=\frac{\vec{a}\cdot\vec{\tau_r}}{1-k_rl}+\frac{k_r\dot{s}^2l'}{1-k_rl}+\frac{\dot{s}^2}{1-k_rl}(k_r'l+k_rl')\\
 \end{aligned}
 $$
+(6) 计算 $\ddot{l}$ 
+$$
+\ddot{l}=\frac{d\dot{l}}{dt}=\frac{d(\vec{v}\cdot\vec{n_r})}{dt}=\frac{d\vec{v}}{dt}\vec{n_r}+\frac{d\vec{n_r}}{dt}\vec{v}=\vec{a}
+$$
