@@ -107,4 +107,6 @@ $$
 (3) 计算 $\dot{l}$：
 + $\dot{s}\vec{\tau_r}+l(-k_r\dot{s}\vec{\tau_r})+\dot{l}\vec{n_r}=\vec{v}$
 + 两边同乘 $n_r$ 得 $\dot{l}=\vec{v}\cdot\vec{n_r}$
-+ 
+
+(4) 计算 $l'$：
++ $l'=\frac{dl}{ds}=\frac{dl}{dt}\frac{dt}{ds}=\frac{\dot{l}}{\dot{s}}=(1-lk_r)\frac{\vec{v}\cdot\vec{n_r}}{\vec{v}\cdot\vec{\tau_r}}$
