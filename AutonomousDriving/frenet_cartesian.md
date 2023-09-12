@@ -33,4 +33,11 @@ $$
 
 ## 预备知识
 
+### 车辆位矢及车道线投影位矢的导数
 ![](../Resource/frenet_cartesian_img_5.png)
+
+扩展：
+![](../Resource/frenet_cartesian_img_6.png)
+
+### Frenet公式
+![](../Resource/frenet_cartesian_img_7.png)
