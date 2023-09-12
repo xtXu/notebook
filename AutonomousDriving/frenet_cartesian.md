@@ -103,4 +103,8 @@ $$
 + 代入辅助公式 $\dot{s}\vec{\tau_r}+l(-k_r\dot{s}\vec{\tau_r})+\dot{l}\vec{n_r}=\vec{v}$
 + 两边同乘 $\vec{\tau_r}$ 得 $\dot{s}+l(-k_r\dot{s})=\vec{v}\cdot\vec{\tau_r}$
 + $\dot{s}=\frac{\vec{v}\cdot\vec{\tau_r}}{1-lk_r}$
+
+(3) 计算 $\dot{l}$：
++ $\dot{s}\vec{\tau_r}+l(-k_r\dot{s}\vec{\tau_r})+\dot{l}\vec{n_r}=\vec{v}$
++ 两边同乘 $n_r$ 得 $\dot{l}=\vec{v}\cdot\vec{n_r}$
 + 
