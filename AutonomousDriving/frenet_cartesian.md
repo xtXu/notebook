@@ -25,5 +25,8 @@ $$
 第一点解释：
 ![](../Resource/frenet_cartesian_img_2.png)
 
-第二点解释：
+第二点解释：![](../Resource/frenet_cartesian_img_3.png)
+直角坐标系只有 $\frac{dy}{dx}$，自然坐标系有 $\frac{d}{ds},\frac{d}{ds_x}$  
+![](../Resource/frenet_cartesian_img_4.png)
+
 
