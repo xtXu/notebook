@@ -94,5 +94,6 @@ $$
 
 核心公式：$\vec{r_r}+l\vec{n_r}=\vec{r_h}$
 
+(1) 计算 $l$ ：$l\vec{n_r}=\vec{r_h}-\vec{r_r}$ 两边点乘 $\vec{n_r}$ 得 $l=(\vec{r_h}-\vec{r_r})\cdot\vec{n_r}$
 
-（1）计算
+(2) 计算 $\dot{s}$ 
