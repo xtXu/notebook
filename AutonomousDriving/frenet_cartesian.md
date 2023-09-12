@@ -69,6 +69,7 @@ $$
 \vec{\dot{\tau_h}} &= k_h|\vec{v}|\vec{n_h}\\
 \vec{\dot{n_h}} &= -k_h|\vec{v}|\vec{\tau_h}\\
 \vec{\dot{\tau_r}} &= k_r\dot{s}\vec{n_r}\\
-\vec{\dot{n_r}} &= -k_r\dot{s}\vec
+\vec{\dot{n_r}} &= -k_r\dot{s}\vec{\tau_r}\\
+\vec{a} &= |\vec{\dot{v}}|\vec{\tau_h}+|\vec{v}|^2k_h\vec{n_h}
 \end{aligned}
 $$
