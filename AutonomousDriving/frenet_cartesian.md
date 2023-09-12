@@ -110,3 +110,8 @@ $$
 
 (4) 计算 $l'$：
 + $l'=\frac{dl}{ds}=\frac{dl}{dt}\frac{dt}{ds}=\frac{\dot{l}}{\dot{s}}=(1-lk_r)\frac{\vec{v}\cdot\vec{n_r}}{\vec{v}\cdot\vec{\tau_r}}$
+
+(5) 计算 $\ddot{s}$
+$$
+\ddot{s}=\frac{d\dot{s}}{dt}=\cdots=\frac{\vec{a}\cdot\vec{\tau_r}}{1-k_rl}+\frac{(k_r\dot{s})(\vec{v}\cdot\vec{n_r})}{1-k_rl}+\frac{\dot{s}^2}{1-k_rl}(k_r'l+k_rl')
+$$
