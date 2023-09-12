@@ -115,6 +115,7 @@ $$
 $$
 \begin{aligned}
 &\ddot{s}=\frac{d\dot{s}}{dt}=\cdots=\frac{\vec{a}\cdot\vec{\tau_r}}{1-k_rl}+\frac{(k_r\dot{s})(\vec{v}\cdot\vec{n_r})}{1-k_rl}+\frac{\dot{s}^2}{1-k_rl}(k_r'l+k_rl')\\
-&\vec{v}\cdot\vec{n_r}=\dot{l}=l'\cdot\dot{s}
+&\vec{v}\cdot\vec{n_r}=\dot{l}=l'\cdot\dot{s}\\
+&\ddot{s}=\frac{\vec{a}\cdot\vec{\tau_r}}{1-k_rl}+\frac{k_r\dot{s}^2l'}{1-k_rl}+\frac{\dot{s}^2}{1-k_rl}(k_r'l+k_rl')\\
 \end{aligned}
 $$
