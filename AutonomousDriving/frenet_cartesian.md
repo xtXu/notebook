@@ -50,3 +50,25 @@ $$
 扩展2:![](../Resource/frenet_cartesian_img_10.png)
 
 ### 总结
+![](../Resource/frenet_cartesian_img_11.png)
+
+| 符号           | 含义                             | 符号           | 含义                                   |
+| -------------- | -------------------------------- | -------------- | -------------------------------------- | 
+| $\vec{r_h}$    | 车的位矢                         | $\vec{r_r}$    | 投影位矢                               |     
+| $\vec{v}$      | 车的速度                         | $\dot{s}$      | 投影速率                               |    
+| $\vec{a}$      | 车的加速度                       | $k_r$          | 投影位矢在道路几何上的曲率             | 
+| $k_h$          | 车的位矢在车轨迹上的曲率         | $\vec{\tau_r}$ | 投影位矢在道路几何上切向的单位向量 | 
+| $\vec{\tau_h}$ | 车的位矢在车轨迹上的切向单位向量 | $\vec{n_r}$    | 投影位矢在道路几何上法向的单位向量 | 
+| $\vec{n_h}$    | 车的位矢在车轨迹上的法向单位向量 |                |                                        |
+
+辅助公式：
+$$
+\begin{aligned}
+\vec{\dot{r_h}} &= \vec{v} = |\vec{v}|\vec{\tau_h}\\
+\vec{\dot{r_r}} &= \dot{s}\vec{\tau_r}\\
+\vec{\dot{\tau_h}} &= k_h|\vec{v}|\vec{n_h}\\
+\vec{\dot{n_h}} &= -k_h|\vec{v}|\vec{\tau_h}\\
+\vec{\dot{\tau_r}} &= k_r\dot{s}\vec{n_r}\\
+\vec{\dot{n_r}} &= -k_r\dot{s}\vec
+\end{aligned}
+$$
