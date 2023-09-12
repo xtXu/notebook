@@ -94,6 +94,13 @@ $$
 
 核心公式：$\vec{r_r}+l\vec{n_r}=\vec{r_h}$
 
-(1) 计算 $l$ ：$l\vec{n_r}=\vec{r_h}-\vec{r_r}$ 两边点乘 $\vec{n_r}$ 得 $l=(\vec{r_h}-\vec{r_r})\cdot\vec{n_r}$
+(1) 计算 $l$ ：
++ $l\vec{n_r}=\vec{r_h}-\vec{r_r}$ 
++ 两边点乘 $\vec{n_r}$ 得 $l=(\vec{r_h}-\vec{r_r})\cdot\vec{n_r}$
 
-(2) 计算 $\dot{s}$ 
+(2) 计算 $\dot{s}$：
++ 两边求导 $\vec{\dot{r_r}}+l\vec{\dot{n_r}}+\dot{l}\vec{n_r}=\vec{\dot{r_h}}$
++ 代入辅助公式 $\dot{s}\vec{\tau_r}+l(-k_r\dot{s}\vec{\tau_r})+\dot{l}\vec{n_r}=\vec{v}$
++ 两边同乘 $\vec{\tau_r}$ 得 $\dot{s}+l(-k_r\dot{s})=\vec{v}\cdot\vec{\tau_r}$
++ $\dot{s}=\frac{\vec{v}\cdot\vec{\tau_r}}{1-lk_r}$
++ 
