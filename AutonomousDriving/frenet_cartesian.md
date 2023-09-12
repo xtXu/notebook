@@ -128,3 +128,11 @@ $$
 \end{aligned}
 $$
 
+(7) 计算 $l''$
+$$
+\begin{aligned}
+\ddot{l}&=\frac{d\dot{l}}{dt}=\frac{dl'\dot{s}}{dt}=\frac{dl'}{dt}\dot{s}+l'\ddot{s}=\frac{dl'}{ds}\frac{ds}{dt}\dot{s}+l'\ddot{s}\\
+&=l''\dot{s}^2+l'\ddot{s}\\
+l''&=\frac{\ddot{l}-l'\ddot{s}}{\dot{s}^2}
+\end{aligned}
+$$
