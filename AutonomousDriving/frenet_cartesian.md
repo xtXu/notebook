@@ -46,3 +46,7 @@ $$
 ![](../Resource/frenet_cartesian_img_8.png)
  
  扩展1:![](../Resource/frenet_cartesian_img_9.png)
+
+扩展2:![](../Resource/frenet_cartesian_img_10.png)
+
+### 总结
