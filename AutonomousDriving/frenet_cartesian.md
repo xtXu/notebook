@@ -124,6 +124,7 @@ $$
 \begin{aligned}
 \ddot{l}&=\frac{d\dot{l}}{dt}=\frac{d(\vec{v}\cdot\vec{n_r})}{dt}=\frac{d\vec{v}}{dt}\vec{n_r}+\frac{d\vec{n_r}}{dt}\vec{v}=\vec{a}\cdot\vec{n_r}+(-k_r\dot{s}\vec{\tau_r})\cdot\vec{v}\\
 &=\vec{a}\cdot\vec{n_r}-k_r\dot{s}(\vec{v}\cdot\vec{\tau_r})\\
-&=
+&=\vec{a}\cdot\vec{n_r}-k_r(1-k_rl)\dot{s}^2
 \end{aligned}
 $$
+
