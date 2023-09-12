@@ -19,8 +19,6 @@ $$
 \end{aligned}
 $$
 
-## 预备知识
-
 **曲线坐标系与直接坐标系的不通**：
 + 曲线坐标系的基向量一般不是常向量
 + 点的曲线坐标变化与点的实际位移不一致
@@ -33,5 +31,6 @@ $$
 ![](../Resource/frenet_cartesian_img_4.png)
 
 
- ![](../Resource/frenet_cartesian_img_5.png)
- 
+## 预备知识
+
+![](../Resource/frenet_cartesian_img_5.png)
