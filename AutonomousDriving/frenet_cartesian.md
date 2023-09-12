@@ -41,3 +41,6 @@ $$
 
 ### Frenet公式
 ![](../Resource/frenet_cartesian_img_7.png)
+证明：
+
+ 
